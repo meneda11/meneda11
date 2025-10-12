@@ -171,7 +171,7 @@ Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **M
 
 ### 📊 Business Intelligence & Analytics
 - Interactive dashboard design and automation
-- Data modeling (Star/Snowflake schemas)
+- Data modeling
 - KPI tracking and performance analytics
 - Self-service BI and governance
 - Data storytelling & visualization best practices
