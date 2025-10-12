@@ -171,9 +171,10 @@ Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **M
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=meneda11&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=meneda11&show_icons=true&count_private=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=meneda11&layout=compact&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=meneda11&hide_progress=false&theme=tokyonight)
+
 
 ---
 
