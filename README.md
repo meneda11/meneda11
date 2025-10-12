@@ -18,7 +18,7 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 ## 👨‍💻 About Me
 - 🌱 I'm currently learning AWS AI and Salesforce CRM  
 - 👨‍💻 All of my projects are available at [github.com/meneda11/data-science-portfolio](https://github.com/meneda11/data-science-portfolio)  
-- 💼 Azure Certified Cloud Practitioner  
+- 💼 Azure Certified Cloud  
 - 📍 Based in Paris, France  
 - 📫 Reach me: **mcedricstephane@gmail.com**
 
