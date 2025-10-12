@@ -75,6 +75,7 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 ![Salesforce](https://img.shields.io/badge/-Salesforce-00A1E0?style=flat&logo=salesforce&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+[![PhantomBuster](https://img.shields.io/badge/-PhantomBuster-FF6B00?style=flat&logo=phantombuster&logoColor=white)](https://phantombuster.com/)
 
 ### 🔧 DevOps & MLOps
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
