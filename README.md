@@ -1,7 +1,12 @@
 # 👋 Hi, I'm Cédric Stéphane Meneda
 
-## 💼 Data Analyst | Data Engineer | Data Scientist 
-## Microsoft Azure Certified
+## 💼 Data Analyst | Data Engineer | Data Scientist
+
+### 🚀 Specialized in Cloud Computing, Artificial Intelligence, Machine Learning & Business Intelligence
+
+**Passionate about transforming data into actionable insights using cutting-edge technologies**
+
+---
 
 🔭 **About me:**
 - 🌱 I'm currently learning AWS AI and Salesforce CRM
