@@ -83,6 +83,11 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![Weights & Biases](https://img.shields.io/badge/-W&B-FFBE00?style=flat&logo=weightsandbiases&logoColor=black)
 
+### 🧭 Data Governance & Compliance
+![Collibra](https://img.shields.io/badge/-Collibra-00B140?style=flat&logo=collibra&logoColor=white)
+![Microsoft Purview](https://img.shields.io/badge/-Microsoft%20Purview-0078D4?style=flat&logo=microsoft&logoColor=white)
+![AWS Audit Manager](https://img.shields.io/badge/-AWS%20Audit%20Manager-232F3E?style=flat&logo=amazon-aws&logoColor=FF9900)
+
 ### 📡 Telecom & Radio Engineering Tools
 [![Actix Analyzer](https://img.shields.io/badge/-Actix%20Analyzer-000000?style=flat&logo=telecom&logoColor=white)](https://www.actix.com/)
 [![MapInfo](https://img.shields.io/badge/-MapInfo-005CAB?style=flat&logo=mapbox&logoColor=white)](https://www.precisely.com/product/precisely-mapinfo-pro)
