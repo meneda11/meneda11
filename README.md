@@ -4,6 +4,7 @@
 
 💼 <b>Data Analyst | Data Engineer | Data Scientist</b>  
 🚀 Specialized in ☁️ <b>Cloud Computing</b> | 🤖 <b>AI & Machine Learning</b> | 📊 <b>Business Intelligence</b>
+
 Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML models</b>, and creating <b>impactful BI dashboards</b> that drive business growth.
 
 </div>
@@ -178,8 +179,8 @@ Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **M
 
 ## 🌐 Connect with me
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/cedricstephanemenedas)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:linkedincedricstephanemenedas@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/cedricstephanemeneda)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mcedricstephane@gmail.com)
 
 ---
 
