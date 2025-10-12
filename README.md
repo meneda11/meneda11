@@ -1,11 +1,13 @@
 <div align="center">
 
-👋 **Hi, I'm Cédric Stéphane Meneda**  
+<h1>👋 Hi, I'm Cédric Stéphane Meneda</h1>
 
-💼 *Data Analyst | Data Engineer | Data Scientist*  
-🚀 Specialized in ☁️ **Cloud Computing** | 🤖 **AI & Machine Learning** | 📊 **Business Intelligence**
+---
 
-Specialized in building scalable data solutions on **Azure**, developing **ML models**, and creating **impactful BI dashboards** that drive business growth.
+💼 <b>Data Analyst | Data Engineer | Data Scientist</b>  
+🚀 Specialized in ☁️ <b>Cloud Computing</b> | 🤖 <b>AI & Machine Learning</b> | 📊 <b>Business Intelligence</b>
+
+Specialized in building scalable data solutions on <b>Azure</b>, developing <b>ML models</b>, and creating <b>impactful BI dashboards</b> that drive business growth.
 
 </div>
 
