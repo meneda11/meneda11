@@ -83,7 +83,7 @@ Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **M
 
 | Project | Domain | Tech Stack | Key Achievement |
 |---------|--------|------------|-----------------|
-| 🤖 **[Weak Signal Detection System](https://github.com/meneda11/Business-signal-detection-and-recommandation-engine)** | AI/ML | Azure, OpenAI, Lakehouse | Built end-to-end AI recommendation engine |
+| 🤖 **[Business-signal-detection-and-recommandation-engine](https://github.com/meneda11/Business-signal-detection-and-recommandation-engine)** | AI/ML | Azure, OpenAI, Lakehouse | Built end-to-end AI recommendation engine |
 | 🐝 **[Bee Colony Health Monitoring](https://github.com/meneda11/bee-health-ai)** | Computer Vision | YOLOv5, IoT, Time Series | Anomaly detection in biological signals |
 | ⚙️ **[Predictive Maintenance](https://github.com/meneda11/predictive-maintenance)** | ML | XGBoost, Random Forest | 90%+ accuracy in failure prediction |
 | 🧬 **[Multiplex PCR Analysis](https://github.com/meneda11/pcr-analysis)** | Bioinformatics | Python, Data Modeling | Automated biological signal quantification |
