@@ -15,7 +15,6 @@ Specialized in building scalable data solutions on <b>Cloud</b>, developing <b>G
   <img src="https://komarev.com/ghpvc/?username=meneda11&label=Profile%20views&color=blue&style=plastic" alt="meneda11" />
 </p>
 
-
 ## 👨‍💻 About Me
 - 🌱 I'm currently learning AWS AI and Salesforce CRM  
 - 👨‍💻 All of my projects are available at [github.com/meneda11/data-science-portfolio](https://github.com/meneda11/data-science-portfolio)  
