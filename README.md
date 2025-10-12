@@ -45,24 +45,28 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 ## 🛠️ Complete Tech Stack
 
 ### ☁️ Cloud & Data Platforms
-![Azure](https://img.shields.io/badge/-Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/-Microsoft%20Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white)
 ![Microsoft Fabric](https://img.shields.io/badge/-Microsoft%20Fabric-5E5E5E?style=flat&logo=microsoft&logoColor=white)
-![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=FF9900)
+![Dataiku DSS](https://img.shields.io/badge/-Dataiku%20DSS-00B0F0?style=flat&logo=dataiku&logoColor=white)
+![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 
 ### 🤖 AI & Machine Learning
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![Microsoft Azure Machine Learning](https://img.shields.io/badge/-Azure%20Machine%20Learning-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+![Microsoft Azure AI Search](https://img.shields.io/badge/-Azure%20AI%20Search-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![Azure OpenAI](https://img.shields.io/badge/-Azure%20OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![Scikit Learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
-### 📊 Business Intelligence & Analytics
+### 📊 Business Intelligence & Web Analytics
 ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![Excel](https://img.shields.io/badge/-Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
 ![Looker Studio](https://img.shields.io/badge/-Looker%20Studio-4285F4?style=flat&logo=looker&logoColor=white)
+[![SAS](https://img.shields.io/badge/-SAS-4000BF?style=flat&logo=sas&logoColor=white)](https://www.sas.com/)
 ![Matomo](https://img.shields.io/badge/-Matomo-3152A0?style=flat&logo=matomo&logoColor=white)
 ![Google Analytics](https://img.shields.io/badge/-Google%20Analytics-E37400?style=flat&logo=google-analytics&logoColor=white)
 
@@ -78,9 +82,18 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![Weights & Biases](https://img.shields.io/badge/-W&B-FFBE00?style=flat&logo=weightsandbiases&logoColor=black)
 
+### 📡 Telecom & Radio Engineering Tools
+[![Actix Analyzer](https://img.shields.io/badge/-Actix%20Analyzer-000000?style=flat&logo=telecom&logoColor=white)](https://www.actix.com/)
+[![MapInfo](https://img.shields.io/badge/-MapInfo-005CAB?style=flat&logo=mapbox&logoColor=white)](https://www.precisely.com/product/precisely-mapinfo-pro)
+[![TEMS Discovery](https://img.shields.io/badge/-TEMS%20Discovery-008080?style=flat&logo=telecom&logoColor=white)](https://www.infovista.com/tems-discovery)
+[![Nemo Analyze](https://img.shields.io/badge/-Nemo%20Analyze-005CAB?style=flat&logo=signal&logoColor=white)](https://www.keysight.com/fr/en/product/Nemo-Analyze.html)
+[![ATOL](https://img.shields.io/badge/-ATOL-005CAB?style=flat&logo=telecom&logoColor=white)](https://www.atol-telecom.com/)
+
 ### 📚 Libraries & Tools
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Librosa](https://img.shields.io/badge/-Librosa-1DB954?style=flat&logo=python&logoColor=white)
+[![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 
 ---
