@@ -4,8 +4,7 @@
 
 💼 <b>Data Analyst | Data Engineer | Data Scientist</b>  
 🚀 Specialized in ☁️ <b>Cloud Computing</b> | 🤖 <b>AI & Machine Learning</b> | 📊 <b>Business Intelligence</b>
-
-Specialized in building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML models</b>, and creating <b>impactful BI dashboards</b> that drive business growth.
+Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML models</b>, and creating <b>impactful BI dashboards</b> that drive business growth.
 
 </div>
 
@@ -135,34 +134,37 @@ Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **M
 ## 💼 Areas of Expertise
 
 ### ☁️ Cloud Computing
-- Microsoft Azure(Data Factory, Machine Learning, Synapse Analytics, OpenAI Services)
-- Microsoft Fabric
-- Amazon Web Service(Bedrock, SageMaker and JumpStart)
-- Cloud-native data architectures
+- Microsoft Azure (Data Factory, Machine Learning, Synapse Analytics, OpenAI Services)
+- Microsoft Fabric (Lakehouse, Data Pipelines, OneLake)
+- Amazon Web Services (Bedrock, SageMaker, JumpStart)
+- Cloud-native data architectures & automation
 - Cost optimization and resource management
-- CI/CD pipelines for data solutions
+- CI/CD and DevOps for data solutions
 
 ### 🤖 Artificial Intelligence & Machine Learning
-- Supervised & Unsupervised Learning
-- Natural Language Processing (NLP)
-- Generative AI
-- Computer Vision
-- Model deployment and MLOps
+- Supervised & Unsupervised Learning (Regression, Classification, Clustering)
+- Natural Language Processing (NLP, Embeddings, Semantic Search)
+- Generative AI (Azure OpenAI, LLM integration)
+- Computer Vision (image processing, detection models)
+- Model deployment, serving & MLOps
 - Predictive analytics and forecasting
 
-### 📊 Business Intelligence
-- Interactive dashboard development
-- Data modeling and dimensional design
-- KPI tracking and performance metrics
-- Self-service BI solutions
-- Data storytelling and visualization best practices
+### 📊 Business Intelligence & Analytics
+- Interactive dashboard design and automation
+- Data modeling (Star/Snowflake schemas)
+- KPI tracking and performance analytics
+- Self-service BI and governance
+- Data storytelling & visualization best practices
+- Tools: Power BI, Looker Studio, Excel, Power Query (M)
 
-### 🔧 Data Engineering
-- ETL/ELT pipeline development
-- Data warehouse design (Star/Snowflake schemas)
-- Real-time data processing
-- Data quality and governance
-- Big Data technologies (Spark, Hadoop)
+### 🔧 Data Engineering & Architecture
+- ETL/ELT pipeline development (Databricks, Fabric, Azure Data Factory)
+- Lakehouse & Data Warehouse architecture (Bronze/Silver/Gold)
+- Real-time and batch data processing (Spark Streaming)
+- Data quality, lineage, and governance
+- Integration with CRM systems (Dynamics 365, Salesforce)
+- Big Data technologies (PySpark, Hadoop, Delta Lake)
+
   
 ---
 
