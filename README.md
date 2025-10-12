@@ -1,12 +1,14 @@
 # 👋 Hi, I'm Cédric Stéphane Meneda
 
-## 💼 Data Analyst | Data Engineer | Data Scientist Azure Certified
+## 💼 Data Analyst | Data Engineer | Data Scientist 
+## Microsoft Azure Certified
 
 🔭 **About me:**
-- 🌱 I'm currently learning Machine Learning and Cloud Computing
+- 🌱 I'm currently learning AWS AI and Salesforce CRM
+- 👨‍💻 All of my projects are available at https://github.com/meneda11
 - 💼 Azure Certified Cloud Practitioner
 - 📍 Based in Paris, France
-- 📫 Reach me: linkedincedricstephanemenedas@gmail.com
+- 📫 Reach me: mcedricstephane@gmail.com
 
 ---
 
