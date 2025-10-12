@@ -40,7 +40,7 @@ Specialized in building scalable data solutions on <b>Cloud</b>, developing <b>G
 ---
 
 📍 **Location:** Paris, France  
-📧 **Contact:** linkedincedricstephanemenedas@gmail.com
+📧 **Contact:** mcedricstephane@gmail.com
 
 ---
 
