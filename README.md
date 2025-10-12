@@ -114,10 +114,15 @@ Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **M
 
 | Project | Domain | Tech Stack | Key Achievement |
 |---------|--------|------------|-----------------|
-| 🤖 **[Business-signal-detection-and-recommandation-engine](https://github.com/meneda11/Business-signal-detection-and-recommandation-engine)** | AI/ML | Azure, OpenAI, Lakehouse | Built end-to-end AI recommendation engine |
-| 🐝 **[Bee Colony Health Monitoring](https://github.com/meneda11/bee-health-ai)** | Computer Vision | YOLOv5, IoT, Time Series | Anomaly detection in biological signals |
-| ⚙️ **[Predictive Maintenance](https://github.com/meneda11/predictive-maintenance)** | ML | XGBoost, Random Forest | 90%+ accuracy in failure prediction |
-| 🧬 **[Multiplex PCR Analysis](https://github.com/meneda11/pcr-analysis)** | Bioinformatics | Python, Data Modeling | Automated biological signal quantification |
+| 🤖 **[Business Signal Detection & Recommendation Engine](https://github.com/meneda11/Business-signal-detection-and-recommandation-engine)** | AI/ML | Azure, Microsoft Fabric, Azure OpenAI, Dynamics 365, Power BI, Python | Built enterprise-grade AI recommendation engine with multi-source data integration and predictive scoring |
+| ⚙️ **[Industrial Predictive Maintenance](https://github.com/meneda11/predictive-maintenance)** | Predictive Analytics | Python, XGBoost, Random Forest, Scikit-learn, Docker, Airflow, Weights & Biases | Developed ensemble ML models achieving 90%+ prediction accuracy and automated deployment pipeline |
+| 🔬 **[Single PCR Data Analysis & Modeling](https://github.com/meneda11/pcr-analysis)** | Bioinformatics | Python, Scikit-learn, NumPy, Pandas, Matplotlib, VS Code | Automated PCR data processing and visualization, analyzed Cq values and predictive modeling |
+| 🐝 **[Bee Colony Health Monitoring](https://github.com/meneda11/bee-health-ai)** | Computer Vision + IoT | Python, YOLOv5, PyTorch, IoT | Developed AI system for monitoring bee colony health with multi-sensor analysis and object detection |
+| 📈 **[Web Analytics & Tracking](#web-analytics-details)** | Web Analytics & BI | Matomo, Power BI, Google Analytics, Dynamics 365, Python | End-to-end web tracking, dashboarding, user behavior analysis, GDPR compliance |
+| 📧 **[Marketing Data Intelligence](#marketing-intelligence-details)** | Marketing Analytics | Power BI, Azure AI, Microsoft Fabric, Databricks, Dynamics 365, Google Analytics, Matomo | Designed marketing dashboards, NPS/CSAT analysis, AI-powered signal detection, multi-source integration |
+| 🗄️ **[CRM Data Quality & Automation](#crm-details)** | Data Engineering & CRM | Python, Dynamics 365, Power BI, Azure Logic Apps, Microsoft Fabric, Databricks, SQL Server | Automated CRM cleaning, validation, dashboards, and data governance |
+| 🏗️ **[Data Architecture & Pipeline Automation](#fabric-pipeline-details)** | Data Engineering | Microsoft Fabric, Azure, Databricks, Dynamics 365, Python, SQL, Power BI, Matomo, Google Analytics | Built Lakehouse architecture, automated ETL pipelines, data modeling, and improved analytics reliability |
+| 📡 **[Network Performance Optimization & Monitoring](#network-monitoring-details)** | Data Engineering | Python, SQL, Power BI | Designed real-time network monitoring pipelines, anomaly detection, and dashboards; reduced incident response time by 40% |
 
 ---
 
