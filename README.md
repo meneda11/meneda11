@@ -2,9 +2,9 @@
 
 ## 💼 Data Analyst | Data Engineer | Data Scientist
 
-### 🚀 Specialized in Cloud Computing, Artificial Intelligence, Machine Learning & Business Intelligence
+☁️ **Cloud Computing** | 🤖 **AI & Machine Learning** | 📊 **Business Intelligence**
 
-**Passionate about transforming data into actionable insights using cutting-edge technologies**
+*Turning complex data into strategic business decisions*
 
 ---
 
