@@ -67,6 +67,29 @@
 
 ---
 
+## 🚀 Featured Projects
+
+<div align="center">
+
+### 🔬 AI & Data Science Portfolio
+
+Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **Machine Learning**, **Computer Vision**, and **Predictive Analytics**.
+
+[![View All Projects](https://img.shields.io/badge/📂_View_All_Projects-blue?style=for-the-badge)](https://github.com/meneda11/data-science-portfolio)
+
+</div>
+
+### 🎯 Highlights
+
+| Project | Domain | Tech Stack | Key Achievement |
+|---------|--------|------------|-----------------|
+| 🤖 **[Weak Signal Detection System](https://github.com/meneda11/Business-signal-detection-and-recommandation-engine)** | AI/ML | Azure, OpenAI, Lakehouse | Built end-to-end AI recommendation engine |
+| 🐝 **[Bee Colony Health Monitoring](https://github.com/meneda11/bee-health-ai)** | Computer Vision | YOLOv5, IoT, Time Series | Anomaly detection in biological signals |
+| ⚙️ **[Predictive Maintenance](https://github.com/meneda11/predictive-maintenance)** | ML | XGBoost, Random Forest | 90%+ accuracy in failure prediction |
+| 🧬 **[Multiplex PCR Analysis](https://github.com/meneda11/pcr-analysis)** | Bioinformatics | Python, Data Modeling | Automated biological signal quantification |
+
+---
+
 ## 💼 Areas of Expertise
 
 ### ☁️ Cloud Computing
