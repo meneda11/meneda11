@@ -5,7 +5,7 @@
 💼 <b>Data Analyst | Data Engineer | Data Scientist</b>  
 🚀 Specialized in ☁️ <b>Cloud Computing</b> | 🤖 <b>AI & Machine Learning</b> | 📊 <b>Business Intelligence</b>
 
-Specialized in building scalable data solutions on <b>Azure</b>, developing <b>ML models</b>, and creating <b>impactful BI dashboards</b> that drive business growth.
+Specialized in building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML models</b>, and creating <b>impactful BI dashboards</b> that drive business growth.
 
 </div>
 
