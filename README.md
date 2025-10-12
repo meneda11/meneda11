@@ -11,12 +11,17 @@ Specialized in building scalable data solutions on <b>Cloud</b>, developing <b>G
 
 ---
 
+### 👁️ Profile Views  
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=meneda11&label=Profile%20views&color=0e75b6&style=flat" alt="meneda11" />
+</p>
+
 ## 👨‍💻 About Me
-- 🌱 I'm currently learning AWS AI and Salesforce CRM
-- 👨‍💻 All of my projects are available at https://github.com/meneda11
-- 💼 Azure Certified Cloud Practitioner
-- 📍 Based in Paris, France
-- 📫 Reach me: mcedricstephane@gmail.com
+- 🌱 I'm currently learning AWS AI and Salesforce CRM  
+- 👨‍💻 All of my projects are available at [github.com/meneda11](https://github.com/meneda11)  
+- 💼 Azure Certified Cloud Practitioner  
+- 📍 Based in Paris, France  
+- 📫 Reach me: **mcedricstephane@gmail.com**
 
 🔭 **Current Focus:**
 - Building end-to-end data pipelines on **Cloud**
