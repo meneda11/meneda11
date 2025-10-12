@@ -25,12 +25,12 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 🔭 **Current Focus:**
 - Building end-to-end data pipelines on **Cloud**
 - Developing **Machine Learning** models for predictive analytics
-- Creating interactive **Power BI**, **Tableau** dashboards for business decision-making
+- Creating interactive dashboards for business decision-making
 - Implementing **AI solutions** to automate data processes
 
 💡 **What I Do:**
 - ☁️ Design and deploy scalable cloud architectures
-- 🤖 Build ML models using Python (scikit-learn, TensorFlow, PyTorch) and Gen AI
+- 🤖 Build machine learning models and generative AI to develop intelligent agents
 - 📊 Transform raw data into actionable BI insights
 - 🔄 Develop ETL pipelines and data warehousing solutions
 
