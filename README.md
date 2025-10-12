@@ -1,6 +1,6 @@
-# 👋 Hi, I'm Cédric Stéphane Meneda
-
-## 💼 Data Analyst | Data Engineer | Data Scientist
+                        # 👋 Hi, I'm Cédric Stéphane Meneda
+                        
+                        ## 💼 Data Analyst | Data Engineer | Data Scientist
 
 🚀 Specialized in ☁️ **Cloud Computing** | 🤖 **AI & Machine Learning** | 📊 **Business Intelligence**
 
