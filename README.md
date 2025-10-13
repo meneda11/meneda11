@@ -37,7 +37,7 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 ### 🏅 Certifications  
 [![Microsoft Certified: Azure Fundamentals](https://img.shields.io/badge/Certified-Azure%20Fundamentals-0078D4?style=flat&logo=microsoft-azure&logoColor=white)](https://www.credly.com/badges/c88b8fb5-4f8d-4799-ac23-631fd1c382e0/linked_in?t=rqe00j)
 
-### 🎓 Education    
+### 🎓 Degrees    
 - Big Data Infrastructure Expert
 - IT Engineer
 
