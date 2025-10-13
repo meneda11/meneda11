@@ -105,25 +105,6 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 
 ---
 
-## 📬 Contact
-
-Interested in collaboration or discussing these projects?
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/cedricstephanemeneda)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mcedricstephane@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/meneda11)
-
----
-
-<div align="center">
-
-⭐️ **Star this repository if you find it useful!**
-
-</div>
-
-
----
-
 ## 🚀 Featured Projects
 
 <div align="center">
@@ -149,6 +130,24 @@ Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **M
 | 🗄️ **[CRM Data Quality & Automation](#crm-details)** | Data Engineering & CRM | Python, Dynamics 365, Power BI, Azure Logic Apps, Microsoft Fabric, Databricks, SQL Server | Automated CRM cleaning, validation, dashboards, and data governance |
 | 🏗️ **[Data Architecture & Pipeline Automation](#fabric-pipeline-details)** | Data Engineering | Microsoft Fabric, Azure, Databricks, Dynamics 365, Python, SQL, Power BI, Matomo, Google Analytics | Built Lakehouse architecture, automated ETL pipelines, data modeling, and improved analytics reliability |
 | 📡 **[Network Performance Optimization & Monitoring](#network-monitoring-details)** | Data Engineering | Python, SQL, Power BI | Designed real-time network monitoring pipelines, anomaly detection, and dashboards; reduced incident response time by 40% |
+
+---
+
+## 📬 Contact
+
+Interested in collaboration or discussing these projects?
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/cedricstephanemeneda)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mcedricstephane@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/meneda11)
+
+---
+
+<div align="center">
+
+⭐️ **Star this repository if you find it useful!**
+
+</div>
 
 ---
 
