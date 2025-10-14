@@ -30,6 +30,7 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 
 💡 **What I Do:**
 - ☁️ Design and deploy scalable cloud architectures
+- 📧 Enhance marketing intelligence and CRM operations through data-driven segmentation, targeting, and automation  
 - 🤖 Build machine learning models and generative AI to develop intelligent agents
 - 📊 Transform raw data into actionable BI insights
 - 🔄 Develop ETL pipelines and data warehousing solutions
