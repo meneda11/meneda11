@@ -3,6 +3,7 @@
 <h1>👋 Hi, I'm Cédric Stéphane Meneda</h1>
 
 💼 <b>Data Analyst | Data Engineer | Data Scientist</b>  
+
 ☁️ <b>Cloud Computing</b> | 🤖 <b>AI & Machine Learning</b> | 📊 <b>Business Intelligence</b>
 
 </div>
