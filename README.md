@@ -3,9 +3,7 @@
 <h1>👋 Hi, I'm Cédric Stéphane Meneda</h1>
 
 💼 <b>Data Analyst | Data Engineer | Data Scientist</b>  
-🚀 Specialized in ☁️ <b>Cloud Computing</b> | 🤖 <b>AI & Machine Learning</b> | 📊 <b>Business Intelligence</b>
-
-Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML models</b>, and creating <b>impactful BI dashboards</b> that drive business growth.
+☁️ <b>Cloud Computing</b> | 🤖 <b>AI & Machine Learning</b> | 📊 <b>Business Intelligence</b>
 
 </div>
 
@@ -23,6 +21,7 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 - 📫 Reach me: **mcedricstephane@gmail.com**
 
 🔭 **Current Focus:**
+
 Building data pipelines in the cloud, developing AI & predictive analytics models, and designing interactive dashboards for business performance monitoring.
 
 💡 **What I Do:**
