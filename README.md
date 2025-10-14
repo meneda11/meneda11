@@ -23,17 +23,14 @@ Building scalable data solutions on <b>Cloud</b>, developing <b>Gen AI & ML mode
 - 📫 Reach me: **mcedricstephane@gmail.com**
 
 🔭 **Current Focus:**
-- Building end-to-end data pipelines on **Cloud**
-- Developing **Machine Learning** models for predictive analytics
-- Creating interactive dashboards for business decision-making
-- Implementing **AI solutions** to automate data processes
+Building data pipelines in the cloud, developing AI & predictive analytics models, and designing interactive dashboards for business performance monitoring.
 
 💡 **What I Do:**
 - ☁️ Design and deploy scalable cloud architectures
-- 📧 Enhance marketing intelligence and CRM operations through data-driven segmentation, targeting, and automation  
-- 🤖 Build machine learning models and generative AI to develop intelligent agents
-- 📊 Transform raw data into actionable BI insights
-- 🔄 Develop ETL pipelines and data warehousing solutions
+- 📧 Enhance marketing & CRM intelligence through automation and targeting  
+- 🤖 Build machine learning and generative AI solutions
+- 📊 Turn complex data into actionable insights
+- 🔄 Develop robust ETL and data warehousing systems
 
 ### 🏅 Certifications  
 [![Microsoft Certified: Azure Fundamentals](https://img.shields.io/badge/Certified-Azure%20Fundamentals-0078D4?style=flat&logo=microsoft-azure&logoColor=white)](https://www.credly.com/badges/c88b8fb5-4f8d-4799-ac23-631fd1c382e0/linked_in?t=rqe00j)
