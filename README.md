@@ -1,12 +1,12 @@
-<div align="center">
-
-<h1>👋 Hi, I'm Cédric Stéphane Meneda</h1>
+<div style="background-color:#0D1117; color:#C9D1D9; padding:20px; border-radius:10px;">
+<h1 align="center">👋 Hi, I'm Cédric Stéphane Meneda</h1>
 
 💼 <b>Data Analyst | Data Engineer | Data Scientist</b>  
 
 📈 Marketing & CRM Analytics | ☁️ Cloud & Data Engineering | 🤖 AI & Machine Learning | 📊 Predictive Analytics
 
 </div>
+
 
 ---
 
