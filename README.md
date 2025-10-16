@@ -2,6 +2,7 @@
     <h1>👋 Hi, I'm Cédric Stéphane Meneda</h1>
   
     💼 <b>Data Analyst | Data Engineer | Data Scientist</b>
+    
     📈 Marketing & CRM Analytics | ☁️ Cloud & Data Engineering | 🤖 AI & Machine Learning | 📊 Predictive Analytics
 </div>
 
