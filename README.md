@@ -16,7 +16,8 @@
 
 ## 👨‍💻 About Me
 - 🌱 I'm currently learning AWS AI and Salesforce CRM  
-- 👨‍💻 All of my projects are available at [github.com/meneda11/data-science-portfolio](https://github.com/meneda11/data-science-portfolio)  
+- 👨‍💻 All of my projects are available at [GitHub Portfolio](https://github.com/meneda11/data-science-portfolio)  
+- 🌐 Check out my personal website: [meneda11.github.io](https://meneda11.github.io/meneda11/)  
 - 💼 Azure Certified Cloud  
 - 📍 Based in Paris, France  
 - 📫 Reach me: **mcedricstephane@gmail.com**
