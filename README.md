@@ -160,14 +160,6 @@ Interested in collaboration or discussing these projects?
 - Cost optimization and resource management
 - CI/CD and DevOps for data solutions
 
-### 🤖 Artificial Intelligence & Machine Learning
-- Supervised & Unsupervised Learning (Regression, Classification, Clustering)
-- Natural Language Processing (NLP, Embeddings, Semantic Search)
-- Generative AI (Azure OpenAI, LLM integration)
-- Computer Vision (image processing, detection models)
-- Model deployment, serving & MLOps
-- Predictive analytics and forecasting
-
 ### 📊 Business Intelligence & Analytics
 - Interactive dashboard design and automation
 - Data modeling
@@ -183,6 +175,15 @@ Interested in collaboration or discussing these projects?
 - Data quality, lineage, and governance
 - Integration with CRM systems (Dynamics 365, Salesforce)
 - Big Data technologies (PySpark, Hadoop, Delta Lake)
+
+### 🤖 Artificial Intelligence & Machine Learning
+- Supervised & Unsupervised Learning (Regression, Classification, Clustering)
+- Natural Language Processing (NLP, Embeddings, Semantic Search)
+- Generative AI (Azure OpenAI, LLM integration)
+- Computer Vision (image processing, detection models)
+- Model deployment, serving & MLOps
+- Predictive analytics and forecasting
+
 
   
 ---
