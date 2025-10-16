@@ -27,10 +27,11 @@ Building data pipelines in the cloud, developing AI & predictive analytics model
 
 💡 **What I Do:**
 - ☁️ Design and deploy scalable cloud architectures
-- 📧 Enhance marketing & CRM intelligence through automation and targeting  
-- 🤖 Build machine learning and generative AI solutions
-- 📊 Turn complex data into actionable insights
 - 🔄 Develop robust ETL and data warehousing systems
+- 📧 Enhance marketing & CRM intelligence through automation and targeting
+- 📊 Turn complex data into actionable insights 
+- 🤖 Build machine learning and generative AI solutions
+
 
 ### 🏅 Certifications  
 [![Microsoft Certified: Azure Fundamentals](https://img.shields.io/badge/Certified-Azure%20Fundamentals-0078D4?style=flat&logo=microsoft-azure&logoColor=white)](https://www.credly.com/badges/c88b8fb5-4f8d-4799-ac23-631fd1c382e0/linked_in?t=rqe00j)
