@@ -156,31 +156,26 @@ Interested in collaboration or discussing these projects?
 ### ☁️ Cloud Computing
 - Microsoft Azure (Data Factory, Machine Learning, Synapse Analytics, OpenAI Services)
 - Microsoft Fabric (Lakehouse, Data Pipelines, OneLake)
-- Amazon Web Services (Bedrock, SageMaker, JumpStart)
-- Cloud-native data architectures & automation
+- Amazon Web Services (Bedrock, SageMaker, JumpStart, IA responsable/Gouvernance)
 - Cost optimization and resource management
-- CI/CD and DevOps for data solutions
 
-### 📊 Business Intelligence & Analytics
-- Interactive dashboard design and automation
-- Data modeling
-- KPI tracking and performance analytics
-- Self-service BI and governance
-- Data storytelling & visualization best practices
-- Tools: Power BI, Looker Studio, Excel, Power Query (M)
+### 📊 Marketing and Business Intelligence & Analytics
+- Interactive and automated dashboard design (Power BI, Tableau, DAX, M)
+- Data modeling, cleaning, and transformation for CRM & marketing data
+- Web tracking and performance analytics (Matomo, Google Analytics)
+- Customer segmentation, targeting, scoring, and lead generation
+- Automation of reporting and marketing KPIs (Azure, Databricks, Python, SQL)
 
 ### 🔧 Data Engineering & Architecture
 - ETL/ELT pipeline development (Databricks, Fabric, Azure Data Factory)
 - Lakehouse & Data Warehouse architecture (Bronze/Silver/Gold)
-- Real-time and batch data processing (Spark Streaming)
 - Data quality, lineage, and governance
 - Integration with CRM systems (Dynamics 365, Salesforce)
-- Big Data technologies (PySpark, Hadoop, Delta Lake)
 
 ### 🤖 Artificial Intelligence & Machine Learning
 - Supervised & Unsupervised Learning (Regression, Classification, Clustering)
 - Natural Language Processing (NLP, Embeddings, Semantic Search)
-- Generative AI (Azure OpenAI, LLM integration)
+- Generative AI (Azure OpenAI Services, Azure AI Search, LLM integration, Bedrock, JumpStart)
 - Computer Vision (image processing, detection models)
 - Model deployment, serving & MLOps
 - Predictive analytics and forecasting
