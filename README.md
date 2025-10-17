@@ -24,7 +24,7 @@
 
 🔭 **Current Focus:**
 
-Building data pipelines in the cloud, developing AI & predictive analytics models, and designing interactive dashboards for business performance monitoring.
+Bridging data engineering, data analytics, and predictive intelligence to turn marketing and business data into performance drivers and decision-making insights.
 
 💡 **What I Do:**
 - ☁️ Design and deploy scalable cloud architectures
