@@ -659,20 +659,31 @@
         </div>
     </section>
 
-<!-- ======= SECTION CONTACT (Design Premium + Animation) ======= -->
+<!-- ======= SECTION CONTACT (structure corrigée) ======= -->
 <section id="contact" style="padding: 4rem 1rem;">
-  <h2 style="text-align:center; color: var(--primary); margin-bottom:2rem;">Travaillons ensemble</h2>
+  <!-- Titre principal -->
+  <h2 style="text-align:center; color: var(--primary); margin-bottom:1rem;">
+    Travaillons ensemble
+  </h2>
 
-  <!-- Conteneur global -->
+  <!-- Sous-titre + paragraphe -->
+  <div style="text-align:center; max-width:750px; margin:0 auto 3rem auto;">
+    <h3 style="margin-bottom:0.5rem;">Contactez-moi</h3>
+    <p style="color:#C9D1D9; font-size:1.05rem; margin:0;">
+      Je suis actuellement à la recherche d’un <strong>CDD/CDI</strong> en 
+      <strong>Data Engineering</strong>, <strong>Data Analyst</strong> ou 
+      <strong>Data Science</strong>, et ouvert à des opportunités stimulantes.
+    </p>
+  </div>
+
+  <!-- Conteneur des deux blocs -->
   <div class="contact-content"
        style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; align-items:flex-start; max-width:1100px; margin:auto;">
 
     <!-- Bloc gauche : Contact -->
     <div class="contact-info fade-in"
          style="flex:1 1 380px; min-width:320px; background-color:#161b22; border:1px solid #30363d; border-radius:16px; padding:2rem; box-shadow:0 4px 12px rgba(0,0,0,0.25); opacity:0; transform:translateY(30px); transition:opacity 0.8s ease, transform 0.8s ease;">
-      <h3 style="margin-top:0;">Contactez-moi</h3>
-      <p style="margin-bottom:1.5rem;">Je suis actuellement à la recherche d’un CDD/CDI en Data Engineering, Data Analyst ou Data Science, et ouvert à des opportunités stimulantes.</p>
-
+      
       <div class="contact-section" style="display:grid; gap:1rem;">
         <!-- Email -->
         <div class="contact-item" style="display:flex; align-items:center; gap:12px;">
@@ -734,49 +745,28 @@
     </form>
   </div>
 
+  <!-- Styles -->
   <style>
-    .contact-item svg {
-      color: #C9D1D9;
-      transition: transform 0.2s ease, color 0.2s ease;
-    }
-    .contact-item:hover svg {
-      transform: scale(1.1);
-      color: #58a6ff;
-    }
+    .contact-item svg { color:#C9D1D9; transition:transform .2s,color .2s; }
+    .contact-item:hover svg { transform:scale(1.1); color:#58a6ff; }
 
-    /* Responsive & fine-tuning */
-    @media (min-width: 992px) {
-      .contact-content { align-items: flex-start; }
-      .contact-form { margin-top: 3.2rem; }
+    @media (min-width:992px){.contact-content{align-items:flex-start}}
+    @media (max-width:768px){
+      .contact-content{flex-direction:column;align-items:stretch}
+      .contact-info,.contact-form{width:100%}
     }
-    @media (max-width: 768px) {
-      .contact-content {
-        flex-direction: column;
-        align-items: stretch;
-      }
-      .contact-info, .contact-form {
-        width: 100%;
-      }
-    }
-
-    /* Animation d'apparition */
-    .fade-in.visible {
-      opacity: 1 !important;
-      transform: translateY(0) !important;
-    }
+    .fade-in.visible{opacity:1!important;transform:translateY(0)!important}
   </style>
 
-  <!-- Script d'animation à l'apparition -->
+  <!-- Animation -->
   <script>
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add('visible');
-      });
-    }, { threshold: 0.3 });
-
-    document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+    const observer=new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});
+    },{threshold:0.3});
+    document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
   </script>
 </section>
+
 
 
     <!-- ======= FOOTER AVEC LOGOS ======= -->
