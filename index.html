@@ -659,7 +659,7 @@
         </div>
     </section>
 
-<!-- ======= SECTION CONTACT (Design Premium) ======= -->
+<!-- ======= SECTION CONTACT (Design Premium + Animation) ======= -->
 <section id="contact" style="padding: 4rem 1rem;">
   <h2 style="text-align:center; color: var(--primary); margin-bottom:2rem;">Travaillons ensemble</h2>
 
@@ -668,8 +668,8 @@
        style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center; align-items:flex-start; max-width:1100px; margin:auto;">
 
     <!-- Bloc gauche : Contact -->
-    <div class="contact-info"
-         style="flex:1 1 380px; min-width:320px; background-color:#161b22; border:1px solid #30363d; border-radius:16px; padding:2rem; box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+    <div class="contact-info fade-in"
+         style="flex:1 1 380px; min-width:320px; background-color:#161b22; border:1px solid #30363d; border-radius:16px; padding:2rem; box-shadow:0 4px 12px rgba(0,0,0,0.25); opacity:0; transform:translateY(30px); transition:opacity 0.8s ease, transform 0.8s ease;">
       <h3 style="margin-top:0;">Contactez-moi</h3>
       <p style="margin-bottom:1.5rem;">Je suis actuellement à la recherche d’un CDD/CDI en Data Engineering, Data Analyst ou Data Science, et ouvert à des opportunités stimulantes.</p>
 
@@ -722,10 +722,10 @@
     </div>
 
     <!-- Bloc droit : Formulaire -->
-    <form class="contact-form"
+    <form class="contact-form fade-in"
           action="https://formspree.io/f/meorvbwp"
           method="POST"
-          style="flex:1 1 380px; min-width:320px; background-color:#161b22; border:1px solid #30363d; border-radius:16px; padding:2rem; box-shadow:0 4px 12px rgba(0,0,0,0.25); display:flex; flex-direction:column; gap:1rem;">
+          style="flex:1 1 380px; min-width:320px; background-color:#161b22; border:1px solid #30363d; border-radius:16px; padding:2rem; box-shadow:0 4px 12px rgba(0,0,0,0.25); display:flex; flex-direction:column; gap:1rem; opacity:0; transform:translateY(30px); transition:opacity 0.8s ease, transform 0.8s ease;">
       <input type="text" name="name" placeholder="Votre nom" required>
       <input type="email" name="email" placeholder="Votre email" required>
       <input type="text" name="subject" placeholder="Sujet">
@@ -735,7 +735,6 @@
   </div>
 
   <style>
-    /* Hover icons */
     .contact-item svg {
       color: #C9D1D9;
       transition: transform 0.2s ease, color 0.2s ease;
@@ -745,27 +744,38 @@
       color: #58a6ff;
     }
 
-    /* Responsive & alignment fine-tuning */
+    /* Responsive & fine-tuning */
     @media (min-width: 992px) {
-      .contact-content {
-        align-items: flex-start; /* aligne le haut des deux blocs */
-      }
-      .contact-form {
-        margin-top: 3.2rem; /* ajuste finement selon rendu réel */
-      }
+      .contact-content { align-items: flex-start; }
+      .contact-form { margin-top: 3.2rem; }
     }
-
     @media (max-width: 768px) {
       .contact-content {
         flex-direction: column;
         align-items: stretch;
       }
       .contact-info, .contact-form {
-        margin: auto;
         width: 100%;
       }
     }
+
+    /* Animation d'apparition */
+    .fade-in.visible {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
   </style>
+
+  <!-- Script d'animation à l'apparition -->
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.3 });
+
+    document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+  </script>
 </section>
 
 
