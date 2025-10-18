@@ -710,54 +710,50 @@
     </section>
 
 <!-- ======= SECTION TÉMOIGNAGES ======= -->
-<section id="testimonials" style="padding:5rem 2rem; max-width:1200px; margin:0 auto;">
-  <h2 style="text-align:center; font-size:2.5rem; background:linear-gradient(135deg, var(--primary), var(--secondary)); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
-    Témoignages
-  </h2>
+<section id="testimonials">
+  <h2>Témoignages</h2>
   <p style="text-align:center; color:#8B949E; margin-bottom:3rem;">
     Quelques retours de managers, collègues et formateurs.
   </p>
 
-  <div class="testimonials-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(350px, 1fr)); gap:2rem;">
-    
-    <!-- Témoignage 1 -->
-    <div class="testimonial-card" style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.2); border-radius:12px; padding:1.5rem; box-shadow:0 10px 30px rgba(88,166,255,0.1);">
-      <h4 style="color:var(--primary); margin-bottom:0.5rem;">Benjamin A. — Manager Data Analyst Marketing</h4>
-      <p style="font-size:0.95rem; color:#C9D1D9;">
-        « Cédric a contribué de manière déterminante à un projet de détection de signaux d’affaires, de la collecte multi-sources à la restitution Power BI avec IA sémantique Azure. 
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <h4>Benjamin A. — Manager Data Analyst Marketing</h4>
+      <p>
+        « Cédric a contribué de manière déterminante à un projet de détection de signaux d’affaires,
+        de la collecte multi-sources à la restitution Power BI avec IA sémantique Azure.
         Solide techniquement, structuré et impliqué, il a livré des résultats exploitables et pertinents. »
       </p>
     </div>
 
-    <!-- Témoignage 2 -->
-    <div class="testimonial-card" style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.2); border-radius:12px; padding:1.5rem; box-shadow:0 10px 30px rgba(88,166,255,0.1);">
-      <h4 style="color:var(--primary); margin-bottom:0.5rem;">Matthieu A. — Responsable Admissions</h4>
-      <p style="font-size:0.95rem; color:#C9D1D9;">
-        « Nous avons collaboré sur plusieurs salons professionnels. 
-        Son sérieux et sa capacité d’apprentissage rapide m’ont impressionné : en une matinée, il a maîtrisé le discours d’aivancity avec aisance et professionnalisme. »
+    <div class="testimonial-card">
+      <h4>Matthieu A. — Responsable Admissions</h4>
+      <p>
+        « Nous avons collaboré sur plusieurs salons professionnels.
+        Son sérieux et sa capacité d’apprentissage rapide m’ont impressionné :
+        en une matinée, il a maîtrisé le discours d’aivancity avec aisance et professionnalisme. »
       </p>
     </div>
 
-    <!-- Témoignage 3 -->
-    <div class="testimonial-card" style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.2); border-radius:12px; padding:1.5rem; box-shadow:0 10px 30px rgba(88,166,255,0.1);">
-      <h4 style="color:var(--primary); margin-bottom:0.5rem;">Anaïs M. — Consultante Microsoft Fabric & Power BI (MCT)</h4>
-      <p style="font-size:0.95rem; color:#C9D1D9;">
-        « Cédric est un élément sérieux et compétent. 
-        Sur un projet de Data Analyse avec Power BI, il a livré des analyses pertinentes et une méthode agile claire, optimisant la qualité et la rigueur du rendu. »
+    <div class="testimonial-card">
+      <h4>Anaïs M. — Consultante Microsoft Fabric & Power BI (MCT)</h4>
+      <p>
+        « Cédric est un élément sérieux et compétent.
+        Sur un projet de Data Analyse avec Power BI, il a livré des analyses pertinentes et une méthode agile claire,
+        optimisant la qualité et la rigueur du rendu. »
       </p>
     </div>
 
-    <!-- Témoignage 4 -->
-    <div class="testimonial-card" style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.2); border-radius:12px; padding:1.5rem; box-shadow:0 10px 30px rgba(88,166,255,0.1);">
-      <h4 style="color:var(--primary); margin-bottom:0.5rem;">Franck S. T. — Data Consultant & Formateur IA</h4>
-      <p style="font-size:0.95rem; color:#C9D1D9;">
-        “I highly recommend Cédric for any Data Management role. 
+    <div class="testimonial-card">
+      <h4>Franck S. T. — Data Consultant & Formateur IA</h4>
+      <p>
+        “I highly recommend Cédric for any Data Management role.
         His technical expertise, curiosity, and teamwork skills make him a standout professional ready for complex challenges.”
       </p>
     </div>
-
   </div>
 </section>
+
 
 
 <!-- ======= SECTION CONTACT (structure corrigée) ======= -->
@@ -961,5 +957,12 @@
         el.style.transform = 'translateY(20px)';
         el.style.transition = 'all 0.6s ease';
         observer.observe(el);
+    });
+
+    // ✅ Correction : forcer la visibilité au chargement si observer ne déclenche pas
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.testimonial-card').forEach(el => {
+        setTimeout(() => el.classList.add('visible'), 300);
+      });
     });
 </script>
