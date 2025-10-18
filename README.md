@@ -4,7 +4,7 @@
 
 💼 <b>Data Analyst | Data Engineer | Data Scientist</b>  
 
-📈 Marketing & CRM Analytics | ☁️ Cloud & Data Engineering | 🤖 AI & Machine Learning | 📊 Predictive Analytics
+📈 Marketing & CRM Analytics | ☁️ Cloud & Data Engineering | 📊 Predictive Analytics | 🤖 AI & Machine Learning
 
 </div>
 
