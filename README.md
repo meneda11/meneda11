@@ -52,16 +52,6 @@ Bridging data engineering, data analytics, and predictive intelligence to turn m
 ![Dataiku DSS](https://img.shields.io/badge/-Dataiku%20DSS-00B0F0?style=flat&logo=dataiku&logoColor=white)
 ![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 
-### 🤖 AI & Machine Learning
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Microsoft Azure Machine Learning](https://img.shields.io/badge/-Azure%20Machine%20Learning-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
-![Microsoft Azure AI Search](https://img.shields.io/badge/-Azure%20AI%20Search-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
-![Azure OpenAI](https://img.shields.io/badge/-Azure%20OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-
 ### 📊 Business Intelligence & Web Analytics
 ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=flat&logo=tableau&logoColor=white)
@@ -74,9 +64,15 @@ Bridging data engineering, data analytics, and predictive intelligence to turn m
 ### 🗄️ CRM & Databases 
 ![Dynamics 365](https://img.shields.io/badge/-Dynamics%20365-002050?style=flat&logo=dynamics-365&logoColor=white)
 ![Salesforce](https://img.shields.io/badge/-Salesforce-00A1E0?style=flat&logo=salesforce&logoColor=white)
-![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-[![PhantomBuster](https://img.shields.io/badge/-PhantomBuster-FF6B00?style=flat&logo=phantombuster&logoColor=white)](https://phantombuster.com/)
+![SQL](https://img.shields.io/badge/-SQL-336791?style=flat&logo=database&logoColor=white)
+
+### 🤖 AI & Machine Learning
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Microsoft Azure Machine Learning](https://img.shields.io/badge/-Azure%20Machine%20Learning-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+![Microsoft Azure AI Search](https://img.shields.io/badge/-Azure%20AI%20Search-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/-Azure%20OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Amazon SageMaker](https://img.shields.io/badge/Amazon%20SageMaker-569A31?style=flat&logo=amazonaws&logoColor=white)
 
 ### 🔧 DevOps & MLOps
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -102,7 +98,7 @@ Bridging data engineering, data analytics, and predictive intelligence to turn m
 ![Librosa](https://img.shields.io/badge/-Librosa-1DB954?style=flat&logo=python&logoColor=white)
 [![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-
+[![PhantomBuster](https://img.shields.io/badge/-PhantomBuster-FF6B00?style=flat&logo=phantombuster&logoColor=white)](https://phantombuster.com/)
 ---
 
 ## 🚀 Featured Projects
