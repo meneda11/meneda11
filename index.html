@@ -417,54 +417,6 @@
             }
         }
 
-        /* Testimonials Section */
-        #testimonials {
-            padding: 5rem 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-        }
-        
-        .testimonial-card {
-            background: rgba(88, 166, 255, 0.05);
-            border: 1px solid rgba(88, 166, 255, 0.2);
-            border-radius: 12px;
-            padding: 1.5rem;
-            box-shadow: 0 10px 30px rgba(88, 166, 255, 0.1);
-            transition: all 0.6s ease;
-            opacity: 0;
-            transform: translateY(20px);
-        }
-        
-        .testimonial-card h4 {
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-            font-size: 1rem;
-        }
-        
-        .testimonial-card p {
-            font-size: 0.95rem;
-            color: var(--light);
-            line-height: 1.6;
-        }
-        
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--primary);
-            box-shadow: 0 15px 40px rgba(88, 166, 255, 0.2);
-        }
-        
-        .testimonial-card.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-
         /* Responsive */
         @media (max-width: 768px) {
             nav ul {
@@ -488,7 +440,60 @@
                 grid-template-columns: 1fr;
             }
         }
-    </style>
+
+        /* Témoignages Premium Glass */
+        .testi {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+          gap: 2rem;
+        }
+        .quote {
+          background: rgba(13, 17, 23, 0.6);
+          border: 1px solid rgba(88, 166, 255, 0.25);
+          border-radius: 16px;
+          padding: 1.8rem;
+          box-shadow: 0 10px 40px rgba(88, 166, 255, 0.1);
+          transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .quote:hover {
+          transform: translateY(-5px);
+          border-color: var(--primary);
+          box-shadow: 0 15px 40px rgba(88, 166, 255, 0.3);
+        }
+        .q-top {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 0.6rem;
+        }
+        .q-name {
+          font-weight: 700;
+          color: var(--primary);
+        }
+        .q-role {
+          font-size: 0.9rem;
+          color: #8B949E;
+        }
+        .quote p {
+          color: var(--light);
+          line-height: 1.6;
+          font-size: 0.95rem;
+        }
+        #testimonials h2 {
+          background: linear-gradient(135deg, var(--primary), var(--secondary));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+        #testimonials .sub {
+          text-align: center;
+          color: #8B949E;
+          margin-bottom: 2rem;
+          font-size: 1rem;
+        }
+        
+            </style>
 </head>
     
 <body>
@@ -709,52 +714,62 @@
         </div>
     </section>
 
-<!-- ======= SECTION TÉMOIGNAGES ======= -->
+<!-- ======= SECTION TÉMOIGNAGES (Version premium glass) ======= -->
 <section id="testimonials">
-  <h2>Témoignages</h2>
-  <p style="text-align:center; color:#8B949E; margin-bottom:3rem;">
-    Quelques retours de managers, collègues et formateurs.
-  </p>
+  <h2 class="title">Témoignages</h2>
+  <p class="sub">Quelques retours de managers, collègues et formateurs.</p>
 
-  <div class="testimonials-grid">
-    <div class="testimonial-card">
-      <h4>Benjamin A. — Manager Data Analyst Marketing</h4>
+  <div class="testi">
+    <div class="quote">
+      <div class="q-top">
+        <div class="q-name">Benjamin A.</div>
+        <div class="q-role">Manager — Data Analyst Marketing</div>
+      </div>
       <p>
-        « Cédric a contribué de manière déterminante à un projet de détection de signaux d’affaires,
-        de la collecte multi-sources à la restitution Power BI avec IA sémantique Azure.
-        Solide techniquement, structuré et impliqué, il a livré des résultats exploitables et pertinents. »
+        « Cédric a contribué de façon déterminante à un projet de détection de signaux d’affaires,
+        de la collecte multi-sources à la restitution Power BI, en intégrant l’IA sémantique Azure.
+        Solide techniquement (Python, Azure, Power BI, Dynamics 365), structuré et impliqué,
+        il délivre des résultats exploitables par les équipes métiers. »
       </p>
     </div>
 
-    <div class="testimonial-card">
-      <h4>Matthieu A. — Responsable Admissions</h4>
+    <div class="quote">
+      <div class="q-top">
+        <div class="q-name">Matthieu A.</div>
+        <div class="q-role">Responsable Admissions</div>
+      </div>
       <p>
-        « Nous avons collaboré sur plusieurs salons professionnels.
+        « Nous avons collaboré sur plusieurs salons.
         Son sérieux et sa capacité d’apprentissage rapide m’ont impressionné :
         en une matinée, il a maîtrisé le discours d’aivancity avec aisance et professionnalisme. »
       </p>
     </div>
 
-    <div class="testimonial-card">
-      <h4>Anaïs M. — Consultante Microsoft Fabric & Power BI (MCT)</h4>
+    <div class="quote">
+      <div class="q-top">
+        <div class="q-name">Anaïs M.</div>
+        <div class="q-role">Consultante Fabric & Power BI — MCT</div>
+      </div>
       <p>
         « Cédric est un élément sérieux et compétent.
-        Sur un projet de Data Analyse avec Power BI, il a livré des analyses pertinentes et une méthode agile claire,
-        optimisant la qualité et la rigueur du rendu. »
+        Sur un projet de Data Analyse avec Power BI, il a livré des analyses pertinentes
+        et une méthode agile claire, optimisant la qualité et la rigueur du rendu. »
       </p>
     </div>
 
-    <div class="testimonial-card">
-      <h4>Franck S. T. — Data Consultant & Formateur IA</h4>
+    <div class="quote">
+      <div class="q-top">
+        <div class="q-name">Franck S. T.</div>
+        <div class="q-role">Data Consultant • Formateur IA</div>
+      </div>
       <p>
         “I highly recommend Cédric for any Data Management role.
-        His technical expertise, curiosity, and teamwork skills make him a standout professional ready for complex challenges.”
+        His technical expertise, curiosity, and teamwork skills make him a standout
+        professional ready for complex challenges.”
       </p>
     </div>
   </div>
 </section>
-
-
 
 <!-- ======= SECTION CONTACT (structure corrigée) ======= -->
 <section id="contact" style="padding: 4rem 1rem;">
@@ -940,29 +955,7 @@
       el.style.opacity = '0';
       el.style.transform = 'translateY(20px)';
       el.style.transition = 'all 0.6s ease';
-      mainObserver.observe(el);
-  });
-
-  // ✅ Témoignages : observer séparé
-  const testimonialObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-          if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-          }
-      });
-  }, { threshold: 0.2 });
-
-  document.querySelectorAll('.testimonial-card').forEach(el => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(20px)';
-      el.style.transition = 'all 0.6s ease';
-      testimonialObserver.observe(el);
-  });
-
-  // ✅ Sécurité : forcer l'affichage si observer non déclenché
-  window.addEventListener('load', () => {
-      document.querySelectorAll('.testimonial-card').forEach(el => {
-          setTimeout(() => el.classList.add('visible'), 500);
-      });
-  });
+     mainObserver.observe(el);
+});
 </script>
+
