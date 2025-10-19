@@ -14,32 +14,34 @@
   <img src="https://komarev.com/ghpvc/?username=meneda11&label=Profile%20views&color=blue&style=plastic" alt="meneda11" />
 </p>
 
-## 👨‍💻 About Me
-- 🌱 I'm currently learning AWS AI and Salesforce CRM  
-- 👨‍💻 All of my projects are available at [GitHub Portfolio](https://github.com/meneda11/data-science-portfolio)  
-- 🌐 Check out my personal website: [meneda11.github.io](https://meneda11.github.io/meneda11/)  
-- 💼 Azure Certified Cloud  
-- 📍 Based in Paris, France  
-- 📫 Reach me: **mcedricstephane@gmail.com**
+## 👨‍💻 À propos de moi
+- 🌱 J’apprends actuellement Salesforce CRM
+- 👨‍💻 Tous mes projets sont disponibles sur [GitHub Portfolio](https://github.com/meneda11/data-science-portfolio)  
+- 🌐 Consultez mon site Web personnel : [meneda11.github.io](https://meneda11.github.io/meneda11/)  
+- <p>🏅 <strong> Azure Certified Cloud  </strong><p>
+- <p>🏅 <strong>AWS Certified AI Practitioner </strong><p>
+- 📍 Basé à Paris, France  
+- 📫 Contactez-moi : **mcedricstephane@gmail.com**
 
 🔭 **Current Focus:**
 
-Bridging data engineering, data analytics, and predictive intelligence to turn marketing and business data into performance drivers and decision-making insights.
+Relier l'ingénierie des données, l'analyse des données et l'intelligence prédictive pour transformer les données marketing et commerciales en moteurs de performance et en informations décisionnelles.
 
-💡 **What I Do:**
-- ☁️ Design and deploy scalable cloud architectures
-- 🔄 Develop robust ETL and data warehousing systems
-- 📧 Enhance marketing & CRM intelligence through automation and targeting
-- 📊 Turn complex data into actionable insights 
-- 🤖 Build machine learning and generative AI solutions
+💡 **Ce que je fais :**
+- ☁️ Concevoir et déployer des architectures cloud évolutives
+- 🔄 Développer des systèmes ETL et d'entreposage de données robustes
+- 📧 Améliorez l'intelligence marketing et CRM grâce à l'automatisation et au ciblage
+- 📊 Transformez des données complexes en informations exploitables
+- 🤖 Construire des solutions d'apprentissage automatique et d'IA générative
 
 
 ### 🏅 Certifications  
 [![Microsoft Certified: Azure Fundamentals](https://img.shields.io/badge/Certified-Azure%20Fundamentals-0078D4?style=flat&logo=microsoft-azure&logoColor=white)](https://www.credly.com/badges/c88b8fb5-4f8d-4799-ac23-631fd1c382e0/linked_in?t=rqe00j)
+[![AWS Certified: AI Practitioner](https://img.shields.io/badge/Certified-AWS%20AI%20Practitioner-FF9900?style=flat&logo=amazon-aws&logoColor=white)](https://www.credly.com/org/amazon-web-services/badge/aws-certified-ai-practitioner)
 
-### 🎓 Degrees    
-- Master of Science – Data Management (Big Data Infrastructure Expert)
-- IT Engineer (Networks & Telecom)
+### 🎓 Diplômes    
+- Master of Science – Gestion des données (Expert en infrastructures Big Data)
+- Ingénieur informatique (Réseaux et Télécoms)
 
 ---
 
@@ -105,9 +107,9 @@ Bridging data engineering, data analytics, and predictive intelligence to turn m
 
 <div align="center">
 
-### 🔬 AI & Data Science Portfolio
+### 🔬 Portfolio IA et science des données
 
-Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **Machine Learning**, **Computer Vision**, and **Predictive Analytics**.
+Découvrez mes projets pratiques mettant en valeur mon expertise en : **Cloud Architecture**, **Machine Learning**, **Computer Vision**, and **Predictive Analytics**.
 
 [![View All Projects](https://img.shields.io/badge/📂_View_All_Projects-blue?style=for-the-badge)](https://github.com/meneda11/data-science-portfolio)
 
@@ -117,21 +119,22 @@ Explore my hands-on projects showcasing expertise in **Cloud Architecture**, **M
 
 | Project | Domain | Tech Stack | Key Achievement |
 |---------|--------|------------|-----------------|
-| 🤖 **[Business Signal Detection & Recommendation Engine](https://github.com/meneda11/Business-signal-detection-and-recommandation-engine)** | AI/ML | Azure, Microsoft Fabric, Azure OpenAI, Dynamics 365, Power BI, Python | Built enterprise-grade AI recommendation engine with multi-source data integration and predictive scoring |
-| ⚙️ **[Industrial Predictive Maintenance](https://github.com/meneda11/predictive-maintenance)** | Data Science / Industrial | Python, XGBoost, Random Forest, Scikit-learn, Docker, Airflow, Weights & Biases | Developed ensemble ML models achieving 90%+ prediction accuracy and automated deployment pipeline |
-| 🔬 **[Single PCR Data Analysis & Modeling](https://github.com/meneda11/pcr-analysis)** | Data Science / Bioinformatics | Python, Scikit-learn, NumPy, Pandas, Matplotlib, VS Code | Automated PCR data processing and visualization, analyzed Cq values and predictive modeling |
-| 🐝 **[Bee Colony Health Monitoring](https://github.com/meneda11/bee-health-ai)** | Data Science / Computer Vision + IoT | Python, YOLOv5, PyTorch, IoT | Developed AI system for monitoring bee colony health with multi-sensor analysis and object detection |
-| 📈 **[Web Analytics & Tracking](#web-analytics-details)** | Web Analytics & BI | Matomo, Power BI, Google Analytics, Dynamics 365, Python | End-to-end web tracking, dashboarding, user behavior analysis, GDPR compliance |
-| 📧 **[Marketing Data Intelligence](#marketing-intelligence-details)** | Marketing Analytics | Power BI, Azure AI, Microsoft Fabric, Databricks, Dynamics 365, Google Analytics, Matomo | Designed marketing dashboards, NPS/CSAT analysis, AI-powered signal detection, multi-source integration |
-| 🗄️ **[CRM Data Quality & Automation](#crm-details)** | Data Engineering & CRM | Python, Dynamics 365, Power BI, Azure Logic Apps, Microsoft Fabric, Databricks, SQL Server | Automated CRM cleaning, validation, dashboards, and data governance |
-| 🏗️ **[Data Architecture & Pipeline Automation](#fabric-pipeline-details)** | Data Engineering | Microsoft Fabric, Azure, Databricks, Dynamics 365, Python, SQL, Power BI, Matomo, Google Analytics | Built Lakehouse architecture, automated ETL pipelines, data modeling, and improved analytics reliability |
-| 📡 **[Network Performance Optimization & Monitoring](#network-monitoring-details)** | Data Engineering | Python, SQL, Power BI | Designed real-time network monitoring pipelines, anomaly detection, and dashboards; reduced incident response time by 40% |
+| 🤖 **[Business Signal Detection & Recommendation Engine](https://github.com/meneda11/Business-signal-detection-and-recommandation-engine)** | AI/ML | Azure, Microsoft Fabric, Azure OpenAI, Dynamics 365, Power BI, Python | Moteur d’IA de recommandation et de détection de signaux d’affaires, exploitant des données multi-sources pour anticiper les besoins clients à l’échelle entreprise. |
+| ⚙️ **[Industrial Predictive Maintenance](https://github.com/meneda11/predictive-maintenance)** | Data Science / Industrial | AWS, Python, XGBoost, Random Forest, Scikit-learn, Docker, Airflow, Weights & Biases | Pipeline MLOps de prédiction de défaillance d’équipements industriels, estimant la probabilité qu’un équipement tombe en panne dans les 24 heures. |
+| 📈 **[Web Analytics & Tracking](#web-analytics-details)** | Web Analytics & BI | Matomo, Power BI, Google Analytics, Dynamics 365, Python | Mise en place des balises UTM, des déclencheurs et analyse comportementale des utilisateurs sur le site web (site Web) |
+| 📧 **[Marketing Data Intelligence](#marketing-intelligence-details)** | Marketing Analytics | Power BI, Azure AI, Microsoft Fabric, Databricks, Dynamics 365, Google Analytics, Matomo | Analyse des performances emailing, segmentation et ciblage marketing, exploitation des données clients et création de dashboards décisionnels pour le pilotage stratégique. |
+| 🗄️ **[CRM Data Quality & Automation](#crm-details)** | Data Engineering & CRM | Python, Dynamics 365, Power BI, Azure Logic Apps, Microsoft Fabric, Databricks, SQL Server | Développement d’un script Python automatisant le nettoyage et la validation des adresses emails dans le CRM afin d’améliorer la qualité et la fiabilité des données marketing. |
+| 🧾 Enquêtes de Satisfaction & Analyse NPS | Analyse de l’expérience client | Power BI, Dynamics 365, Microsoft Forms | Collecte et analyse d’enquêtes de satisfaction (NPS, CSAT, CES) pour mesurer l’expérience client, identifier les leviers d’amélioration et piloter les actions marketing et qualité. |
+| 🏗️ **[Data Architecture & Pipeline Automation](#fabric-pipeline-details)** | Data Engineering | Microsoft Fabric, Azure, Databricks, Dynamics 365, Python, SQL, Power BI, Matomo, Google Analytics | Mise en place d’une architecture Lakehouse unifiée, assurant la centralisation des données et combinant ingestion automatisée (ETL), modélisation des données et gouvernance renforcée pour fiabiliser les analyses à grande échelle. |
+| 🔬 **[Single PCR Data Analysis & Modeling](https://github.com/meneda11/pcr-analysis)** | Data Science / Bioinformatics | Python, Scikit-learn, NumPy, Pandas, Matplotlib, VS Code | Traitement et visualisation automatisés des données PCR, valeurs Cq analysées et modélisation prédictive. |
+| 🐝 **[Bee Colony Health Monitoring](https://github.com/meneda11/bee-health-ai)** | Data Science / Computer Vision + IoT | Python, YOLOv5, PyTorch, IoT | Système d’IA développé pour surveiller la santé des colonies d’abeilles, combinant analyse multi-capteurs, détection d’objets et analyse audio sur des données hétérogènes. |
+| 📡 **[Network Performance Optimization & Monitoring](#network-monitoring-details)** | Data Engineering | Python, SQL, Power BI | Conception de pipelines de surveillance réseau en temps réel, intégrant la détection d’anomalies et des tableaux de bord interactifs, ayant permis de réduire le temps de réponse aux incidents de 40 %. |
 
 ---
 
 ## 📬 Contact
 
-Interested in collaboration or discussing these projects?
+Intéressé par une collaboration ou une discussion sur ces projets ?
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/cedricstephanemeneda)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mcedricstephane@gmail.com)
@@ -141,7 +144,7 @@ Interested in collaboration or discussing these projects?
 
 <div align="center">
 
-⭐️ **Star this repository if you find it useful!**
+⭐️ **Ajoutez ce dépôt à vos favoris si vous le trouvez utile !**
 
 </div>
 
@@ -151,42 +154,40 @@ Interested in collaboration or discussing these projects?
 
 ### ☁️ Cloud Computing
 - Microsoft Azure (Data Factory, Machine Learning, Synapse Analytics, OpenAI Services)
-- Microsoft Fabric (Lakehouse, Data Pipelines, OneLake)
-- Amazon Web Services (Bedrock, SageMaker, JumpStart, IA responsable/Gouvernance)
-- Cost optimization and resource management
+- Microsoft Fabric (Lakehouse, pipelines de données, OneLake)
+- Amazon Web Services (Bedrock, SageMaker, JumpStart, responsable IA/Gouvernance)
+- Optimisation des coûts et gestion des ressources
 
 ### 📊 Marketing and Business Intelligence & Analytics
-- Interactive and automated dashboard design (Power BI, Tableau, DAX, M)
-- Data modeling, cleaning, and transformation for CRM & marketing data
-- Web tracking and performance analytics (Matomo, Google Analytics)
-- Customer segmentation, targeting, scoring, and lead generation
-- Automation of reporting and marketing KPIs (Azure, Databricks, Python, SQL)
+- Conception de tableaux de bord interactifs et automatisés (Power BI, Tableau, DAX, M)
+- Modélisation, nettoyage et transformation des données pour les données CRM et marketing
+- Suivi Web et analyse des performances (Matomo, Google Analytics)
+- Segmentation de la clientèle, ciblage, notation et génération de leads
+- Automatisation des KPI de reporting et de marketing (Azure, Databricks, Python, SQL)
 
 ### 🔧 Data Engineering & Architecture
-- ETL/ELT pipeline development (Databricks, Fabric, Azure Data Factory)
-- Lakehouse & Data Warehouse architecture (Bronze/Silver/Gold)
-- Data quality, lineage, and governance
-- Integration with CRM systems (Dynamics 365, Salesforce)
+- Développement de pipelines ETL/ELT (Databricks, Fabric, Azure Data Factory)
+- Architecture Lakehouse et Data Warehouse (Bronze/Argent/Or)
+- Qualité des données, lignée et gouvernance
+- Intégration avec les systèmes CRM (Dynamics 365, Salesforce)
 
 ### 🤖 Artificial Intelligence & Machine Learning
-- Supervised & Unsupervised Learning (Regression, Classification, Clustering)
-- Natural Language Processing (NLP, Embeddings, Semantic Search)
-- Generative AI (Azure OpenAI Services, Azure AI Search, LLM integration, Bedrock, JumpStart)
-- Computer Vision (image processing, detection models)
-- Model deployment, serving & MLOps
-- Predictive analytics and forecasting
-
-
+- Apprentissage supervisé et non supervisé (régression, classification, clustering)
+- Traitement du langage naturel (TALN, intégrations, recherche sémantique)
+- IA générative (Azure OpenAI Services, Azure AI Search, intégration LLM, Bedrock, JumpStart)
+- Vision par ordinateur (traitement d'images, modèles de détection)
+- Déploiement de modèles, service et MLOps
+- Analyse prédictive et prévision
   
 ---
 
-## 📊 GitHub Stats
+## 📊 Statistiques GitHub
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=meneda11&show_icons=true&count_private=true&theme=tokyonight)
 
 ---
 
-## 🌐 Connect with me
+## 🌐 Connectez-vous avec moi
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/cedricstephanemeneda)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mcedricstephane@gmail.com)
