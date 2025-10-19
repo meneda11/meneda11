@@ -29,8 +29,8 @@ Relier l'ingénierie des données, l'analyse des données et l'intelligence pré
 
 💡 **Ce que je fais :**
 - ☁️ Concevoir et déployer des architectures cloud évolutives
-- 🔄 Développer des systèmes ETL et d'entreposage de données robustes
-- 📧 Améliorez l'intelligence marketing et CRM grâce à l'automatisation et au ciblage
+- 🔄 Développer des pipelines ETL et des entrepôts de données fiables
+- 📧 Renforcer l’intelligence marketing et CRM par l’automatisation et le ciblage data-driven
 - 📊 Transformez des données complexes en informations exploitables
 - 🤖 Construire des solutions d'apprentissage automatique et d'IA générative
 
