@@ -25,7 +25,7 @@
 
 🔭 **Current Focus:**
 
-Relier l'ingénierie des données, l'analyse des données et l'intelligence prédictive pour transformer les données marketing et commerciales en moteurs de performance et en informations décisionnelles.
+Connecter la data, l’analyse et l’intelligence prédictive pour aider les entreprises à transformer leurs données en décisions et en performance.
 
 💡 **Ce que je fais :**
 - ☁️ Concevoir et déployer des architectures cloud évolutives
