@@ -18,10 +18,8 @@
 - 🌱 J’apprends actuellement Salesforce CRM
 - 👨‍💻 Tous mes projets sont disponibles sur [GitHub Portfolio](https://github.com/meneda11/data-science-portfolio)  
 - 🌐 Consultez mon site Web personnel : [meneda11.github.io](https://meneda11.github.io/meneda11/)  
-- <p>
-  🏅 <a href="https://www.credly.com/badges/c88b8fb5-4f8d-4799-ac23-631fd1c382e0/linked_in?t=rqe00j" target="_blank" style="color: var(--primary); text-decoration: none;">Azure Certified: Cloud </a><br>
-  🏅 <a href="https://www.credly.com/badges/e57e307d-dda9-4b7b-b22c-737d94e1c613/public_url" target="_blank" style="color: var(--primary); text-decoration: none;">AWS Certified: AI Practitioner</a>
-</p>
+- 🏅 <a href="https://www.credly.com/badges/c88b8fb5-4f8d-4799-ac23-631fd1c382e0/linked_in?t=rqe00j" target="_blank" style="color: var(--primary); text-decoration: none;">Azure Certified: Cloud </a><br>
+- 🏅 <a href="https://www.credly.com/badges/e57e307d-dda9-4b7b-b22c-737d94e1c613/public_url" target="_blank" style="color: var(--primary); text-decoration: none;">AWS Certified: AI Practitioner</a>
 - 📍 Basé à Paris, France  
 - 📫 Contactez-moi : **mcedricstephane@gmail.com**
 
