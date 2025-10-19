@@ -39,7 +39,7 @@ Connecter la data, l’analyse et l’intelligence prédictive pour aider les en
 [![AWS Certified: AI Practitioner](https://img.shields.io/badge/Certified-AWS%20AI%20Practitioner-FF9900?style=flat&logo=amazon-aws&logoColor=white)](https://www.credly.com/org/amazon-web-services/badge/aws-certified-ai-practitioner)
 
 ### 🎓 Diplômes    
-- Master of Science – Gestion des données (Expert en infrastructures Big Data)
+- Master of Science – Data Management (Expert en infrastructures Big Data)
 - Ingénieur informatique (Réseaux et Télécoms)
 
 ---
