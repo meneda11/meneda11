@@ -15,7 +15,7 @@
 </p>
 
 ## 👨‍💻 À propos de moi
-- 🌱 J’apprends actuellement Salesforce CRM
+- 🌱 J’apprends actuellement l'administration Salesforce CRM
 - 👨‍💻 Tous mes projets sont disponibles sur [GitHub Portfolio](https://github.com/meneda11/data-science-portfolio)  
 - 🌐 Consultez mon site Web personnel : [meneda11.github.io](https://meneda11.github.io/meneda11/)  
 - 🏅 <a href="https://www.credly.com/badges/c88b8fb5-4f8d-4799-ac23-631fd1c382e0/linked_in?t=rqe00j" target="_blank" style="color: var(--primary); text-decoration: none;"> Microsoft Azure Certified </a><br>
