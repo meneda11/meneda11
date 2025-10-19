@@ -18,8 +18,8 @@
 - 🌱 J’apprends actuellement Salesforce CRM
 - 👨‍💻 Tous mes projets sont disponibles sur [GitHub Portfolio](https://github.com/meneda11/data-science-portfolio)  
 - 🌐 Consultez mon site Web personnel : [meneda11.github.io](https://meneda11.github.io/meneda11/)  
-- <p>🏅 <strong> Azure Certified Cloud  </strong><p>
-- <p>🏅 <strong>AWS Certified AI Practitioner </strong><p>
+- 🏅 Azure Certified Cloud
+- 🏅 AWS Certified AI Practitioner
 - 📍 Basé à Paris, France  
 - 📫 Contactez-moi : **mcedricstephane@gmail.com**
 
