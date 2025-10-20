@@ -14,7 +14,7 @@
 ---
 
 ## 🧩 Bloc 2 — Fondamentaux de l’IA, du ML et de l’IA Générative
-- [Vue d’ensemble](#-1-vue-densemble)
+- [Vue d’ensemble](#1-vue-densemble)
 - [Intelligence Artificielle (AI)](#-2-intelligence-artificielle-ai)
 - [Machine Learning (ML)](#-3-machine-learning-ml)
 - [Deep Learning (DL)](#-4-deep-learning-dl)
