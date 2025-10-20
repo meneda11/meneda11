@@ -210,8 +210,23 @@
       text-align:center; margin-bottom:1rem;
     }
     #testimonials .sub{ text-align:center; color:#8B949E; margin-bottom:2rem; font-size:1rem; }
+
+    .more-text { display: none; }
+    .read-more-btn {
+      background: none;
+      border: none;
+      color: var(--primary);
+      cursor: pointer;
+      font-weight: 600;
+      margin-top: .5rem;
+      transition: color .3s;
+    }
+    .read-more-btn:hover { color: var(--secondary); }
+
   </style>
 </head>
+
+
 <body>
   <!-- ===================== NAVIGATION ===================== -->
   <nav>
@@ -490,12 +505,21 @@
           <div class="q-name">Benjamin A.</div>
           <div class="q-role">Manager — Data Analyst Marketing</div>
         </div>
-        <p>
-          « Cédric a contribué de manière déterminante au projet de détection de signaux d’affaires potentiels, en développant un pipeline complet allant de la collecte de données multi-sources jusqu’à la restitution dans Power BI, en passant par l’IA sémantique d’Azure.
-          IL a su démontrer à la fois de solides compétences techniques (Python, Azure, Power BI, CRM Dynamics 365) et une réelle capacité à structurer, documenter et rendre ses travaux exploitables par les équipes métiers.
-          Curieux, rigoureux et impliqué, il a mené ce projet avec sérieux tout en restant ouvert aux échanges et aux retours. Je le recommande sans hésitation pour ses qualités et son grand potentiel. »
-        </p>
+        <div class="long-text">
+          <p>
+            « Cédric a contribué de manière déterminante au projet de détection de signaux d’affaires potentiels,
+            en développant un pipeline complet allant de la collecte de données multi-sources jusqu’à la restitution dans Power BI.
+            <span class="dots">...</span>
+            <span class="more-text">
+              Il a su démontrer de solides compétences techniques (Python, Azure, Power BI, Dynamics 365) et une réelle capacité à structurer, documenter et rendre ses travaux exploitables par les équipes métiers.
+              Curieux, rigoureux et impliqué, il a mené ce projet avec sérieux tout en restant ouvert aux échanges et aux retours.
+              Je le recommande sans hésitation pour ses qualités et son grand potentiel.
+            </span>
+          </p>
+        </div>
+        <button class="read-more-btn">Voir plus</button>
       </div>
+
 
       <div class="quote">
         <div class="q-top">
@@ -513,13 +537,26 @@
           <div class="q-name">Franck S. T.</div>
           <div class="q-role">Data Consultant • Formateur IA</div>
         </div>
-        <p>
-          “t is with great enthusiasm that I recommend Cédric for any opportunity in the field of data management. I had the pleasure of being Cédric's tutor, and throughout our time together, he consistently impressed me with his exceptional skills and unwavering curiosity.
-          Cédric's dedication to our projects was truly commendable. He approached each task with a high level of enthusiasm and a willingness to dive deep into the subject matter. His in-depth understanding of data management principles was evident in the thoroughness of his work and his ability to tackle complex problems with ease. 
-          What truly sets Cédric apart is his insatiable curiosity. He constantly sought out new challenges and opportunities to expand his knowledge. Whether it was exploring advanced techniques or delving into emerging trends in the field, Cédric was always eager to learn and grow.
-          Furthermore, Cédric's collaborative nature made him a valuable asset to our team. He communicated effectively, actively listened to others' ideas, and contributed thoughtfully to discussions. His positive attitude and willingness to help others fostered a supportive learning environment for everyone involved.
-          I have no doubt that Cédric's combination of technical expertise, curiosity, and teamwork skills make him a standout candidate for any data management role. I wholeheartedly endorse him and am confident that he will excel in any endeavor he pursues..”
-        </p>
+      
+        <div class="long-text">
+          <p>
+            “It is with great enthusiasm that I recommend Cédric for any opportunity in the field of data management.
+            I had the pleasure of being Cédric's tutor, and throughout our time together, he consistently impressed me with his exceptional skills and unwavering curiosity.
+            <span class="dots">...</span>
+            <span class="more-text">
+              Cédric's dedication to our projects was truly commendable. He approached each task with a high level of enthusiasm and a willingness to dive deep into the subject matter.
+              His in-depth understanding of data management principles was evident in the thoroughness of his work and his ability to tackle complex problems with ease.
+              What truly sets Cédric apart is his insatiable curiosity. He constantly sought out new challenges and opportunities to expand his knowledge.
+              Whether it was exploring advanced techniques or delving into emerging trends in the field, Cédric was always eager to learn and grow.
+              Furthermore, Cédric's collaborative nature made him a valuable asset to our team. He communicated effectively, actively listened to others' ideas, and contributed thoughtfully to discussions.
+              His positive attitude and willingness to help others fostered a supportive learning environment for everyone involved.
+              I have no doubt that Cédric's combination of technical expertise, curiosity, and teamwork skills make him a standout candidate for any data management role.
+              I wholeheartedly endorse him and am confident that he will excel in any endeavor he pursues.”
+            </span>
+          </p>
+        </div>
+        
+        <button class="read-more-btn">Voir plus</button>
       </div>
 
       <div class="quote">
@@ -707,5 +744,22 @@
     // Fermer sur "Echap"
     document.addEventListener('keydown',(e)=>{ if(e.key==='Escape') closeMenu(); });
   </script>
+
+  <script>
+  // Gestion des "voir plus / voir moins"
+  document.querySelectorAll('.read-more-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const quote = button.previousElementSibling;
+      const dots = quote.querySelector('.dots');
+      const moreText = quote.querySelector('.more-text');
+
+      const isExpanded = moreText.style.display === "inline";
+      moreText.style.display = isExpanded ? "none" : "inline";
+      dots.style.display = isExpanded ? "inline" : "none";
+      button.textContent = isExpanded ? "Voir plus" : "Voir moins";
+    });
+  });
+</script>
+
 </body>
 </html>
