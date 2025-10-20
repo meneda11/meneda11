@@ -205,9 +205,19 @@ Régression linéaire, arbres de décision, SVM, k-means, etc.
 2. Entraînement et ajustement  
 3. Évaluation (métriques : précision, rappel, F1, ROC, etc.)  
 4. Déploiement  
-5. Surveillance et ré-entraînement  
+5. Surveillance et ré-entraînement
+
+### Types d’apprentissage en Machine Learning  
+
+| **Type** | **Principe** | **Exemples** | **Objectif** |
+|-----------|--------------|---------------|---------------|
+| **Supervisé** | Le modèle apprend à partir de données étiquetées (X, Y) | Régression, classification | Prédire une valeur ou une catégorie connue |
+| **Non supervisé** | Pas d’étiquettes, le modèle découvre des structures cachées | Clustering, réduction de dimension | Identifier des patterns ou groupes |
+| **Semi-supervisé** | Mélange de données étiquetées et non étiquetées | Détection d’anomalies, reconnaissance vocale | Réduire le besoin de données étiquetées |
+| **Apprentissage par renforcement (RL)** | L’agent apprend par essais-erreurs selon les récompenses reçues | Jeux, robotique, recommandation | Maximiser une récompense à long terme |
 
 **Astuce à retenir**  
+> *Supervisé = guidé, Non supervisé = découverte, Renforcement = interaction.* 
 > *ML = apprentissage basé sur les données. Plus il apprend, meilleur il devient.*
 
 ---
@@ -239,9 +249,17 @@ Elle repose sur des **modèles de fondation** (foundation models) : des modèles
 ➡️ *Ces modèles peuvent être adaptés (fine-tuning ou RAG) à des tâches spécifiques.*
 
 **Exemples**  
-- ChatGPT : génération de texte  
-- DALL·E : génération d’images  
-- Amazon Titan : modèles AWS pour texte et vision  
+- GPT : générer du texte humain ou du code informatique.
+- BERT : similaire à GPT mais lit le texte dans les deux sens, utile pour la traduction.   
+- DALL·E : génération d’images
+- RESNET : destiné aux images
+- GAN : pour la data augmentation
+- WaveNet : pour la synthèse vocale 
+- Amazon Titan : modèles AWS pour texte et vision
+- Diffusion Models : génèrent des images en partant du bruit et en raffinant progressivement le signal (ex. Stable Diffusion).  
+- Non-déterminisme : les modèles génératifs peuvent produire des sorties différentes pour une même requête selon la *température* et le *Top-P*.  
+> *Chaque génération est unique, influencée par les paramètres d’inférence.*
+
 
 **Astuce à retenir**  
 > *Générative AI = produire du contenu nouveau, pas seulement analyser.*
@@ -283,11 +301,11 @@ GPT-4, Claude 2, BERT, T5.
 
 ## 8. Recherche sémantique et bases vectorielles  
 
-### 🔍 Méthodes de recherche
+### Méthodes de recherche
 - **Keyword Search** : recherche par mots-clés exacts.  
 - **Semantic Search** : compréhension du sens grâce aux embeddings.  
 
-### 🗂️ Vector Databases (AWS)
+### Vector Databases (AWS)
 | Service | Fonctionnalité clé | Cas d’usage |
 |----------|-------------------|--------------|
 | **Amazon OpenSearch Service** | k-NN search | Monitoring, logs, recherche sémantique |
@@ -312,7 +330,7 @@ Le pipeline ML structure toutes les étapes : de la collecte des données jusqu�
 4. **Préparer et nettoyer** → Glue, DataBrew, Macie.  
 5. **Feature engineering** → Feature Store, Data Wrangler.  
 6. **Entraîner / Évaluer** → SageMaker Training, Autopilot.  
-7. **Déployer** → Real-time, Batch, Serverless, Bedrock Agents.  
+7. **Déployer** → Real-time, Batch, Serverless, Asynchrone, Bedrock Agents.  
 8. **Surveiller** → Model Monitor, CloudWatch.  
 9. **Automatiser (MLOps)** → Pipelines, CodePipeline, Model Registry.  
 
@@ -346,8 +364,15 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 |------------|-------|-----------|
 | **Température** | Plus haute = réponses plus créatives | Baisser pour des réponses fiables |
 | **Top-P (Nucleus)** | Sélection adaptative de tokens | Équilibre entre diversité et cohérence |
-| **Batch Size / Epochs** | Taille et nombre de passes d’entraînement | Trop haut = overfitting |
+| **Batch Size** | Nombre d’échantillons traités avant mise à jour du modèle | Trop grand = apprentissage instable / mauvaise généralisation |
+| **Epochs** | Nombre de passes complètes sur le dataset d’entraînement | Trop haut = overfitting |
 | **Learning Rate** | Vitesse d’apprentissage | Trop haut = instable, trop bas = lent |
+| **Biais élevé** | Le modèle généralise mal, faible performance sur train et test | Sous-ajustement (*underfitting*) | Ajouter des features, augmenter la complexité du modèle |
+| **Variance élevée** | Bon sur train mais mauvais sur test | Sur-ajustement (*overfitting*) | Régularisation (L1/L2), dropout, plus de données |
+| **Biais + Variance faibles** | Bon équilibre entre précision et généralisation | Modèle bien réglé | — |
+
+**Astuce à retenir**  
+> *Biais ↑ = modèle trop simple ; Variance ↑ = modèle trop complexe.*
 
 ---
 
@@ -368,8 +393,8 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 - **MLOps** : automatiser l’entraînement, le déploiement et la surveillance.  
 - **Gouvernance** : documenter, tracer, expliquer les modèles (Clarify, Model Cards).  
-- **Sécurité** : IAM, KMS, PrivateLink, CloudTrail, Config, Artifact.  
-- **Conformité** : ISO, SOC, RGPD via Audit Manager et Trusted Advisor.
+- **Sécurité** : IAM, KMS, Macie, PrivateLink, CloudTrail, Guardrails  
+- **Conformité** : ISO, SOC, RGPD via Audit Manager, Config, Artifact et Trusted Advisor.
 
 **Astuce à retenir**  
 > *Sur AWS, la sécurité et la conformité sont partagées : AWS sécurise le cloud, vous sécurisez vos données et modèles.*
@@ -378,14 +403,28 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 ## 14. Services AWS clés pour le ML et l’IA  
 
-| Catégorie | Service | Description courte |
-|------------|----------|-------------------|
-| **Vision** | Rekognition | Analyse d’images, vidéos, détection d’objets |
-| **Texte / Langage** | Comprehend, Textract, Translate, Transcribe, Polly, Lex | NLP, OCR, traduction, speech-to-text / text-to-speech |
-| **Expérience client** | Kendra, Personalize, Q in Connect | Recherche, recommandation, assistance |
-| **Prévision & Fraude** | Forecast, Fraud Detector | Analyse prédictive et détection d’anomalies |
-| **IA Générative** | Bedrock, Titan, PartyRock | Modèles fondation, génération de contenu |
-| **Plateforme ML** | SageMaker Studio, Canvas, Ground Truth, Feature Store | Développement, visual ML, labeling, gestion des features |
+| **Catégorie** | **Service(s)** | **Description courte** |
+|----------------|----------------|-------------------------|
+| **Vision** | Rekognition | Analyse d’images et vidéos (objets, visages, scènes, texte) |
+| **Texte / Langage** | Comprehend | Analyse de sentiments, extraction d’entités et thèmes (NLP) |
+|  | Textract | Extraction automatique de texte et de champs à partir de documents (OCR) |
+|  | Translate | Traduction automatique de texte multilingue |
+|  | Transcribe | Conversion de la parole en texte (speech-to-text) |
+|  | Polly | Génération vocale naturelle à partir de texte (text-to-speech) |
+|  | Lex | Création de chatbots et assistants vocaux basés sur NLP |
+| **Expérience client** | Kendra | Moteur de recherche intelligent basé sur la compréhension du texte |
+|  | Personalize | Recommandations personnalisées en temps réel (comme Netflix/Amazon) |
+|  | Q in Connect | Assistant conversationnel pour centres de contact (IA générative) |
+| **Prévision & Fraude** | Forecast | Prévisions de séries temporelles (ventes, demande, etc.) |
+|  | Fraud Detector | Détection automatique d’activités suspectes et de fraude |
+| **IA Générative** | Bedrock | Accès à des modèles de fondation (Claude, Titan, Stable Diffusion) |
+|  | Titan | Famille de modèles propriétaires AWS pour texte et image |
+|  | PartyRock | Outil no-code pour créer des applis IA génératives (expérimental) |
+| **Plateforme ML** | SageMaker Studio | Environnement complet pour entraîner, déployer et gérer des modèles |
+|  | SageMaker Canvas | Interface visuelle sans code pour le machine learning |
+|  | SageMaker Ground Truth | Annotation et labeling de données d’entraînement |
+|  | SageMaker Feature Store | Stockage et réutilisation des variables/features de ML |
+|  | SageMaker JumpStart | Accès rapide à des modèles et notebooks préentraînés |
 
 ---
 
@@ -393,7 +432,7 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 | Concept | Retenir |
 |----------|----------|
-| **AI > ML > DL > GenAI** | Une hiérarchie du général au spécifique |
+| **AI > ML > DL > IA Générative** | Une hiérarchie du général au spécifique |
 | **LLM / FM** | Modèles de fondation et langage |
 | **RAG** | Combine génération + recherche |
 | **SageMaker = ML End-to-End** | De la donnée au déploiement |
@@ -519,17 +558,40 @@ Combiner **recherche et génération** : le modèle interroge une base vectoriel
 ### 6.3 Transfer Learning  
 Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire le coût et accélérer l’apprentissage.  
 
+### Hiérarchie des coûts de personnalisation (du moins cher au plus cher)
+
+| **Méthode** | **Principe** | **Coût relatif** |
+|--------------|---------------|------------------|
+| **RAG (Retrieval Augmented Generation)** | Le modèle consulte une base vectorielle sans être ré-entraîné | 💲 Faible |
+| **Prompt Tuning / Instruction Tuning** | Ajuste le comportement via des exemples ou instructions | 💲💲 Moyen |
+| **Fine-Tuning** | Ré-entraîne le modèle sur un jeu de données spécifique | 💲💲💲 Élevé |
+| **Continued Pretraining** | Poursuit le pré-entraînement sur de nouvelles données | 💲💲💲💲 Très élevé |
+| **Training from Scratch** | Entraînement complet d’un nouveau modèle | 💲💲💲💲💲 Coût maximal |
+
+**Astuce à retenir**  
+> *Toujours privilégier la méthode la plus simple répondant au besoin : RAG < Fine-Tuning < Pretraining.*
+
 ---
 
 ## 7. Évaluation des modèles  
 
 ### Métriques de performance  
-| Type | Indicateurs | Interprétation |
-|------|--------------|----------------|
-| **Langage** | BLEU, ROUGE, BERTScore, Perplexity | Fidélité du texte généré |
-| **Classification** | Accuracy, Precision, Recall, F1 | Qualité des prédictions |
-| **Évaluation humaine** | Pertinence, Cohérence, Créativité | Mesure qualitative |
-| **Business Metrics** | ROI, taux de conversion, CSAT | Impact métier |
+| **Type de métrique** | **Indicateurs** | **Description courte** |
+|------------------------|----------------|-------------------------|
+| **Langage (NLP / IA générative)** | BLEU | Compare le texte généré à une référence (fidélité linguistique) |
+|  | ROUGE | Mesure la similarité entre résumés (pertinence du contenu) |
+|  | BERTScore | Évalue la proximité sémantique avec le texte attendu |
+|  | Perplexity | Juge la cohérence et la fluidité du texte généré |
+| **Classification (ML)** | Accuracy | Pourcentage global de prédictions correctes |
+|  | Precision | Fiabilité des positifs prédits |
+|  | Recall | Capacité à identifier les vrais positifs |
+|  | F1-Score | Équilibre entre précision et rappel |
+| **Évaluation humaine (IA générative)** | Pertinence | La réponse est-elle utile et adaptée ? |
+|  | Cohérence | Le texte est-il logique et fluide ? |
+|  | Créativité | Le contenu est-il original ou apporte-t-il de la valeur ? |
+| **Métriques métier (Business)** | ROI | Mesure le retour sur investissement global de la solution IA |
+|  | Taux de conversion | Impact sur les ventes, clics ou interactions |
+|  | CSAT / NPS | Niveau de satisfaction et de recommandation des utilisateurs |
 
 **Astuce à retenir**  
 > *Évaluez à la fois la performance technique et la valeur métier.*
@@ -539,15 +601,28 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 ## 8. Déploiement sur AWS  
 
 ### Sur Amazon SageMaker  
-- **Real-Time Inference** : faible latence, trafic constant.  
-- **Batch Transform** : traitement par lots.  
-- **Asynchronous Inference** : requêtes longues.  
-- **Serverless Inference** : auto-scaling automatique.  
+- **Real-Time Inference** : Faible latence, adapté au trafic constant et aux applications interactives.  
+- **Batch Transform** : Latence élevée, traitement de gros volumes de données par lots.  
+- **Asynchronous Inference** : Latence moyenne, conçu pour les requêtes longues ou volumineuses.  
+- **Serverless Inference** : Faible latence après initialisation, démarrage à la demande et auto-scaling automatique.   
 
 ### Sur Amazon Bedrock  
 - **On-Demand Inference** : paiement à l’usage, idéal pour prototypes.  
 - **Provisioned Throughput** : capacité garantie pour modèles personnalisés.  
 - **Bedrock Agents** : agents multi-étapes connectés à Kendra, Lambda, S3.  
+
+### Amazon Q — Les assistants IA d’AWS  
+
+| **Version** | **Domaine d’application** | **Description courte** |
+|--------------|---------------------------|-------------------------|
+| **Amazon Q Business** | Productivité d’entreprise | Assistant IA pour recherche et synthèse d’informations internes (emails, documents, intranet) |
+| **Amazon Q Developer** | Développement logiciel | Génère, explique et corrige du code dans AWS Cloud9, VS Code ou SageMaker Studio Lab |
+| **Amazon Q for QuickSight** | Data Analytics | Posez des questions en langage naturel pour créer visualisations et insights |
+| **Amazon Q for Glue** | Data Engineering | Génère automatiquement des scripts ETL et pipelines Glue |
+| **Amazon Q Chatbot** | Service client / intégration | Crée des agents conversationnels connectés à Bedrock, Lambda ou Kendra |
+
+**Astuce à retenir**  
+> *Amazon Q = famille d’assistants IA spécialisés : Business, Developer, Analytics et Chatbots.*
 
 ---
 
@@ -568,15 +643,17 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 ## 10. Coûts et optimisation  
 
-| Stratégie | Description |
-|------------|--------------|
-| **Pay-as-You-Go** | Facturation à l’usage (tokens, requêtes, GPU). |
-| **Managed Spot Training** | Utilise la capacité EC2 disponible → -70 % de coût. |
-| **Right-sizing instances** | Choisir le type d’instance adapté (Inf1, G5, P4). |
-| **Monitoring avec Trusted Advisor** | Surveille les surcoûts et optimisations possibles. |
+| **Stratégie / Outil** | **Description courte** |
+|------------------------|------------------------|
+| **Pay-as-You-Go** | Facturation à l’usage (tokens, requêtes, GPU, stockage). |
+| **Managed Spot Training** | Utilise la capacité EC2 disponible pour réduire les coûts jusqu’à -70 %. |
+| **Right-sizing Instances** | Choisir le type d’instance adapté à la charge (Inf1, G5, P4). |
+| **Trusted Advisor** | Recommandations d’optimisation (coût, sécurité, performance). |
+| **AWS Cost Explorer** | Analyse visuelle et détaillée des dépenses par service, région ou projet. |
+| **AWS Budgets** | Fixe des seuils d’alerte pour éviter les dépassements de coûts. |
 
 **Astuce à retenir**  
-> *Optimiser le coût, c’est aussi prouver sa maturité cloud.*
+> *Optimiser les coûts, c’est comprendre, surveiller et anticiper sa consommation cloud.*
 
 ---
 
@@ -868,13 +945,18 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 ## 7. Sécurité spécifique à l’IA et Guardrails (Barrières de protection)
 
 ### 7.1 Risques typiques à surveiller  
-| Risque | Description | Contremesure |
-|--------|--------------|--------------|
-| **Prompt Injection** | Manipulation d’un modèle via des instructions malveillantes cachées dans les prompts. | Validation et filtrage des entrées utilisateurs, Guardrails Bedrock. |
-| **Data Poisoning** | Insertion de données d’entraînement corrompues. | Contrôles d’intégrité, vérification des sources, SageMaker Clarify. |
-| **Model Stealing** | Extraction du modèle via des appels API répétés. | IAM restrictif, quotas d’appels et surveillance CloudTrail. |
-| **Hallucinations** | Réponses inventées ou inexactes émises par le modèle. | RAG (Retrieval Augmented Generation), validation humaine. |
-| **Biais** | Modèle discriminant selon les données d’entraînement. | Détection via SageMaker Clarify, Human-in-the-Loop. |
+
+| **Risque** | **Définition simplifiée** | **Contremesure** |
+|-------------|----------------------------|------------------|
+| **Prompt Injection** | L’utilisateur cache des instructions malveillantes dans le prompt pour tromper le modèle. | Filtrage et validation des entrées, Guardrails Bedrock. |
+| **Jailbreaking** | Tentative de contourner les règles du modèle pour obtenir des réponses interdites. | Guardrails, supervision humaine. |
+| **Hijacking** | Le modèle est détourné par des instructions qui changent son comportement prévu. | Nettoyer le contexte et isoler les sources externes. |
+| **Prompt Leaking** | Le modèle révèle des données sensibles contenues dans ses prompts. | Masquage et chiffrement des données, IAM. |
+| **Data Poisoning** | Des données d’entraînement corrompues modifient le comportement du modèle. | Vérification et contrôle qualité des datasets. |
+| **Model Stealing** | Copie du modèle via des appels API répétés. | Limiter les accès, quotas, et logs CloudTrail. |
+| **Hallucinations** | Le modèle invente des informations fausses mais plausibles. | RAG, validation humaine. |
+| **Biais** | Le modèle produit des réponses discriminantes. | Détection via SageMaker Clarify, audit régulier. |
+| **Data Exfiltration** | Fuite involontaire de données confidentielles via les réponses IA. | IAM strict, chiffrement KMS, PrivateLink. |
 
 ---
 
@@ -976,7 +1058,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 ## Les points essentiels à retenir pour l’examen
 
 ### 🧠 Fondamentaux de l’IA
-- IA > ML > DL > GenAI: du général au spécifique.  
+- IA > ML > DL > IA Générative : du général au spécifique.  
 - Types d’apprentissage : supervisé, non supervisé, par renforcement.  
 - Cycle ML : collecte → préparation → entraînement → évaluation → déploiement.  
 - Services clés : **SageMaker**, **Comprehend**, **Rekognition**, **Lex**, **Translate**, **Transcribe**, **Kendra**.
@@ -1031,8 +1113,7 @@ Une fois l’examen réussi :
 
 ## 💬 Remerciements & Contact  
 
-Ce guide a été créé pour aider les apprenants et professionnels à comprendre les piliers de l’intelligence artificielle sur AWS.  
-Il synthétise les ressources officielles AWS et les meilleures pratiques apprises à travers l’expérience terrain.
+Ce guide a été rédigé par **Cédric Stéphane MENEDA** pour aider les apprenants et professionnels à mieux comprendre les **fondamentaux de l’intelligence artificielle sur AWS**. Il s’appuie sur les **ressources officielles AWS Training & Certification**, les **whitepapers AWS**, ainsi que sur des **expériences et notes personnelles issues de projets réels**.
 
 📫 **Auteur :** [Cédric Stéphane MENEDA](https://github.com/meneda11)  
 🌐 **Portfolio :** [meneda11.github.io/meneda11](https://meneda11.github.io/meneda11)  
@@ -1040,7 +1121,11 @@ Il synthétise les ressources officielles AWS et les meilleures pratiques appris
 📧 **Contact :** mcedricstephane@gmail.com  
 
 > 🚀 *“Apprendre l’IA, c’est apprendre à mieux comprendre le monde qui vient.”*  
-> — AWS Training & Certification Team
+> — AWS Training & Certification Team  
 
+> 📝 *Sources principales :*  
+> - [AWS Training and Certification](https://aws.amazon.com/training)  
+> - [AWS Documentation](https://docs.aws.amazon.com)  
+> - [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/)
 
 
