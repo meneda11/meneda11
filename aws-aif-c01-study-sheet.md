@@ -47,7 +47,7 @@
 
 ---
 
-## Bloc 4 — IA Responsable : Éthique, Transparence et Gouvernance
+## Bloc 4 - IA Responsable Ethique Transparence et Gouvernance
 1. [Objectif du bloc](#1-objectif-du-bloc)
 2. [Les piliers d’une IA responsable](#2-les-piliers-dune-ia-responsable)
 3. [Identifier et réduire les biais](#3-identifier-et-réduire-les-biais)
