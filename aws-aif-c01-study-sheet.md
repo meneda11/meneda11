@@ -8,7 +8,7 @@
 2. [Structure du guide](#2-structure-du-guide)
 3. [Détails de l’examen](#3-détails-de-lexamen)
 4. [Liens utiles](#4-liens-utiles)
-5. [Astuce à retenir](#5-astuce-à-retenir)
+5. [Astuce à retenir](#5-astuce-a-retenir)
 6. [Motivation](#6-motivation)
 
 ---
@@ -86,7 +86,7 @@
 
 # 🎯 Bloc 1 — Introduction & Objectif du guide
 
-## Objectif du guide
+## 1. Objectif du guide
 
 Ce document a été conçu pour accompagner pas à pas toute personne souhaitant **réussir l’examen AWS Certified AI Practitioner (AIF-C01)**.  
 Il synthétise les connaissances essentielles issues des ressources officielles AWS, mais aussi des retours d’expérience pratiques.
@@ -96,10 +96,10 @@ L’objectif est simple :
 👉 Découvrir comment ces technologies sont **intégrées dans l’écosystème AWS**  
 👉 Se préparer efficacement à l’examen grâce à une **progression fluide et claire**
 
-[⬆️ Retour au sommaire](#🎯-bloc-1--introduction--objectif-du-guide)
+[⬆️ Retour au sommaire](#bloc-1--introduction--objectif-du-guide)
 ---
 
-## Structure du guide
+## 2. Structure du guide
 
 Ce guide suit les 5 domaines de l’examen officiel :
 
@@ -114,10 +114,10 @@ Chaque domaine contient :
 - des **exemples concrets**,
 - des **astuces à retenir rapidement** pour réviser efficacement.
 
-[⬆️ Retour au sommaire](#🎯-bloc-1--introduction--objectif-du-guide)
+[⬆️ Retour au sommaire](#bloc-1--introduction--objectif-du-guide)
 ---
 
-## Détails de l’examen
+## 3. Détails de l’examen
 
 | Élément | Détail |
 |----------|--------|
@@ -129,10 +129,10 @@ Chaque domaine contient :
 | **Mode de passage** | En ligne (Pearson VUE) ou dans un centre d’examen agréé |
 | **Prérequis recommandés** | Notions de base en cloud computing et en IA, aucune expérience approfondie requise |
 
-[⬆️ Retour au sommaire](#🎯-bloc-1--introduction--objectif-du-guide)
+[⬆️ Retour au sommaire](#bloc-1--introduction--objectif-du-guide)
 ---
 
-## Liens utiles
+## 4. Liens utiles
 
 - [AWS Certified AI Practitioner — Page officielle](https://aws.amazon.com/certification/certified-ai-practitioner/)
 - [AWS Skill Builder — Formation gratuite](https://skillbuilder.aws)
@@ -141,14 +141,14 @@ Chaque domaine contient :
 
 ---
 
-## Astuce à retenir
+## 5. Astuce à retenir
 
 > *Cet examen n’évalue pas la capacité à coder, mais la compréhension des concepts d’IA et leur application dans l’écosystème AWS.*  
 > Concentrez-vous sur la logique des services, leurs cas d’usage et leurs limites plutôt que sur la syntaxe technique.
 
 ---
 
-## Motivation
+## 6. Motivation
 
 Réussir la certification AWS AI Practitioner, c’est :
 - prouver votre compréhension des fondements de l’IA et du ML,  
@@ -158,7 +158,7 @@ Réussir la certification AWS AI Practitioner, c’est :
 > “Comprendre, c’est déjà apprendre. Apprendre, c’est déjà réussir.”  
 > — *AWS Skill Builder*
 
-[⬆️ Retour au sommaire](#🎯-bloc-1--introduction--objectif-du-guide)
+[⬆️ Retour au sommaire](#bloc-1--introduction--objectif-du-guide)
 
 ---
 
