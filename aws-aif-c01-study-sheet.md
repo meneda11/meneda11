@@ -979,7 +979,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 - IA > ML > DL > GenAI: du général au spécifique.  
 - Types d’apprentissage : supervisé, non supervisé, par renforcement.  
 - Cycle ML : collecte → préparation → entraînement → évaluation → déploiement.  
-- Services clés : **SageMaker**, **Comprehend**, **Rekognition**, **Lex**, **Translate**.
+- Services clés : **SageMaker**, **Comprehend**, **Rekognition**, **Lex**, **Translate**, **Transcribe**, **Kendra**.
 
 ### 🤖 IA Générative & Modèles de fondation
 - Utiliser **Amazon Bedrock** pour accéder à des modèles pré-entraînés.  
