@@ -721,8 +721,7 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 > 💡 *Comprendre comment ajuster, évaluer et déployer un modèle de fondation, c’est franchir la seconde marche vers la maîtrise de l’IA sur AWS.*
 
-[⬆️ Retour au sommaire](#bloc-4--ia-responsable--ethique-transparence-et-gouvernance)
-
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
 
 ---
 
@@ -754,7 +753,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 **Astuce à retenir**  
 > *Une IA responsable = fiable, explicable, équitable et durable.*
 
-[⬆️ Retour au sommaire](#bloc-4--ia-responsable--ethique-transparence-et-gouvernance)
+[⬆️ Retour au sommaire](#bloc-4---ia-responsable-ethique-transparence-et-gouvernance)
 
 ---
 
@@ -787,7 +786,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 **Astuce à retenir**  
 > *Clarify pour les biais, A2I pour le contrôle humain, Model Monitor pour la dérive.*
 
-[⬆️ Retour au sommaire](#bloc-4--ia-responsable--ethique-transparence-et-gouvernance)
+[⬆️ Retour au sommaire](#bloc-4---ia-responsable-ethique-transparence-et-gouvernance)
 
 ---
 
@@ -805,6 +804,8 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 **Astuce à retenir**  
 > *Un modèle explicable est un modèle adoptable.*
+
+[⬆️ Retour au sommaire](#bloc-4---ia-responsable-ethique-transparence-et-gouvernance)
 
 ---
 
@@ -829,6 +830,8 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 **Astuce à retenir**  
 > *Sur AWS, la responsabilité est partagée : AWS protège le cloud, vous protégez vos données et vos modèles.*
 
+[⬆️ Retour au sommaire](#bloc-4---ia-responsable-ethique-transparence-et-gouvernance)
+
 ---
 
 ## 7. Sécurité des données et durabilité  
@@ -839,7 +842,9 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 - **VPC Endpoints et PrivateLink** : limiter l’accès public aux modèles.  
 - **S3 Block Public Access** : empêcher toute exposition accidentelle.  
 - **Surveillance continue** : via **CloudWatch**, **Config**, et **Trusted Advisor**.  
-- **Durabilité** : privilégier les régions AWS alimentées par des énergies renouvelables, réduire la taille des modèles et recycler les instances de calcul.  
+- **Durabilité** : privilégier les régions AWS alimentées par des énergies renouvelables, réduire la taille des modèles et recycler les instances de calcul.
+  
+[⬆️ Retour au sommaire](#bloc-4---ia-responsable-ethique-transparence-et-gouvernance)
 
 ---
 
@@ -853,6 +858,8 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 | **4. Déployer** | Documenter et sécuriser le modèle | Model Registry, KMS, IAM |
 | **5. Surveiller** | Audit continu et réentraînement si dérive | Model Monitor, CloudWatch |
 | **6. Communiquer** | Partager les limites et recommandations | Model Cards, AI Service Cards |
+
+[⬆️ Retour au sommaire](#bloc-4---ia-responsable-ethique-transparence-et-gouvernance)
 
 ---
 
@@ -870,6 +877,8 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 ---
 
 > 🧠 *Une IA responsable n’est pas seulement performante : elle est compréhensible, équitable et digne de confiance.*
+
+[⬆️ Retour au sommaire](#bloc-4---ia-responsable-ethique-transparence-et-gouvernance)
 
 ---
 
