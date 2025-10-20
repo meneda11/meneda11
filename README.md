@@ -24,7 +24,7 @@
 
 🔭 **Current Focus:**
 
-Connecter la data, l’analyse et l’intelligence prédictive pour aider les entreprises à transformer leurs données en décisions et en performance.
+Allier l’ingénierie, l’analyse et l’intelligence artificielle pour transformer les données en leviers de décision et de performance.
 
 💡 **Ce que je fais :**
 - ☁️ Concevoir et déployer des architectures cloud évolutives
