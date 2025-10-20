@@ -80,6 +80,7 @@
 - [🪪 Certification et badge AWS](#-certification-et-badge-aws)
 - [💬 Remerciements & contact](#-remerciements--contact)
 
+---
 
 # 🎯 Bloc 1 — Introduction & Objectif du guide
 
@@ -401,6 +402,7 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 > 🧭 *Si vous comprenez les étapes du pipeline ML et le rôle de chaque service AWS, vous avez déjà 50 % de la certification en main !*
 
+---
 
 # ⚙️ Bloc 3 — Applications des modèles de fondation et ingénierie de prompts  
 
@@ -592,6 +594,7 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 > 💡 *Comprendre comment ajuster, évaluer et déployer un modèle de fondation, c’est franchir la seconde marche vers la maîtrise de l’IA sur AWS.*
 
+---
 
 # 🧭 Bloc 4 — IA Responsable : Éthique, Transparence et Gouvernance  
 
@@ -734,7 +737,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 > 🧠 *Une IA responsable n’est pas seulement performante : elle est compréhensible, équitable et digne de confiance.*
 
-
+---
 
 # 🔐 Bloc 5 — Sécurité, Conformité et Gouvernance pour les Solutions d’IA  
 
@@ -1032,7 +1035,7 @@ Il synthétise les ressources officielles AWS et les meilleures pratiques appris
 📫 **Auteur :** [Cédric Stéphane MENEDA](https://github.com/meneda11)  
 🌐 **Portfolio :** [meneda11.github.io/meneda11](https://meneda11.github.io/meneda11)  
 💼 **GitHub :** [github.com/meneda11](https://github.com/meneda11)  
-📧 **Contact :** cedric.meneda@gmail.com  
+📧 **Contact :** mcedricstephane@gmail.com  
 
 > 🚀 *“Apprendre l’IA, c’est apprendre à mieux comprendre le monde qui vient.”*  
 > — AWS Training & Certification Team
