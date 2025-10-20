@@ -4,12 +4,12 @@
 
 ---
 ## 🎯 Bloc 1 — Introduction & Objectif du guide
-- [Objectif du guide](#-objectif-du-guide)
-- [Structure du guide](#-structure-du-guide)
-- [Détails de l’examen](#️-détails-de-lexamen)
-- [Liens utiles](#-liens-utiles)
-- [Astuce à retenir](#-astuce-à-retenir)
-- [Motivation](#-motivation)
+1. [Objectif du guide](#1-objectif-du-guide)
+2. [Structure du guide](#2-structure-du-guide)
+3. [Détails de l’examen](#3-détails-de-lexamen)
+4. [Liens utiles](#4-liens-utiles)
+5. [Astuce à retenir](#5-astuce-à-retenir)
+6. [Motivation](#6-motivation)
 
 ---
 
@@ -48,38 +48,39 @@
 ---
 
 ## 🧭 Bloc 4 — IA Responsable : Éthique, Transparence et Gouvernance
-- [Objectif du bloc](#1-objectif-du-bloc-1)
-- [Les piliers d’une IA responsable](#2-les-piliers-dune-ia-responsable)
-- [Identifier et réduire les biais](#3-identifier-et-réduire-les-biais)
-- [Outils AWS pour une IA responsable](#4-outils-aws-pour-une-ia-responsable)
-- [Explicabilité et transparence](#5-explicabilité-et-transparence)
-- [Gouvernance et conformité](#6-gouvernance-et-conformité)
-- [Sécurité et durabilité](#7-sécurité-des-données-et-durabilité)
-- [Cadre d’une IA responsable sur AWS](#8-cadre-dune-ia-responsable-sur-aws)
-- [Résumé express](#9-résumé-express)
+1. [Objectif du bloc](#1-objectif-du-bloc)
+2. [Les piliers d’une IA responsable](#2-les-piliers-dune-ia-responsable)
+3. [Identifier et réduire les biais](#3-identifier-et-réduire-les-biais)
+4. [Outils AWS pour une IA responsable](#4-outils-aws-pour-une-ia-responsable)
+5. [Explicabilité et transparence](#5-explicabilité-et-transparence)
+6. [Gouvernance et conformité](#6-gouvernance-et-conformité)
+7. [Sécurité et durabilité](#7-sécurité-et-durabilité)
+8. [Cadre d’une IA responsable sur AWS](#8-cadre-dune-ia-responsable-sur-aws)
+9. [Résumé express](#9-résumé-express)
 
 ---
 
 ## 🔐 Bloc 5 — Sécurité, Conformité et Gouvernance pour les Solutions d’IA
-- [Objectif du bloc](#1-objectif-du-bloc-2)
-- [Modèle de responsabilité partagée](#2-modèle-de-responsabilité-partagée-aws)
-- [Gestion des identités et des accès (IAM)](#3-gestion-des-identités-et-des-accès-iam)
-- [Sécurisation des systèmes d’IA](#4-sécurisation-des-systèmes-dia)
-- [Gouvernance des données et des modèles](#5-gouvernance-des-données-et-des-modèles)
-- [Conformité réglementaire](#6-conformité-réglementaire)
-- [Sécurité spécifique à l’IA et Guardrails Bedrock](#7-sécurité-spécifique-à-lia-et-guardrails-barrières-de-protection)
-- [Sécurité multi-niveaux sur AWS](#8-sécurité-multi-niveaux-sur-aws)
-- [Optimisation des coûts et durabilité](#9-optimisation-des-coûts-et-durabilité)
-- [Résumé express](#10-résumé-express)
+1. [Objectif du bloc](#1-objectif-du-bloc)
+2. [Modèle de responsabilité partagée](#2-modèle-de-responsabilité-partagée)
+3. [Gestion des identités et des accès (IAM)](#3-gestion-des-identités-et-des-accès-iam)
+4. [Sécurisation des systèmes d’IA](#4-sécurisation-des-systèmes-dia)
+5. [Gouvernance des données et des modèles](#5-gouvernance-des-données-et-des-modèles)
+6. [Conformité réglementaire](#6-conformité-réglementaire)
+7. [Sécurité spécifique à l’IA et Guardrails Bedrock](#7-sécurité-spécifique-à-lia-et-guardrails-bedrock)
+8. [Sécurité multi-niveaux sur AWS](#8-sécurité-multi-niveaux-sur-aws)
+9. [Optimisation des coûts et durabilité](#9-optimisation-des-coûts-et-durabilité)
+10. [Résumé express](#10-résumé-express)
 
 ---
 
 ## 🏁 Conclusion
-- [Résumé global du guide](#résumé-global-du-guide)
-- [Points essentiels à retenir](#les-points-essentiels-à-retenir-pour-lexamen)
-- [Conseils pratiques pour l’examen](#conseils-pratiques-pour-réussir-lexamen)
-- [Certification et badge AWS](#certification-et-badge-aws)
-- [Remerciements & contact](#remerciements--contact)
+1. [Résumé global du guide](#1-résumé-global-du-guide)
+2. [Points essentiels à retenir](#2-points-essentiels-à-retenir)
+3. [Conseils pratiques pour l’examen](#3-conseils-pratiques-pour-lexamen)
+4. [Certification et badge AWS](#4-certification-et-badge-aws)
+5. [Remerciements & contact](#5-remerciements--contact)
+
 
 ---
 
@@ -95,6 +96,7 @@ L’objectif est simple :
 👉 Découvrir comment ces technologies sont **intégrées dans l’écosystème AWS**  
 👉 Se préparer efficacement à l’examen grâce à une **progression fluide et claire**
 
+[⬆️ Retour au sommaire](#🎯-bloc-1--introduction--objectif-du-guide)
 ---
 
 ## Structure du guide
@@ -112,6 +114,7 @@ Chaque domaine contient :
 - des **exemples concrets**,
 - des **astuces à retenir rapidement** pour réviser efficacement.
 
+[⬆️ Retour au sommaire](#🎯-bloc-1--introduction--objectif-du-guide)
 ---
 
 ## Détails de l’examen
@@ -126,6 +129,7 @@ Chaque domaine contient :
 | **Mode de passage** | En ligne (Pearson VUE) ou dans un centre d’examen agréé |
 | **Prérequis recommandés** | Notions de base en cloud computing et en IA, aucune expérience approfondie requise |
 
+[⬆️ Retour au sommaire](#🎯-bloc-1--introduction--objectif-du-guide)
 ---
 
 ## Liens utiles
@@ -153,6 +157,8 @@ Réussir la certification AWS AI Practitioner, c’est :
 
 > “Comprendre, c’est déjà apprendre. Apprendre, c’est déjà réussir.”  
 > — *AWS Skill Builder*
+
+[⬆️ Retour au sommaire](#🎯-bloc-1--introduction--objectif-du-guide)
 
 ---
 
