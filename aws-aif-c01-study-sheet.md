@@ -722,7 +722,6 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 > 💡 *Comprendre comment ajuster, évaluer et déployer un modèle de fondation, c’est franchir la seconde marche vers la maîtrise de l’IA sur AWS.*
 
 [⬆️ Retour au sommaire](#bloc-4--ia-responsable--ethique-transparence-et-gouvernance)
-<sub>[⬆️ Retour au sommaire](#bloc-4--ia-responsable--ethique-transparence-et-gouvernance)</sub>
 
 
 ---
@@ -755,7 +754,8 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 **Astuce à retenir**  
 > *Une IA responsable = fiable, explicable, équitable et durable.*
 
-[⬆️ Retour au sommaire](#bloc-4--ia-responsable--éthique-transparence-et-gouvernance)
+[⬆️ Retour au sommaire](#bloc-4--ia-responsable--ethique-transparence-et-gouvernance)
+
 ---
 
 ## 3. Identifier et réduire les biais  
@@ -786,6 +786,8 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 **Astuce à retenir**  
 > *Clarify pour les biais, A2I pour le contrôle humain, Model Monitor pour la dérive.*
+
+[⬆️ Retour au sommaire](#bloc-4--ia-responsable--ethique-transparence-et-gouvernance)
 
 ---
 
