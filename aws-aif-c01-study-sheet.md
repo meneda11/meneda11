@@ -581,7 +581,7 @@ Ces paramètres contrôlent la créativité, la précision et la cohérence du m
 
 ---
 
-## 6. Personnalisation des modèles  
+## 6. [Personnalisation des modèles (Fine-Tuning / RAG)
 
 ### 6.1 Fine-Tuning  
 Adapter un modèle pré-entraîné à votre domaine (juridique, médical, industriel).  
