@@ -155,7 +155,7 @@ Réussir la certification AWS AI Practitioner, c’est :
 
 ---
 
-# 🧩 Bloc 2 — Fondamentaux de l’IA, du Machine Learning et de l’IA Générative  
+# 🧩 Bloc 2 — Fondamentaux de l’IA, du ML et de l’IA Générative  
 
 ---
 
