@@ -1,6 +1,6 @@
-# 🎯 Guide de préparation à la certification AWS Certified AI Practitioner (AIF-C01) — Guide complet
+# Guide de préparation à la certification AWS Certified AI Practitioner (AIF-C01) — Guide complet
 
-# 📚 Table des matières
+# Table des matières
 
 ---
 ## 🎯 Bloc 1 — Introduction & Objectif du guide
@@ -14,71 +14,71 @@
 ---
 
 ## 🧩 Bloc 2 — Fondamentaux de l’IA, du ML et de l’IA Générative
-- [📘 Vue d’ensemble](#-1-vue-densemble)
-- [🤖 Intelligence Artificielle (AI)](#-2-intelligence-artificielle-ai)
-- [📊 Machine Learning (ML)](#-3-machine-learning-ml)
-- [🧠 Deep Learning (DL)](#-4-deep-learning-dl)
-- [🎨 IA Générative et Modèles de Fondation](#-5-ia-générative-et-modèles-de-fondation)
-- [💬 Large Language Models (LLMs)](#-6-large-language-models-llms)
-- [🧩 Concepts clés à maîtriser](#-7-concepts-clés-à-maîtriser)
-- [🧮 Recherche sémantique et bases vectorielles](#-8-recherche-sémantique-et-bases-vectorielles)
-- [🧰 Pipeline de Machine Learning sur AWS](#-9-le-pipeline-de-machine-learning-sur-aws)
-- [🧠 Concepts avancés : RAG, Fine-Tuning et Hyperparamètres](#️-11-concepts-avancés--rag-fine-tuning-et-hyperparamètres)
-- [📊 Évaluation des modèles](#-12-évaluation-des-modèles)
-- [⚙️ MLOps, Gouvernance et Sécurité](#️-13-mlops-gouvernance-et-sécurité)
-- [🚀 Services AWS clés pour le ML et l’IA](#-14-services-aws-clés-pour-le-ml-et-lia)
-- [💡 Résumé express](#-15-résumé-express)
+- [Vue d’ensemble](#-1-vue-densemble)
+- [Intelligence Artificielle (AI)](#-2-intelligence-artificielle-ai)
+- [Machine Learning (ML)](#-3-machine-learning-ml)
+- [Deep Learning (DL)](#-4-deep-learning-dl)
+- [IA Générative et Modèles de Fondation](#-5-ia-générative-et-modèles-de-fondation)
+- [Large Language Models (LLMs)](#-6-large-language-models-llms)
+- [Concepts clés à maîtriser](#-7-concepts-clés-à-maîtriser)
+- [Recherche sémantique et bases vectorielles](#-8-recherche-sémantique-et-bases-vectorielles)
+- [Pipeline de Machine Learning sur AWS](#-9-le-pipeline-de-machine-learning-sur-aws)
+- [Concepts avancés : RAG, Fine-Tuning et Hyperparamètres](#️-11-concepts-avancés--rag-fine-tuning-et-hyperparamètres)
+- [Évaluation des modèles](#-12-évaluation-des-modèles)
+- [MLOps, Gouvernance et Sécurité](#️-13-mlops-gouvernance-et-sécurité)
+- [Services AWS clés pour le ML et l’IA](#-14-services-aws-clés-pour-le-ml-et-lia)
+- [Résumé express](#-15-résumé-express)
 
 ---
 
 ## ⚙️ Bloc 3 — Applications des Modèles de Fondation et Prompt Engineering
-- [🧠 Objectif du bloc](#-1-objectif-du-bloc)
-- [🧩 Comprendre les modèles de fondation](#-2-comprendre-les-modèles-de-fondation)
-- [🔍 Choisir un modèle adapté](#-3-choisir-un-modèle-adapté)
-- [💬 Ingénierie de Prompts (Prompt Engineering)](#-4-lingénierie-de-prompts-prompt-engineering)
-- [🧮 Paramètres d’inférence](#-5-paramètres-dinférence)
-- [🔁 Personnalisation des modèles (Fine-Tuning / RAG)](#-6-personnalisation-des-modèles)
-- [📊 Évaluation des modèles](#-7-évaluation-des-modèles)
-- [🧰 Déploiement sur AWS (SageMaker / Bedrock)](#-8-déploiement-sur-aws)
-- [🔐 Gouvernance, Sécurité et Conformité](#-9-gouvernance-sécurité-et-conformité)
-- [💰 Coûts et optimisation](#-10-coûts-et-optimisation)
-- [💡 Résumé express](#-11-résumé-express)
+- [Objectif du bloc](#-1-objectif-du-bloc)
+- [Comprendre les modèles de fondation](#-2-comprendre-les-modèles-de-fondation)
+- [Choisir un modèle adapté](#-3-choisir-un-modèle-adapté)
+- [Ingénierie de Prompts (Prompt Engineering)](#-4-lingénierie-de-prompts-prompt-engineering)
+- [Paramètres d’inférence](#-5-paramètres-dinférence)
+- [Personnalisation des modèles (Fine-Tuning / RAG)](#-6-personnalisation-des-modèles)
+- [Évaluation des modèles](#-7-évaluation-des-modèles)
+- [Déploiement sur AWS (SageMaker / Bedrock)](#-8-déploiement-sur-aws)
+- [Gouvernance, Sécurité et Conformité](#-9-gouvernance-sécurité-et-conformité)
+- [Coûts et optimisation](#-10-coûts-et-optimisation)
+- [Résumé express](#-11-résumé-express)
 
 ---
 
 ## 🧭 Bloc 4 — IA Responsable : Éthique, Transparence et Gouvernance
-- [🎯 Objectif du bloc](#-1-objectif-du-bloc-1)
-- [⚖️ Les piliers d’une IA responsable](#-2-les-piliers-dune-ia-responsable)
-- [🧩 Identifier et réduire les biais](#-3-identifier-et-réduire-les-biais)
-- [🧠 Outils AWS pour une IA responsable](#-4-outils-aws-pour-une-ia-responsable)
-- [🔍 Explicabilité et transparence](#-5-explicabilité-et-transparence)
-- [🧾 Gouvernance et conformité](#-6-gouvernance-et-conformité)
-- [🧩 Sécurité et durabilité](#-7-sécurité-des-données-et-durabilité)
-- [🧭 Cadre d’une IA responsable sur AWS](#-8-cadre-dune-ia-responsable-sur-aws)
-- [💡 Résumé express](#-9-résumé-express)
+- [Objectif du bloc](#-1-objectif-du-bloc-1)
+- [Les piliers d’une IA responsable](#-2-les-piliers-dune-ia-responsable)
+- [Identifier et réduire les biais](#-3-identifier-et-réduire-les-biais)
+- [Outils AWS pour une IA responsable](#-4-outils-aws-pour-une-ia-responsable)
+- [Explicabilité et transparence](#-5-explicabilité-et-transparence)
+- [Gouvernance et conformité](#-6-gouvernance-et-conformité)
+- [Sécurité et durabilité](#-7-sécurité-des-données-et-durabilité)
+- [Cadre d’une IA responsable sur AWS](#-8-cadre-dune-ia-responsable-sur-aws)
+- [Résumé express](#-9-résumé-express)
 
 ---
 
 ## 🔐 Bloc 5 — Sécurité, Conformité et Gouvernance pour les Solutions d’IA
-- [🎯 Objectif du bloc](#-1-objectif-du-bloc-2)
-- [🧩 Modèle de responsabilité partagée](#-2-modèle-de-responsabilité-partagée-aws)
-- [🔑 Gestion des identités et des accès (IAM)](#-3-gestion-des-identités-et-des-accès-iam)
-- [🧱 Sécurisation des systèmes d’IA](#-4-sécurisation-des-systèmes-dia)
-- [🧾 Gouvernance des données et des modèles](#-5-gouvernance-des-données-et-des-modèles)
-- [📜 Conformité réglementaire](#-6-conformité-réglementaire)
-- [🧠 Sécurité spécifique à l’IA et Guardrails Bedrock](#-7-sécurité-spécifique-à-lia-et-guardrails-barrières-de-protection)
-- [🌐 Sécurité multi-niveaux sur AWS](#-8-sécurité-multi-niveaux-sur-aws)
-- [💰 Optimisation des coûts et durabilité](#-9-optimisation-des-coûts-et-durabilité)
-- [🧩 Résumé express](#-10-résumé-express)
+- [Objectif du bloc](#-1-objectif-du-bloc-2)
+- [Modèle de responsabilité partagée](#-2-modèle-de-responsabilité-partagée-aws)
+- [Gestion des identités et des accès (IAM)](#-3-gestion-des-identités-et-des-accès-iam)
+- [Sécurisation des systèmes d’IA](#-4-sécurisation-des-systèmes-dia)
+- [Gouvernance des données et des modèles](#-5-gouvernance-des-données-et-des-modèles)
+- [Conformité réglementaire](#-6-conformité-réglementaire)
+- [Sécurité spécifique à l’IA et Guardrails Bedrock](#-7-sécurité-spécifique-à-lia-et-guardrails-barrières-de-protection)
+- [Sécurité multi-niveaux sur AWS](#-8-sécurité-multi-niveaux-sur-aws)
+- [Optimisation des coûts et durabilité](#-9-optimisation-des-coûts-et-durabilité)
+- [Résumé express](#-10-résumé-express)
 
 ---
 
 ## 🏁 Conclusion
-- [🌍 Résumé global du guide](#-résumé-global-du-guide)
-- [🧩 Points essentiels à retenir](#-les-points-essentiels-à-retenir-pour-lexamen)
-- [📝 Conseils pratiques pour l’examen](#-conseils-pratiques-pour-réussir-lexamen)
-- [🪪 Certification et badge AWS](#-certification-et-badge-aws)
-- [💬 Remerciements & contact](#-remerciements--contact)
+- [Résumé global du guide](#-résumé-global-du-guide)
+- [Points essentiels à retenir](#-les-points-essentiels-à-retenir-pour-lexamen)
+- [Conseils pratiques pour l’examen](#-conseils-pratiques-pour-réussir-lexamen)
+- [Certification et badge AWS](#-certification-et-badge-aws)
+- [Remerciements & contact](#-remerciements--contact)
 
 ---
 
@@ -153,11 +153,13 @@ Réussir la certification AWS AI Practitioner, c’est :
 > “Comprendre, c’est déjà apprendre. Apprendre, c’est déjà réussir.”  
 > — *AWS Skill Builder*
 
+---
+
 # 🧩 Bloc 2 — Fondamentaux de l’IA, du Machine Learning et de l’IA Générative  
 
 ---
 
-## 📘 1. Vue d’ensemble
+## 1. Vue d’ensemble
 
 L’intelligence artificielle (IA) regroupe un ensemble de technologies permettant aux machines **d’imiter certaines capacités cognitives humaines** : comprendre, apprendre, raisonner, percevoir et créer.  
 AWS intègre ces technologies dans ses services pour rendre leur utilisation **accessible, sécurisée et scalable**.  
@@ -170,7 +172,7 @@ Ce bloc couvre :
 
 ---
 
-## 🤖 2. Intelligence Artificielle (AI)
+## 2. Intelligence Artificielle (AI)
 
 **Définition**  
 L’IA correspond à un ensemble de systèmes capables d’exécuter des tâches qui, normalement, requièrent l’intelligence humaine : raisonnement, planification, reconnaissance de formes, traitement du langage naturel, etc.
@@ -187,7 +189,7 @@ L’IA correspond à un ensemble de systèmes capables d’exécuter des tâches
 
 ---
 
-## 📊 3. Machine Learning (ML)
+## 3. Machine Learning (ML)
 
 **Définition**  
 Sous-domaine de l’IA permettant aux systèmes d’**apprendre à partir de données** sans être explicitement programmés.
@@ -210,7 +212,7 @@ Régression linéaire, arbres de décision, SVM, k-means, etc.
 
 ---
 
-## 🧠 4. Deep Learning (DL)
+## 4. Deep Learning (DL)
 
 **Définition**  
 Sous-catégorie du ML utilisant des **réseaux de neurones profonds** (multi-couches) pour modéliser des relations complexes.
@@ -227,7 +229,7 @@ Sous-catégorie du ML utilisant des **réseaux de neurones profonds** (multi-cou
 
 ---
 
-## 🎨 5. IA Générative et Modèles de Fondation
+## 5. IA Générative et Modèles de Fondation
 
 **Définition**  
 L’IA générative crée du nouveau contenu (texte, image, son, code) à partir de ce qu’elle a appris.  
@@ -246,7 +248,7 @@ Elle repose sur des **modèles de fondation** (foundation models) : des modèles
 
 ---
 
-## 💬 6. Large Language Models (LLMs)
+## 6. Large Language Models (LLMs)
 
 **Définition**  
 Modèles génératifs entraînés sur de vastes corpus textuels pour comprendre et produire du langage naturel.  
@@ -262,7 +264,7 @@ GPT-4, Claude 2, BERT, T5.
 
 ---
 
-## 🧩 7. Concepts clés à maîtriser
+## 7. Concepts clés à maîtriser
 
 | Concept | Définition | Utilité |
 |----------|-------------|---------|
@@ -279,7 +281,7 @@ GPT-4, Claude 2, BERT, T5.
 
 ---
 
-## 🧮 8. Recherche sémantique et bases vectorielles  
+## 8. Recherche sémantique et bases vectorielles  
 
 ### 🔍 Méthodes de recherche
 - **Keyword Search** : recherche par mots-clés exacts.  
@@ -299,7 +301,7 @@ GPT-4, Claude 2, BERT, T5.
 
 ---
 
-## 🧰 9. Le Pipeline de Machine Learning sur AWS
+## 9. Le Pipeline de Machine Learning sur AWS
 
 Le pipeline ML structure toutes les étapes : de la collecte des données jusqu’à la mise en production du modèle.  
 
@@ -319,7 +321,7 @@ Le pipeline ML structure toutes les étapes : de la collecte des données jusqu�
 
 ---
 
-## 🧩 10. Outils AWS essentiels pour le ML
+## 10. Outils AWS essentiels pour le ML
 
 | Domaine | Service AWS | Fonction principale |
 |----------|--------------|----------------------|
@@ -331,15 +333,15 @@ Le pipeline ML structure toutes les étapes : de la collecte des données jusqu�
 
 ---
 
-## ⚙️ 11. Concepts avancés : RAG, Fine-Tuning et Hyperparamètres  
+## 11. Concepts avancés : RAG, Fine-Tuning et Hyperparamètres  
 
-### 🔁 Fine-Tuning  
+### Fine-Tuning  
 Adapter un modèle pré-entraîné à un cas spécifique (ex. domaine médical, juridique).
 
-### 📚 Retrieval Augmented Generation (RAG)  
+### Retrieval Augmented Generation (RAG)  
 Améliorer les réponses des LLMs en combinant la génération et la recherche dans une base vectorielle.
 
-### ⚙️ Hyperparamètres principaux
+### Hyperparamètres principaux
 | Paramètre | Effet | Bon usage |
 |------------|-------|-----------|
 | **Température** | Plus haute = réponses plus créatives | Baisser pour des réponses fiables |
@@ -349,7 +351,7 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 ---
 
-## 📊 12. Évaluation des modèles
+## 12. Évaluation des modèles
 
 | Métrique | Description | Interprétation |
 |-----------|--------------|----------------|
@@ -362,7 +364,7 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 ---
 
-## 🧩 13. MLOps, Gouvernance et Sécurité  
+## 13. MLOps, Gouvernance et Sécurité  
 
 - **MLOps** : automatiser l’entraînement, le déploiement et la surveillance.  
 - **Gouvernance** : documenter, tracer, expliquer les modèles (Clarify, Model Cards).  
@@ -374,7 +376,7 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 ---
 
-## 🚀 14. Services AWS clés pour le ML et l’IA  
+## 14. Services AWS clés pour le ML et l’IA  
 
 | Catégorie | Service | Description courte |
 |------------|----------|-------------------|
@@ -408,7 +410,7 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 ---
 
-## 🧠 1. Objectif du bloc  
+## 1. Objectif du bloc  
 
 Ce domaine de l’examen (28 %) évalue votre capacité à **appliquer les modèles de fondation** (Foundation Models – FMs) et à les **adapter à des cas d’usage réels** sur AWS.  
 Vous apprendrez ici à :
@@ -419,7 +421,7 @@ Vous apprendrez ici à :
 
 ---
 
-## 🧩 2. Comprendre les modèles de fondation  
+## 2. Comprendre les modèles de fondation  
 
 ### Définition  
 Les **modèles de fondation (FMs)** sont des modèles pré-entraînés sur d’énormes volumes de données : texte, images, audio, code…  
@@ -438,7 +440,7 @@ Ils servent de **base réutilisable** pour de nombreuses tâches d’IA généra
 
 ---
 
-## 🔍 3. Choisir un modèle adapté  
+## 3. Choisir un modèle adapté  
 
 **Critères de sélection**
 - **Type de tâche** : texte, vision, traduction, génération de code…  
@@ -459,7 +461,7 @@ Ils servent de **base réutilisable** pour de nombreuses tâches d’IA généra
 
 ---
 
-## 💬 4. L’ingénierie de prompts (Prompt Engineering)  
+## 4. L’ingénierie de prompts (Prompt Engineering)  
 
 ### Définition  
 L’ingénierie de prompts est l’art de **structurer les requêtes envoyées au modèle** pour obtenir des réponses précises et cohérentes.  
@@ -484,7 +486,7 @@ L’ingénierie de prompts est l’art de **structurer les requêtes envoyées a
 
 ---
 
-## 🧮 5. Paramètres d’inférence  
+## 5. Paramètres d’inférence  
 
 Ces paramètres contrôlent la créativité, la précision et la cohérence du modèle lors de la génération.  
 
@@ -502,7 +504,7 @@ Ces paramètres contrôlent la créativité, la précision et la cohérence du m
 
 ---
 
-## 🔁 6. Personnalisation des modèles  
+## 6. Personnalisation des modèles  
 
 ### 6.1 Fine-Tuning  
 Adapter un modèle pré-entraîné à votre domaine (juridique, médical, industriel).  
@@ -519,7 +521,7 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 ---
 
-## 📊 7. Évaluation des modèles  
+## 7. Évaluation des modèles  
 
 ### Métriques de performance  
 | Type | Indicateurs | Interprétation |
@@ -534,7 +536,7 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 ---
 
-## 🧰 8. Déploiement sur AWS  
+## 8. Déploiement sur AWS  
 
 ### Sur Amazon SageMaker  
 - **Real-Time Inference** : faible latence, trafic constant.  
@@ -549,7 +551,7 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 ---
 
-## 🔐 9. Gouvernance, sécurité et conformité  
+## 9. Gouvernance, sécurité et conformité  
 
 | Aspect | Service AWS | Objectif |
 |--------|--------------|----------|
@@ -564,7 +566,7 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 ---
 
-## 💰 10. Coûts et optimisation  
+## 10. Coûts et optimisation  
 
 | Stratégie | Description |
 |------------|--------------|
@@ -578,7 +580,7 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 ---
 
-## 🧩 11. Résumé express  
+## 11. Résumé express  
 
 | Thème | À retenir |
 |-------|------------|
@@ -600,7 +602,7 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 ---
 
-## 🎯 1. Objectif du bloc  
+## 1. Objectif du bloc  
 
 Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer les **principes d’une intelligence artificielle responsable**, incluant :  
 - la **prévention des biais**,  
@@ -611,7 +613,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## ⚖️ 2. Les piliers d’une IA responsable  
+## 2. Les piliers d’une IA responsable  
 
 | Pilier | Description | Objectif |
 |--------|--------------|-----------|
@@ -626,7 +628,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## 🧩 3. Identifier et réduire les biais  
+## 3. Identifier et réduire les biais  
 
 ### Sources courantes de biais  
 - **Biais de données** : données non représentatives (ex. sous-représentation d’un groupe).  
@@ -641,7 +643,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## 🧠 4. Outils AWS pour une IA responsable  
+## 4. Outils AWS pour une IA responsable  
 
 | Service | Fonction principale | Utilité |
 |----------|--------------------|----------|
@@ -657,7 +659,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## 🔍 5. Explicabilité et transparence  
+## 5. Explicabilité et transparence  
 
 ### Pourquoi c’est crucial  
 - Les utilisateurs et les régulateurs exigent de **comprendre les décisions des modèles**.  
@@ -674,7 +676,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## 🧾 6. Gouvernance et conformité  
+## 6. Gouvernance et conformité  
 
 ### Gouvernance des modèles  
 - Mettre en place des **politiques de cycle de vie** (création, mise à jour, retrait).  
@@ -697,7 +699,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## 🧩 7. Sécurité des données et durabilité  
+## 7. Sécurité des données et durabilité  
 
 ### Bonnes pratiques  
 - **IAM et politiques de moindre privilège** : accorder le minimum de droits nécessaires.  
@@ -709,7 +711,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## 🧭 8. Cadre d’une IA responsable sur AWS  
+## 8. Cadre d’une IA responsable sur AWS  
 
 | Étape | Objectif | Outils clés |
 |--------|-----------|-------------|
@@ -722,7 +724,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## 💡 9. Résumé express  
+## 9. Résumé express  
 
 | Thème | À retenir |
 |--------|-----------|
@@ -743,7 +745,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## 🎯 1. Objectif du bloc  
+## 1. Objectif du bloc  
 
 Ce domaine de l’examen (14 %) évalue ta compréhension des **pratiques de sécurité, de conformité et de gouvernance** dans le cadre du déploiement de systèmes d’intelligence artificielle sur AWS.  
 
@@ -757,7 +759,7 @@ Tu apprendras à :
 
 ---
 
-## 🧩 2. Modèle de responsabilité partagée AWS  
+## 2. Modèle de responsabilité partagée AWS  
 
 Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS et le client.  
 
@@ -773,7 +775,7 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 
 ---
 
-## 🔑 3. Gestion des identités et des accès (IAM)  
+## 3. Gestion des identités et des accès (IAM)  
 
 ### Bonnes pratiques  
 - Appliquer le **principe du moindre privilège**.  
@@ -795,7 +797,7 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 
 ---
 
-## 🧱 4. Sécurisation des systèmes d’IA  
+## 4. Sécurisation des systèmes d’IA  
 
 ### 4.1 Données et stockage  
 - Chiffrer les données avec **KMS**.  
@@ -818,7 +820,7 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 
 ---
 
-## 🧾 5. Gouvernance des données et des modèles  
+## 5. Gouvernance des données et des modèles  
 
 ### Bonnes pratiques  
 - Mettre en place une **politique de gouvernance globale** pour les jeux de données et modèles.  
@@ -839,7 +841,7 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 
 ---
 
-## 📜 6. Conformité réglementaire  
+## 6. Conformité réglementaire  
 
 ### Normes et cadres pris en charge par AWS  
 | Norme / Cadre | Objectif |
@@ -863,7 +865,7 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 
 ---
 
-## 🧠 7. Sécurité spécifique à l’IA et Guardrails (Barrières de protection)
+## 7. Sécurité spécifique à l’IA et Guardrails (Barrières de protection)
 
 ### 7.1 Risques typiques à surveiller  
 | Risque | Description | Contremesure |
@@ -907,7 +909,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## 🌐 8. Sécurité multi-niveaux sur AWS  
+## 8. Sécurité multi-niveaux sur AWS  
 
 | Niveau | Outil AWS | Objectif |
 |---------|------------|----------|
@@ -922,7 +924,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## 💰 9. Optimisation des coûts et durabilité  
+## 9. Optimisation des coûts et durabilité  
 
 - Utiliser les **Managed Spot Training Jobs** pour réduire le coût d’entraînement.  
 - Automatiser l’extinction des environnements inactifs (SageMaker Studio, EC2).  
@@ -936,7 +938,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## 🧩 10. Résumé express  
+## 10. Résumé express  
 
 | Thème | À retenir |
 |--------|-----------|
@@ -957,7 +959,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## 🌍 Résumé global du guide
+## Résumé global du guide
 
 | Bloc | Thème principal | Objectif clé |
 |------|-----------------|--------------|
@@ -971,7 +973,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## 🧩 Les points essentiels à retenir pour l’examen
+## Les points essentiels à retenir pour l’examen
 
 ### 🧠 Fondamentaux de l’IA
 - IA > ML > DL > GenAI: du général au spécifique.  
