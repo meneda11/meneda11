@@ -114,8 +114,9 @@ Chaque domaine contient :
 - des **définitions simples et claires**,
 - des **exemples concrets**,
 - des **astuces à retenir rapidement** pour réviser efficacement.
-
+  
 [⬆️ Retour au sommaire](#bloc-1--introduction--objectif-du-guide)
+
 ---
 
 ## 3. Détails de l’examen
@@ -131,6 +132,7 @@ Chaque domaine contient :
 | **Prérequis recommandés** | Notions de base en cloud computing et en IA, aucune expérience approfondie requise |
 
 [⬆️ Retour au sommaire](#bloc-1--introduction--objectif-du-guide)
+
 ---
 
 ## 4. Liens utiles
