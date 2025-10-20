@@ -119,7 +119,7 @@ Chaque domaine contient :
 |----------|--------|
 | **Durée** | 90 minutes |
 | **Format** | QCM (choix simple, multiple, classement, mise en correspondance, étude de cas) |
-| **Langue** | Anglais ou Japonais (pas encore disponible en français) |
+| **Langue** | Anglais, Japonais et disponible aussi en français |
 | **Score minimum de réussite** | 700 / 1000 |
 | **Coût de l’examen** | 75 USD |
 | **Mode de passage** | En ligne (Pearson VUE) ou dans un centre d’examen agréé |
