@@ -721,7 +721,9 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 > 💡 *Comprendre comment ajuster, évaluer et déployer un modèle de fondation, c’est franchir la seconde marche vers la maîtrise de l’IA sur AWS.*
 
-[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
+[⬆️ Retour au sommaire](#bloc-4--ia-responsable--ethique-transparence-et-gouvernance)
+<sub>[⬆️ Retour au sommaire](#bloc-4--ia-responsable--ethique-transparence-et-gouvernance)</sub>
+
 
 ---
 
