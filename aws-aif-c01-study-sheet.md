@@ -13,36 +13,37 @@
 
 ---
 
-## 🧩 Bloc 2 — Fondamentaux de l’IA, du ML et de l’IA Générative
-- [Vue d’ensemble](#1-vue-densemble)
-- [Intelligence Artificielle (IA)](#2-intelligence-artificielle-ai)
-- [Machine Learning (ML)](#3-machine-learning-ml)
-- [Deep Learning (DL)](#4-deep-learning-dl)
-- [IA Générative et Modèles de Fondation](#5-ia-générative-et-modèles-de-fondation)
-- [Large Language Models (LLMs)](#6-large-language-models-llms)
-- [Concepts clés à maîtriser](#7-concepts-clés-à-maîtriser)
-- [Recherche sémantique et bases vectorielles](#8-recherche-sémantique-et-bases-vectorielles)
-- [Pipeline de Machine Learning sur AWS](#9-le-pipeline-de-machine-learning-sur-aws)
-- [Concepts avancés : RAG, Fine-Tuning et Hyperparamètres](#️11-concepts-avancés--rag-fine-tuning-et-hyperparamètres)
-- [Évaluation des modèles](#12-évaluation-des-modèles)
-- [MLOps, Gouvernance et Sécurité](#️13-mlops-gouvernance-et-sécurité)
-- [Services AWS clés pour le ML et l’IA](#14-services-aws-clés-pour-le-ml-et-lia)
-- [Résumé express](#15-résumé-express)
+## 📘 Bloc 2 – Fondamentaux de l’IA, du ML et de l’IA Générative
+1. [Vue d’ensemble](#1-vue-densemble)
+2. [Intelligence Artificielle (IA)](#2-intelligence-artificielle-ia)
+3. [Machine Learning (ML)](#3-machine-learning-ml)
+4. [Deep Learning (DL)](#4-deep-learning-dl)
+5. [IA Générative et Modèles de Fondation](#5-ia-générative-et-modèles-de-fondation)
+6. [Large Language Models (LLMs)](#6-large-language-models-llms)
+7. [Concepts clés à maîtriser](#7-concepts-clés-à-maîtriser)
+8. [Recherche sémantique et bases vectorielles](#8-recherche-sémantique-et-bases-vectorielles)
+9. [Pipeline de Machine Learning sur AWS](#9-le-pipeline-de-machine-learning-sur-aws)
+10. [Concepts avancés : RAG, Fine-Tuning et Hyperparamètres](#10-concepts-avancés--rag-fine-tuning-et-hyperparamètres)
+11. [Évaluation des modèles](#11-évaluation-des-modèles)
+12. [MLOps, Gouvernance et Sécurité](#12-mlops-gouvernance-et-sécurité)
+13. [Services AWS clés pour le ML et l’IA](#13-services-aws-clés-pour-le-ml-et-lia)
+14. [Résumé express](#14-résumé-express)
+
 
 ---
 
 ## ⚙️ Bloc 3 — Applications des Modèles de Fondation et Prompt Engineering
-- [Objectif du bloc](#1-objectif-du-bloc)
-- [Comprendre les modèles de fondation](#2-comprendre-les-modèles-de-fondation)
-- [Choisir un modèle adapté](#3-choisir-un-modèle-adapté)
-- [Ingénierie de Prompts (Prompt Engineering)](#4-lingénierie-de-prompts-prompt-engineering)
-- [Paramètres d’inférence](#5-paramètres-dinférence)
-- [Personnalisation des modèles (Fine-Tuning / RAG)](#6-personnalisation-des-modèles)
-- [Évaluation des modèles](#7-évaluation-des-modèles)
-- [Déploiement sur AWS (SageMaker / Bedrock)](#8-déploiement-sur-aws)
-- [Gouvernance, Sécurité et Conformité](#9-gouvernance-sécurité-et-conformité)
-- [Coûts et optimisation](#10-coûts-et-optimisation)
-- [Résumé express](#11-résumé-express)
+1. [Objectif du bloc](#1-objectif-du-bloc)
+2. [Comprendre les modèles de fondation](#2-comprendre-les-modèles-de-fondation)
+3. [Choisir un modèle adapté](#3-choisir-un-modèle-adapté)
+4. [Ingénierie de Prompts (Prompt Engineering)](#4-ingénierie-de-prompts-prompt-engineering)
+5. [Paramètres d’inférence](#5-paramètres-dinférence)
+6. [Personnalisation des modèles (Fine-Tuning / RAG)](#6-personnalisation-des-modèles-fine-tuning--rag)
+7. [Évaluation des modèles](#7-évaluation-des-modèles)
+8. [Déploiement sur AWS (SageMaker / Bedrock)](#8-déploiement-sur-aws-sagemaker--bedrock)
+9. [Gouvernance, Sécurité et Conformité](#9-gouvernance-sécurité-et-conformité)
+10. [Coûts et optimisation](#10-coûts-et-optimisation)
+11. [Résumé express](#11-résumé-express)
 
 ---
 
@@ -187,6 +188,8 @@ L’IA correspond à un ensemble de systèmes capables d’exécuter des tâches
 **Astuce à retenir**  
 > *AI = objectif global : reproduire ou dépasser certaines capacités humaines.*
 
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
+
 ---
 
 ## 3. Machine Learning (ML)
@@ -220,6 +223,8 @@ Régression linéaire, arbres de décision, SVM, k-means, etc.
 > *Supervisé = guidé, Non supervisé = découverte, Renforcement = interaction.* 
 > *ML = apprentissage basé sur les données. Plus il apprend, meilleur il devient.*
 
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
+
 ---
 
 ## 4. Deep Learning (DL)
@@ -236,6 +241,8 @@ Sous-catégorie du ML utilisant des **réseaux de neurones profonds** (multi-cou
 
 **Astuce à retenir**  
 > *DL = apprentissage profond par imitation du cerveau humain.*
+
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
 
 ---
 
@@ -262,6 +269,8 @@ Elle repose sur des **modèles de fondation** (foundation models) : des modèles
 **Astuce à retenir**  
 > *Générative AI = produire du contenu nouveau, pas seulement analyser.*
 
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
+
 ---
 
 ## 6. Large Language Models (LLMs)
@@ -277,6 +286,8 @@ GPT-4, Claude 2, BERT, T5.
 
 **Astuce à retenir**  
 > *LLM = cerveau linguistique de l’IA.*
+
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
 
 ---
 
@@ -294,6 +305,8 @@ GPT-4, Claude 2, BERT, T5.
 
 **Astuce à retenir**  
 > *Un bon prompt = un bon résultat. RAG + fine-tuning = réponses fiables.*
+
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
 
 ---
 
@@ -315,6 +328,8 @@ GPT-4, Claude 2, BERT, T5.
 **Astuce à retenir**  
 > *Les embeddings rendent la recherche intelligente : ils comprennent le sens, pas seulement les mots.*
 
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
+
 ---
 
 ## 9. Le Pipeline de Machine Learning sur AWS
@@ -335,6 +350,8 @@ Le pipeline ML structure toutes les étapes : de la collecte des données jusqu�
 **Astuce à retenir**  
 > *MLOps = industrialiser le cycle de vie des modèles, comme DevOps pour le code.*
 
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
+
 ---
 
 ## 10. Outils AWS essentiels pour le ML
@@ -346,6 +363,8 @@ Le pipeline ML structure toutes les étapes : de la collecte des données jusqu�
 | Déploiement | SageMaker Endpoints, Lambda, Bedrock Agents | Inference temps réel / batch |
 | Surveillance | Model Monitor, CloudWatch | Détection de dérive, performance |
 | Gouvernance | Clarify, Model Cards, Audit Manager | Transparence et conformité |
+
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
 
 ---
 
@@ -372,6 +391,8 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 **Astuce à retenir**  
 > *Biais ↑ = modèle trop simple ; Variance ↑ = modèle trop complexe.*
 
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
+
 ---
 
 ## 12. Évaluation des modèles
@@ -396,6 +417,8 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 **Astuce à retenir**  
 > *Sur AWS, la sécurité et la conformité sont partagées : AWS sécurise le cloud, vous sécurisez vos données et modèles.*
+
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
 
 ---
 
@@ -440,6 +463,8 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 ---
 
 > 🧭 *Si vous comprenez les étapes du pipeline ML et le rôle de chaque service AWS, vous avez déjà 50 % de la certification en main !*
+
+[⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
 
 ---
 
