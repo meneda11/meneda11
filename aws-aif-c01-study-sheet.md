@@ -13,7 +13,7 @@
 
 ---
 
-## 📘 Bloc 2 – Fondamentaux de l’IA, du ML et de l’IA Générative
+## Bloc 2 – Fondamentaux de l’IA, du ML et de l’IA Générative
 1. [Vue d’ensemble](#1-vue-densemble)
 2. [Intelligence Artificielle (IA)](#2-intelligence-artificielle-ia)
 3. [Machine Learning (ML)](#3-machine-learning-ml)
@@ -32,7 +32,7 @@
 
 ---
 
-## ⚙️ Bloc 3 — Applications des Modèles de Fondation et Prompt Engineering
+## Bloc 3 — Applications des Modèles de Fondation et Prompt Engineering
 1. [Objectif du bloc](#1-objectif-du-bloc)
 2. [Comprendre les modèles de fondation](#2-comprendre-les-modèles-de-fondation)
 3. [Choisir un modèle adapté](#3-choisir-un-modèle-adapté)
@@ -47,7 +47,7 @@
 
 ---
 
-## 🧭 Bloc 4 — IA Responsable : Éthique, Transparence et Gouvernance
+## Bloc 4 — IA Responsable : Éthique, Transparence et Gouvernance
 1. [Objectif du bloc](#1-objectif-du-bloc)
 2. [Les piliers d’une IA responsable](#2-les-piliers-dune-ia-responsable)
 3. [Identifier et réduire les biais](#3-identifier-et-réduire-les-biais)
@@ -60,7 +60,7 @@
 
 ---
 
-## 🔐 Bloc 5 — Sécurité, Conformité et Gouvernance pour les Solutions d’IA
+## Bloc 5 — Sécurité, Conformité et Gouvernance pour les Solutions d’IA
 1. [Objectif du bloc](#1-objectif-du-bloc)
 2. [Modèle de responsabilité partagée](#2-modèle-de-responsabilité-partagée)
 3. [Gestion des identités et des accès (IAM)](#3-gestion-des-identités-et-des-accès-iam)
@@ -74,7 +74,7 @@
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 1. [Résumé global du guide](#1-résumé-global-du-guide)
 2. [Points essentiels à retenir](#2-points-essentiels-à-retenir)
 3. [Conseils pratiques pour l’examen](#3-conseils-pratiques-pour-lexamen)
@@ -84,7 +84,7 @@
 
 ---
 
-# 🎯 Bloc 1 — Introduction & Objectif du guide
+# Bloc 1 — Introduction & Objectif du guide
 
 ## 1. Objectif du guide
 
@@ -163,7 +163,7 @@ Réussir la certification AWS AI Practitioner, c’est :
 
 ---
 
-# 🧩 Bloc 2 — Fondamentaux de l’IA, du ML et de l’IA Générative  
+# Bloc 2 — Fondamentaux de l’IA, du ML et de l’IA Générative  
 
 ---
 
@@ -507,6 +507,8 @@ Ils servent de **base réutilisable** pour de nombreuses tâches d’IA généra
 **Astuce à retenir**  
 > *Les modèles de fondation transforment l’IA d’un travail artisanal à une plateforme réutilisable.*
 
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
+
 ---
 
 ## 3. Choisir un modèle adapté  
@@ -527,6 +529,8 @@ Ils servent de **base réutilisable** pour de nombreuses tâches d’IA généra
 | **Meta** | *LLaMA 2 / 3* | Open-source et personnalisable |
 | **Mistral AI** | *Mixtral / Mistral 7B* | Haute performance, faible latence |
 | **Stability AI** | *Stable Diffusion* | Génération d’images réalistes |
+
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
 
 ---
 
@@ -553,6 +557,8 @@ L’ingénierie de prompts est l’art de **structurer les requêtes envoyées a
 **Astuce à retenir**  
 > *Un bon prompt = 80 % du résultat. Expérimentez !*
 
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
+
 ---
 
 ## 5. Paramètres d’inférence  
@@ -570,6 +576,8 @@ Ces paramètres contrôlent la créativité, la précision et la cohérence du m
 
 **Astuce à retenir**  
 > *Top-P ajuste la diversité, Température règle la créativité.*
+
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
 
 ---
 
@@ -601,6 +609,8 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 **Astuce à retenir**  
 > *Toujours privilégier la méthode la plus simple répondant au besoin : RAG < Fine-Tuning < Pretraining.*
 
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
+
 ---
 
 ## 7. Évaluation des modèles  
@@ -625,6 +635,8 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 **Astuce à retenir**  
 > *Évaluez à la fois la performance technique et la valeur métier.*
+
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
 
 ---
 
@@ -654,6 +666,8 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 **Astuce à retenir**  
 > *Amazon Q = famille d’assistants IA spécialisés : Business, Developer, Analytics et Chatbots.*
 
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
+
 ---
 
 ## 9. Gouvernance, sécurité et conformité  
@@ -668,6 +682,8 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 **Astuce à retenir**  
 > *L’IA responsable = IA traçable, équitable et sécurisée.*
+
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
 
 ---
 
@@ -684,6 +700,8 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 **Astuce à retenir**  
 > *Optimiser les coûts, c’est comprendre, surveiller et anticiper sa consommation cloud.*
+
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
 
 ---
 
@@ -703,9 +721,11 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 > 💡 *Comprendre comment ajuster, évaluer et déployer un modèle de fondation, c’est franchir la seconde marche vers la maîtrise de l’IA sur AWS.*
 
+[⬆️ Retour au sommaire](#bloc-3--applications-des-modèles-de-fondation-et-prompt-engineering)
+
 ---
 
-# 🧭 Bloc 4 — IA Responsable : Éthique, Transparence et Gouvernance  
+# Bloc 4 — IA Responsable : Éthique, Transparence et Gouvernance  
 
 ---
 
@@ -733,6 +753,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 **Astuce à retenir**  
 > *Une IA responsable = fiable, explicable, équitable et durable.*
 
+[⬆️ Retour au sommaire](#bloc-4--ia-responsable--éthique-transparence-et-gouvernance)
 ---
 
 ## 3. Identifier et réduire les biais  
