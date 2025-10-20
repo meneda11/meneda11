@@ -1,6 +1,6 @@
 # 🎯 Guide de préparation à la certification AWS Certified AI Practitioner (AIF-C01) — Guide complet
 
-# 📚 Table des matières — Guide AWS Certified AI Practitioner (AIF-C01)
+# 📚 Table des matières
 
 ---
 
