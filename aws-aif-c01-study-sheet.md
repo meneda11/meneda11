@@ -23,12 +23,12 @@
 7. [Concepts clés à maîtriser](#7-concepts-clés-à-maîtriser)
 8. [Recherche sémantique et bases vectorielles](#8-recherche-sémantique-et-bases-vectorielles)
 9. [Pipeline de Machine Learning sur AWS](#9-le-pipeline-de-machine-learning-sur-aws)
-10. [Concepts avancés : RAG, Fine-Tuning et Hyperparamètres](#10-concepts-avancés--rag-fine-tuning-et-hyperparamètres)
-11. [Évaluation des modèles](#11-évaluation-des-modèles)
-12. [MLOps, Gouvernance et Sécurité](#12-mlops-gouvernance-et-sécurité)
-13. [Services AWS clés pour le ML et l’IA](#13-services-aws-clés-pour-le-ml-et-lia)
-14. [Résumé express](#14-résumé-express)
-
+10. [Outils AWS essentiels pour le ML](#10-outils-aws-essentiels-pour-le-ml)
+11. [Concepts avancés : RAG, Fine-Tuning et Hyperparamètres](#11-concepts-avancés--rag-fine-tuning-et-hyperparamètres)
+12. [Évaluation des modèles](#12-évaluation-des-modèles)
+13. [MLOps, Gouvernance et Sécurité](#13-mlops-gouvernance-et-sécurité)
+14. [Services AWS clés pour le ML et l’IA](#14-services-aws-clés-pour-le-ml-et-lia)
+15. [Résumé express](#15-résumé-express)
 
 ---
 
