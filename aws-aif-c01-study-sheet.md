@@ -172,7 +172,7 @@ Ce bloc couvre :
 
 ---
 
-## 2. Intelligence Artificielle (AI)
+## 2. Intelligence Artificielle (IA)
 
 **Définition**  
 L’IA correspond à un ensemble de systèmes capables d’exécuter des tâches qui, normalement, requièrent l’intelligence humaine : raisonnement, planification, reconnaissance de formes, traitement du langage naturel, etc.
