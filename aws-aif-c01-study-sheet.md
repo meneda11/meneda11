@@ -534,7 +534,7 @@ Ils servent de **base réutilisable** pour de nombreuses tâches d’IA généra
 
 ---
 
-## 4. L’ingénierie de prompts (Prompt Engineering)  
+## 4. Ingénierie de Prompts (Prompt Engineering)
 
 ### Définition  
 L’ingénierie de prompts est l’art de **structurer les requêtes envoyées au modèle** pour obtenir des réponses précises et cohérentes.  
