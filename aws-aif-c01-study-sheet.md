@@ -3,9 +3,8 @@
 # 📚 Table des matières
 
 ---
-
-## 🏁 Introduction
-- [🎯 Objectif du guide](#-objectif-du-guide)
+## 🎯 Bloc 1 — Introduction & Objectif du guide
+- [🧠 Objectif du guide](#-objectif-du-guide)
 - [📘 Structure du guide](#-structure-du-guide)
 - [⏱️ Détails de l’examen](#️-détails-de-lexamen)
 - [🔗 Liens utiles](#-liens-utiles)
@@ -81,6 +80,8 @@
 - [🪪 Certification et badge AWS](#-certification-et-badge-aws)
 - [💬 Remerciements & contact](#-remerciements--contact)
 
+
+# 🎯 Bloc 1 — Introduction & Objectif du guide
 
 ## 🧠 Objectif du guide
 
