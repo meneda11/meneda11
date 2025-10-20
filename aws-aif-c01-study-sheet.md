@@ -257,9 +257,7 @@ Elle repose sur des **modèles de fondation** (foundation models) : des modèles
 - WaveNet : pour la synthèse vocale 
 - Amazon Titan : modèles AWS pour texte et vision
 - Diffusion Models : génèrent des images en partant du bruit et en raffinant progressivement le signal (ex. Stable Diffusion).  
-- Non-déterminisme : les modèles génératifs peuvent produire des sorties différentes pour une même requête selon la *température* et le *Top-P*.  
-> *Chaque génération est unique, influencée par les paramètres d’inférence.*
-
+- Non-déterminisme : les modèles génératifs peuvent produire des sorties différentes pour une même requête selon la *température* et le *Top-P*. *Chaque génération est unique, influencée par les paramètres d’inférence.*
 
 **Astuce à retenir**  
 > *Générative AI = produire du contenu nouveau, pas seulement analyser.*
