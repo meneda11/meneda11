@@ -4,12 +4,12 @@
 
 ---
 ## 🎯 Bloc 1 — Introduction & Objectif du guide
-- [🧠 Objectif du guide](#-objectif-du-guide)
-- [📘 Structure du guide](#-structure-du-guide)
-- [⏱️ Détails de l’examen](#️-détails-de-lexamen)
-- [🔗 Liens utiles](#-liens-utiles)
-- [💡 Astuce à retenir](#-astuce-à-retenir)
-- [🚀 Motivation](#-motivation)
+- [Objectif du guide](#-objectif-du-guide)
+- [Structure du guide](#-structure-du-guide)
+- [Détails de l’examen](#️-détails-de-lexamen)
+- [Liens utiles](#-liens-utiles)
+- [Astuce à retenir](#-astuce-à-retenir)
+- [Motivation](#-motivation)
 
 ---
 
@@ -84,7 +84,7 @@
 
 # 🎯 Bloc 1 — Introduction & Objectif du guide
 
-## 🧠 Objectif du guide
+## Objectif du guide
 
 Ce document a été conçu pour accompagner pas à pas toute personne souhaitant **réussir l’examen AWS Certified AI Practitioner (AIF-C01)**.  
 Il synthétise les connaissances essentielles issues des ressources officielles AWS, mais aussi des retours d’expérience pratiques.
@@ -96,7 +96,7 @@ L’objectif est simple :
 
 ---
 
-## 📘 Structure du guide
+## Structure du guide
 
 Ce guide suit les 5 domaines de l’examen officiel :
 
@@ -113,7 +113,7 @@ Chaque domaine contient :
 
 ---
 
-## ⏱️ Détails de l’examen
+## Détails de l’examen
 
 | Élément | Détail |
 |----------|--------|
@@ -127,7 +127,7 @@ Chaque domaine contient :
 
 ---
 
-## 🔗 Liens utiles
+## Liens utiles
 
 - [AWS Certified AI Practitioner — Page officielle](https://aws.amazon.com/certification/certified-ai-practitioner/)
 - [AWS Skill Builder — Formation gratuite](https://skillbuilder.aws)
@@ -136,14 +136,14 @@ Chaque domaine contient :
 
 ---
 
-## 💡 Astuce à retenir
+## Astuce à retenir
 
 > *Cet examen n’évalue pas la capacité à coder, mais la compréhension des concepts d’IA et leur application dans l’écosystème AWS.*  
 > Concentrez-vous sur la logique des services, leurs cas d’usage et leurs limites plutôt que sur la syntaxe technique.
 
 ---
 
-## 🚀 Motivation
+## Motivation
 
 Réussir la certification AWS AI Practitioner, c’est :
 - prouver votre compréhension des fondements de l’IA et du ML,  
