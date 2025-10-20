@@ -3,7 +3,7 @@
 # Table des matières
 
 ---
-## 🎯 Bloc 1 — Introduction & Objectif du guide
+## Bloc 1 — Introduction & Objectif du guide
 1. [Objectif du guide](#1-objectif-du-guide)
 2. [Structure du guide](#2-structure-du-guide)
 3. [Détails de l’examen](#3-détails-de-lexamen)
@@ -97,6 +97,7 @@ L’objectif est simple :
 👉 Se préparer efficacement à l’examen grâce à une **progression fluide et claire**
 
 [⬆️ Retour au sommaire](#bloc-1--introduction--objectif-du-guide)
+
 ---
 
 ## 2. Structure du guide
