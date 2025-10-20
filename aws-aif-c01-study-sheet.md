@@ -1114,8 +1114,8 @@ Une fois l’examen réussi :
 Ce guide a été rédigé par **Cédric Stéphane MENEDA** pour aider les apprenants et professionnels à mieux comprendre les **fondamentaux de l’intelligence artificielle sur AWS**. Il s’appuie sur les **ressources officielles AWS Training & Certification**, les **whitepapers AWS**, ainsi que sur des **expériences et notes personnelles issues de projets réels**.
 
 📫 **Auteur :** [Cédric Stéphane MENEDA](https://github.com/meneda11)  
-🌐 **Portfolio :** [meneda11.github.io/meneda11](https://meneda11.github.io/meneda11)  
-💼 **GitHub :** [github.com/meneda11](https://github.com/meneda11)  
+🌐 **Site internet :** [meneda11.github.io/meneda11](https://meneda11.github.io/meneda11)  
+💼 **Portfolio GitHub :** [github.com/meneda11](https://github.com/meneda11)  
 📧 **Contact :** mcedricstephane@gmail.com  
 
 > 🚀 *“Apprendre l’IA, c’est apprendre à mieux comprendre le monde qui vient.”*  
