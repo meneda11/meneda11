@@ -1171,6 +1171,8 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 - Utiliser **Guardrails Bedrock** pour encadrer les comportements des modèles.  
 - Surveiller la conformité via **Audit Manager**, **Artifact** et **Config**.
 
+[⬆️ Retour au sommaire](#conclusion)
+
 ---
 
 ## 3. Conseils pratiques pour l’examen
@@ -1186,6 +1188,8 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 7. **Utilisez la méthode d’élimination** : supprimez d’abord les choix manifestement faux.  
 8. **Gardez du temps pour revoir les questions à choix multiples.**
 
+[⬆️ Retour au sommaire](#conclusion)
+
 ---
 
 ## 4. Certification et Badge AWS
@@ -1197,6 +1201,8 @@ Une fois l’examen réussi :
 
 🎖️ Exemple :  
 [![AWS Certified AI Practitioner Badge](https://d1.awsstatic.com/training-and-certification/certification-badges/AIF-C01.png)](https://aws.amazon.com/certification/)
+
+[⬆️ Retour au sommaire](#conclusion)
 
 ---
 
@@ -1216,5 +1222,7 @@ Ce guide a été rédigé par **Cédric Stéphane MENEDA** pour aider les appren
 > - [AWS Training and Certification](https://aws.amazon.com/training)  
 > - [AWS Documentation](https://docs.aws.amazon.com)  
 > - [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/)
+>
+[⬆️ Retour au sommaire](#conclusion)
 
 
