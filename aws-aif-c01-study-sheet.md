@@ -1146,13 +1146,13 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ## Les points essentiels à retenir pour l’examen
 
-### 🧠 Fondamentaux de l’IA
+### Fondamentaux de l’IA
 - IA > ML > DL > IA Générative : du général au spécifique.  
 - Types d’apprentissage : supervisé, non supervisé, par renforcement.  
 - Cycle ML : collecte → préparation → entraînement → évaluation → déploiement.  
 - Services clés : **SageMaker**, **Comprehend**, **Rekognition**, **Lex**, **Translate**, **Transcribe**, **Kendra**.
 
-### 🤖 IA Générative & Modèles de fondation
+### IA Générative & Modèles de fondation
 - Utiliser **Amazon Bedrock** pour accéder à des modèles pré-entraînés.  
 - Personnaliser via **Fine-Tuning** ou **RAG (Retrieval Augmented Generation)**.  
 - Ajuster les paramètres d’inférence (Température, Top-P, etc.).  
@@ -1164,7 +1164,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 - Garantir l’équité, la robustesse et la transparence.  
 - Intégrer **Human-in-the-Loop (A2I)** pour les tâches critiques.
 
-### 🔐 Sécurité et Gouvernance
+### Sécurité et Gouvernance
 - Appliquer le modèle de **responsabilité partagée AWS**.  
 - Gérer les rôles et accès via **IAM**.  
 - Chiffrer les données avec **KMS**.  
@@ -1173,7 +1173,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## 📝 Conseils pratiques pour réussir l’examen
+## Conseils pratiques pour réussir l’examen
 
 1. **Concentrez-vous sur les concepts**, pas sur la syntaxe technique.  
    > Exemple : comprendre à quoi sert SageMaker plutôt que savoir le coder.  
