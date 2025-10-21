@@ -45,7 +45,7 @@ Cette documentation est publiée sous la licence **Creative Commons BY-NC 4.0** 
 
 Avant de plonger dans ce guide, je tiens à vous souhaiter une **bonne lecture** 🌟  
 
-Ce document est né d’une envie simple : **rendre accessible la préparation à la certification AWS Certified AI Practitioner (AIF-C01)** à toutes celles et ceux qui veulent comprendre l’IA, le Machine Learning et l’IA générative sur AWS — sans se perdre dans la complexité technique.  
+Ce document est né d’une envie simple : **rendre accessible la préparation à la certification AWS Certified AI Practitioner (AIF-C01)** à toutes celles et ceux qui veulent comprendre l’IA, le Machine Learning et l’IA générative sur AWS sans se perdre dans la complexité technique.  
 
 Au fil de ma préparation, j’ai rassemblé mes **notes, schémas, définitions clés, comparaisons entre services AWS et Azure**, et mes retours d’expérience personnels pour créer un **document clair, structuré et humain**.  
 
