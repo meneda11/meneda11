@@ -78,6 +78,12 @@
     img.badge {
       margin: 0 8px;
       vertical-align: middle;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img.badge:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 10px rgba(88,166,255,0.4);
     }
 
     /* === Bouton retour === */
@@ -99,6 +105,12 @@
       background: #79B8FF;
       box-shadow: 0 0 10px rgba(88,166,255,0.5);
       transform: translateY(-2px);
+    }
+
+    /* Animation fade-in du guide */
+    #guide-content {
+      opacity: 0;
+      transition: opacity 1.5s ease-in-out;
     }
 
     /* Table & responsive */
@@ -134,8 +146,18 @@
 
     <div class="badge-container">
       <img class="badge" src="https://visitor-badge.laobi.icu/badge?page_id=meneda11.aws-aif-c01-study-guide" alt="Visiteurs">
-      <img class="badge" src="https://img.shields.io/badge/Source-Guide%20Web-blue?logo=readthedocs" alt="Guide Web">
-      <img class="badge" src="https://img.shields.io/badge/Licence-CC%20BY--NC%204.0-green" alt="License">
+
+      <a href="https://meneda11.github.io/meneda11/guides/aws-aif-c01-study-guide.html" target="_blank">
+        <img class="badge" src="https://img.shields.io/badge/Source-Guide%20Web-blue?logo=readthedocs" alt="Guide Web">
+      </a>
+
+      <a href="https://github.com/meneda11/meneda11/blob/main/aws-aif-c01-study-sheet.md" target="_blank">
+        <img class="badge" src="https://img.shields.io/badge/Source-GitHub-blue?logo=github" alt="GitHub Source">
+      </a>
+
+      <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr" target="_blank">
+        <img class="badge" src="https://img.shields.io/badge/Licence-CC%20BY--NC%204.0-green" alt="License">
+      </a>
     </div>
   </header>
 
@@ -171,6 +193,31 @@
       AWS et Amazon Web Services sont des marques déposées d’Amazon.com, Inc.  
       Ce document n’est ni affilié ni validé par AWS. Partagé à titre éducatif uniquement.
     </p>
+
+    <!-- ===================== -->
+    <!-- 🧩 GUIDE COMPLET (.MD) -->
+    <!-- ===================== -->
+    <h2 style="text-align:center; color:#58A6FF; margin-top:4rem;">📘 Guide complet</h2>
+    <hr style="border-color:#30363D;">
+
+    <div id="guide-content" style="max-width:900px; margin:auto; background:rgba(88,166,255,0.03); padding:2rem; border-radius:10px;">
+      <p style="color:#9CA3AF; text-align:center; font-style:italic;">⏳ Chargement du guide complet...</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      fetch("https://raw.githubusercontent.com/meneda11/meneda11/main/aws-aif-c01-study-sheet.md")
+        .then(response => response.text())
+        .then(data => {
+          const guide = document.getElementById("guide-content");
+          guide.innerHTML = marked.parse(data);
+          guide.style.opacity = 1; // effet fade-in
+        })
+        .catch(error => {
+          document.getElementById("guide-content").innerHTML = "<p style='color:red;'>⚠️ Erreur de chargement du contenu.</p>";
+          console.error("Erreur :", error);
+        });
+    </script>
   </main>
 
   <footer>
