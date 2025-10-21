@@ -1128,7 +1128,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## Résumé global du guide
+## 1. Résumé global du guide 
 
 | Bloc | Thème principal | Objectif clé |
 |------|-----------------|--------------|
@@ -1144,7 +1144,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## Les points essentiels à retenir pour l’examen
+## 2. Les points essentiels à retenir pour l’examen
 
 ### Fondamentaux de l’IA
 - IA > ML > DL > IA Générative : du général au spécifique.  
@@ -1173,7 +1173,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## Conseils pratiques pour réussir l’examen
+## 3. Conseils pratiques pour réussir l’examen
 
 1. **Concentrez-vous sur les concepts**, pas sur la syntaxe technique.  
    > Exemple : comprendre à quoi sert SageMaker plutôt que savoir le coder.  
@@ -1188,7 +1188,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## 🪪 Certification et Badge AWS
+## 4. Certification et Badge AWS
 
 Une fois l’examen réussi :
 - Vous obtenez le **titre officiel “AWS Certified AI Practitioner (AIF-C01)”**.  
@@ -1200,7 +1200,7 @@ Une fois l’examen réussi :
 
 ---
 
-## 💬 Remerciements & Contact  
+## 5. Remerciements & Contact  
 
 Ce guide a été rédigé par **Cédric Stéphane MENEDA** pour aider les apprenants et professionnels à mieux comprendre les **fondamentaux de l’intelligence artificielle sur AWS**. Il s’appuie sur les **ressources officielles AWS Training & Certification**, les **whitepapers AWS**, ainsi que sur des **expériences et notes personnelles issues de projets réels**.
 
