@@ -1,5 +1,5 @@
 <!-- ====================== -->
-<!-- 🧠 AWS AIF-C01 STUDY GUIDE -->
+<!-- AWS AIF-C01 STUDY GUIDE -->
 <!-- ====================== -->
 
 <div class="badge-container">
@@ -11,7 +11,7 @@
 </div>
 ---
 
-# 🧠 Guide de préparation à la certification AWS Certified AI Practitioner (AIF-C01)
+# Guide de préparation à la certification AWS Certified AI Practitioner (AIF-C01)
 ### Par **Cédric Stéphane MENEDA**  
 📍 *Data Analyst | Data Engineer*  
 🌐 [meneda11.github.io/meneda11](https://meneda11.github.io/meneda11)  
@@ -24,7 +24,7 @@
 > et de mon expérience de préparation à la certification *AWS Certified AI Practitioner (AIF-C01)*.  
 > Il est partagé à titre **éducatif et non commercial** pour aider les candidats à mieux comprendre les concepts clés.  
 >
-> 📚 Toute citation ou réutilisation doit mentionner la source :  
+> Toute citation ou réutilisation doit mentionner la source :  
 > **“Cédric Stéphane MENEDA – AWS AIF-C01 Study Guide (2025)”**  
 >
 > 🔗 Référence originale : [https://github.com/meneda11/meneda11](https://github.com/meneda11/meneda11)
