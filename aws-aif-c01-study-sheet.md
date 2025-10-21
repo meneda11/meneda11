@@ -2,10 +2,13 @@
 <!-- 🧠 AWS AIF-C01 STUDY GUIDE -->
 <!-- ====================== -->
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=meneda11.aws-aif-c01-study-sheet)
-[![GitHub](https://img.shields.io/badge/Source-GitHub-blue?logo=github)](https://github.com/meneda11/meneda11/blob/main/aws-aif-c01-study-sheet.md)
-[![License](https://img.shields.io/badge/Licence-Attribution%20Non%20Commercial-green)](#-licence--droits-dutilisation)
-
+<div class="badge-container">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=meneda11.aws-aif-c01-study-sheet" alt="Visiteurs">
+  <a href="https://github.com/meneda11/meneda11/blob/main/aws-aif-c01-study-sheet.md">
+    <img src="https://img.shields.io/badge/Source-GitHub-blue?logo=github" alt="GitHub">
+  </a>
+  <img src="https://img.shields.io/badge/Licence-CC%20BY--NC%204.0-green" alt="Licence CC BY-NC 4.0">
+</div>
 ---
 
 # 🧠 Guide de préparation à la certification AWS Certified AI Practitioner (AIF-C01)
