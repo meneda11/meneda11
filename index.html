@@ -273,8 +273,12 @@
 <!-- ===================== ABOUT ===================== -->
 <section id="about">
   <h2>À propos de moi</h2>
-  <div class="about-content">
-    <div class="about-text">
+
+  <!-- CONTENEUR GLOBAL EN 2 COLONNES -->
+  <div class="about-content" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+
+    <!-- COLONNE GAUCHE : TEXTE -->
+    <div class="about-text" style="flex: 1 1 350px; min-width: 300px;">
       <h3>Qui suis-je ?</h3>
       <p>Passionné par la data, l’ingénierie et l’intelligence artificielle, j’unis l’analyse, le cloud et l’automatisation pour transformer des données complexes en leviers de décision et de performance. Je conçois des solutions de bout en bout : ⚙️ pipelines cloud-native • 🤖 modèles prédictifs • 📊 dashboards intelligents.</p>
       <p>🎓 <strong>Master en Data Management</strong> - Expert en infrastructures Big Data</p>
@@ -283,62 +287,62 @@
       <p>🏅 <strong><a href="https://www.credly.com/badges/e57e307d-dda9-4b7b-b22c-737d94e1c613/public_url" target="_blank" style="color: var(--primary); text-decoration: none;">AWS Certified: AI Practitioner</a></strong></p>
       <p>📍 <strong>Basé à Paris</strong> - Disponible en France et à l'international</p>
     </div>
-  </div>
 
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h4>📊 BI & Visualisation </h4>
-          <p>Power BI, Tableau, Looker Studio, Excel</p>
-        </div>
-        <div class="skill-card">
-          <h4>🗄️ Databases & CRM</h4>
-          <p>Dynamics 365, Salesforce, SQL</p>
-        </div>
-        <div class="skill-card">
-          <h4>☁️ Data Engineering & Cloud </h4>
-          <p>Microsoft Azure, Microsoft Fabric, AWS, Databricks</p>
-        </div>
-        <div class="skill-card">
-          <h4>🤖 AI & Machine Learning </h4>
-          <p>Python, Scikit-learn, TensorFlow, PyTorch, Dataiku, Azure OpenAI Services, Bedrock, SageMaker</p>
-        </div>
+    <!-- COLONNE DROITE : BLOCS SKILLS -->
+    <div class="skills-grid" style="flex: 1 1 350px; min-width: 300px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.2rem;">
+      <div class="skill-card">
+        <h4>📊 BI & Visualisation</h4>
+        <p>Power BI, Tableau, Looker Studio, Excel</p>
+      </div>
+      <div class="skill-card">
+        <h4>🗄️ Databases & CRM</h4>
+        <p>Dynamics 365, Salesforce, SQL</p>
+      </div>
+      <div class="skill-card">
+        <h4>☁️ Data Engineering & Cloud</h4>
+        <p>Microsoft Azure, Microsoft Fabric, AWS, Databricks</p>
+      </div>
+      <div class="skill-card">
+        <h4>🤖 AI & Machine Learning</h4>
+        <p>Python, Scikit-learn, TensorFlow, PyTorch, Dataiku, Azure OpenAI Services, Bedrock, SageMaker</p>
       </div>
     </div>
+
+  </div> <!-- ✅ fermeture du bon conteneur -->
+
+  <!-- SECTION GUIDE EN BAS -->
+  <section id="aws-guide" style="
+    margin-top:3rem;
+    background:rgba(88,166,255,0.05);
+    border:1px solid rgba(88,166,255,0.25);
+    border-radius:12px;
+    padding:2rem;
+    text-align:center;
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;">
+    <h2 style="color:#58A6FF; margin-bottom:1rem; font-size:1.4rem;">
+      🎯 Guide AWS Certified AI Practitioner (AIF-C01)
+    </h2>
+    <p style="color:#C9D1D9; font-size:1.05rem; line-height:1.6; max-width:800px; margin:auto;">
+      J’ai rédigé un guide complet pour aider les professionnels et apprenants à comprendre les fondamentaux de 
+      l’Intelligence Artificielle, du Machine Learning et de l’IA Générative sur AWS.<br>
+      💡 Basé sur les ressources officielles AWS et mon retour d’expérience.
+    </p>
+
+    <a href="guides/aws-aif-c01-study-guide.html" target="_blank"
+       style="display:inline-block; margin-top:1.5rem; background:#58A6FF; color:#0D1117;
+              padding:0.9rem 2rem; border-radius:10px; font-weight:bold;
+              font-size:1rem; text-decoration:none; transition:0.3s;">
+      📘 Lire le guide complet
+    </a>
+
+    <p style="margin-top:1rem; color:#9CA3AF; font-size:0.9rem;">
+      © 2025 – Cédric Stéphane MENEDA | Lecture seule – partage avec attribution autorisé
+    </p>
   </section>
-
-  <!-- ======= SECTION GUIDE AWS AIF-C01 ======= -->
-<section id="aws-guide" style="
-  margin-top:3rem;
-  background:rgba(88,166,255,0.05);
-  border:1px solid rgba(88,166,255,0.25);
-  border-radius:12px;
-  padding:2rem;
-  text-align:center;
-  max-width:1000px;
-  margin-left:auto;
-  margin-right:auto;
-">
-  <h2 style="color:#58A6FF; margin-bottom:1rem; font-size:1.4rem;">
-    🎯 Guide AWS Certified AI Practitioner (AIF-C01)
-  </h2>
-  <p style="color:#C9D1D9; font-size:1.05rem; line-height:1.6; max-width:800px; margin:auto;">
-    J’ai rédigé un guide complet pour aider les professionnels et apprenants à comprendre les fondamentaux de 
-    l’Intelligence Artificielle, du Machine Learning et de l’IA Générative sur AWS.<br>
-    💡 Basé sur les ressources officielles AWS et mon retour d’expérience.
-  </p>
-
-  <a href="guides/aws-aif-c01-study-guide.html" target="_blank" 
-     class="aws-guide-btn"
-     style="display:inline-block; margin-top:1.5rem; background:#58A6FF; color:#0D1117;
-            padding:0.9rem 2rem; border-radius:10px; font-weight:bold;
-            font-size:1rem; text-decoration:none; transition:0.3s;">
-    📘 Lire le guide complet
-  </a>
-
-  <p style="margin-top:1rem; color:#9CA3AF; font-size:0.9rem;">
-    © 2025 – Cédric Stéphane MENEDA | Lecture seule – partage avec attribution autorisé
-  </p>
 </section>
+
 
 <style>
 .aws-guide-btn:hover {
