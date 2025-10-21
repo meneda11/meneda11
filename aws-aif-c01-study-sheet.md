@@ -10,7 +10,7 @@
 
 # 🧠 Guide de préparation à la certification AWS Certified AI Practitioner (AIF-C01)
 ### Par **Cédric Stéphane MENEDA**  
-📍 *Data Analyst | Data Engineer | Data Scientist*  
+📍 *Data Analyst | Data Engineer *  
 🌐 [meneda11.github.io/meneda11](https://meneda11.github.io/meneda11)  
 📧 [mcedricstephane@gmail.com](mailto:mcedricstephane@gmail.com)  
 
