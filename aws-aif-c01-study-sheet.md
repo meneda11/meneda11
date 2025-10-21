@@ -904,7 +904,7 @@ Tu apprendras à :
 
 ---
 
-## 2. Modèle de responsabilité partagée AWS  
+## 2. Modèle de responsabilité partagée 
 
 Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS et le client.  
 
