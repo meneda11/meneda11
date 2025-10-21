@@ -24,6 +24,7 @@
       padding: 2rem 1rem;
       text-align: center;
       border-bottom: 1px solid #30363D;
+      position: relative;
     }
 
     h1 {
@@ -79,6 +80,28 @@
       vertical-align: middle;
     }
 
+    /* === Bouton retour === */
+    .back-button {
+      position: absolute;
+      top: 1.2rem;
+      left: 1.2rem;
+      background: #58A6FF;
+      color: #0D1117;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+      border: none;
+    }
+
+    .back-button:hover {
+      background: #79B8FF;
+      box-shadow: 0 0 10px rgba(88,166,255,0.5);
+      transform: translateY(-2px);
+    }
+
+    /* Table & responsive */
     .table {
       width: 100%;
       border-collapse: collapse;
@@ -93,20 +116,25 @@
     .table th {
       background-color: #161B22;
     }
+
+    @media (max-width: 600px) {
+      .back-button { font-size: 0.85rem; padding: 0.4rem 0.8rem; }
+    }
   </style>
 </head>
 
 <body>
   <header>
+    <!-- 🔙 Bouton retour -->
+    <a href="https://meneda11.github.io/meneda11" class="back-button">⬅ Retour au site</a>
+
     <h1>🧠 Guide AWS Certified AI Practitioner (AIF-C01)</h1>
     <h3>Par <span style="color:#58A6FF;">Cédric Stéphane MENEDA</span></h3>
     <p>Data Analyst | Data Engineer</p>
 
     <div class="badge-container">
-      <img class="badge" src="https://visitor-badge.laobi.icu/badge?page_id=meneda11.aws-aif-c01-study-sheet" alt="Visiteurs">
-      <a href="https://github.com/meneda11/meneda11/blob/main/aws-aif-c01-study-sheet.md">
-        <img class="badge" src="https://img.shields.io/badge/Source-GitHub-blue?logo=github" alt="GitHub Source">
-      </a>
+      <img class="badge" src="https://visitor-badge.laobi.icu/badge?page_id=meneda11.aws-aif-c01-study-guide" alt="Visiteurs">
+      <img class="badge" src="https://img.shields.io/badge/Source-Guide%20Web-blue?logo=readthedocs" alt="Guide Web">
       <img class="badge" src="https://img.shields.io/badge/Licence-CC%20BY--NC%204.0-green" alt="License">
     </div>
   </header>
@@ -117,8 +145,6 @@
       Ce guide est une <strong>synthèse personnelle</strong> réalisée à partir des <strong>ressources publiques AWS</strong> et de mon expérience de préparation à la certification.<br><br>
       🔗 Lecture libre à but éducatif (non commercial).  
       Citation obligatoire : <em>“Cédric Stéphane MENEDA – AWS AIF-C01 Study Guide (2025)”</em>.<br><br>
-      📚 Source originale :
-      <a href="https://github.com/meneda11/meneda11/blob/main/aws-aif-c01-study-sheet.md" target="_blank">GitHub Repository</a><br>
       🔒 Licence : <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr" target="_blank">CC BY-NC 4.0 – Attribution - Pas d’Utilisation Commerciale</a>
     </blockquote>
 
