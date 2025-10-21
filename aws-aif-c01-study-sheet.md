@@ -54,7 +54,7 @@
 4. [Outils AWS pour une IA responsable](#4-outils-aws-pour-une-ia-responsable)
 5. [Explicabilité et transparence](#5-explicabilité-et-transparence)
 6. [Gouvernance et conformité](#6-gouvernance-et-conformité)
-7. [Sécurité des données et durabilité](#7-sécurité-et-durabilité)
+7. [Sécurité et durabilité](#7-sécurité-et-durabilité)
 8. [Cadre d’une IA responsable sur AWS](#8-cadre-dune-ia-responsable-sur-aws)
 9. [Résumé express](#9-résumé-express)
 
