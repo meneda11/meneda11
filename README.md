@@ -173,11 +173,12 @@ Intéressé par une collaboration ou une discussion sur ces projets ?
 
 ### 🤖 Artificial Intelligence & Machine Learning
 - Apprentissage supervisé et non supervisé (régression, classification, clustering)
-- Traitement du langage naturel (TALN, intégrations, recherche sémantique)
+- Traitement du langage naturel (NLP, intégrations, recherche sémantique)
 - IA générative (Azure OpenAI Services, Azure AI Search, intégration LLM, Bedrock, JumpStart)
 - Vision par ordinateur (traitement d'images, modèles de détection)
-- Déploiement de modèles, service et MLOps
+- Déploiement de modèles, service et MLOps (Azure Machine Learning, SageMaker)
 - Analyse prédictive et prévision
+
   
 ---
 
