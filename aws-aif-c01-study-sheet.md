@@ -884,7 +884,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-# 🔐 Bloc 5 — Sécurité, Conformité et Gouvernance pour les Solutions d’IA  
+# Bloc 5 — Sécurité, Conformité et Gouvernance pour les Solutions d’IA  
 
 ---
 
@@ -899,6 +899,8 @@ Tu apprendras à :
 - assurer la conformité avec les normes et réglementations internationales.
 
 > 💡 *La sécurité n’est pas une étape finale du projet IA — c’est une culture à appliquer dès la conception.*
+
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
 
 ---
 
@@ -915,6 +917,8 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 
 **Astuce à retenir**  
 > *AWS protège le cloud, toi tu protèges ce que tu mets dedans.*
+
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
 
 ---
 
@@ -937,6 +941,8 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 
 **Astuce à retenir**  
 > *IAM = première ligne de défense dans le cloud.*
+
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
 
 ---
 
@@ -961,6 +967,8 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 **Astuce à retenir**  
 > *Toute ressource non surveillée est une faille potentielle.*
 
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
+
 ---
 
 ## 5. Gouvernance des données et des modèles  
@@ -981,6 +989,8 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 | **AWS Config** | Suivi des changements et conformité des ressources |
 | **AWS CloudTrail** | Journalisation complète des actions et accès |
 | **AWS Trusted Advisor** | Recommandations de sécurité, coût et performance |
+
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
 
 ---
 
@@ -1005,6 +1015,8 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 
 **Astuce à retenir**  
 > *La conformité n’est pas un audit ponctuel : c’est une pratique quotidienne.*
+
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
 
 ---
 
@@ -1055,6 +1067,8 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 > *Les Guardrails de Bedrock servent de “pare-feu moral et réglementaire” pour les modèles d’IA générative.*  
 > Ils garantissent que vos applications respectent les politiques d’entreprise, les lois et les bonnes pratiques AWS Responsible AI.
 
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
+
 ---
 
 ## 8. Sécurité multi-niveaux sur AWS  
@@ -1070,6 +1084,8 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 **Astuce à retenir**  
 > *Sécuriser = empiler les couches de protection comme un oignon 🧅.*
 
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
+
 ---
 
 ## 9. Optimisation des coûts et durabilité  
@@ -1083,6 +1099,8 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 **Astuce à retenir**  
 > *Sécurité + efficience = IA durable et rentable.*
+
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
 
 ---
 
@@ -1102,6 +1120,9 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 > 🔐 *Une IA sécurisée est une IA conforme, traçable et responsable.  
 > Maîtriser ces principes, c’est maîtriser la dernière étape vers ta réussite à l’examen AWS Certified AI Practitioner.*
+
+[⬆️ Retour au sommaire](#bloc-5--sécurité-conformité-et-gouvernance-pour-les-solutions-dia)
+
 
 # 🏁 Conclusion — Votre réussite à la certification AWS Certified AI Practitioner (AIF-C01)
 
