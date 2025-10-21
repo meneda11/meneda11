@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cédric Stéphane Meneda - Data Analyst & Data Engineer</title>
+
+  <!-- Empêche l'indexation et le téléchargement par les robots -->
+  <meta name="robots" content="noarchive, noindex">
+  
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -223,9 +227,15 @@
     }
     .read-more-btn:hover { color: var(--secondary); }
 
+    /* === Effet sur le bouton du guide AWS === */
+.aws-guide-btn:hover {
+  background:#79B8FF;
+  box-shadow:0 0 10px rgba(88,166,255,0.5);
+  transform:translateY(-2px);
+}
+
   </style>
 </head>
-
 
 <body>
   <!-- ===================== NAVIGATION ===================== -->
@@ -834,5 +844,12 @@
   });
 </script>
 
+<!-- ===================== SCRIPT DE PROTECTION ===================== -->
+  <script>
+    document.addEventListener('contextmenu', event => {
+      event.preventDefault();
+      alert("🔒 Ce contenu est protégé – toute reproduction est interdite.");
+    });
+  </script>
 </body>
 </html>
