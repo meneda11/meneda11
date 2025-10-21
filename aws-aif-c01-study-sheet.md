@@ -458,7 +458,7 @@ Améliorer les réponses des LLMs en combinant la génération et la recherche d
 
 ---
 
-## 💡 Résumé express
+## Résumé express
 
 | Concept | Retenir |
 |----------|----------|
