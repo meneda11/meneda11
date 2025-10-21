@@ -642,7 +642,7 @@ Réutiliser un modèle pré-entraîné pour une nouvelle tâche afin de réduire
 
 ---
 
-## 8. Déploiement sur AWS  
+## 8. Déploiement sur AWS (SageMaker / Bedrock) 
 
 ### Sur Amazon SageMaker  
 - **Real-Time Inference** : Faible latence, adapté au trafic constant et aux applications interactives.  
