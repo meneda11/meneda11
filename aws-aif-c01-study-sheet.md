@@ -1020,7 +1020,7 @@ Le **Shared Responsibility Model** définit clairement qui fait quoi entre AWS e
 
 ---
 
-## 7. Sécurité spécifique à l’IA et Guardrails (Barrières de protection)
+## 7. Sécurité spécifique à l’IA et Guardrails Bedrock
 
 ### 7.1 Risques typiques à surveiller  
 
