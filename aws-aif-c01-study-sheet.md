@@ -1140,6 +1140,8 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 > 💡 **Objectif final :** être capable d’expliquer comment AWS permet de concevoir, entraîner, déployer et sécuriser des applications d’IA responsables et performantes.
 
+[⬆️ Retour au sommaire](#conclusion)
+
 ---
 
 ## Les points essentiels à retenir pour l’examen
