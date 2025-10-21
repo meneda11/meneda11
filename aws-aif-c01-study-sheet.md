@@ -878,7 +878,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-> 🧠 *Une IA responsable n’est pas seulement performante : elle est compréhensible, équitable et digne de confiance.*
+> *Une IA responsable n’est pas seulement performante : elle est compréhensible, équitable et digne de confiance.*
 
 [⬆️ Retour au sommaire](#bloc-4---ia-responsable-ethique-transparence-et-gouvernance)
 
