@@ -1,3 +1,38 @@
+<!-- ====================== -->
+<!-- 🧠 AWS AIF-C01 STUDY GUIDE -->
+<!-- ====================== -->
+
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=meneda11.aws-aif-c01-study-sheet)
+[![GitHub](https://img.shields.io/badge/Source-GitHub-blue?logo=github)](https://github.com/meneda11/meneda11/blob/main/aws-aif-c01-study-sheet.md)
+[![License](https://img.shields.io/badge/License-Cédric%20Stéphane%20MENEDA-green)](#-droits-dauteur--licence)
+
+---
+
+# 🧠 Guide de préparation à la certification AWS Certified AI Practitioner (AIF-C01)
+### Par **Cédric Stéphane MENEDA**  
+📍 *Data Analyst | Data Engineer | Data Scientist*  
+🌐 [meneda11.github.io/meneda11](https://meneda11.github.io/meneda11)  
+📧 [mcedricstephane@gmail.com](mailto:mcedricstephane@gmail.com)  
+
+---
+
+> ⚠️ **Droits d’auteur © 2025 – Cédric Stéphane MENEDA**  
+> Ce document est publié à titre informatif et éducatif.  
+> Toute reproduction, modification ou redistribution sans autorisation écrite est strictement interdite.  
+> Vous pouvez le lire librement ou le partager en citant la source originale :  
+> 👉 [https://github.com/meneda11/meneda11](https://github.com/meneda11/meneda11)
+
+---
+
+## 📜 Licence & Propriété Intellectuelle  
+Ce contenu est protégé par une licence personnalisée “Lecture seule” :  
+- ✅ Lecture et partage du lien autorisés.  
+- ❌ Modification, suppression de l’auteur ou réutilisation commerciale interdites.  
+- 📚 Référence obligatoire : **Cédric Stéphane MENEDA – AWS AIF-C01 Study Guide (2025)**  
+
+---
+
+
 # Guide de préparation à la certification AWS Certified AI Practitioner (AIF-C01) — Guide complet
 
 # Table des matières
