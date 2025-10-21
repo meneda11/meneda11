@@ -4,7 +4,7 @@
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=meneda11.aws-aif-c01-study-sheet)
 [![GitHub](https://img.shields.io/badge/Source-GitHub-blue?logo=github)](https://github.com/meneda11/meneda11/blob/main/aws-aif-c01-study-sheet.md)
-[![License](https://img.shields.io/badge/License-Cédric%20Stéphane%20MENEDA-green)](#-droits-dauteur--licence)
+[![License](https://img.shields.io/badge/Licence-Attribution%20Non%20Commercial-green)](#-licence--droits-dutilisation)
 
 ---
 
@@ -16,19 +16,31 @@
 
 ---
 
-> ⚠️ **Droits d’auteur © 2025 – Cédric Stéphane MENEDA**  
-> Ce document est publié à titre informatif et éducatif.  
-> Toute reproduction, modification ou redistribution sans autorisation écrite est strictement interdite.  
-> Vous pouvez le lire librement ou le partager en citant la source originale :  
-> 👉 [https://github.com/meneda11/meneda11](https://github.com/meneda11/meneda11)
+> © 2025 – **Cédric Stéphane MENEDA**  
+> Ce guide est une **synthèse personnelle** réalisée à partir des **ressources publiques AWS**  
+> et de mon expérience de préparation à la certification *AWS Certified AI Practitioner (AIF-C01)*.  
+> Il est partagé à titre **éducatif et non commercial** pour aider les candidats à mieux comprendre les concepts clés.  
+>
+> 📚 Toute citation ou réutilisation doit mentionner la source :  
+> **“Cédric Stéphane MENEDA – AWS AIF-C01 Study Guide (2025)”**  
+>
+> 🔗 Référence originale : [https://github.com/meneda11/meneda11](https://github.com/meneda11/meneda11)
 
 ---
 
-## 📜 Licence & Propriété Intellectuelle  
-Ce contenu est protégé par une licence personnalisée “Lecture seule” :  
-- ✅ Lecture et partage du lien autorisés.  
-- ❌ Modification, suppression de l’auteur ou réutilisation commerciale interdites.  
-- 📚 Référence obligatoire : **Cédric Stéphane MENEDA – AWS AIF-C01 Study Guide (2025)**  
+## 📜 Licence & Droits d’utilisation
+
+Cette documentation est publiée sous la licence **Creative Commons BY-NC 4.0** :  
+- ✅ Lecture, téléchargement et partage **autorisés** à des fins éducatives.  
+- ✅ Citation de l’auteur obligatoire.  
+- ❌ Réutilisation commerciale, redistribution modifiée ou suppression de la paternité **interdites**.  
+- 🔗 [En savoir plus sur la licence CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.fr)
+
+---
+
+### 💡 Remarque
+AWS et *Amazon Web Services* sont des marques déposées d’Amazon.com, Inc.  
+Ce document **n’est pas affilié ni validé officiellement** par AWS.
 
 ---
 
