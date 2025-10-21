@@ -192,7 +192,7 @@ Chaque domaine contient :
 | **Format** | QCM (choix simple, multiple, classement, mise en correspondance, étude de cas) |
 | **Langue** | Anglais, Japonais et disponible aussi en français |
 | **Score minimum de réussite** | 700 / 1000 |
-| **Coût de l’examen** | 75 USD |
+| **Coût de l’examen** | 100 USD |
 | **Mode de passage** | En ligne (Pearson VUE) ou dans un centre d’examen agréé |
 | **Prérequis recommandés** | Notions de base en cloud computing et en IA, aucune expérience approfondie requise |
 
