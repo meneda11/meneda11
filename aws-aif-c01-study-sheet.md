@@ -836,7 +836,7 @@ Ce domaine de l’examen (14 %) évalue ta capacité à comprendre et appliquer 
 
 ---
 
-## 7. Sécurité des données et durabilité  
+## 7. Sécurité et durabilité 
 
 ### Bonnes pratiques  
 - **IAM et politiques de moindre privilège** : accorder le minimum de droits nécessaires.  
