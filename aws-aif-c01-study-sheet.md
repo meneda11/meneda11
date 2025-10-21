@@ -1144,7 +1144,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## 2. Les points essentiels à retenir pour l’examen
+## 2. Points essentiels à retenir
 
 ### Fondamentaux de l’IA
 - IA > ML > DL > IA Générative : du général au spécifique.  
@@ -1173,7 +1173,7 @@ Les Guardrails complètent les outils de sécurité et de gouvernance existants 
 
 ---
 
-## 3. Conseils pratiques pour réussir l’examen
+## 3. Conseils pratiques pour l’examen
 
 1. **Concentrez-vous sur les concepts**, pas sur la syntaxe technique.  
    > Exemple : comprendre à quoi sert SageMaker plutôt que savoir le coder.  
@@ -1200,7 +1200,7 @@ Une fois l’examen réussi :
 
 ---
 
-## 5. Remerciements & Contact  
+## 5. Remerciements & contact
 
 Ce guide a été rédigé par **Cédric Stéphane MENEDA** pour aider les apprenants et professionnels à mieux comprendre les **fondamentaux de l’intelligence artificielle sur AWS**. Il s’appuie sur les **ressources officielles AWS Training & Certification**, les **whitepapers AWS**, ainsi que sur des **expériences et notes personnelles issues de projets réels**.
 
