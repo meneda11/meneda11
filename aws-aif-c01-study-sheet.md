@@ -260,7 +260,7 @@ L’IA correspond à un ensemble de systèmes capables d’exécuter des tâches
 - Moteurs à base de logique ou d’inférences symboliques.  
 
 **Astuce à retenir**  
-> *AI = objectif global : reproduire ou dépasser certaines capacités humaines.*
+> *IA = objectif global : reproduire ou dépasser certaines capacités humaines.*
 
 [⬆️ Retour au sommaire](#bloc-2--fondamentaux-de-lia-du-ml-et-de-lia-générative)
 
