@@ -323,7 +323,7 @@ Sous-catégorie du ML utilisant des **réseaux de neurones profonds** (multi-cou
 ## 5. IA Générative et Modèles de Fondation
 
 **Définition**  
-L’IA générative crée du nouveau contenu (texte, image, son, code) à partir de ce qu’elle a appris.  
+Sous-catégorie du Deep Learning, l’IA générative crée du nouveau contenu (texte, image, son, code) à partir de ce qu’elle a appris.  
 Elle repose sur des **modèles de fondation** (foundation models) : des modèles pré-entraînés sur d’énormes volumes de données.
 
 **Concept clé**  
