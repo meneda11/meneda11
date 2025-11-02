@@ -469,27 +469,50 @@
   </div>
 
   <!-- ====== VUE D’ENSEMBLE DES DOMAINES ====== -->
-  <div class="domains-grid" id="domains-grid">
-    <div class="domain-card" data-target="marketing">
-      <h4>📊 Marketing & CRM Intelligence</h4>
-      <p>Comprendre, segmenter et engager les clients grâce à la data.</p>
-    </div>
-
-    <div class="domain-card" data-target="finance">
-      <h4>💰 Finance & Performance</h4>
-      <p>Anticiper les risques et optimiser la performance opérationnelle.</p>
-    </div>
-
-    <div class="domain-card" data-target="innovation">
-      <h4>⚙️ Innovation & Automatisation IA</h4>
-      <p>Concevoir des architectures data et automatiser les processus grâce à l’IA et au cloud.</p>
-    </div>
-
-    <div class="domain-card" data-target="sante">
-      <h4>🧬 Santé & Biodiversité</h4>
-      <p>Mettre l’IA au service du vivant et de la durabilité.</p>
-    </div>
+<div class="domains-grid" id="domains-grid">
+  <div class="domain-card" data-target="marketing">
+    <h4>📊 Marketing & CRM Intelligence</h4>
+    <p>Comprendre, segmenter et engager les clients grâce à la data.</p>
+    <span class="domain-hint">→ Explorer ce domaine</span>
   </div>
+
+  <div class="domain-card" data-target="finance">
+    <h4>💰 Finance & Performance</h4>
+    <p>Anticiper les risques et optimiser la performance opérationnelle.</p>
+    <span class="domain-hint">→ Explorer ce domaine</span>
+  </div>
+
+  <div class="domain-card" data-target="innovation">
+    <h4>⚙️ Innovation & Automatisation IA</h4>
+    <p>Concevoir des architectures data et automatiser les processus grâce à l’IA et au cloud.</p>
+    <span class="domain-hint">→ Explorer ce domaine</span>
+  </div>
+
+  <div class="domain-card" data-target="sante">
+    <h4>🧬 Santé & Biodiversité</h4>
+    <p>Mettre l’IA au service du vivant et de la durabilité.</p>
+    <span class="domain-hint">→ Explorer ce domaine</span>
+  </div>
+</div>
+
+<!-- STYLE -->
+<style>
+  .domain-hint {
+    display:block;
+    margin-top:1rem;
+    font-size:0.9rem;
+    color:#58A6FF;
+    opacity:0.8;
+    transition:all 0.3s ease;
+    font-weight:500;
+  }
+  .domain-card:hover .domain-hint {
+    opacity:1;
+    transform:translateX(4px);
+    text-decoration:underline;
+  }
+</style>
+
 
   <!-- ====== BOUTON RETOUR AUX DOMAINES ====== -->
   <div id="back-btn-container" style="display:none; text-align:center; margin-bottom:2rem;">
@@ -510,9 +533,14 @@
   <div id="projects-details">
 
     <!-- 📊 MARKETING -->
-    <div class="domain-details" id="marketing" style="display:none;">
-      <h3>📊 Marketing & CRM Intelligence</h3>
-      <p class="domain-desc">Projets dédiés à la segmentation client, au scoring et à la performance CRM.</p>
+<div class="domain-details" id="marketing" style="display:none;">
+  <h3 style="text-align:center; color:var(--primary); margin-bottom:0.8rem;">
+    📊 Marketing & Gestion de la Relation Client (CRM)
+  </h3>
+  <p class="domain-desc" style="text-align:center; color:#C9D1D9; max-width:700px; margin:0 auto 2rem auto;">
+    Projets dédiés à la segmentation client, au scoring et à la performance CRM pour mieux comprendre les clients 
+    et personnaliser les actions marketing.
+  </p>
 
       <div class="projects-grid">
         <div class="project-card">
@@ -565,9 +593,14 @@
     </div>
 
     <!-- 💰 FINANCE -->
-    <div class="domain-details" id="finance" style="display:none;">
-      <h3>💰 Finance & Performance</h3>
-      <p class="domain-desc">Projets de modélisation du risque, de scoring et d’optimisation de la performance financière.</p>
+<div class="domain-details" id="finance" style="display:none;">
+  <h3 style="text-align:center; color:var(--primary); margin-bottom:0.8rem;">
+    💰 Finance & Performance
+  </h3>
+  <p class="domain-desc" style="text-align:center; color:#C9D1D9; max-width:700px; margin:0 auto 2rem auto;">
+    Projets de modélisation du risque, de scoring et d’optimisation de la performance financière 
+    pour anticiper les défauts et renforcer la résilience opérationnelle.
+  </p>
 
       <div class="projects-grid">
         <div class="project-card">
@@ -645,9 +678,14 @@
     </div>
 
     <!-- 🧬 SANTÉ -->
-    <div class="domain-details" id="sante" style="display:none;">
-      <h3>🧬 Santé & Biodiversité</h3>
-      <p class="domain-desc">Projets IA appliqués à la santé, la biologie et la surveillance environnementale.</p>
+<div class="domain-details" id="sante" style="display:none;">
+  <h3 style="text-align:center; color:var(--primary); margin-bottom:0.8rem;">
+    🧬 Santé & Biodiversité
+  </h3>
+  <p class="domain-desc" style="text-align:center; color:#C9D1D9; max-width:700px; margin:0 auto 2rem auto;">
+    Projets d’intelligence artificielle appliqués à la santé, la biologie et la surveillance environnementale 
+    pour renforcer la durabilité et la prévention.
+  </p>
 
       <div class="projects-grid">
         <div class="project-card">
