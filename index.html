@@ -237,6 +237,35 @@
   </style>
 </head>
 
+
+  <script>
+  // Bouton de toggle principal
+  const toggleBtn = document.getElementById('toggleResources');
+  const resourcesSection = document.getElementById('resources');
+  let isVisible = false;
+
+  // Afficher/masquer quand on clique sur le bouton
+  toggleBtn.addEventListener('click', () => {
+    isVisible = !isVisible;
+    resourcesSection.style.display = isVisible ? 'block' : 'none';
+    toggleBtn.textContent = isVisible ? "📕 Masquer les ressources" : "📘 Voir mes ressources & publications";
+  });
+
+  // 👇 Gestion du clic dans le menu de navigation
+  document.querySelector('a[href="#resources"]').addEventListener('click', function (e) {
+    e.preventDefault();
+    // Si la section est masquée, on l'affiche
+    if (resourcesSection.style.display === 'none') {
+      resourcesSection.style.display = 'block';
+      toggleBtn.textContent = "📕 Masquer les ressources";
+      isVisible = true;
+    }
+    // On fait défiler doucement vers la section
+    resourcesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+</script>
+
+  
 <body>
   <!-- ===================== NAVIGATION ===================== -->
   <nav>
@@ -425,295 +454,256 @@
   });
 </script>
 
-
-  <!-- ===================== PROJECTS ===================== -->
+<!-- ===================== PROJECTS ===================== -->
 <section id="projects">
   <h2>Projets phares</h2>
 
   <!-- 🎯 IMPACT MÉTIER -->
-<div style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.25); border-radius:12px; padding:2rem; margin-bottom:3rem;">
-  <h3 style="color:#58A6FF; margin-bottom:1rem; text-align:center;">🎯 Impact métier</h3>
-  <ul style="list-style:none; padding-left:0; line-height:1.8; text-align:center;">
-    <li>Centralisation, unification et fiabilisation des données CRM grâce à l’automatisation.</li>
-    <li>Segmentation client et scoring IA pour prioriser les prospects à fort potentiel.</li>
-    <li>Vision 360° client permettant aux directions de cibler plus efficacement les opportunités.</li>
-    <li>Intégration de l’IA pour détecter les signaux d’affaires et anticiper les besoins clients.</li>
-  </ul>
-</div>
+  <div style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.25); border-radius:12px; padding:2rem; margin-bottom:3rem; text-align:center;">
+    <h3 style="color:#58A6FF; margin-bottom:1rem;">🎯 Impact métier</h3>
+    <p style="max-width:800px; margin:auto; color:#C9D1D9;">
+      Mes projets combinent <strong>Data Engineering</strong>, <strong>IA</strong> et <strong>analyse métier</strong> pour transformer les données en leviers de performance, de connaissance client et d’innovation.  
+      Sélectionnez un domaine pour explorer mes réalisations concrètes.
+    </p>
+  </div>
 
+  <!-- ====== VUE D’ENSEMBLE DES DOMAINES ====== -->
+  <div class="domains-grid" id="domains-grid">
+    <div class="domain-card" data-target="marketing">
+      <h4>📊 Marketing & CRM Intelligence</h4>
+      <p>Segmentation, scoring IA et automatisation CRM.</p>
+    </div>
+    <div class="domain-card" data-target="finance">
+      <h4>💰 Finance & Performance</h4>
+      <p>Scoring financier, modélisation du risque, maintenance prédictive.</p>
+    </div>
+    <div class="domain-card" data-target="cloud">
+      <h4>☁️ Data Engineering & IA / Cloud</h4>
+      <p>Fabric, Azure, Databricks, pipelines et automatisation IA.</p>
+    </div>
+    <div class="domain-card" data-target="sante">
+      <h4>🧬 Santé & Biodiversité</h4>
+      <p>IA appliquée à la santé et à l’environnement.</p>
+    </div>
+  </div>
 
-  <!-- 🧩 BLOC 1 : MARKETING & CRM INTELLIGENCE -->
-  <h3 style="color:var(--primary); text-align:center; margin-bottom:1rem;">📊 Marketing & Gestion de la relation client CRM</h3>
- <p style="text-align:center; color:#9CA3AF; margin-bottom:2rem;">
-  Ces projets illustrent ma capacité à exploiter les données CRM, marketing et web pour mieux connaître les clients, affiner la segmentation et optimiser la prospection ainsi que la performance commerciale.
-</p>
+  <!-- ====== BOUTON RETOUR AUX DOMAINES ====== -->
+  <div id="back-btn-container" style="display:none; text-align:center; margin-bottom:2rem;">
+    <button id="backToDomains" style="
+      background:transparent; 
+      color:var(--primary);
+      border:1px solid rgba(88,166,255,.4);
+      border-radius:8px;
+      padding:.8rem 1.5rem;
+      cursor:pointer;
+      font-weight:600;
+      transition:all .3s;">
+      ⬅ Revenir aux domaines
+    </button>
+  </div>
 
+  <!-- ====== CONTENU DES DOMAINES ====== -->
+  <div id="projects-details">
 
-  <div class="projects-grid">
+    <!-- 📊 MARKETING -->
+    <div class="domain-details" id="marketing" style="display:none;">
+      <h3>📊 Marketing & CRM Intelligence</h3>
+      <p class="domain-desc">Projets dédiés à la segmentation client, au scoring et à la performance CRM.</p>
 
-    <!-- Détection de signaux d’affaires -->
-    <div class="project-card">
-      <div class="project-header">
-        <h3>🤖 Détection de signaux d'affaires potentiels grâce à l'IA </h3>
-        <p class="project-meta"> Marketing décisionnel • 2025</p>
-      </div>
-      <div class="project-body">
-        <p>Développement d’un système IA de détection de signaux faibles à l’échelle entreprise, permettant aux directions de cibler leurs clients de manière optimale, anticiper les besoins et obtenir une vision 360° du profil client.</p>
-        <div class="project-tags">
-          <span class="project-tag">Microsoft Azure </span>
-          <span class="project-tag">Microsoft Fabric</span>
-          <span class="project-tag">Databricks</span>
-          <span class="project-tag">Dynamics 365</span>
-          <span class="project-tag">Power BI</span>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3>🤖 Détection de signaux d'affaires potentiels grâce à l'IA</h3>
+            <p class="project-meta">Marketing décisionnel • 2025</p>
+          </div>
+          <div class="project-body">
+            <p>Développement d’un moteur IA de détection de signaux faibles pour anticiper les besoins clients et prioriser les prospects à fort potentiel.</p>
+            <div class="project-tags">
+              <span class="project-tag">Microsoft Fabric</span><span class="project-tag">Azure</span><span class="project-tag">Databricks</span><span class="project-tag">Dynamics 365</span><span class="project-tag">Power BI</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
+            </div>
+          </div>
         </div>
-        <div class="project-links">
-          <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
+
+        <div class="project-card">
+          <div class="project-header"><h3>🗄️ Qualité des données CRM & Automatisation</h3><p class="project-meta">Gouvernance • 2025</p></div>
+          <div class="project-body">
+            <p>Automatisation du nettoyage et de la validation des données CRM pour fiabiliser la segmentation et la personnalisation marketing.</p>
+            <div class="project-tags">
+              <span class="project-tag">Fabric</span><span class="project-tag">Python</span><span class="project-tag">Power BI</span><span class="project-tag">Dynamics 365</span>
+            </div>
+            <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header"><h3>📈 Web Analytics & Optimisation</h3><p class="project-meta">Digital Performance • 2025</p></div>
+          <div class="project-body">
+            <p>Analyse des parcours utilisateurs et visualisation des KPIs digitaux pour optimiser les campagnes et taux de conversion.</p>
+            <div class="project-tags">
+              <span class="project-tag">Matomo</span><span class="project-tag">Power BI</span><span class="project-tag">Google Analytics</span>
+            </div>
+            <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header"><h3>🧾 Enquêtes de Satisfaction & NPS</h3><p class="project-meta">Customer Insights • 2025</p></div>
+          <div class="project-body">
+            <p>Collecte et analyse d’enquêtes (NPS, CSAT, CES) pour améliorer l’expérience client et piloter la fidélisation.</p>
+            <div class="project-tags">
+              <span class="project-tag">Power BI</span><span class="project-tag">Dynamics 365</span><span class="project-tag">Fabric</span>
+            </div>
+            <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Qualité des données CRM -->
-    <div class="project-card">
-      <div class="project-header">
-        <h3>🗄️ Qualité des données CRM et automatisation</h3>
-        <p class="project-meta">Qualité et gouvernance des données • 2025</p>
-      </div>
-      <div class="project-body">
-        <p>Gestion et maintien de la qualité des données CRM en automatisant les processus de nettoyage et de validation pour garantir la fiabilité des données et améliorer la délivrabilité des emails.</p>
-        <div class="project-tags">
-          <span class="project-tag">Microsoft Fabric </span>
-          <span class="project-tag">Python</span>
-          <span class="project-tag">Dynamics 365</span>
-          <span class="project-tag">Power BI</span>
+    <!-- 💰 FINANCE -->
+    <div class="domain-details" id="finance" style="display:none;">
+      <h3>💰 Finance & Performance</h3>
+      <p class="domain-desc">Projets de modélisation du risque, de scoring et d’optimisation de la performance financière.</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header"><h3>💹 Scoring du risque financier</h3><p class="project-meta">Finance Analytics • 2025</p></div>
+          <div class="project-body">
+            <p>Création d’un modèle prédictif basé sur les paiements et crédits clients pour anticiper les risques de défaut et renforcer la stratégie financière.</p>
+            <div class="project-tags"><span class="project-tag">Dataiku DSS</span><span class="project-tag">Python</span></div>
+            <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
+          </div>
         </div>
-        <div class="project-links">
-          <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
+
+        <div class="project-card">
+          <div class="project-header"><h3>⚙️ Prédiction de défaillance industrielle</h3><p class="project-meta">Machine Learning • 2025</p></div>
+          <div class="project-body">
+            <p>Pipeline MLOps pour prédire les pannes à 24h et optimiser la maintenance préventive grâce à l’analyse de données capteurs.</p>
+            <div class="project-tags"><span class="project-tag">AWS</span><span class="project-tag">Airflow</span><span class="project-tag">Docker</span><span class="project-tag">W&B</span></div>
+            <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Web Analytics -->
-    <div class="project-card">
-      <div class="project-header">
-        <h3>📈 Web Analytics & Optimisation</h3>
-        <p class="project-meta">Web Analytics • 2025</p>
-      </div>
-      <div class="project-body">
-        <p>Suivi et analyse du comportement des visiteurs afin d’optimiser les actions et la performance digitale (Matomo, Power BI, Google Analytics).</p>
-        <div class="project-tags">
-          <span class="project-tag">Matomo</span>
-          <span class="project-tag">Power BI</span>
-          <span class="project-tag">Google Analytics</span>
+    <!-- ☁️ CLOUD -->
+    <div class="domain-details" id="cloud" style="display:none;">
+      <h3>☁️ Data Engineering & IA / Cloud</h3>
+      <p class="domain-desc">Projets autour des architectures cloud, des pipelines de données et de l’automatisation IA.</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header"><h3>🏗️ Architecture des données & pipelines</h3><p class="project-meta">Data Engineering • 2025</p></div>
+          <div class="project-body">
+            <p>Conception d’architectures end-to-end sur Azure et Fabric pour fiabiliser la donnée et automatiser les traitements analytiques.</p>
+            <div class="project-tags"><span class="project-tag">Azure</span><span class="project-tag">Fabric</span><span class="project-tag">Databricks</span><span class="project-tag">SQL</span></div>
+            <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
+          </div>
         </div>
-        <div class="project-links">
-          <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
+
+        <div class="project-card">
+          <div class="project-header"><h3>🧠 TechWatch Agent – Veille automatisée IA</h3><p class="project-meta">IA & Automatisation • 2025</p></div>
+          <div class="project-body">
+            <p>Agent intelligent de veille technologique automatisée (IA, Cloud, DevOps) avec génération de résumés et tableau de bord Streamlit.</p>
+            <div class="project-tags"><span class="project-tag">OpenAI GPT-4o-mini</span><span class="project-tag">Python</span><span class="project-tag">Streamlit</span></div>
+            <div class="project-links"><a href="https://github.com/meneda11/techwatch-agent" class="project-link">→ Voir sur GitHub</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header"><h3>📡 Monitoring des performances réseau</h3><p class="project-meta">Télécom & Data • 2023</p></div>
+          <div class="project-body">
+            <p>Tableaux de bord en temps réel sur données réseau (RSRP, SINR, RSRQ) avec détection d’anomalies pour la qualité de service.</p>
+            <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">SQL</span><span class="project-tag">Tableau</span></div>
+            <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Enquêtes de Satisfaction -->
-    <div class="project-card">
-      <div class="project-header">
-        <h3>🧾 Enquêtes de Satisfaction</h3>
-        <p class="project-meta">Customer Services • 2025</p>
-      </div>
-      <div class="project-body">
-        <p>Collecte et analyse d'enquêtes de satisfaction (NPS, CSAT, CES) pour mesurer l'expérience client, identifier les leviers d'amélioration et piloter les actions marketing et qualité.</p>
-        <div class="project-tags">
-          <span class="project-tag">Power BI</span>
-          <span class="project-tag">Dynamics 365</span>
-          <span class="project-tag">Microsoft Fabric</span>
+    <!-- 🧬 SANTÉ -->
+    <div class="domain-details" id="sante" style="display:none;">
+      <h3>🧬 Santé & Biodiversité</h3>
+      <p class="domain-desc">Projets IA appliqués à la santé, la biologie et la surveillance environnementale.</p>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header"><h3>🐝 Surveillance de la santé des abeilles (IA & IoT)</h3><p class="project-meta">Computer Vision • 2024</p></div>
+          <div class="project-body">
+            <p>Système de suivi IA utilisant capteurs IoT et vision par ordinateur pour prévenir les anomalies comportementales dans les ruches.</p>
+            <div class="project-tags"><span class="project-tag">YOLOv5</span><span class="project-tag">PyTorch</span><span class="project-tag">Python</span></div>
+            <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
+          </div>
         </div>
-        <div class="project-links">
-          <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
+
+        <div class="project-card">
+          <div class="project-header"><h3>🔬 Analyse biomédicale PCR automatisée</h3><p class="project-meta">Bioinformatique • 2024</p></div>
+          <div class="project-body">
+            <p>Pipeline IA pour analyser les résultats PCR et visualiser les tendances biologiques en temps réel.</p>
+            <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Scikit-learn</span><span class="project-tag">Tableau</span></div>
+            <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+</section>
 
-<!-- 💰 BLOC 2 : FINANCE & PERFORMANCE -->
-<h3 style="color:var(--primary); text-align:center; margin-top:4rem; margin-bottom:1rem;">💰 Finance & Performance</h3>
-<p style="text-align:center; color:#9CA3AF; margin-bottom:2rem;">
-  Ces projets mettent en avant ma capacité à modéliser les risques, anticiper les défaillances et améliorer la performance financière et opérationnelle grâce à la data et à l’IA.
-</p>
+<!-- ====== STYLE ====== -->
+<style>
+  .domains-grid {
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:1.5rem; margin-bottom:3rem;
+  }
+  .domain-card {
+    background:linear-gradient(135deg,rgba(88,166,255,.08),rgba(139,92,246,.05));
+    border:1px solid rgba(88,166,255,.25);
+    border-radius:16px; padding:2rem 1.5rem;
+    text-align:center; cursor:pointer; transition:all .3s ease;
+  }
+  .domain-card:hover {
+    transform:translateY(-5px);
+    border-color:var(--primary);
+    box-shadow:0 10px 30px rgba(88,166,255,.3);
+    background:linear-gradient(135deg,rgba(88,166,255,.15),rgba(139,92,246,.08));
+  }
+  .domain-card h4 { color:var(--primary); margin-bottom:.5rem; }
+  .domain-card p { color:#C9D1D9; font-size:.95rem; }
+  #backToDomains:hover { background:rgba(88,166,255,.1); transform:translateY(-2px); }
+  .domain-details { animation:fadeIn .6s ease; }
+  @keyframes fadeIn { from{opacity:0;transform:translateY(20px);} to{opacity:1;transform:translateY(0);} }
+</style>
 
-<div class="projects-grid">
+<!-- ====== SCRIPT ====== -->
+<script>
+  const domainCards = document.querySelectorAll('.domain-card');
+  const detailsSections = document.querySelectorAll('.domain-details');
+  const backBtnContainer = document.getElementById('back-btn-container');
+  const domainsGrid = document.getElementById('domains-grid');
+  const backBtn = document.getElementById('backToDomains');
 
-  <!-- Projet : Analyse & Scoring du Risque Financier -->
-  <div class="project-card">
-    <div class="project-header">
-      <h3>💹 Analyse & Scoring du Risque Financier</h3>
-      <p class="project-meta">Finance Analytics • 2025</p>
-    </div>
-    <div class="project-body">
-      <p>Création d’un système complet d’analyse du risque financier des clients à partir de données multi-sources (transactions, paiements, crédits, profils). 
-      Le projet vise à identifier les comportements à risque, anticiper les défauts de paiement et fournir une base solide pour le scoring prédictif et les décisions financières.</p>
-      <div class="project-tags">
-        <span class="project-tag">Dataiku DSS</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
-      </div>
-    </div>
-  </div>
+  domainCards.forEach(card => {
+    card.addEventListener('click', () => {
+      const target = card.dataset.target;
+      domainsGrid.style.display = 'none';
+      backBtnContainer.style.display = 'block';
+      detailsSections.forEach(sec => {
+        sec.style.display = (sec.id === target) ? 'block' : 'none';
+      });
+      document.getElementById(target).scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
 
-  <!-- Projet : Prédiction de risque de défaillance industrielle -->
-  <div class="project-card">
-    <div class="project-header">
-      <h3>⚙️ Prédiction de risque de défaillance industrielle</h3>
-      <p class="project-meta">Machine Learning • 2025</p>
-    </div>
-    <div class="project-body">
-      <p>Développement d’un pipeline MLOps pour prédire les pannes industrielles à 24h, en combinant apprentissage supervisé, séries temporelles et suivi de performance opérationnelle. 
-      Le modèle permet d’anticiper les défaillances critiques et d’optimiser la maintenance préventive.</p>
-      <div class="project-tags">
-        <span class="project-tag">AWS</span>
-        <span class="project-tag">Python</span>
-        <span class="project-tag">Docker</span>
-        <span class="project-tag">Airflow</span>
-        <span class="project-tag">W&B</span>
-        <span class="project-tag">Git/GitHub</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
-      </div>
-    </div>
-  </div>
+  backBtn.addEventListener('click', () => {
+    detailsSections.forEach(sec => sec.style.display = 'none');
+    backBtnContainer.style.display = 'none';
+    domainsGrid.style.display = 'grid';
+    domainsGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+</script>
 
-</div>
-
-
- <!-- ☁️ BLOC 3 : DATA ENGINEERING & IA / CLOUD -->
-<h3 style="color:var(--primary); text-align:center; margin-top:4rem; margin-bottom:1rem;">☁️ Data Engineering & IA / Cloud</h3>
-<p style="text-align:center; color:#9CA3AF; margin-bottom:2rem;">
-  Ces projets démontrent ma maîtrise des architectures cloud, des pipelines IA et de l’automatisation pour fiabiliser et valoriser la donnée à grande échelle.
-</p>
-
-<div class="projects-grid">
-
-  <!-- Architecture des données & Automatisation -->
-  <div class="project-card">
-    <div class="project-header">
-      <h3>🏗️ Architecture des données & Automatisation des pipelines</h3>
-      <p class="project-meta">Data Engineering • 2025</p>
-    </div>
-    <div class="project-body">
-      <p>Conception d’architectures de données end-to-end et de pipelines automatisés pour centraliser, transformer et valoriser les données marketing et CRM au sein de l’organisation.</p>
-      <div class="project-tags">
-        <span class="project-tag">Microsoft Azure</span>
-        <span class="project-tag">Microsoft Fabric</span>
-        <span class="project-tag">Databricks</span>
-        <span class="project-tag">Dynamics 365</span>
-        <span class="project-tag">Power BI</span>
-        <span class="project-tag">Python</span>
-        <span class="project-tag">SQL</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- TechWatch Agent -->
-  <div class="project-card">
-    <div class="project-header">
-      <h3>🧠 TechWatch Agent – Assistant IA de veille technologique</h3>
-      <p class="project-meta">IA & Automatisation • 2025</p>
-    </div>
-    <div class="project-body">
-      <p>Développement d’un agent intelligent de veille technologique automatisée (IA, Cloud, DevOps) capable d’extraire, résumer et présenter les actualités via une interface Streamlit interactive.</p>
-      <div class="project-tags">
-        <span class="project-tag">Python</span>
-        <span class="project-tag">OpenAI GPT-4o-mini</span>
-        <span class="project-tag">Streamlit</span>
-        <span class="project-tag">Automation</span>
-        <span class="project-tag">RSS Feeds</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/meneda11/techwatch-agent" class="project-link">→ Voir le projet sur GitHub</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Optimisation réseau -->
-  <div class="project-card">
-    <div class="project-header">
-      <h3>📡 Optimisation et surveillance des performances du réseau</h3>
-      <p class="project-meta">Télécommunications & Réseaux • 2020-2023</p>
-    </div>
-    <div class="project-body">
-      <p>Conception de pipelines de données et d’analyses en temps réel sur les mesures réseau (RSRP, RSRQ, SINR…). 
-      Détection d’anomalies et création de tableaux de bord interactifs pour le suivi qualité et la performance des infrastructures.</p>
-      <div class="project-tags">
-        <span class="project-tag">Python</span>
-        <span class="project-tag">SQL</span>
-        <span class="project-tag">Tableau</span>
-        <span class="project-tag">Nemo Analysis</span>
-        <span class="project-tag">Actix</span>
-        <span class="project-tag">MapInfo</span>
-        <span class="project-tag">Tems Discovery</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- 🧬 BLOC 4 : SANTÉ & BIODIVERSITÉ -->
-<h3 style="color:var(--primary); text-align:center; margin-top:4rem; margin-bottom:1rem;">🧬 Santé & Biodiversité</h3>
-<p style="text-align:center; color:#9CA3AF; margin-bottom:2rem;">
-  Ces projets appliquent l’IA et la data science à la santé et à l’environnement pour renforcer la surveillance, la prévention et la durabilité.
-</p>
-
-<div class="projects-grid">
-
-  <!-- Surveillance Abeilles -->
-  <div class="project-card">
-    <div class="project-header">
-      <h3>🐝 Surveillance de la santé des colonies d’abeilles grâce à l'IA et l'IOT</h3>
-      <p class="project-meta">Computer Vision • 2024</p>
-    </div>
-    <div class="project-body">
-      <p>Développement d’un système IA pour le suivi de la santé des colonies d’abeilles à partir de données multi-capteurs IOT et d’images analysées par vision par ordinateur. 
-      Le modèle identifie les comportements anormaux et aide à prévenir la mortalité des colonies.</p>
-      <div class="project-tags">
-        <span class="project-tag">YOLOv5</span>
-        <span class="project-tag">Python</span>
-        <span class="project-tag">Jupyter</span>
-        <span class="project-tag">Scikit-learn</span>
-        <span class="project-tag">PyTorch</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Biomédical -->
-  <div class="project-card">
-    <div class="project-header">
-      <h3>🔬 Biomédical - Analyse de données PCR grâce à l'IA</h3>
-      <p class="project-meta">Bioinformatics • 2024</p>
-    </div>
-    <div class="project-body">
-      <p>Conception d’un pipeline automatisé pour l’analyse de données PCR SinglePlex, avec modélisation prédictive des résultats et visualisation scientifique. 
-      Le projet contribue à l’interprétation rapide et fiable des données biologiques.</p>
-      <div class="project-tags">
-        <span class="project-tag">Python</span>
-        <span class="project-tag">Scikit-learn</span>
-        <span class="project-tag">Tableau</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div style="text-align:center; margin-top:3rem;">
-  <a href="https://github.com/meneda11/data-science-portfolio" class="btn btn-primary">📂 Voir tous mes projets</a>
-</div>
 
 
   <!-- ===================== TESTIMONIALS ===================== -->
