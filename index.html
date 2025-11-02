@@ -376,8 +376,19 @@
 
 
 
-  <!-- ===================== RESSOURCES & PUBLICATIONS ===================== -->
-<section id="resources">
+ <!-- ======== BOUTON POUR AFFICHER LA SECTION ======== -->
+<div style="text-align:center; margin:3rem 0;">
+  <button id="toggleResources" 
+          style="background:linear-gradient(135deg,#58A6FF,#8B5CF6);
+                 border:none; color:white; font-weight:600;
+                 padding:0.9rem 2rem; border-radius:8px;
+                 cursor:pointer; transition:all .3s;">
+    📘 Voir mes ressources & publications
+  </button>
+</div>
+
+<!-- ======== SECTION MASQUÉE PAR DÉFAUT ======== -->
+<section id="resources" style="display:none; margin-top:2rem;">
   <h2>📘 Ressources & Publications</h2>
   <p style="text-align:center; color:#9CA3AF; max-width:750px; margin:0 auto 2rem;">
     Guides et documents conçus pour partager mes connaissances en Data, Cloud et Intelligence Artificielle.
@@ -385,7 +396,6 @@
 
   <div class="resources-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5rem;">
 
-    <!-- Guide AWS -->
     <div class="resource-card" style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.25); border-radius:12px; padding:1.8rem; text-align:center;">
       <h3 style="color:#58A6FF; margin-bottom:0.8rem;">🎯 Guide AWS Certified AI Practitioner (AIF-C01)</h3>
       <p style="color:#C9D1D9; font-size:1rem; line-height:1.6;">
@@ -402,14 +412,18 @@
   </div>
 </section>
 
+<!-- ======== SCRIPT POUR LE BOUTON ======== -->
+<script>
+  const toggleBtn = document.getElementById('toggleResources');
+  const resourcesSection = document.getElementById('resources');
+  let isVisible = false;
 
-<style>
-.aws-guide-btn:hover {
-  background:#79B8FF;
-  box-shadow:0 0 10px rgba(88,166,255,0.5);
-  transform:translateY(-2px);
-}
-</style>
+  toggleBtn.addEventListener('click', () => {
+    isVisible = !isVisible;
+    resourcesSection.style.display = isVisible ? 'block' : 'none';
+    toggleBtn.textContent = isVisible ? "📕 Masquer les ressources" : "📘 Voir mes ressources & publications";
+  });
+</script>
 
 
   <!-- ===================== PROJECTS ===================== -->
@@ -417,21 +431,23 @@
   <h2>Projets phares</h2>
 
   <!-- 🎯 IMPACT MÉTIER -->
-  <div style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.25); border-radius:12px; padding:2rem; margin-bottom:3rem;">
-    <h3 style="color:#58A6FF; margin-bottom:1rem; text-align:center;">🎯 Impact métier</h3>
-    <ul style="list-style:none; padding-left:0; line-height:1.8; text-align:center;">
-      <li>+30% de fiabilité des données CRM grâce à l’automatisation.</li>
-      <li>Meilleure segmentation client et scoring IA pour prioriser les prospects.</li>
-      <li>Vision 360° client permettant aux directions marketing et commerciales de piloter les campagnes en temps réel.</li>
-      <li>Intégration IA pour détecter les signaux d’affaires et anticiper les besoins clients.</li>
-    </ul>
-  </div>
+<div style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.25); border-radius:12px; padding:2rem; margin-bottom:3rem;">
+  <h3 style="color:#58A6FF; margin-bottom:1rem; text-align:center;">🎯 Impact métier</h3>
+  <ul style="list-style:none; padding-left:0; line-height:1.8; text-align:center;">
+    <li>Centralisation, unification et fiabilisation des données CRM grâce à l’automatisation.</li>
+    <li>Segmentation client et scoring IA pour prioriser les prospects à fort potentiel.</li>
+    <li>Vision 360° client permettant aux directions de cibler plus efficacement les opportunités.</li>
+    <li>Intégration de l’IA pour détecter les signaux d’affaires et anticiper les besoins clients.</li>
+  </ul>
+</div>
+
 
   <!-- 🧩 BLOC 1 : MARKETING & CRM INTELLIGENCE -->
   <h3 style="color:var(--primary); text-align:center; margin-bottom:1rem;">📊 Marketing & Gestion de la relation client CRM</h3>
-  <p style="text-align:center; color:#9CA3AF; margin-bottom:2rem;">
-    Ces projets illustrent ma capacité à connecter les données CRM, marketing et web pour optimiser la connaissance client, la segmentation et la performance commerciale.
-  </p>
+ <p style="text-align:center; color:#9CA3AF; margin-bottom:2rem;">
+  Ces projets illustrent ma capacité à exploiter les données CRM, marketing et web pour mieux connaître les clients, affiner la segmentation et optimiser la prospection ainsi que la performance commerciale.
+</p>
+
 
   <div class="projects-grid">
 
