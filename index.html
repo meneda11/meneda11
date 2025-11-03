@@ -361,16 +361,16 @@
     <!-- COLONNE DROITE : SKILLS -->
     <div class="about-skills" style="flex:1 1 380px; min-width:300px;">
 
- <!-- ======== LÉGENDE INTÉGRÉE ======== -->
-<div style="text-align:center; margin-bottom:1rem;">
-  <p style="font-size:0.9rem; color:#C9D1D9;">
-    <strong>🔹 Niveaux d’expertise :</strong>
-    <span style="color:#15803d; font-weight:600;">🟢 Expert</span> ·
-    <span style="color:#1e40af; font-weight:600;">🔵 Avancé</span> ·
-    <span style="color:#b45309; font-weight:600;">🟡 Intermédiaire</span> ·
-    <span style="color:#b91c1c; font-weight:600;">🔴 Débutant</span>
-  </p>
-</div>
+      <!-- ======== LÉGENDE INTÉGRÉE ======== -->
+      <div style="text-align:center; margin-bottom:1rem;">
+        <p style="font-size:0.9rem; color:#C9D1D9;">
+          <strong>🔹 Niveaux d’expertise :</strong>
+          <span style="color:#22c55e; font-weight:600;">🟢 Expert</span> ·
+          <span style="color:#3b82f6; font-weight:600;">🔵 Avancé</span> ·
+          <span style="color:#eab308; font-weight:600;">🟡 Intermédiaire</span> ·
+          <span style="color:#ef4444; font-weight:600;">🔴 Débutant</span>
+        </p>
+      </div>
 
       <!-- ======== 4 CARTES MODERNES ======== -->
       <div class="skills-grid" style="
@@ -399,7 +399,6 @@
             <span class="tool expert">Power BI</span>
             <span class="tool expert">Tableau</span>
             <span class="tool expert">Teams</span>
-            <span class="tool advanced">Excel</span>
             <span class="tool advanced">Looker Studio</span>
             <span class="tool intermediate">Collibra</span>
             <span class="tool intermediate">Jira</span>
@@ -408,11 +407,11 @@
           </div>
         </div>
 
-        <!-- CLOUD  -->
+        <!-- CLOUD & DATA ENGINEERING -->
         <div class="skill-card" style="background:linear-gradient(135deg, rgba(139,92,246,0.08), rgba(139,92,246,0.02)); border:1px solid rgba(139,92,246,0.25); border-radius:12px; padding:1.5rem;">
-          <h4 style="color:var(--secondary); margin-bottom:1rem;">☁️ Cloud Computing</h4>
+          <h4 style="color:var(--secondary); margin-bottom:1rem;">☁️ Cloud & Data Engineering</h4>
           <div class="tools">
-            <span class="tool expert">Fabric</span>
+            <span class="tool expert">Microsoft Fabric</span>
             <span class="tool expert">Azure</span>
             <span class="tool advanced">AWS</span>
             <span class="tool advanced">Dataiku</span>
@@ -439,53 +438,32 @@
     </div>
   </div>
 
- <!-- STYLE BADGES + NIVEAUX -->
-<style>
-.tools {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: flex-start;
-}
-.tool {
-  padding: 0.35rem 0.8rem;
-  border-radius: 8px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
-}
-
-/* === Codes couleurs revisités (tons sombres élégants) === */
-.tool.expert {
-  background: rgba(21,128,61,0.2);   /* vert forêt */
-  border-color: rgba(21,128,61,0.4);
-  color: #15803d;
-}
-.tool.advanced {
-  background: rgba(30,64,175,0.25);  /* bleu indigo */
-  border-color: rgba(30,64,175,0.45);
-  color: #1e40af;
-}
-.tool.intermediate {
-  background: rgba(180,83,9,0.25);   /* ambre foncé */
-  border-color: rgba(180,83,9,0.45);
-  color: #b45309;
-}
-.tool.beginner {
-  background: rgba(185,28,28,0.25);  /* rouge brique */
-  border-color: rgba(185,28,28,0.45);
-  color: #b91c1c;
-}
-
-/* Hover subtil et élégant */
-.tool:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0 10px rgba(88,166,255,0.15);
-  filter: brightness(1.05);
-}
-</style>
-
+  <!-- STYLE BADGES + NIVEAUX -->
+  <style>
+  .tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: flex-start;
+  }
+  .tool {
+    padding: 0.35rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+  }
+  .tool.expert { background: rgba(34,197,94,0.2); border-color: rgba(34,197,94,0.5); color: #22c55e; }
+  .tool.advanced { background: rgba(59,130,246,0.2); border-color: rgba(59,130,246,0.5); color: #3b82f6; }
+  .tool.intermediate { background: rgba(234,179,8,0.2); border-color: rgba(234,179,8,0.5); color: #eab308; }
+  .tool.beginner { background: rgba(239,68,68,0.2); border-color: rgba(239,68,68,0.5); color: #ef4444; }
+  .tool:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(88,166,255,0.2);
+    filter: brightness(1.1);
+  }
+  </style>
 </section>
 
 
