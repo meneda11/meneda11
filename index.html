@@ -33,7 +33,7 @@
     /* ===================== NAVIGATION (desktop + mobile) ===================== */
     nav{
       position:fixed; top:0; width:100%;
-      background:rgba(13,17,23,0.95);
+      background:rgba(22,27,34,0.92);
       backdrop-filter:blur(10px);
       padding:1rem 0; z-index:1000;
       border-bottom:1px solid rgba(88,166,255,0.1);
@@ -53,10 +53,17 @@
     nav ul{
       display:flex; list-style:none; gap:2rem; transition:all .3s ease;
     }
+    /* Liens (desktop) — Correction lisibilité sur fond sombre */
     nav a{
-      color:var(--light); text-decoration:none; font-weight:500; transition:color .3s;
+      color:#E2E8F0; /* gris clair lisible sur fond noir */
+      text-decoration:none;
+      font-weight:500;
+      transition:color .3s;
     }
-    nav a:hover{ color:var(--primary); }
+    nav a:hover{
+      color:var(--primary);
+}
+
 
     /* Hamburger (mobile) */
     .hamburger{
