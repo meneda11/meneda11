@@ -320,7 +320,12 @@
 <section id="about">
   <h2>À propos de moi</h2>
 
-  <div class="about-content" style="display:flex; flex-wrap:wrap; gap:2rem; align-items:flex-start;">
+  <div class="about-content" style="
+    display:flex; 
+    flex-wrap:wrap; 
+    gap:2rem; 
+    align-items:stretch;
+  ">
 
     <!-- COLONNE GAUCHE : TEXTE -->
     <div class="about-text" style="flex:1 1 380px; min-width:300px;">
@@ -330,17 +335,19 @@
         border:1px solid rgba(88,166,255,0.2);
         border-radius:12px;
         padding:1.8rem;
+        height:100%;
         box-shadow:0 4px 20px rgba(0,0,0,0.1);
       ">
         <h3 style="color:var(--primary); margin-bottom:0.8rem;">Qui suis-je ?</h3>
 
-      <p style="color:var(--light); text-align:justify; text-justify:inter-word;">
-        <span style="display:block; font-weight:600; color:var(--primary); margin-bottom:0.8rem;">
-          Profil hybride : Data Engineer & Data Analyst.
-        </span>
-        👷‍♂️ <strong>Data Engineer</strong> — je construis les infrastructures et pipelines qui font circuler la donnée.<br>
-        📊 <strong>Data Analyst</strong> — j’analyse et interprète les données passées pour en tirer des insights concrets, avec une expérience en <strong>marketing</strong> et <strong>gestion de la relation client (CRM)</strong>.
-      </p>
+        <p style="color:var(--light); text-align:justify; text-justify:inter-word;">
+          <span style="display:block; font-weight:600; color:var(--primary); margin-bottom:0.8rem;">
+            Profil hybride : Data Engineer & Data Analyst.
+          </span>
+          👷‍♂️ <strong>Data Engineer</strong> — je construis les infrastructures et pipelines qui font circuler la donnée.<br>
+          📊 <strong>Data Analyst</strong> — j’analyse et interprète les données passées pour en tirer des insights concrets, 
+          avec une expérience en <strong>marketing</strong> et <strong>gestion de la relation client (CRM)</strong>.
+        </p>
 
         <div style="margin-top:1.5rem;">
           <p>🎓 <strong>Master en Data Management</strong> – Big Data & Cloud</p>
@@ -350,9 +357,7 @@
           <p>📍 <strong>Basé à Paris</strong> – Disponible en France et à l’international</p>
         </div>
       </div>
-
     </div>
-
 
     <!-- COLONNE DROITE : 4 CARTES MODERNES -->
     <div class="skills-grid" style="
@@ -366,16 +371,20 @@
       <div class="skill-card" style="
         background:linear-gradient(135deg, rgba(88,166,255,0.08), rgba(88,166,255,0.02));
         border:1px solid rgba(88,166,255,0.25);
-        border-radius:12px; padding:1.5rem;
+        border-radius:12px; 
+        padding:1.5rem;
+        min-height:160px;
       ">
-        <h4 style="color:var(--primary); margin-bottom:0.5rem;">📊 Marketing & CRM </h4>
+        <h4 style="color:var(--primary); margin-bottom:0.5rem;">📊 Marketing & CRM</h4>
         <p>Dynamics 365 · Salesforce · Adobe Campaign · SharePoint · Matomo · Google Analytics</p>
       </div>
 
       <div class="skill-card" style="
         background:linear-gradient(135deg, rgba(16,185,129,0.08), rgba(16,185,129,0.02));
         border:1px solid rgba(16,185,129,0.25);
-        border-radius:12px; padding:1.5rem;
+        border-radius:12px; 
+        padding:1.5rem;
+        min-height:160px;
       ">
         <h4 style="color:#10B981; margin-bottom:0.5rem;">📈 Data Visualisation & Gouvernance</h4>
         <p>Power BI · Tableau · Looker Studio · Excel · Qlik Sense · Collibra · Jira · Confluence · Teams</p>
@@ -384,24 +393,29 @@
       <div class="skill-card" style="
         background:linear-gradient(135deg, rgba(139,92,246,0.08), rgba(139,92,246,0.02));
         border:1px solid rgba(139,92,246,0.25);
-        border-radius:12px; padding:1.5rem;
+        border-radius:12px; 
+        padding:1.5rem;
+        min-height:160px;
       ">
-        <h4 style="color:var(--secondary); margin-bottom:0.5rem;">☁️ Cloud </h4>
-        <p>Microsoft Fabric · Azure · AWS · GCP · Databricks · Dataiku · Snowflake </p>
+        <h4 style="color:var(--secondary); margin-bottom:0.5rem;">☁️ Cloud</h4>
+        <p>Microsoft Fabric · Azure · AWS · GCP · Databricks · Dataiku · Snowflake</p>
       </div>
 
       <div class="skill-card" style="
         background:linear-gradient(135deg, rgba(236,72,153,0.08), rgba(236,72,153,0.02));
         border:1px solid rgba(236,72,153,0.25);
-        border-radius:12px; padding:1.5rem;
+        border-radius:12px; 
+        padding:1.5rem;
+        min-height:160px;
       ">
         <h4 style="color:var(--accent); margin-bottom:0.5rem;">💻 Langages de Programmation</h4>
-        <p> Python · SQL · R · Pyspark · SAS · M · DAX</p>
+        <p>Python · SQL · R · PySpark · SAS · M · DAX</p>
       </div>
 
     </div>
   </div>
 </section>
+
 
 
 
