@@ -359,61 +359,122 @@
       </div>
     </div>
 
-    <!-- COLONNE DROITE : 4 CARTES MODERNES -->
-    <div class="skills-grid" style="
-      flex:1 1 380px; 
-      min-width:300px; 
-      display:grid; 
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); 
-      gap:1.5rem;
-    ">
+   <!-- COLONNE DROITE : 4 CARTES MODERNES -->
+<div class="skills-grid" style="
+  flex:1 1 380px; 
+  min-width:300px; 
+  display:grid; 
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); 
+  gap:1.5rem;
+">
 
-      <div class="skill-card" style="
-        background:linear-gradient(135deg, rgba(88,166,255,0.08), rgba(88,166,255,0.02));
-        border:1px solid rgba(88,166,255,0.25);
-        border-radius:12px; 
-        padding:1.5rem;
-        min-height:160px;
-      ">
-        <h4 style="color:var(--primary); margin-bottom:0.5rem;">📊 Marketing & CRM</h4>
-        <p>Dynamics 365 · Salesforce · Adobe Campaign · SharePoint · Matomo · Google Analytics</p>
-      </div>
-
-      <div class="skill-card" style="
-        background:linear-gradient(135deg, rgba(16,185,129,0.08), rgba(16,185,129,0.02));
-        border:1px solid rgba(16,185,129,0.25);
-        border-radius:12px; 
-        padding:1.5rem;
-        min-height:160px;
-      ">
-        <h4 style="color:#10B981; margin-bottom:0.5rem;">📈 Data Visualisation & Gouvernance</h4>
-        <p>Power BI · Tableau · Looker Studio · Excel · Qlik Sense · Collibra · Jira · Confluence · Teams</p>
-      </div>
-
-      <div class="skill-card" style="
-        background:linear-gradient(135deg, rgba(139,92,246,0.08), rgba(139,92,246,0.02));
-        border:1px solid rgba(139,92,246,0.25);
-        border-radius:12px; 
-        padding:1.5rem;
-        min-height:160px;
-      ">
-        <h4 style="color:var(--secondary); margin-bottom:0.5rem;">☁️ Cloud</h4>
-        <p>Microsoft Fabric · Azure · AWS · GCP · Databricks · Dataiku · Snowflake</p>
-      </div>
-
-      <div class="skill-card" style="
-        background:linear-gradient(135deg, rgba(236,72,153,0.08), rgba(236,72,153,0.02));
-        border:1px solid rgba(236,72,153,0.25);
-        border-radius:12px; 
-        padding:1.5rem;
-        min-height:160px;
-      ">
-        <h4 style="color:var(--accent); margin-bottom:0.5rem;">💻 Langages de Programmation</h4>
-        <p>Python · SQL · R · PySpark · SAS · M · DAX</p>
-      </div>
-
+  <!-- MARKETING & CRM -->
+  <div class="skill-card" style="
+    background:linear-gradient(135deg, rgba(88,166,255,0.08), rgba(88,166,255,0.02));
+    border:1px solid rgba(88,166,255,0.25);
+    border-radius:12px; 
+    padding:1.5rem;
+    min-height:180px;
+  ">
+    <h4 style="color:var(--primary); margin-bottom:1rem;">📊 Marketing & CRM</h4>
+    <div class="tools">
+      <span class="tool">Dynamics 365</span>
+      <span class="tool">Salesforce</span>
+      <span class="tool">Adobe Campaign</span>
+      <span class="tool">SharePoint</span>
+      <span class="tool">Matomo</span>
+      <span class="tool">Google Analytics</span>
     </div>
   </div>
+
+  <!-- DATA VISUALISATION & GOUVERNANCE -->
+  <div class="skill-card" style="
+    background:linear-gradient(135deg, rgba(16,185,129,0.08), rgba(16,185,129,0.02));
+    border:1px solid rgba(16,185,129,0.25);
+    border-radius:12px; 
+    padding:1.5rem;
+    min-height:180px;
+  ">
+    <h4 style="color:#10B981; margin-bottom:1rem;">📈 Data Visualisation & Gouvernance</h4>
+    <div class="tools">
+      <span class="tool">Power BI</span>
+      <span class="tool">Tableau</span>
+      <span class="tool">Looker Studio</span>
+      <span class="tool">Excel</span>
+      <span class="tool">Qlik Sense</span>
+      <span class="tool">Collibra</span>
+      <span class="tool">Jira</span>
+      <span class="tool">Confluence</span>
+      <span class="tool">Teams</span>
+    </div>
+  </div>
+
+  <!-- CLOUD -->
+  <div class="skill-card" style="
+    background:linear-gradient(135deg, rgba(139,92,246,0.08), rgba(139,92,246,0.02));
+    border:1px solid rgba(139,92,246,0.25);
+    border-radius:12px; 
+    padding:1.5rem;
+    min-height:180px;
+  ">
+    <h4 style="color:var(--secondary); margin-bottom:1rem;">☁️ Cloud & Data Engineering</h4>
+    <div class="tools">
+      <span class="tool">Microsoft Fabric</span>
+      <span class="tool">Azure</span>
+      <span class="tool">AWS</span>
+      <span class="tool">GCP</span>
+      <span class="tool">Databricks</span>
+      <span class="tool">Dataiku</span>
+      <span class="tool">Snowflake</span>
+    </div>
+  </div>
+
+  <!-- LANGAGES DE PROGRAMMATION -->
+  <div class="skill-card" style="
+    background:linear-gradient(135deg, rgba(236,72,153,0.08), rgba(236,72,153,0.02));
+    border:1px solid rgba(236,72,153,0.25);
+    border-radius:12px; 
+    padding:1.5rem;
+    min-height:180px;
+  ">
+    <h4 style="color:var(--accent); margin-bottom:1rem;">💻 Langages de Programmation</h4>
+    <div class="tools">
+      <span class="tool">Python</span>
+      <span class="tool">SQL</span>
+      <span class="tool">R</span>
+      <span class="tool">PySpark</span>
+      <span class="tool">SAS</span>
+      <span class="tool">M</span>
+      <span class="tool">DAX</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- STYLE BADGES -->
+<style>
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+.tool {
+  background: rgba(88,166,255,0.08);
+  border: 1px solid rgba(88,166,255,0.25);
+  color: #C9D1D9;
+  padding: 0.35rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+.tool:hover {
+  background: rgba(88,166,255,0.15);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+</style>
+
 </section>
 
 
