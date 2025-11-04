@@ -119,37 +119,23 @@ Intéressé par une collaboration ou une discussion sur ces projets ?
 </div>
 
 ---
+## 💼 Domaines d’expertise
 
-## 💼 Areas of Expertise
+### ☁️ Cloud & Plateformes de données  
+Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS  
+Conception et automatisation d’architectures de données évolutives (ETL/ELT, Lakehouse, gouvernance).
 
-### ☁️ Cloud Computing
-- Microsoft Azure (Data Factory, Machine Learning, Synapse Analytics, OpenAI Services)
-- Microsoft Fabric (Lakehouse, pipelines de données, OneLake)
-- Amazon Web Services (Bedrock, SageMaker, JumpStart, responsable IA/Gouvernance)
-- Optimisation des coûts et gestion des ressources
+### 📊 Business Intelligence & Analytics  
+Power BI · Tableau · Python · SQL  
+Nettoyage, modélisation et visualisation des données CRM, marketing et financières pour des décisions éclairées.
 
-### 📊 Marketing and Business Intelligence & Analytics
-- Conception de tableaux de bord interactifs et automatisés (Power BI, Tableau, DAX, M)
-- Modélisation, nettoyage et transformation des données pour les données CRM et marketing
-- Suivi Web et analyse des performances (Matomo, Google Analytics)
-- Segmentation de la clientèle, ciblage, notation et génération de leads
-- Automatisation des KPI de reporting et de marketing (Azure, Databricks, Python, SQL)
+### 🔧 Data Engineering  
+Développement de pipelines de données de bout en bout et de modèles unifiés garantissant la qualité et la fiabilité des informations dans le cloud.
 
-### 🔧 Data Engineering & Architecture
-- Développement de pipelines ETL/ELT (Databricks, Fabric, Azure Data Factory)
-- Architecture Lakehouse et Data Warehouse (Bronze/Argent/Or)
-- Qualité des données, lignée et gouvernance
-- Intégration avec les systèmes CRM (Dynamics 365, Salesforce)
+### 🤖 Intelligence Artificielle & Machine Learning  
+Modélisation prédictive · NLP · IA générative · Vision par ordinateur · MLOps  
+Création et déploiement de solutions intelligentes transformant les données en insights exploitables..
 
-### 🤖 Artificial Intelligence & Machine Learning
-- Apprentissage supervisé et non supervisé (régression, classification, clustering)
-- Traitement du langage naturel (NLP, intégrations, recherche sémantique)
-- IA générative (Azure OpenAI Services, Azure AI Search, intégration LLM, Bedrock, JumpStart)
-- Vision par ordinateur (traitement d'images, modèles de détection)
-- Déploiement de modèles, service et MLOps (Azure Machine Learning, SageMaker)
-- Analyse prédictive et prévision
-
-  
 ---
 
 ## 📊 Statistiques GitHub
