@@ -100,15 +100,6 @@ Allier l’ingénierie, l’analyse et l’intelligence artificielle pour transf
 [![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 [![PhantomBuster](https://img.shields.io/badge/-PhantomBuster-FF6B00?style=flat&logo=phantombuster&logoColor=white)](https://phantombuster.com/)
----
-
-## 📬 Contact
-
-Intéressé par une collaboration ou une discussion sur ces projets ?
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/cedricstephanemeneda)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mcedricstephane@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/meneda11)
 
 ---
 
@@ -148,6 +139,9 @@ Création et déploiement de solutions intelligentes transformant les données e
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/cedricstephanemeneda)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mcedricstephane@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/meneda11)
+[![🌍 Portfolio](https://img.shields.io/badge/-Portfolio-1E90FF?style=flat&logo=githubpages&logoColor=white)](https://meneda11.github.io/meneda11/)
+
 
 ---
 
