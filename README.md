@@ -112,21 +112,13 @@ Allier l’ingénierie, l’analyse et l’intelligence artificielle pour transf
 ---
 ## 💼 Domaines d’expertise
 
-<div align="center" style="max-width:800px; margin:auto; text-align:left;">
+| Domaine | Compétences clés | Objectif |
+|----------|------------------|-----------|
+| ☁️ **Cloud & Données** | Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS | Architectures évolutives et gouvernance des données |
+| 📊 **Business Intelligence** | Power BI · Tableau · SQL · Python | Analyses et visualisations pour décisions éclairées |
+| 🔧 **Data Engineering** | ETL/ELT · Lakehouse · Qualité & intégration | Fiabilité et automatisation des flux de données |
+| 🤖 **Intelligence Artificielle** | IA générative · NLP · MLOps · Vision par ordinateur | Transformation des données en insights exploitables |
 
-<p>☁️ <b>Cloud & Données</b> — Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS  
-→ Architecture, automatisation et gouvernance des données.</p>
-
-<p>📊 <b>Business Intelligence</b> — Power BI · Tableau · Python · SQL  
-→ Modélisation, visualisation et pilotage de la performance marketing & financière.</p>
-
-<p>🔧 <b>Data Engineering</b> — Pipelines ETL/ELT · Lakehouse · Qualité & lignée des données  
-→ Intégration et fiabilité des données à grande échelle.</p>
-
-<p>🤖 <b>Intelligence Artificielle</b> — NLP · IA générative · Vision par ordinateur · MLOps  
-→ Transformation des données en insights actionnables et prédictifs.</p>
-
-</div>
 
 
 
