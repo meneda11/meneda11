@@ -112,20 +112,33 @@ Allier l’ingénierie, l’analyse et l’intelligence artificielle pour transf
 ---
 ## 💼 Domaines d’expertise
 
-### ☁️ Cloud & Plateformes de données  
-Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS  
-Conception et automatisation d’architectures de données évolutives (ETL/ELT, Lakehouse, gouvernance).
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
 
-### 📊 Business Intelligence & Analytics  
-Power BI · Tableau · Python · SQL  
-Nettoyage, modélisation et visualisation des données CRM, marketing et financières pour des décisions éclairées.
+<div style="width: 45%; min-width:300px; background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 1rem;">
+<h3>☁️ Cloud & Plateformes de données</h3>
+<p><b>Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS</b></p>
+<p>Conception et automatisation d’architectures de données évolutives (ETL/ELT, Lakehouse, gouvernance).</p>
+</div>
 
-### 🔧 Data Engineering  
-Développement de pipelines de données de bout en bout et de modèles unifiés garantissant la qualité et la fiabilité des informations dans le cloud.
+<div style="width: 45%; min-width:300px; background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 1rem;">
+<h3>📊 Business Intelligence & Analytics</h3>
+<p><b>Power BI · Tableau · Python · SQL</b></p>
+<p>Nettoyage, modélisation et visualisation des données CRM, marketing et financières pour des décisions éclairées.</p>
+</div>
 
-### 🤖 Intelligence Artificielle & Machine Learning  
-Modélisation prédictive · NLP · IA générative · Vision par ordinateur · MLOps  
-Création et déploiement de solutions intelligentes transformant les données en insights exploitables..
+<div style="width: 45%; min-width:300px; background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 1rem;">
+<h3>🔧 Data Engineering</h3>
+<p>Développement de pipelines de données de bout en bout et de modèles unifiés garantissant la qualité et la fiabilité des informations dans le cloud.</p>
+</div>
+
+<div style="width: 45%; min-width:300px; background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 1rem;">
+<h3>🤖 Intelligence Artificielle & Machine Learning</h3>
+<p><b>Modélisation prédictive · NLP · IA générative · Vision par ordinateur · MLOps</b></p>
+<p>Création et déploiement de solutions intelligentes transformant les données en insights exploitables.</p>
+</div>
+
+</div>
+
 
 ---
 
