@@ -102,36 +102,6 @@ Allier l’ingénierie, l’analyse et l’intelligence artificielle pour transf
 [![PhantomBuster](https://img.shields.io/badge/-PhantomBuster-FF6B00?style=flat&logo=phantombuster&logoColor=white)](https://phantombuster.com/)
 ---
 
-## 🚀 Featured Projects
-
-<div align="center">
-
-### 🔬 Portfolio IA et science des données
-
-Découvrez mes projets pratiques mettant en valeur mon expertise en : **Cloud Architecture**, **Machine Learning**, **Computer Vision**, and **Predictive Analytics**.
-
-[![View All Projects](https://img.shields.io/badge/📂_View_All_Projects-blue?style=for-the-badge)](https://github.com/meneda11/data-science-portfolio)
-
-</div>
-
-### 🎯 Highlights
-
-| Project | Domain | Tech Stack | Key Achievement |
-|---------|--------|------------|-----------------|
-| 🧠 **[TechWatch Agent – Assistant IA de veille technologique](https://github.com/meneda11/techwatch-agent)** | IA & Automatisation | Python, Streamlit, OpenAI GPT-4o-mini, Feedparser | Agent intelligent de veille technologique analysant automatiquement les actualités IA/ML/Cloud à partir de flux RSS et générant un rapport synthétique interactif. |
-| 🤖 **[Business Signal Detection & Recommendation Engine](https://github.com/meneda11/Business-signal-detection-and-recommandation-engine)** | AI/ML | Azure, Microsoft Fabric, Azure OpenAI, Dynamics 365, Power BI, Python | Moteur d’IA de recommandation et de détection de signaux d’affaires, exploitant des données multi-sources pour anticiper les besoins clients à l’échelle entreprise. |
-| ⚙️ **[Industrial Predictive Maintenance](https://github.com/meneda11/predictive-maintenance)** | Data Science / Industrial | AWS, Python, XGBoost, Random Forest, Scikit-learn, Docker, Airflow, Weights & Biases | Pipeline MLOps de prédiction de défaillance d’équipements industriels, estimant la probabilité qu’un équipement tombe en panne dans les 24 heures. |
-| 📈 **[Web Analytics & Tracking](#web-analytics-details)** | Web Analytics & BI | Matomo, Power BI, Google Analytics, Dynamics 365, Python | Mise en place des balises UTM, des déclencheurs et analyse comportementale des utilisateurs sur le site web (site Web) |
-| 📧 **[Marketing Data Intelligence](#marketing-intelligence-details)** | Marketing Analytics | Power BI, Azure AI, Microsoft Fabric, Databricks, Dynamics 365, Google Analytics, Matomo | Analyse des performances emailing, segmentation et ciblage marketing, exploitation des données clients et création de dashboards décisionnels pour le pilotage stratégique. |
-| 🗄️ **[CRM Data Quality & Automation](#crm-details)** | Data Engineering & CRM | Python, Dynamics 365, Power BI, Azure Logic Apps, Microsoft Fabric, Databricks, SQL Server | Développement d’un script Python automatisant le nettoyage et la validation des adresses emails dans le CRM afin d’améliorer la qualité et la fiabilité des données marketing. |
-| 🧾 Enquêtes de Satisfaction & Analyse NPS | Analyse de l’expérience client | Power BI, Dynamics 365, Microsoft Forms | Collecte et analyse d’enquêtes de satisfaction (NPS, CSAT, CES) pour mesurer l’expérience client, identifier les leviers d’amélioration et piloter les actions marketing et qualité. |
-| 🏗️ **[Data Architecture & Pipeline Automation](#fabric-pipeline-details)** | Data Engineering | Microsoft Fabric, Azure, Databricks, Dynamics 365, Python, SQL, Power BI, Matomo, Google Analytics | Mise en place d’une architecture Lakehouse unifiée, assurant la centralisation des données et combinant ingestion automatisée (ETL), modélisation des données et gouvernance renforcée pour fiabiliser les analyses à grande échelle. |
-| 🔬 **[Single PCR Data Analysis & Modeling](https://github.com/meneda11/pcr-analysis)** | Data Science / Bioinformatics | Python, Scikit-learn, NumPy, Pandas, Matplotlib, VS Code | Traitement et visualisation automatisés des données PCR, valeurs Cq analysées et modélisation prédictive. |
-| 🐝 **[Bee Colony Health Monitoring](https://github.com/meneda11/bee-health-ai)** | Data Science / Computer Vision + IoT | Python, YOLOv5, PyTorch, IoT | Système d’IA développé pour surveiller la santé des colonies d’abeilles, combinant analyse multi-capteurs, détection d’objets et analyse audio sur des données hétérogènes. |
-| 📡 **[Network Performance Optimization & Monitoring](#network-monitoring-details)** | Data Engineering | Python, SQL, Power BI | Conception de pipelines de données et d’analyses en temps réel sur les mesures drive test (RxLev, Ec/No, RSRP, RSRQ, SINR, SS-RSRP…). Détection d’anomalies (handover failure, drop call, interférences, zones d’ombre) et création de tableaux de bord interactifs pour l’optimisation de la couverture et de la qualité de service (QoS).. |
-
----
-
 ## 📬 Contact
 
 Intéressé par une collaboration ou une discussion sur ces projets ?
