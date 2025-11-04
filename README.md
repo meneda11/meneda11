@@ -112,32 +112,22 @@ Allier l’ingénierie, l’analyse et l’intelligence artificielle pour transf
 ---
 ## 💼 Domaines d’expertise
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+<div align="center" style="max-width:800px; margin:auto; text-align:left;">
 
-<div style="width: 45%; min-width:300px; background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 1rem;">
-<h3>☁️ Cloud & Plateformes de données</h3>
-<p><b>Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS</b></p>
-<p>Conception et automatisation d’architectures de données évolutives (ETL/ELT, Lakehouse, gouvernance).</p>
-</div>
+<p>☁️ <b>Cloud & Données</b> — Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS  
+→ Architecture, automatisation et gouvernance des données.</p>
 
-<div style="width: 45%; min-width:300px; background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 1rem;">
-<h3>📊 Business Intelligence & Analytics</h3>
-<p><b>Power BI · Tableau · Python · SQL</b></p>
-<p>Nettoyage, modélisation et visualisation des données CRM, marketing et financières pour des décisions éclairées.</p>
-</div>
+<p>📊 <b>Business Intelligence</b> — Power BI · Tableau · Python · SQL  
+→ Modélisation, visualisation et pilotage de la performance marketing & financière.</p>
 
-<div style="width: 45%; min-width:300px; background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 1rem;">
-<h3>🔧 Data Engineering</h3>
-<p>Développement de pipelines de données de bout en bout et de modèles unifiés garantissant la qualité et la fiabilité des informations dans le cloud.</p>
-</div>
+<p>🔧 <b>Data Engineering</b> — Pipelines ETL/ELT · Lakehouse · Qualité & lignée des données  
+→ Intégration et fiabilité des données à grande échelle.</p>
 
-<div style="width: 45%; min-width:300px; background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 1rem;">
-<h3>🤖 Intelligence Artificielle & Machine Learning</h3>
-<p><b>Modélisation prédictive · NLP · IA générative · Vision par ordinateur · MLOps</b></p>
-<p>Création et déploiement de solutions intelligentes transformant les données en insights exploitables.</p>
-</div>
+<p>🤖 <b>Intelligence Artificielle</b> — NLP · IA générative · Vision par ordinateur · MLOps  
+→ Transformation des données en insights actionnables et prédictifs.</p>
 
 </div>
+
 
 
 ---
