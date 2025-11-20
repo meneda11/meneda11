@@ -50,6 +50,8 @@ Allier l’ingénierie, l’analyse et l’intelligence artificielle pour transf
 ![Microsoft Azure](https://img.shields.io/badge/-Microsoft%20Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white)
 ![Microsoft Fabric](https://img.shields.io/badge/-Microsoft%20Fabric-107C10?style=flat&logo=microsoft&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=FF9900)
+![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
+![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
 ![Dataiku DSS](https://img.shields.io/badge/-Dataiku%20DSS-00B0F0?style=flat&logo=dataiku&logoColor=white)
 ![Databricks](https://img.shields.io/badge/-Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
 
@@ -116,10 +118,10 @@ Allier l’ingénierie, l’analyse et l’intelligence artificielle pour transf
 
 | 🧱 Domaine | 🧠 Description | ⚙️ Compétences clés |
 |-------------|----------------|--------------------|
-| ☁️ **Cloud & Plateformes de données** | Conception et automatisation d’architectures de données évolutives (ETL/ELT, Lakehouse, gouvernance). | Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS |
+| ☁️ **Cloud & Plateformes de données** | Conception et automatisation d’architectures de données évolutives (ETL/ELT, Lakehouse, gouvernance). | Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS · Snowflakes · Databricks|
 | 📊 **Business Intelligence & Analytics** | Modélisation, nettoyage et visualisation des données CRM, marketing et financières pour des décisions éclairées. | Power BI · Tableau · Python · SQL |
-| 🔧 **Data Engineering** | Développement de pipelines de données unifiés assurant qualité, fiabilité et traçabilité à l’échelle du cloud. | ETL/ELT · Lakehouse · Data Factory · Databricks |
-| 🤖 **Intelligence Artificielle & Machine Learning** | Déploiement de modèles prédictifs et génératifs pour transformer les données en leviers de performance. | NLP · IA générative · Vision par ordinateur · MLOps |
+| 🔧 **Data Engineering et Langages** | Développement de pipelines de données unifiés assurant qualité, fiabilité et traçabilité à l’échelle du cloud. | ETL/ELT · Lakehouse · Data Factory · SQL · Python · Spark |
+| 🤖 **Intelligence Artificielle & Machine Learning** | Déploiement de modèles prédictifs et génératifs pour transformer les données en leviers de performance. | NLP · IA générative · LLM · GPT · Scikit Learn· Vision par ordinateur · MLOps |
 </div>
 
 
