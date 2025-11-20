@@ -119,9 +119,9 @@ Allier l’ingénierie, l’analyse et l’intelligence artificielle pour transf
 | 🧱 Domaine | 🧠 Description | ⚙️ Compétences clés |
 |-------------|----------------|--------------------|
 | ☁️ **Cloud & Plateformes de données** | Conception et automatisation d’architectures de données évolutives (ETL/ELT, Lakehouse, gouvernance). | Azure · Microsoft Fabric · AWS · Databricks · Dataiku DSS · Snowflakes · Databricks|
-| 📊 **Business Intelligence & Analytics** | Modélisation, nettoyage et visualisation des données CRM, marketing et financières pour des décisions éclairées. | Power BI · Tableau · Python · SQL |
+| 📊 **Business Intelligence & Analytics** | Modélisation, nettoyage et visualisation des données CRM, marketing et financières pour des décisions éclairées. | Power BI · Tableau · Looker Studio · Excel · Dynamics 365 · Salesforce · Google Analytics · Matomo · Adobe Campagne  |
 | 🔧 **Data Engineering et Langages** | Développement de pipelines de données unifiés assurant qualité, fiabilité et traçabilité à l’échelle du cloud. | ETL/ELT · Lakehouse · Data Factory · SQL · Python · Spark |
-| 🤖 **Intelligence Artificielle & Machine Learning** | Déploiement de modèles prédictifs et génératifs pour transformer les données en leviers de performance. | NLP · IA générative · LLM · GPT · Scikit Learn· Vision par ordinateur · MLOps |
+| 🤖 **Intelligence Artificielle & Machine Learning** | Déploiement de modèles prédictifs et génératifs pour transformer les données en leviers de performance. | NLP · IA générative · LLM · GPT · Scikit Learn · Vision par ordinateur · MLOps |
 </div>
 
 
