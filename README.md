@@ -2,7 +2,7 @@
 
 <h1>👋 Hi, I'm Cédric Stéphane Meneda</h1>
 
-💼 <b>Data Business Analyst | Data Engineer</b>  
+💼 <b>Consultant Data & IA</b>  
 
 📈  Data Analytics & Business Performance | ☁️ Cloud & Data Engineering | 📊 Predictive Analytics | 🤖 AI & Machine Learning
 
