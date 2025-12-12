@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cédric Stéphane Meneda - Consultant Data & IA | Cloud & BI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --text-dark: #1e293b;
+            --text-gray: #64748b;
+            --bg-light: #f8fafc;
+            --bg-white: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            background: var(--bg-white);
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-gray);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .contact-btn {
+            color: var(--primary) !important;
+            padding: 0.5rem 1.5rem;
+            border: 2px solid var(--primary);
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .contact-btn:hover {
+            background: var(--primary);
+            color: white !important;
+        }
+
+        /* Hero Section */
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 8rem 2rem 4rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .hero-content .name {
+            color: var(--primary);
+        }
+
+        .hero-tagline {
+            font-size: 1.25rem;
+            color: var(--text-gray);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 3rem;
+            margin: 2rem 0;
+        }
+
+        .stat {
+            text-align: left;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--text-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-description {
+            font-size: 1rem;
+            color: var(--text-gray);
+            margin-bottom: 2rem;
+        }
+
+        .hero-image {
+            position: relative;
+        }
+
+        .profile-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            padding: 2rem;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .profile-img {
+            width: 100%;
+            border-radius: 12px;
+            background: var(--bg-light);
+            aspect-ratio: 3/4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: var(--text-gray);
+        }
+
+        .certification-badge {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            background: white;
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .badge-title {
+            font-size: 0.75rem;
+            color: var(--text-gray);
+            margin-bottom: 0.25rem;
+        }
+
+        .badge-name {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 0.875rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Section */
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .section-tag {
+            font-size: 0.875rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: var(--text-gray);
+            margin-bottom: 3rem;
+        }
+
+        /* When to Call */
+        .symptoms-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .symptom-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .symptom-card:hover {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+            transition: all 0.3s;
+        }
+
+        .symptom-icon {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .symptom-text {
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        .call-to-action {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            background: var(--bg-light);
+            border-radius: 12px;
+        }
+
+        /* What I Do */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 16px;
+            border: 2px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .service-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 20px 60px rgba(37, 99, 235, 0.1);
+            transform: translateY(-5px);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .service-description {
+            color: var(--text-gray);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .service-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: var(--bg-light);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        /* How We Work */
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .process-card {
+            background: var(--bg-light);
+            padding: 2rem;
+            border-radius: 12px;
+            position: relative;
+        }
+
+        .process-number {
+            position: absolute;
+            top: -1rem;
+            left: 2rem;
+            background: var(--primary);
+            color: white;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+
+        .process-title {
+            font-size: 1.25rem;
+            margin: 1rem 0 0.5rem;
+            color: var(--text-dark);
+        }
+
+        .process-description {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .process-deliverable {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        /* Portfolio */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 2px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .project-card:hover {
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+        }
+
+        .project-content {
+            padding: 1.5rem;
+        }
+
+        .project-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+
+        .project-tech {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .tech-badge {
+            background: var(--primary);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .project-description {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-highlights {
+            list-style: none;
+        }
+
+        .project-highlights li {
+            color: var(--text-gray);
+            font-size: 0.875rem;
+            padding-left: 1.5rem;
+            position: relative;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-highlights li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        /* Experience */
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border);
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-bottom: 3rem;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: -2.5rem;
+            top: 0;
+            width: 1rem;
+            height: 1rem;
+            background: var(--primary);
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .timeline-content {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 12px;
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 0.5rem;
+        }
+
+        .company-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .timeline-date {
+            color: var(--text-gray);
+            font-size: 0.875rem;
+        }
+
+        .role {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-description {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+        }
+
+        /* Contact */
+        .contact-section {
+            background: var(--bg-light);
+            border-radius: 20px;
+            padding: 4rem;
+            text-align: center;
+        }
+
+        .contact-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-subtitle {
+            font-size: 1.125rem;
+            color: var(--text-gray);
+            margin-bottom: 2rem;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+        }
+
+        .contact-item {
+            text-align: center;
+        }
+
+        .contact-label {
+            font-size: 0.875rem;
+            color: var(--text-gray);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-value {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .contact-value a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .contact-value a:hover {
+            text-decoration: underline;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .social-link {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: all 0.3s;
+        }
+
+        .social-link:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-gray);
+            font-size: 0.875rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding-top: 6rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Cédric S. Meneda</div>
+            <ul class="nav-links">
+                <li><a href="#appeler">Quand m'appeler</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#contact" class="contact-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hello,<br>je suis <span class="name">Cédric Stéphane Meneda</span></h1>
+            <p class="hero-tagline">Les entreprises m'appellent quand leurs données sont dispersées, leurs KPI incohérents, et qu'elles veulent enfin piloter leur activité avec des chiffres fiables.</p>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Ans d'expérience</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">30+</div>
+                    <div class="stat-label">Projets livrés</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Secteurs</div>
+                </div>
+            </div>
+
+            <p class="hero-description">Data Analyst & Data Engineer certifié Azure et AWS. J'industrialise des chaînes data complètes : ingestion, modélisation, dashboards automatisés et architectures cloud évolutives.</p>
+
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Me contacter</a>
+                <a href="#projets" class="btn btn-secondary">Voir mes projets</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="profile-card">
+                <div class="profile-img">👨‍💼</div>
+                <div class="certification-badge">
+                    <div class="badge-title">MICROSOFT & AWS</div>
+                    <div class="badge-name">Certified</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- When to Call -->
+    <section id="appeler" style="background: var(--bg-light);">
+        <div class="section-tag">Quand m'appeler ?</div>
+        <h2 class="section-title">Quand vos données deviennent un frein</h2>
+        <p class="section-subtitle">Vous reconnaissez ces situations ? On a un sujet.</p>
+
+        <div class="symptoms-grid">
+            <div class="symptom-card">
+                <div class="symptom-icon">❌</div>
+                <div class="symptom-text">Vos données sont dispersées entre plusieurs outils (Excel, CRM, ERP, bases SQL...)</div>
+            </div>
+            <div class="symptom-card">
+                <div class="symptom-icon">❌</div>
+                <div class="symptom-text">Vos KPI ne sont pas fiables : chiffres incohérents entre rapports</div>
+            </div>
+            <div class="symptom-card">
+                <div class="symptom-icon">❌</div>
+                <div class="symptom-text">Vos pipelines data tombent en panne et personne ne sait pourquoi</div>
+            </div>
+            <div class="symptom-card">
+                <div class="symptom-icon">❌</div>
+                <div class="symptom-text">Vos dashboards sont illisibles et les équipes ne les utilisent pas</div>
+            </div>
+            <div class="symptom-card">
+                <div class="symptom-icon">❌</div>
+                <div class="symptom-text">Vous passez des heures à générer manuellement vos rapports chaque semaine</div>
+            </div>
+            <div class="symptom-card">
+                <div class="symptom-icon">❌</div>
+                <div class="symptom-text">Vous voulez migrer vers le cloud mais ne savez pas par où commencer</div>
+            </div>
+        </div>
+
+        <div class="call-to-action">
+            <p style="font-size: 1.125rem; margin-bottom: 1rem;"><strong>Si vous cochez 2–3 cases, on a un sujet.</strong></p>
+            <a href="mailto:mcedricstephane@gmail.com" class="btn btn-primary">Discutons-en</a>
+        </div>
+    </section>
+
+    <!-- What I Do -->
+    <section id="expertise">
+        <div class="section-tag">Ce que je fais</div>
+        <h2 class="section-title">Deux expertises complémentaires</h2>
+        <p class="section-subtitle">De l'ingestion des données à leur visualisation : je maîtrise toute la chaîne.</p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3 class="service-title">Data Engineering</h3>
+                <p class="service-description">Je conçois et industrialise vos architectures data : pipelines ETL/ELT robustes, data lakes, lakehouses, entrepôts de données sur Azure, AWS ou Google Cloud.</p>
+                <div class="service-skills">
+                    <span class="skill-tag">Azure Data Factory</span>
+                    <span class="skill-tag">Databricks</span>
+                    <span class="skill-tag">Snowflake</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Spark</span>
+                    <span class="skill-tag">Airflow</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3 class="service-title">Data Analytics & BI</h3>
+                <p class="service-description">Je transforme vos données en insights actionnables : modélisation décisionnelle, KPI business, dashboards automatisés et formation des équipes.</p>
+                <div class="service-skills">
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">Tableau</span>
+                    <span class="skill-tag">Microsoft Fabric</span>
+                    <span class="skill-tag">DAX</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Excel</span>
+                    <span class="skill-tag">Looker Studio</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="background: var(--bg-light); padding: 2rem; border-radius: 12px; margin-top: 2rem;">
+            <h3 style="margin-bottom: 1rem; color: var(--text-dark);">Ce qui me différencie</h3>
+            <p style="color: var(--text-gray); line-height: 1.8;">
+                Je ne livre pas seulement des dashboards ou des pipelines. Je travaille en étroite collaboration avec les métiers pour comprendre leurs besoins réels, je documente mes solutions, je forme les équipes à l'utilisation des outils, et je m'assure que tout soit réellement adopté et utilisé au quotidien.
+            </p>
+        </div>
+    </section>
+
+    <!-- How We Work -->
+    <section style="background: var(--bg-light);">
+        <div class="section-tag">Comment on travaille ensemble</div>
+        <h2 class="section-title">Trois étapes claires</h2>
+        <p class="section-subtitle">De l'audit à l'autonomie complète de vos équipes.</p>
+
+        <div class="process-grid">
+            <div class="process-card">
+                <div class="process-number">1</div>
+                <h3 class="process-title">Audit & Cadrage</h3>
+                <p class="process-description">Analyse de votre écosystème data, identification des sources, compréhension des besoins métiers, définition des KPI prioritaires.</p>
+                <p class="process-deliverable">Livrable : Cahier des charges + plan d'action priorisé</p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">2</div>
+                <h3 class="process-title">Conception & Déploiement</h3>
+                <p class="process-description">Construction des pipelines, modélisation des données, création des dashboards, tests et validation en mode agile avec livraisons progressives.</p>
+                <p class="process-deliverable">Livrable : Solution data complète, documentée et industrialisée</p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">3</div>
+                <h3 class="process-title">Formation & Transfert</h3>
+                <p class="process-description">Documentation détaillée, guides d'utilisation, sessions de formation, accompagnement des équipes jusqu'à leur autonomie complète.</p>
+                <p class="process-deliverable">Livrable : Équipes autonomes, gouvernance en place</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="projets">
+        <div class="section-tag">Portfolio</div>
+        <h2 class="section-title">Réalisations récentes</h2>
+        <p class="section-subtitle">Projets data complets avec impact business mesurable.</p>
+
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <div class="project-image">📊</div>
+                <div class="project-content">
+                    <h3 class="project-title">Dashboard Marketing Automation</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">Power BI</span>
+                        <span class="tech-badge">Dynamics 365</span>
+                        <span class="tech-badge">Azure SQL</span>
+                    </div>
+                    <p class="project-description">Automatisation complète du reporting CRM avec consolidation multi-sources et suivi temps réel des campagnes marketing.</p>
+                    <ul class="project-highlights">
+                        <li>-80% du temps de génération des rapports</li>
+                        <li>15 KPI métiers en temps réel</li>
+                        <li>Adoption 100% par les équipes sales</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🔧</div>
+                <div class="project-content">
+                    <h3 class="project-title">Pipeline ETL Multi-sources</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">Azure Data Factory</span>
+                        <span class="tech-badge">Databricks</span>
+                        <span class="tech-badge">Delta Lake</span>
+                    </div>
+                    <p class="project-description">Architecture lakehouse avec ingestion automatisée de données CRM, ERP et fichiers Excel vers un entrepôt centralisé.</p>
+                    <ul class="project-highlights">
+                        <li>Ingestion temps réel de 5M+ lignes/jour</li>
+                        <li>Qualité data : 99.8% de fiabilité</li>
+                        <li>Temps de traitement divisé par 10</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">📈</div>
+                <div class="project-content">
+                    <h3 class="project-title">Dashboard Financier Exécutif</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">Power BI</span>
+                        <span class="tech-badge">SQL Server</span>
+                        <span class="tech-badge">DAX</span>
+                    </div>
+                    <p class="project-description">Tableau de bord exécutif unifiant les données financières, opérationnelles et RH pour le pilotage stratégique.</p>
+                    <ul class="project-highlights">
+                        <li>Consolidation de 8 sources de données</li>
+                        <li>Reporting mensuel automatisé</li>
+                        <li>Utilisé par 50+ déc
