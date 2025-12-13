@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cédric Stéphane Meneda - Data Analyst & Engineer</title>
+    <title>Cédric Stéphane Meneda - Consultant Data & IA </title>
     <style>
         * {
             margin: 0;
@@ -656,6 +656,14 @@
                 gap: 1rem;
             }
         }
+            .project-hidden {
+        display: none;
+    }
+
+        .timeline-hidden {
+    display: none;
+}
+
     </style>
 </head>
     
@@ -663,7 +671,7 @@
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <div class="logo">Cédric S. Meneda</div>
+            <div class="logo">Cédric Stéphane Meneda</div>
             <ul class="nav-links">
                 <li><a href="#appeler">Quand m'appeler</a></li>
                 <li><a href="#expertise">Expertise</a></li>
@@ -677,7 +685,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Hello,<br>je suis <span class="name">Cédric S. Meneda</span></h1>
+            <h1>Hello,<br>je suis <span class="name">Cédric Stéphane Meneda</span></h1>
             <p class="hero-tagline">Les entreprises m'appellent quand leurs données sont dispersées, leurs KPI incohérents, et qu'elles veulent enfin piloter leur activité avec des chiffres fiables.</p>
             
             <div class="hero-stats">
@@ -904,7 +912,7 @@
                 </div>
             </div>
 
-            <div class="project-card">
+            <div class="project-card project-hidden">
                 <div class="project-image">🤖</div>
                 <div class="project-content">
                     <h3 class="project-title">Moteur IA de Scoring & Recommandation</h3>
@@ -923,7 +931,7 @@
                 </div>
             </div>
 
-            <div class="project-card">
+            <div class="project-card project-hidden">
                 <div class="project-image">🏪</div>
                 <div class="project-content">
                     <h3 class="project-title">Plateforme Analytics Retail</h3>
@@ -941,7 +949,7 @@
                 </div>
             </div>
 
-            <div class="project-card">
+            <div class="project-card project-hidden">
                 <div class="project-image">📡</div>
                 <div class="project-content">
                     <h3 class="project-title">Pipeline IoT & Détection d'Anomalies</h3>
@@ -962,8 +970,15 @@
         </div>
 
         <div style="text-align: center; margin-top: 3rem;">
-            <a href="https://github.com/meneda11" class="btn btn-secondary" target="_blank">Voir tous mes projets sur GitHub</a>
+            <button id="toggleProjects" class="btn btn-secondary">
+                Voir plus de projets
+            </button>
+        
+            <a href="https://github.com/meneda11" class="btn btn-secondary" target="_blank" style="margin-left:1rem;">
+                GitHub
+            </a>
         </div>
+
     </section>
 
     <!-- Experience Timeline -->
@@ -1270,6 +1285,43 @@
                 }
             });
         });
+
+        /* ===============================
+       TOGGLE EXPERIENCES
+    =============================== */
+    const toggleExperienceBtn = document.getElementById("toggleExperience");
+    const hiddenExperiences = document.querySelectorAll(".timeline-hidden");
+
+    toggleExperienceBtn?.addEventListener("click", () => {
+        const isHidden = hiddenExperiences[0].style.display === "none";
+
+        hiddenExperiences.forEach(item => {
+            item.style.display = isHidden ? "block" : "none";
+        });
+
+        toggleExperienceBtn.textContent = isHidden
+            ? "Masquer les expériences"
+            : "Voir toutes mes expériences";
+    });
+
+    /* ===============================
+       TOGGLE PROJECTS
+    =============================== */
+    const toggleProjectsBtn = document.getElementById("toggleProjects");
+    const hiddenProjects = document.querySelectorAll(".project-hidden");
+
+    toggleProjectsBtn?.addEventListener("click", () => {
+        const isHidden = hiddenProjects.length && hiddenProjects[0].offsetParent === null;
+
+        hiddenProjects.forEach(project => {
+            project.style.display = isHidden ? "block" : "none";
+        });
+
+        toggleProjectsBtn.textContent = isHidden
+            ? "Voir moins de projets"
+            : "Voir plus de projets";
+    });
     </script>
 </body>
 </html>
+
