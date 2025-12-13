@@ -683,33 +683,38 @@
 }
 
    /* =========================
-   PREMIUM SYMPTOMS
+   PREMIUM SYMPTOMS (OVERRIDE TOTAL)
 ========================= */
 
 .premium-symptoms {
     gap: 2rem;
 }
 
-/* Carte premium */
+/* RESET de la carte classique */
 .symptom-card.premium {
+    all: unset;
     position: relative;
+    display: block;
+
     background: #ffffff;
-    padding: 2.25rem 2rem 2rem;
+    padding: 2.25rem 2rem;
     border-radius: 18px;
-    border: 1px solid rgba(37, 99, 235, 0.08);
+
     box-shadow:
         0 10px 30px rgba(15, 23, 42, 0.04),
         0 1px 2px rgba(15, 23, 42, 0.03);
+
+    border: 1px solid rgba(37, 99, 235, 0.08);
     transition: all 0.35s ease;
 }
 
-/* Accent latéral très fin */
+/* Accent vertical luxe */
 .symptom-card.premium::before {
     content: "";
     position: absolute;
     left: 0;
-    top: 16px;
-    bottom: 16px;
+    top: 18px;
+    bottom: 18px;
     width: 4px;
     border-radius: 4px;
     background: linear-gradient(
@@ -717,10 +722,9 @@
         var(--primary),
         rgba(37, 99, 235, 0.4)
     );
-    opacity: 0.85;
 }
 
-/* Hover subtil */
+/* Hover premium */
 .symptom-card.premium:hover {
     transform: translateY(-6px);
     box-shadow:
@@ -730,24 +734,30 @@
 }
 
 /* =========================
-   PILLS (badges)
+   PILLS PREMIUM
 ========================= */
 
 .symptom-pill {
     display: inline-flex;
     align-items: center;
-    padding: 0.35rem 0.9rem;
+
+    padding: 0.35rem 1rem;
     margin-bottom: 1rem;
+
     border-radius: 999px;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 
-    background: rgba(37, 99, 235, 0.08);
-    color: var(--primary);
+    background: linear-gradient(
+        180deg,
+        rgba(37, 99, 235, 0.12),
+        rgba(37, 99, 235, 0.04)
+    );
 
-    box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.15);
+    color: var(--primary);
+    box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.18);
 }
 
 /* Texte */
@@ -757,31 +767,6 @@
     color: var(--text-dark);
 }
 
-/* =========================
-   TITRES DE GROUPE
-========================= */
-
-#appeler h3 {
-    font-size: 1.15rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    color: var(--text-dark);
-    margin-bottom: 1.25rem;
-}
-
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media (max-width: 768px) {
-    .symptom-card.premium {
-        padding: 2rem 1.75rem;
-    }
-
-    .symptom-text {
-        font-size: 0.95rem;
-    }
-}
 
 
 
