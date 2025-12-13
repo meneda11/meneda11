@@ -682,6 +682,59 @@
     object-fit: contain;
 }
 
+    /* =========================
+   PREMIUM SYMPTOMS
+========================= */
+
+.premium-symptoms {
+    margin-top: 2rem;
+}
+
+.symptom-card.premium {
+    position: relative;
+    background: var(--bg-white);
+    padding: 2rem 1.75rem;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    transition: all 0.35s ease;
+    overflow: hidden;
+}
+
+.symptom-card.premium::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--primary), #7c9cff);
+}
+
+.symptom-card.premium:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.12);
+}
+
+/* Concept pill */
+.symptom-pill {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--primary);
+    background: rgba(37, 99, 235, 0.08);
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    margin-bottom: 0.75rem;
+}
+
+.symptom-card.premium .symptom-text {
+    font-size: 1rem;
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
 
     </style>
 </head>
@@ -746,39 +799,63 @@
         <div class="section-tag">Quand m'appeler ?</div>
         <h2 class="section-title">Quand vos données deviennent un frein</h2>
         <p class="section-subtitle">Vous reconnaissez ces situations ? On a un sujet.</p>
-
-        <div class="symptoms-grid">
-            <div class="symptom-card">
-                <div class="symptom-icon">❌</div>
-                <div class="symptom-text">Vos données sont dispersées entre plusieurs outils (Excel, CRM, ERP, bases SQL...)</div>
+    
+        <div class="symptoms-grid premium-symptoms">
+    
+            <div class="symptom-card premium">
+                <span class="symptom-pill">Fragmentation</span>
+                <p class="symptom-text">
+                    Vos données sont dispersées entre plusieurs outils (Excel, CRM, ERP, bases SQL…)
+                </p>
             </div>
-            <div class="symptom-card">
-                <div class="symptom-icon">❌</div>
-                <div class="symptom-text">Vos KPI ne sont pas fiables : chiffres incohérents entre rapports</div>
+    
+            <div class="symptom-card premium">
+                <span class="symptom-pill">Incohérence</span>
+                <p class="symptom-text">
+                    Vos KPI ne sont pas fiables : chiffres différents selon les rapports
+                </p>
             </div>
-            <div class="symptom-card">
-                <div class="symptom-icon">❌</div>
-                <div class="symptom-text">Vos pipelines data tombent en panne et personne ne sait pourquoi</div>
+    
+            <div class="symptom-card premium">
+                <span class="symptom-pill">Rupture</span>
+                <p class="symptom-text">
+                    Vos pipelines data tombent en panne et personne ne sait pourquoi
+                </p>
             </div>
-            <div class="symptom-card">
-                <div class="symptom-icon">❌</div>
-                <div class="symptom-text">Vos dashboards sont illisibles et les équipes ne les utilisent pas</div>
+    
+            <div class="symptom-card premium">
+                <span class="symptom-pill">Adoption</span>
+                <p class="symptom-text">
+                    Vos dashboards sont peu clairs et les équipes ne les utilisent pas
+                </p>
             </div>
-            <div class="symptom-card">
-                <div class="symptom-icon">❌</div>
-                <div class="symptom-text">Vous passez des heures à générer manuellement vos rapports chaque semaine</div>
+    
+            <div class="symptom-card premium">
+                <span class="symptom-pill">Lenteur</span>
+                <p class="symptom-text">
+                    Vous passez des heures à produire manuellement vos reportings chaque semaine
+                </p>
             </div>
-            <div class="symptom-card">
-                <div class="symptom-icon">❌</div>
-                <div class="symptom-text">Vous voulez migrer vers le cloud mais ne savez pas par où commencer</div>
+    
+            <div class="symptom-card premium">
+                <span class="symptom-pill">Incertitude</span>
+                <p class="symptom-text">
+                    Vous voulez migrer vers le cloud mais ne savez pas par où commencer
+                </p>
             </div>
+    
         </div>
-
+    
         <div class="call-to-action">
-            <p style="font-size: 1.125rem; margin-bottom: 1rem;"><strong>Si vous cochez 2–3 cases, on a un sujet.</strong></p>
-            <a href="mailto:csmeneda@outlook.com" class="btn btn-primary">Discutons-en</a>
+            <p style="font-size: 1.125rem; margin-bottom: 1rem;">
+                <strong>Si vous cochez 2–3 situations, on a clairement un sujet.</strong>
+            </p>
+            <a href="mailto:csmeneda@outlook.com" class="btn btn-primary">
+                Discutons-en
+            </a>
         </div>
     </section>
+
 
     <!-- What I Do -->
     <section id="expertise">
