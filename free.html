@@ -681,7 +681,21 @@
     max-height: 100%;
     object-fit: contain;
 }
+    .timeline-hidden {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
 
+.timeline-hidden.is-visible {
+    max-height: 500px; /* suffisant pour un item */
+    opacity: 1;
+}
+    .timeline {
+    position: relative;
+    will-change: height;
+}
 
     </style>
 </head>
@@ -1325,20 +1339,23 @@
     /* ===============================
        TOGGLE PROJECTS
     =============================== */
-    const toggleProjectsBtn = document.getElementById("toggleProjects");
-    const hiddenProjects = document.querySelectorAll(".project-hidden");
-
-    toggleProjectsBtn?.addEventListener("click", () => {
-        const isHidden = hiddenProjects.length && hiddenProjects[0].offsetParent === null;
-
-        hiddenProjects.forEach(project => {
-            project.style.display = isHidden ? "block" : "none";
+    <script>
+    const toggleExperienceBtn = document.getElementById("toggleExperience");
+    const hiddenExperiences = document.querySelectorAll(".timeline-hidden");
+    
+    toggleExperienceBtn.addEventListener("click", () => {
+        const isOpen = hiddenExperiences[0].classList.contains("is-visible");
+    
+        hiddenExperiences.forEach(item => {
+            item.classList.toggle("is-visible", !isOpen);
         });
-
-        toggleProjectsBtn.textContent = isHidden
-            ? "Voir moins de projets"
-            : "Voir plus de projets";
+    
+        toggleExperienceBtn.textContent = isOpen
+            ? "Voir toutes mes expériences"
+            : "Masquer les expériences";
     });
+</script>
+
     </script>
 </body>
 </html>
