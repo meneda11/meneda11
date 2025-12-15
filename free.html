@@ -781,6 +781,25 @@
                 object-fit: cover;
             }
 
+    /* =========================
+           SERVICE ICON – IMAGE MODE
+        ========================= */
+        
+        .service-icon {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 1rem;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .service-icon img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
 
 
 
@@ -951,20 +970,30 @@
         <h2 class="section-title">Trois expertises complémentaires</h2>
         <p class="section-subtitle">De l'ingestion des données à leur visualisation : je maîtrise toute la chaîne.</p>
 
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon">🔧</div>
-                <h3 class="service-title">Data Engineering</h3>
-                <p class="service-description">Je conçois et industrialise vos architectures data : pipelines ETL/ELT robustes, data lakes, delta lake, lakehouses, data warehouse, eventhouse, real time intelligent sur Microsoft Fabric.</p>
-                <div class="service-skills">
-                    <span class="skill-tag">Microsoft Fabric</span>
-                    <span class="skill-tag">Databricks</span>
-                    <span class="skill-tag">Snowflake</span>
-                    <span class="skill-tag">SparkSQL</span>
-                    <span class="skill-tag">KQL</span>
-                    <span class="skill-tag">PySpark</span>
-                </div>
+        <div class="service-card">
+            <div class="service-icon">
+                <img src="assets/img/ingest.png" alt="Data Engineering Pipeline">
             </div>
+        
+            <h3 class="service-title">Data Engineering</h3>
+        
+            <p class="service-description">
+                Je conçois et industrialise vos architectures data :
+                pipelines ETL/ELT robustes, data lakes, delta lake,
+                lakehouses, data warehouse, eventhouse,
+                real time intelligent sur Microsoft Fabric.
+            </p>
+        
+            <div class="service-skills">
+                <span class="skill-tag">Microsoft Fabric</span>
+                <span class="skill-tag">Databricks</span>
+                <span class="skill-tag">Snowflake</span>
+                <span class="skill-tag">SparkSQL</span>
+                <span class="skill-tag">KQL</span>
+                <span class="skill-tag">PySpark</span>
+            </div>
+        </div>
+
 
             <div class="service-card">
                 <div class="service-icon">📊</div>
