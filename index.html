@@ -1,1063 +1,1116 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="light" data-lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Senior Data Engineer & Scientist | Data & AI | AI Agents, Skills & MCP | Data Engineering • Analytics • Data Science</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Cédric Meneda | Senior Data Engineer &amp; Scientist | Data &amp; AI</title>
+  <meta name="description" content="Senior Data Engineer &amp; Scientist. Data Engineering, Analytics, Data Science, Agentic AI (Claude Code, Agent Skills, MCP). Paris, open to relocation." />
 
-  <!-- Empêche l’indexation et le téléchargement par les robots -->
-  <meta name="robots" content="noarchive, noindex">
-  
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+  <!-- Aperçu de partage (LinkedIn, etc.). Remplace og-image.png par l’URL complète une fois ton site en ligne,
+       par exemple https://ton-domaine.com/og-image.png -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Cédric Meneda | Senior Data Engineer &amp; Scientist" />
+  <meta property="og:description" content="Data Engineering, Analytics, Data Science and Agentic AI. Paris, open to relocation." />
+  <meta property="og:image" content="og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-    :root{
-  --primary:#2563EB;      /* Bleu plus sobre */
-  --secondary:#7C3AED;    /* Violet plus doux */
-  --dark:#FFFFFF;         /* Fond principal blanc */
-  --darker:#F8FAFC;       /* Fond des sections ou cartes */
-  --light:#1E293B;        /* Texte foncé */
-  --accent:#DB2777;       /* Rose doux pour les accents */
- }
-
-
-    body {
-      font-family:-apple-system, BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;
-      background:var(--dark);   /* fond blanc */
-      color:var(--light);       /* texte foncé */
-      line-height:1.6;
-      overflow-x:hidden;
-    }
-
-
-    /* ===================== NAVIGATION (desktop + mobile) ===================== */
-    nav{
-      position:fixed; top:0; width:100%;
-      background:rgba(22,27,34,0.92);
-      backdrop-filter:blur(10px);
-      padding:1rem 0; z-index:1000;
-      border-bottom:1px solid rgba(88,166,255,0.1);
-    }
-    nav .container{
-      max-width:1200px; margin:0 auto;
-      display:flex; justify-content:space-between; align-items:center;
-      padding:0 2rem;
-    }
-    .logo{
-      font-size:1.5rem; font-weight:bold;
-      background:linear-gradient(135deg,var(--primary),var(--secondary));
-      -webkit-background-clip:text; -webkit-text-fill-color:transparent;
-    }
-
-    /* Liens (desktop) */
-    nav ul{
-      display:flex; list-style:none; gap:2rem; transition:all .3s ease;
-    }
-    /* Liens (desktop) — Correction lisibilité sur fond sombre */
-    nav a{
-      color:#E2E8F0; /* gris clair lisible sur fond noir */
-      text-decoration:none;
-      font-weight:500;
-      transition:color .3s;
-    }
-    nav a:hover{
-      color:var(--primary);
- }
-
-
-    /* Hamburger (mobile) */
-    .hamburger{
-      display:none; flex-direction:column; justify-content:center; align-items:center;
-      width:30px; height:24px; cursor:pointer; gap:5px;
-    }
-    .hamburger span{
-      width:100%; height:3px; background:var(--light); border-radius:2px; transition:all .3s ease;
-    }
-    /* Animation croix */
-    .hamburger.active span:nth-child(1){ transform:rotate(45deg) translateY(8px); }
-    .hamburger.active span:nth-child(2){ opacity:0; }
-    .hamburger.active span:nth-child(3){ transform:rotate(-45deg) translateY(-8px); }
-
-    /* ===== Menu mobile glissant depuis la droite ===== */
-    @media (max-width:768px){
-      .hamburger{ display:flex; }
-
-      /* on transforme la liste en panneau latéral */
-      nav ul{
-        position:fixed;
-        top:64px; right:0;
-        background:rgba(13,17,23,0.98);
-        border-left:1px solid rgba(88,166,255,0.1);
-        border-bottom:1px solid rgba(88,166,255,0.1);
-        flex-direction:column; align-items:flex-start; gap:1.2rem;
-        width:240px; max-width:80vw;
-        padding:1.5rem;
-        transform:translateX(100%);
-        opacity:0; pointer-events:none;
-        box-shadow:0 10px 30px rgba(0,0,0,0.4);
-      }
-      nav ul.show{
-        transform:translateX(0); opacity:1; pointer-events:auto;
-        transition:transform .3s ease, opacity .3s ease;
-      }
-      nav a{ width:100%; padding:.5rem 0; }
-    }
-
-    /* ===================== HERO ===================== */
-    #home{
-      min-height:100vh; display:flex; align-items:center; justify-content:center;
-      position:relative; overflow:hidden; padding-top:80px;
-    }
-    #home::before{
-      content:''; position:absolute; inset:0;
-      background:
-        radial-gradient(circle at 20% 50%, rgba(88,166,255,.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(139,92,246,.1) 0%, transparent 50%);
-    }
-    .hero-content{ text-align:center; z-index:1; max-width:800px; padding:2rem; }
-    .hero-content h1{
-      font-size:3.5rem; margin-bottom:1rem;
-      background:linear-gradient(135deg,var(--primary),var(--secondary),var(--accent));
-      -webkit-background-clip:text; -webkit-text-fill-color:transparent;
-      animation:fadeInUp .8s ease;
-    }
-    .hero-content .subtitle{ font-size:1.5rem; color:var(--primary); margin-bottom:1rem; animation:fadeInUp .8s ease .2s both; }
-    .hero-content p{ font-size:1.1rem; margin-bottom:2rem; color:var(--light); animation:fadeInUp .8s ease .4s both; }
-    .hero-tags{ display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; margin-bottom:2rem; animation:fadeInUp .8s ease .6s both; }
-    .tag{
-      background:rgba(88,166,255,.1); padding:.5rem 1rem; border-radius:20px; border:1px solid rgba(88,166,255,.3); font-size:.9rem;
-    }
-    .cta-buttons{ display:flex; gap:1rem; justify-content:center; animation:fadeInUp .8s ease .8s both; }
-    .btn{ padding:.8rem 2rem; border-radius:8px; text-decoration:none; font-weight:600; transition:all .3s; border:none; cursor:pointer; }
-    .btn-primary{ background:linear-gradient(135deg,var(--primary),var(--secondary)); color:#fff; }
-    .btn-primary:hover{ transform:translateY(-2px); box-shadow:0 10px 30px rgba(88,166,255,.3); }
-    .btn-secondary{ background:transparent; border:2px solid var(--primary); color:var(--primary); }
-    .btn-secondary:hover{ background:rgba(88,166,255,.1); }
-
-    /* ===================== LAYOUT COMMUN ===================== */
-    section{ padding:5rem 2rem; max-width:1200px; margin:0 auto; }
-    section h2{
-      font-size:2.5rem; margin-bottom:3rem; text-align:center;
-      background:linear-gradient(135deg,var(--primary),var(--secondary));
-      -webkit-background-clip:text; -webkit-text-fill-color:transparent;
-    }
-
-    /* ===================== ABOUT ===================== */
-    .about-content{ display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; }
-    .about-text h3{ color:var(--primary); margin-bottom:1rem; font-size:1.5rem; }
-    .about-text p{ margin-bottom:1rem; line-height:1.8; }
-    .skills-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1.5rem; }
-    .skill-card{
-      background:rgba(88,166,255,.05); padding:1.5rem; border-radius:12px;
-      border:1px solid rgba(88,166,255,.2); transition:all .3s;
-    }
-    .skill-card:hover{ transform:translateY(-5px); border-color:var(--primary); box-shadow:0 10px 30px rgba(88,166,255,.2); }
-    .skill-card h4{ color:var(--primary); margin-bottom:.5rem; display:flex; align-items:center; gap:.5rem; }
-
-    /* ===================== PROJECTS ===================== */
-    .projects-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); gap:2rem; }
-    .project-card{
-      background:rgba(88,166,255,.05); border-radius:12px; overflow:hidden; border:1px solid rgba(88,166,255,.2); transition:all .3s;
-    }
-    .project-card:hover{ transform:translateY(-10px); border-color:var(--primary); box-shadow:0 15px 40px rgba(88,166,255,.3); }
-    .project-header{ padding:1.5rem; border-bottom:1px solid rgba(88,166,255,.2); }
-    .project-header h3{ color:var(--primary); margin-bottom:.5rem; }
-    .project-meta{ font-size:.9rem; color:#8B949E; }
-    .project-body{ padding:1.5rem; }
-    .project-body p{ margin-bottom:1rem; }
-    .project-tags{ display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0; }
-    .project-tag{ background:rgba(139,92,246,.2); padding:.3rem .8rem; border-radius:12px; font-size:.8rem; color:var(--secondary); }
-    .project-links{ display:flex; gap:1rem; margin-top:1rem; }
-    .project-link{ color:var(--primary); text-decoration:none; font-size:.9rem; display:flex; align-items:center; gap:.3rem; }
-    .project-link:hover{ text-decoration:underline; }
-
-    /* ===================== CONTACT ===================== */
-    #contact{ background:rgba(88,166,255,.02); }
-    .contact-content{ display:grid; grid-template-columns:1fr 1fr; gap:3rem; }
-    .contact-info{ display:flex; flex-direction:column; gap:1.5rem; }
-    .contact-item{
-      display:flex; align-items:center; gap:1rem; padding:1rem;
-      background:rgba(88,166,255,.05); border-radius:8px; border:1px solid rgba(88,166,255,.2);
-    }
-    .contact-item span{ font-size:1.5rem; }
-    .contact-form{ display:flex; flex-direction:column; gap:1rem; }
-    .contact-form input,.contact-form textarea{
-      background:rgba(88,166,255,.05); border:1px solid rgba(88,166,255,.2); color:var(--light); padding:1rem; border-radius:8px; font-family:inherit;
-    }
-    .contact-form input:focus,.contact-form textarea:focus{ outline:none; border-color:var(--primary); }
-    .contact-form textarea{ min-height:150px; resize:vertical; }
-
-    /* ===================== FOOTER ===================== */
-    footer{
-      background:var(--darker); padding:2rem; text-align:center; border-top:1px solid rgba(88,166,255,.1);
-    }
-    .social-links{ display:flex; justify-content:center; gap:1.5rem; margin-bottom:1rem; }
-    .social-links a{ color:var(--light); font-size:1.5rem; transition:color .3s; }
-    .social-links a:hover{ color:var(--primary); }
-
-    /* ===================== ANIMATIONS ===================== */
-    @keyframes fadeInUp{ from{opacity:0; transform:translateY(30px);} to{opacity:1; transform:translateY(0);} }
-
-    /* ===================== RESPONSIVE SECTIONS ===================== */
-    @media (max-width:768px){
-      .hero-content h1{ font-size:2.5rem; }
-      .about-content, .contact-content{ grid-template-columns:1fr; }
-      .skills-grid{ grid-template-columns:1fr; }
-      .projects-grid{ grid-template-columns:1fr; }
-    }
-
-    /* ===================== Témoignages Premium Glass ===================== */
-    .testi{ display:grid; grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); gap:2rem; }
-    .quote{
-      background:#FFFFFF;
-      border:1px solid rgba(88,166,255,.15);
-      border-radius:16px;
-      padding:1.8rem;
-      box-shadow:0 4px 16px rgba(0,0,0,0.08);
-      transition:transform .3s ease, border-color .3s ease;
-    }
-    .quote p{
-      color:#1E293B;  /* Texte lisible sur fond blanc */
-    }
-    .q-role{ color:#475569; }
-
-    .quote:hover{ transform:translateY(-5px); border-color:var(--primary); box-shadow:0 15px 40px rgba(88,166,255,.3); }
-    .q-top{ display:flex; align-items:center; justify-content:space-between; margin-bottom:.6rem; }
-    .q-name{ font-weight:700; color:var(--primary); }
-    .q-role{ font-size:.9rem; color:#8B949E; }
-    .quote p{ color:var(--light); line-height:1.6; font-size:.95rem; }
-    #testimonials h2{
-      background:linear-gradient(135deg,var(--primary),var(--secondary));
-      -webkit-background-clip:text; -webkit-text-fill-color:transparent;
-      text-align:center; margin-bottom:1rem;
-    }
-    #testimonials .sub{ text-align:center; color:#8B949E; margin-bottom:2rem; font-size:1rem; }
-
-    .more-text { display: none; }
-    .read-more-btn {
-      background: none;
-      border: none;
-      color: var(--primary);
-      cursor: pointer;
-      font-weight: 600;
-      margin-top: .5rem;
-      transition: color .3s;
-    }
-    .read-more-btn:hover { color: var(--secondary); }
-
-    /* === Effet sur le bouton du guide AWS === */
- .aws-guide-btn:hover {
-   background:#79B8FF;
-   box-shadow:0 0 10px rgba(88,166,255,0.5);
-   transform:translateY(-2px);
- }
-
-   /* === Corrections visibilité claire === */
-
- /* Section Contact */
- #contact {
-   background:#F9FAFB;
-   color:#1E293B;
- }
- #contact p, #contact h3, #contact strong, #contact a {
-   color:#1E293B;
- }
-
- /* Domaines dans “Projets phares” */
- .domain-card {
-   background:linear-gradient(135deg, rgba(88,166,255,.06), rgba(139,92,246,.04));
- }
- .domain-card p {
-   color:#1E293B;
- }
- .domain-card h4 {
-   color:var(--primary);
- }
- #contact p, 
- #contact h3, 
- #contact strong, 
- #contact a {
-   color:#1E293B !important;
- }
-
- .domain-card p {
-   color:#1E293B !important;
- }
-
-     /* === Lisibilité des textes dans les domaines de projet === */
-
- /* Sous-titres gris sous les titres bleus (ex: "Marketing décisionnel • 2025") */
- .project-meta {
-   color: #1E293B !important; /* Noir foncé lisible */
- }
-
- /* Texte d’introduction sous les titres des domaines (ex: "Projets dédiés à la segmentation...") */
- .domain-desc {
-   color: #1E293B !important;
- }
-
- /* === Témoignages === */
-
- /* Rôle et fonction (ex: "Manager — Data Analyst Marketing") */
- .q-role {
-   color: #1E293B !important;
- }
-
- /* Texte principal des citations */
- .quote p {
-   color: #1E293B !important;
- }
- /* === Correction de lisibilité pour les textes descriptifs === */
-
- /* Description sous les titres principaux (ex : "Quelques retours de managers...") */
- #testimonials .sub,
- #about p[style*="#C9D1D9"],
- .domain-desc,
- .domain-card p,
- .project-meta,
- h2 + p {
-   color: #1E293B !important; /* Noir foncé lisible */
- }
-
- /* Légende de la section "Niveaux d’expertise" */
- #about .about-skills p[style*="#C9D1D9"],
- #about .about-skills strong {
-   color: #1E293B !important;
- }
-
-
-   </style>
-
-
-
-  
-  
-</head>
   <script>
-  // Bouton de toggle principal
-  const toggleBtn = document.getElementById('toggleResources');
-  const resourcesSection = document.getElementById('resources');
-  let isVisible = false;
+    (function () {
+      var t = null, l = null;
+      try { t = localStorage.getItem('theme'); l = localStorage.getItem('lang'); } catch (e) {}
+      if (t !== 'dark' && t !== 'light') {
+        t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      try { var q = new URLSearchParams(location.search).get('lang'); if (q === 'fr' || q === 'en') l = q; } catch (e) {}
+      if (l !== 'fr' && l !== 'en') {
+        l = (navigator.language || 'fr').toLowerCase().indexOf('fr') === 0 ? 'fr' : 'en';
+      }
+      var r = document.documentElement;
+      r.setAttribute('data-theme', t); r.setAttribute('data-lang', l); r.setAttribute('lang', l);
+    })();
+  </script>
 
-  // Afficher/masquer quand on clique sur le bouton
-  toggleBtn.addEventListener('click', () => {
-    isVisible = !isVisible;
-    resourcesSection.style.display = isVisible ? 'block' : 'none';
-    toggleBtn.textContent = isVisible ? "📕 Masquer les ressources" : "📘 Voir mes ressources & publications";
-  });
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 
-  // 👇 Gestion du clic dans le menu de navigation
-  document.querySelector('a[href="#resources"]').addEventListener('click', function (e) {
-    e.preventDefault();
-    // Si la section est masquée, on l'affiche
-    if (resourcesSection.style.display === 'none') {
-      resourcesSection.style.display = 'block';
-      toggleBtn.textContent = "📕 Masquer les ressources";
-      isVisible = true;
+  <style>
+    /* ============================================================
+       TOKENS
+       Papier bleuté + encre marine. L’ambre (--signal) est réservé
+       à ce qui est nouveau dans mon parcours : l’IA agentique.
+       ============================================================ */
+    :root {
+      color-scheme: light;
+      --bg: #F4F6FA;
+      --surface: #FFFFFF;
+      --ink: #0E1A2B;
+      --muted: #4F5D74;
+      --line: #D5DCE8;
+      --signal: #B45309;
+      --signal-soft: rgba(180, 83, 9, .14);
+      --font-display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+      --font-body: 'Instrument Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
     }
-    // On fait défiler doucement vers la section
-    resourcesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  });
-</script>
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #0B1424;
+      --surface: #111D33;
+      --ink: #E7EDF7;
+      --muted: #9AA8BF;
+      --line: #2A3B58;
+      --signal: #F4B04A;
+      --signal-soft: rgba(244, 176, 74, .16);
+    }
 
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      font-size: 1.0625rem;
+      line-height: 1.65;
+      background: var(--bg);
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+      transition: background .25s, color .25s;
+    }
+    a { color: inherit; }
+    ul, ol { list-style: none; }
+    :focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; border-radius: 2px; }
+
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 clamp(1.25rem, 4vw, 2rem); }
+    section[id] { scroll-margin-top: 72px; }
+
+    /* ============================================================
+       EN-TÊTE
+       ============================================================ */
+    .site-header {
+      position: fixed; inset: 0 0 auto 0; z-index: 100;
+      background: var(--bg);
+      background: color-mix(in srgb, var(--bg) 88%, transparent);
+      -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+    .bar { display: flex; align-items: center; gap: 1.5rem; height: 64px; }
+    .brand { font: 700 1.15rem var(--font-display); text-decoration: none; letter-spacing: -.01em; }
+    .site-header nav { margin-left: auto; }
+    .menu { display: flex; gap: 1.4rem; }
+    .menu a {
+      color: var(--muted); text-decoration: none; font-weight: 500; font-size: .95rem;
+      padding: .4rem 0; border-bottom: 2px solid transparent; transition: color .2s;
+    }
+    .menu a:hover { color: var(--ink); }
+    .menu a[aria-current="true"] { color: var(--ink); border-bottom-color: var(--signal); }
+    .bar-actions { display: flex; gap: .5rem; }
+    .icon-btn {
+      display: inline-grid; place-items: center; width: 40px; height: 40px;
+      background: transparent; color: var(--ink); cursor: pointer;
+      border: 1px solid var(--line); border-radius: 6px; transition: border-color .2s;
+    }
+    .icon-btn:hover { border-color: var(--ink); }
+    .i-sun { display: none; }
+    [data-theme="dark"] .i-sun { display: block; }
+    [data-theme="dark"] .i-moon { display: none; }
+    .menu-btn { display: none; }
+
+    @media (max-width: 1040px) {
+      .menu-btn { display: inline-grid; }
+      .site-header nav { margin-left: 0; }
+      .bar-actions { margin-left: auto; }
+      .menu {
+        display: none; position: absolute; top: 64px; left: 0; right: 0;
+        flex-direction: column; gap: .25rem;
+        padding: 1rem clamp(1.25rem, 4vw, 2rem) 1.5rem;
+        background: var(--bg); border-bottom: 1px solid var(--line);
+      }
+      .menu.open { display: flex; }
+      .menu a { display: block; padding: .6rem 0; font-size: 1.05rem; }
+    }
+
+    /* ============================================================
+       BOUTONS
+       ============================================================ */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: .85rem 1.6rem; border-radius: 6px; cursor: pointer;
+      font: 600 1rem var(--font-body); text-decoration: none;
+      border: 1.5px solid var(--ink); transition: background .2s, color .2s;
+    }
+    .btn-primary { background: var(--ink); color: var(--bg); }
+    .btn-primary:hover { background: transparent; color: var(--ink); }
+    .btn-ghost { background: transparent; color: var(--ink); }
+    .btn-ghost:hover { background: var(--ink); color: var(--bg); }
+    .link {
+      font-weight: 600; text-decoration: underline; text-decoration-color: var(--signal);
+      text-decoration-thickness: 2px; text-underline-offset: 4px;
+    }
+    .link:hover { text-decoration-color: var(--ink); }
+    .contact-links .link { overflow-wrap: anywhere; }
+
+    /* ============================================================
+       HERO
+       ============================================================ */
+    #home { padding: clamp(7.5rem, 17vh, 10rem) 0 clamp(4rem, 8vw, 6rem); }
+    #home h1 {
+      font: 800 clamp(3.2rem, 9vw, 6.5rem)/1 var(--font-display);
+      letter-spacing: -.035em; margin-bottom: 1.25rem;
+    }
+    .role { font: 500 clamp(1.25rem, 2.6vw, 1.75rem)/1.3 var(--font-display); color: var(--muted); margin-bottom: 1.5rem; }
+    .pitch { max-width: 46ch; margin-bottom: 2.25rem; }
+    .cta { display: flex; flex-wrap: wrap; gap: .9rem; margin-bottom: clamp(3.5rem, 8vw, 5.5rem); }
+
+    /* Pipeline : ma chaîne de valeur, de l’infrastructure à l’IA */
+    .pipeline { display: grid; grid-template-columns: repeat(6, 1fr); }
+    .stage { position: relative; padding: 2.2rem 1.1rem 0 0; }
+    .stage h3 { font: 700 1.05rem var(--font-display); margin-bottom: .2rem; }
+    .stage p { color: var(--muted); font-size: .9rem; line-height: 1.5; }
+    .dot {
+      position: absolute; top: 0; left: 0; width: 16px; height: 16px; border-radius: 50%;
+      background: var(--ink); border: 2px solid var(--ink);
+      animation: light .45s ease backwards; animation-delay: calc(.3s + var(--i) * .32s);
+    }
+    .stage::before, .stage::after { content: ''; position: absolute; top: 7px; left: 16px; width: calc(100% - 16px); height: 2px; }
+    .stage::before { background: var(--line); }
+    .stage::after {
+      background: var(--ink); transform-origin: left;
+      animation: draw .32s ease backwards; animation-delay: calc(.3s + var(--i) * .32s + .18s);
+    }
+    .stage:last-child::before, .stage:last-child::after { display: none; }
+    .stage-ai .dot { background: var(--signal); border-color: var(--signal); box-shadow: 0 0 0 5px var(--signal-soft); }
+    .stage-ai h3 { color: var(--signal); }
+    @keyframes light { from { background: var(--bg); border-color: var(--line); box-shadow: none; } }
+    @keyframes draw { from { transform: scaleX(0); } }
+    @keyframes drawY { from { transform: scaleY(0); } }
+
+    @media (max-width: 820px) {
+      .pipeline { grid-template-columns: 1fr; }
+      .stage { padding: 0 0 1.6rem 2.4rem; }
+      .dot { top: 5px; }
+      .stage::before, .stage::after { top: 21px; left: 7px; width: 2px; height: calc(100% - 16px); }
+      .stage::after { transform-origin: top; animation-name: drawY; }
+    }
+
+    /* ============================================================
+       SECTIONS
+       ============================================================ */
+    .section { padding: clamp(4rem, 9vw, 6.5rem) 0; border-top: 1px solid var(--line); }
+    .split { display: grid; grid-template-columns: minmax(0, 200px) minmax(0, 1fr); gap: clamp(1.5rem, 5vw, 4rem); }
+    .split > h2 {
+      font: 700 1.5rem/1.2 var(--font-display); letter-spacing: -.01em;
+      position: sticky; top: 96px; align-self: start;
+    }
+    @media (max-width: 820px) {
+      .split { grid-template-columns: minmax(0, 1fr); }
+      .split > h2 { position: static; }
+    }
+    .lead { max-width: 62ch; }
+    .lead p + p { margin-top: 1rem; }
+
+    /* À propos */
+    .facts {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.5rem 2rem;
+      margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--line);
+    }
+    .facts dt { color: var(--muted); font-size: .875rem; margin-bottom: .15rem; }
+    .facts dd { font-weight: 500; }
+    .facts .wide { grid-column: 1 / -1; }
+    .certs { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0 2rem; margin-top: .5rem; }
+    .cert { display: flex; align-items: flex-start; gap: 1rem; padding: 1rem 0; border-top: 1px solid var(--line); }
+    .logo {
+      flex: none; display: grid; place-items: center; width: 48px; height: 48px;
+      background: #fff; border: 1px solid var(--line); border-radius: 8px;
+    }
+    .logo svg { width: 28px; height: 28px; }
+    .logo img { max-width: 32px; max-height: 32px; object-fit: contain; }
+    .job-head .logo { width: 108px; height: 54px; }
+    .job-head .logo img { max-width: 92px; max-height: 38px; }
+    .job-head .logo.round img { max-height: 44px; }
+    .job-head .logo.lilly { background: #D52B1E; border-color: #D52B1E; }
+    .job-head .logo.lilly img { max-height: 40px; }
+    .logo .mono { font: 700 .95rem var(--font-display); color: #4F5D74; letter-spacing: .02em; }
+    .job-head { display: flex; align-items: center; gap: 1rem; margin-bottom: .75rem; }
+    .job-head h4 { margin: 0; }
+    .project .job-head .job-role { margin: 0; }
+    .cert strong { display: block; line-height: 1.35; }
+    .cert span { display: block; color: var(--muted); font-size: .875rem; }
+    .cert .link { display: inline-block; margin-top: .35rem; font-size: .9rem; }
+
+    /* Compétences : fiche technique */
+    .legend { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; color: var(--muted); font-size: .9rem; margin-bottom: 2.25rem; }
+    .legend span { display: inline-flex; align-items: center; gap: .5rem; }
+    .skill-group { border-top: 2px solid var(--ink); padding-top: 1rem; }
+    .skill-group + .skill-group { margin-top: 3.25rem; }
+    .skill-group h3 { font: 700 1.2rem var(--font-display); margin-bottom: .75rem; }
+    .tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(215px, 1fr)); gap: 0 2.5rem; }
+    .tools li { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .55rem 0; border-bottom: 1px solid var(--line); }
+    .lv {
+      flex: none; display: inline-block; width: 30px; height: 5px;
+      background: linear-gradient(90deg, var(--ink) calc(var(--l) * 8px - 2px), var(--line) 0);
+      -webkit-mask: repeating-linear-gradient(90deg, #000 0 6px, transparent 6px 8px);
+      mask: repeating-linear-gradient(90deg, #000 0 6px, transparent 6px 8px);
+    }
+    .skill-group.ai { border-top-color: var(--signal); }
+    .skill-group.ai h3 { color: var(--signal); }
+    .skill-group.ai .lv { background: linear-gradient(90deg, var(--signal) calc(var(--l) * 8px - 2px), var(--line) 0); }
+
+    /* Projets */
+    .tabs { display: flex; flex-wrap: wrap; gap: .25rem 1.75rem; border-bottom: 1px solid var(--line); margin-bottom: .5rem; }
+    .tab {
+      background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px;
+      padding: .8rem 0; font: 600 1rem var(--font-body); color: var(--muted); cursor: pointer; transition: color .2s;
+    }
+    .tab:hover { color: var(--ink); }
+    .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--signal); }
+    .panel:not([hidden]) { animation: fade .25s ease; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } }
+    .panel-desc { color: var(--muted); max-width: 62ch; padding: 1.5rem 0 .25rem; }
+    .project { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 1.5rem; padding: 1.75rem 0; border-bottom: 1px solid var(--line); }
+    .p-year { display: block; font: 700 1.25rem var(--font-display); }
+    .p-cat { display: block; color: var(--muted); font-size: .875rem; }
+    .project h4 { font: 700 1.2rem/1.3 var(--font-display); margin-bottom: .5rem; }
+    .project p { color: var(--muted); max-width: 62ch; }
+    .tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: 1rem; }
+    .tags li { font-size: .8rem; padding: .2rem .6rem; border: 1px solid var(--line); border-radius: 4px; }
+    .project .link { display: inline-block; margin-top: 1rem; font-size: .95rem; }
+    .job { grid-template-columns: 170px minmax(0, 1fr); }
+    .job .p-year { font-size: 1rem; line-height: 1.35; }
+    .job .d { white-space: nowrap; }
+    .job .now { color: var(--signal); }
+    .project .job-role { color: var(--ink); font-weight: 600; margin-bottom: .4rem; }
+    @media (max-width: 640px) {
+      .project { grid-template-columns: 1fr; gap: .4rem; }
+      .p-year, .p-cat { display: inline; }
+      .p-year { margin-right: .6rem; font-size: 1rem; }
+    }
+
+    /* Témoignages */
+    .quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 2.5rem; }
+    .quotes figure { border-top: 2px solid var(--ink); padding-top: 1.4rem; }
+    .quotes blockquote p { line-height: 1.7; }
+    .quotes blockquote p + p { margin-top: .8rem; }
+    .quotes figcaption { margin-top: 1.25rem; }
+    .quotes figcaption strong { display: block; }
+    .quotes figcaption span { color: var(--muted); font-size: .9rem; }
+
+    /* Contact */
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 3.5rem); }
+    @media (max-width: 720px) { .contact-grid { grid-template-columns: minmax(0, 1fr); } }
+    .contact-lead { font: 700 clamp(1.5rem, 3vw, 2rem)/1.25 var(--font-display); letter-spacing: -.015em; margin-bottom: 2rem; max-width: 20ch; }
+    .contact-links div + div { margin-top: 1.1rem; }
+    .contact-links dt { color: var(--muted); font-size: .875rem; }
+    .contact-form { display: flex; flex-direction: column; gap: 1.1rem; }
+    .contact-form label { display: flex; flex-direction: column; gap: .35rem; font-size: .9rem; font-weight: 500; }
+    .contact-form input, .contact-form textarea {
+      font: 400 1rem var(--font-body); color: var(--ink); background: var(--surface);
+      border: 1px solid var(--line); border-radius: 6px; padding: .8rem 1rem; transition: border-color .2s;
+    }
+    .contact-form input:focus, .contact-form textarea:focus { outline: 2px solid var(--signal); outline-offset: 1px; border-color: var(--ink); }
+    .contact-form textarea { min-height: 150px; resize: vertical; }
+    .contact-form .btn { align-self: flex-start; }
+
+    /* Pied de page */
+    footer { border-top: 1px solid var(--line); padding: 2rem 0; color: var(--muted); font-size: .9rem; }
+    footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+    }
   
+    /* ============================================================
+       V3 : langues, études de cas, impression
+       ============================================================ */
+    html[data-lang="en"] [lang="fr"], html[data-lang="fr"] [lang="en"] { display: none !important; }
+    .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .lang-btn { width: auto; padding: 0 .75rem; font: 600 .85rem var(--font-body); }
+
+    .menu { gap: 1.25rem; }
+    @media (max-width: 1120px) { .menu-btn { display: inline-grid; } .site-header nav { margin-left: 0; } .bar-actions { margin-left: auto; }
+      .menu { display: none; position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; gap: .25rem;
+        padding: 1rem clamp(1.25rem, 4vw, 2rem) 1.5rem; background: var(--bg); border-bottom: 1px solid var(--line); }
+      .menu.open { display: flex; }
+      .menu a { display: block; padding: .6rem 0; font-size: 1.05rem; } }
+
+    .cta { align-items: center; margin-bottom: 1.5rem; }
+    .cta .link { font-size: 1rem; margin-left: .4rem; }
+    .hero-meta { color: var(--muted); font-size: .95rem; margin-bottom: clamp(3.5rem, 8vw, 5.5rem); }
+
+    .facts { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+
+    .subhead { font: 700 1.25rem var(--font-display); letter-spacing: -.01em; margin: 0 0 .25rem; }
+    .subhead.spaced { margin-top: 4rem; }
+
+    .case { padding: 1.75rem 0 2.25rem; border-bottom: 1px solid var(--line); }
+    .case-meta { color: var(--muted); font-size: .9rem; }
+    .case h4 { font: 700 1.35rem/1.3 var(--font-display); margin: .15rem 0 .6rem; }
+    .case-lead { max-width: 62ch; color: var(--muted); }
+
+    .flow { display: grid; grid-template-columns: var(--cols, repeat(var(--n), minmax(0, 1fr))); margin: 1.5rem 0 .5rem; }
+    .flow-col { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+      padding: .7rem .75rem; margin-right: 22px; }
+    .flow-col:last-child { margin-right: 0; }
+    .flow-col:not(:last-child)::after { content: ''; position: absolute; top: 50%; right: -17px; width: 10px; height: 10px;
+      border-top: 2px solid var(--muted); border-right: 2px solid var(--muted); transform: translateY(-50%) rotate(45deg); }
+    .flow-col h6 { font: 700 .85rem var(--font-display); margin-bottom: .3rem; }
+    .flow-col li { font-size: .8rem; overflow-wrap: break-word; color: var(--muted); line-height: 1.45; }
+    .flow-col.gold { border-color: var(--ink); }
+    .flow-col.usage > div + div { margin-top: .8rem; padding-top: .8rem; border-top: 1px solid var(--line); }
+    .flow-col.usage .ai h6 { color: var(--signal); }
+    .flow-col.usage { border-color: var(--signal); }
+    .flow-gov { margin-top: .75rem; border: 1px dashed var(--line); border-radius: 6px; padding: .55rem .8rem; font-size: .85rem; color: var(--muted); }
+    .flow-cap { font-size: .85rem; color: var(--muted); margin-top: .6rem; }
+    @media (max-width: 720px) {
+      .flow { grid-template-columns: minmax(0, 1fr); }
+      .flow-col { margin: 0 0 22px; }
+      .flow-col:last-child { margin-bottom: 0; }
+      .flow-col:not(:last-child)::after { top: auto; right: auto; left: 50%; bottom: -17px; transform: translateX(-50%) rotate(135deg); }
+    }
+
+    .case-facts { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 1.1rem 1.5rem; margin-top: 1.5rem; }
+    .case-facts dt { font-weight: 700; }
+    .case-facts dd { color: var(--muted); max-width: 62ch; }
+    .case-facts dd ul { list-style: disc; padding-left: 1.1rem; }
+    .case-facts dd li { margin-bottom: .35rem; }
+    @media (max-width: 640px) {
+      .case-facts { grid-template-columns: minmax(0, 1fr); gap: .2rem; }
+      .case-facts dd { margin-bottom: .9rem; }
+    }
+    .note { color: var(--muted); font-size: .9rem; margin-top: 1.5rem; }
+
+    @media print {
+      :root, :root[data-theme="dark"] { --bg: #fff; --surface: #fff; --ink: #111; --muted: #444; --line: #ccc; --signal: #8a4a00; }
+      .site-header, .bar-actions, .cta, .tabs, .contact-form, footer .link, .hero-meta { display: none !important; }
+      body { font-size: 10.5pt; }
+      #home { padding: 0 0 1rem; }
+      #home h1 { font-size: 30pt; }
+      .section { padding: 1.2rem 0; }
+      .project, .case, .cert, .skill-group { break-inside: avoid; }
+      .panel[hidden] { display: block !important; }
+      .stage::before, .stage::after, .dot { animation: none !important; }
+    }
+</style>
+</head>
+
 <body>
-  <!-- ===================== NAVIGATION ===================== -->
-  <nav>
-    <div class="container">
-      <div class="logo">Cédric Meneda</div>
 
-      <!-- Bouton hamburger -->
-      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
-        <span></span><span></span><span></span>
-      </button>
+  <!-- Logos des émetteurs de certifications -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="logo-anthropic" viewBox="0 0 24 24"><path fill="#191919" d="M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z"/></symbol>
+    <symbol id="logo-orange" viewBox="0 0 24 24"><path fill="#FF7900" d="M0 0h24v24H0V0Zm3.43 20.572h17.143v-3.429H3.43v3.429Z"/></symbol>
+    <symbol id="logo-aws" viewBox="0 0 24 24"><path fill="#232F3E" d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z"/></symbol>
+    <symbol id="logo-microsoft" viewBox="0 0 24 24">
+      <rect x="1.5" y="1.5" width="10" height="10" fill="#F25022"/><rect x="12.5" y="1.5" width="10" height="10" fill="#7FBA00"/>
+      <rect x="1.5" y="12.5" width="10" height="10" fill="#00A4EF"/><rect x="12.5" y="12.5" width="10" height="10" fill="#FFB900"/>
+    </symbol>
+  </svg>
 
-      <!-- Liens -->
-      <ul id="nav-links">
-        <li><a href="#home">Accueil</a></li>
-        <li><a href="#about">À propos</a></li>
-         <li><a href="#resources">Ressources</a></li>
-        <li><a href="#projects">Projets</a></li>
-        <li><a href="#testimonials">Témoignages</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <!-- ===================== EN-TÊTE ===================== -->
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#home">Cédric Meneda</a>
+
+      <nav aria-label="Navigation">
+        <ul class="menu" id="menu">
+          <li><a href="#about"><span lang="fr">À propos</span><span lang="en">About</span></a></li>
+          <li><a href="#experience"><span lang="fr">Expérience</span><span lang="en">Experience</span></a></li>
+          <li><a href="#skills"><span lang="fr">Compétences</span><span lang="en">Skills</span></a></li>
+          <li><a href="#projects"><span lang="fr">Projets</span><span lang="en">Projects</span></a></li>
+          <li><a href="#resources"><span lang="fr">Ressources</span><span lang="en">Resources</span></a></li>
+          <li><a href="#testimonials"><span lang="fr">Témoignages</span><span lang="en">Testimonials</span></a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="bar-actions">
+        <button class="icon-btn lang-btn" id="langToggle" type="button" aria-label="Switch to English">EN</button>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Passer en mode sombre" aria-pressed="false">
+          <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path id="menuIcon" d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
     </div>
-  </nav>
-
- <!-- ===================== HERO ===================== -->
- <section id="home">
-   <div class="hero-content">
-     <h1>Cédric Meneda</h1>
-
-     <p class="subtitle">Senior Data Engineer & Scientist | Data & AI | AI Agents, Skills & MCP | Data Engineering • Analytics • Data Science</p>
-     
-     <p style="max-width:700px; margin:0 auto 2rem auto;">
-       J’unis ingénierie, analyse et intelligence artificielle pour rendre les données plus fiables, 
-       automatiser leur exploitation et en tirer des insights utiles et pertinents.
-     </p>
-
-
-     <div class="hero-tags" style="margin-bottom:2rem; flex-wrap:wrap; justify-content:center;">
-       <span class="tag">📊 Data Analytics & Business Performance</span>
-       <span class="tag">☁️ Cloud & Data Engineering</span>
-       <span class="tag">🤖 IA & Machine Learning</span>
-     </div>
-
-     <div class="cta-buttons">
-       <a href="#projects" class="btn btn-primary">Voir mes projets</a>
-       <a href="#contact" class="btn btn-secondary">Me contacter</a>
-     </div>
-   </div>
- </section>
-
-
- <!-- ===================== ABOUT ===================== -->
- <section id="about">
-   <h2>À propos de moi</h2>
-
-   <div class="about-content" style="
-     display:flex; 
-     flex-wrap:wrap; 
-     gap:2rem; 
-     align-items:stretch;
-   ">
-
-     <!-- COLONNE GAUCHE : TEXTE -->
-     <div class="about-text" style="flex:1 1 380px; min-width:300px;">
-       <div style="
-         background:linear-gradient(135deg, rgba(88,166,255,0.05), rgba(139,92,246,0.03));
-         border:1px solid rgba(88,166,255,0.2);
-         border-radius:12px;
-         padding:1.8rem;
-         height:100%;
-         box-shadow:0 4px 20px rgba(0,0,0,0.1);
-       ">
-         <h3 style="color:var(--primary); margin-bottom:0.8rem;">Qui suis-je ?</h3>
-
-         <p style="color:var(--light); text-align:justify; text-justify:inter-word;">
-           <span style="display:block; font-weight:600; color:var(--primary); margin-bottom:0.8rem;">
-             Profil hybride : Data Engineer & Data Analyst.
-           </span>
-           👷‍♂️ <strong>Data Engineer</strong> — je conçois des architectures de données fiables, j’automatise les pipelines et j’intègre des sources complexes.<br>
-           
-           📈 <strong>Data Analyst</strong> — j’analyse les données pour générer des insights actionnables, avec une expérience en <strong>marketing </strong>et <strong>analyse CRM</strong>.
-         </p>
-
-         <div style="margin-top:1.5rem;">
-           <p>🎓 <strong>Expert en Infrastructure et traitement Big Data</strong></p>
-           <p>🎓 <strong>Ingénieur Informatique</strong> – Réseaux & Télécommunications</p>
-           <p>🏅 <strong><a href="https://www.credly.com/badges/c88b8fb5-4f8d-4799-ac23-631fd1c382e0/linked_in?t=rqe00j" target="_blank" style="color:var(--primary); text-decoration:none;">Microsoft Certified: Azure Fundamentals</a></strong></p>
-           <p>🏅 <strong><a href="https://www.credly.com/badges/e57e307d-dda9-4b7b-b22c-737d94e1c613/public_url" target="_blank" style="color:var(--primary); text-decoration:none;">AWS Certified Cloud Practitioner</a></strong></p>
-           <p>📍 <strong>Basé à Paris</strong> – Disponible en France et à l’international</p>
-         </div>
-       </div>
-     </div>
-
-     <!-- COLONNE DROITE : SKILLS -->
-     <div class="about-skills" style="flex:1 1 380px; min-width:300px;">
-
-       <!-- ======== LÉGENDE INTÉGRÉE ======== -->
-       <div style="text-align:center; margin-bottom:1rem;">
-         <p style="font-size:0.9rem; color:#C9D1D9;">
-           <strong>🔹 Niveaux d’expertise :</strong>
-           <span style="color:#22c55e; font-weight:600;">🟢 Expert</span> ·
-           <span style="color:#3b82f6; font-weight:600;">🔵 Avancé</span> ·
-           <span style="color:#eab308; font-weight:600;">🟡 Intermédiaire</span> ·
-           <span style="color:#ef4444; font-weight:600;">🔴 Débutant</span>
-         </p>
-       </div>
-
-       <!-- ======== 4 CARTES MODERNES ======== -->
-       <div class="skills-grid" style="
-         display:grid; 
-         grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); 
-         gap:1.5rem;
-       ">
-
-         <!-- Data Business & Analytics -->
-         <div class="skill-card" style="background:linear-gradient(135deg, rgba(88,166,255,0.08), rgba(88,166,255,0.02)); border:1px solid rgba(88,166,255,0.25); border-radius:12px; padding:1.5rem;">
-           <h4 style="color:var(--primary); margin-bottom:1rem;">📊 Data Business & Analytics</h4>
-           <div class="tools">
-             <span class="tool expert">Dynamics 365</span>
-             <span class="tool advanced">Salesforce</span>
-             <span class="tool advanced">SharePoint</span>
-             <span class="tool advanced">Matomo</span>
-             <span class="tool advanced">Google Analytics</span>
-             <span class="tool intermediate">Adobe Campaign</span>
-           </div>
-         </div>
-
-         <!-- Data Visualisation & Gouvernance -->
-         <div class="skill-card" style="background:linear-gradient(135deg, rgba(16,185,129,0.08), rgba(16,185,129,0.02)); border:1px solid rgba(16,185,129,0.25); border-radius:12px; padding:1.5rem;">
-           <h4 style="color:#10B981; margin-bottom:1rem;">📈 Data Visualisation & Gouvernance</h4>
-           <div class="tools">
-             <span class="tool expert">Power BI</span>
-             <span class="tool expert">Tableau</span>
-             <span class="tool expert">Teams</span>
-             <span class="tool advanced">Excel</span>
-             <span class="tool advanced">Looker Studio</span>
-             <span class="tool intermediate">Collibra</span>
-             <span class="tool intermediate">Jira</span>
-             <span class="tool beginner">Confluence</span>
-             <span class="tool beginner">Qlik Sense</span>
-           </div>
-         </div>
-
-         <!-- Cloud Computing -->
-         <div class="skill-card" style="background:linear-gradient(135deg, rgba(139,92,246,0.08), rgba(139,92,246,0.02)); border:1px solid rgba(139,92,246,0.25); border-radius:12px; padding:1.5rem;">
-           <h4 style="color:var(--secondary); margin-bottom:1rem;">☁️ Cloud Computing </h4>
-           <div class="tools">
-             <span class="tool expert">Fabric</span>
-             <span class="tool expert">Azure</span>
-             <span class="tool advanced">AWS</span>
-             <span class="tool advanced">Snowflake</span>
-             <span class="tool advanced">Dataiku</span>
-             <span class="tool intermediate">Databricks</span>
-             <span class="tool intermediate">GCP</span>
-           </div>
-         </div>
-
-         <!-- Langages -->
-         <div class="skill-card" style="background:linear-gradient(135deg, rgba(236,72,153,0.08), rgba(236,72,153,0.02)); border:1px solid rgba(236,72,153,0.25); border-radius:12px; padding:1.5rem;">
-           <h4 style="color:var(--accent); margin-bottom:1rem;">💻 Langages</h4>
-           <div class="tools">
-             <span class="tool expert">Python</span>
-             <span class="tool expert">SQL</span>
-             <span class="tool advanced">DAX</span>
-             <span class="tool intermediate">R</span>
-             <span class="tool intermediate">PySpark</span>
-             <span class="tool intermediate">SAS</span>
-             <span class="tool intermediate">M</span>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
-
-    <!-- STYLE BADGES + NIVEAUX -->
-   <style>
-   .tools {
-     display: flex;
-     flex-wrap: wrap;
-     gap: 0.5rem;
-     justify-content: flex-start;
-   }
-   .tool {
-     padding: 0.35rem 0.8rem;
-     border-radius: 8px;
-     font-size: 0.85rem;
-     font-weight: 500;
-     transition: all 0.3s ease;
-     border: 1px solid transparent;
-   }
-   .tool.expert { background: rgba(34,197,94,0.2); border-color: rgba(34,197,94,0.5); color: #22c55e; }
-   .tool.advanced { background: rgba(59,130,246,0.2); border-color: rgba(59,130,246,0.5); color: #3b82f6; }
-   .tool.intermediate { background: rgba(234,179,8,0.2); border-color: rgba(234,179,8,0.5); color: #eab308; }
-   .tool.beginner { background: rgba(239,68,68,0.2); border-color: rgba(239,68,68,0.5); color: #ef4444; }
-   .tool:hover {
-     transform: translateY(-2px);
-     box-shadow: 0 0 10px rgba(88,166,255,0.2);
-     filter: brightness(1.1);
-   }
-   </style>
- </section>
-
-
-
-
- <!-- ======== BOUTON POUR AFFICHER LA SECTION ======== -->
- <div style="text-align:center; margin:3rem 0;">
-   <button id="toggleResources" 
-           style="background:linear-gradient(135deg,#58A6FF,#8B5CF6);
-                  border:none; color:white; font-weight:600;
-                  padding:0.9rem 2rem; border-radius:8px;
-                  cursor:pointer; transition:all .3s;">
-     📘 Voir mes ressources & publications
-   </button>
- </div>
-
- <!-- ======== SECTION MASQUÉE PAR DÉFAUT ======== -->
- <section id="resources" style="display:none; margin-top:2rem;">
-   <h2>📘 Ressources & Publications</h2>
-   <p style="text-align:center; color:#9CA3AF; max-width:750px; margin:0 auto 2rem;">
-     Guides et documents conçus pour partager mes connaissances en Data, Cloud et Intelligence Artificielle.
-   </p>
-
-   <div class="resources-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5rem;">
-
-     <div class="resource-card" style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.25); border-radius:12px; padding:1.8rem; text-align:center;">
-       <h3 style="color:#58A6FF; margin-bottom:0.8rem;">🎯 Guide AWS Certified AI Practitioner (AIF-C01)</h3>
-       <p style="color:#C9D1D9; font-size:1rem; line-height:1.6;">
-         Guide complet pour comprendre les fondamentaux de l’IA, du Machine Learning et de l’IA générative sur AWS.  
-         💡 Basé sur les ressources officielles AWS et mon retour d’expérience.
-       </p>
-       <a href="guides/aws-aif-c01-study-guide.html" target="_blank"
-          style="display:inline-block; margin-top:1.5rem; background:#58A6FF; color:#0D1117; padding:0.8rem 1.8rem;
-                 border-radius:10px; font-weight:bold; text-decoration:none;">
-         📘 Lire le guide
-       </a>
-     </div>
-
-   </div>
- </section>
-
- <!-- ======== SCRIPT POUR LE BOUTON ======== -->
- <script>
-   const toggleBtn = document.getElementById('toggleResources');
-   const resourcesSection = document.getElementById('resources');
-   let isVisible = false;
-
-   toggleBtn.addEventListener('click', () => {
-     isVisible = !isVisible;
-     resourcesSection.style.display = isVisible ? 'block' : 'none';
-     toggleBtn.textContent = isVisible ? "📕 Masquer les ressources" : "📘 Voir mes ressources & publications";
-   });
- </script>
-
- <!-- ===================== PROJECTS ===================== -->
- <section id="projects">
-   <h2>Projets phares</h2>
-
-   <!-- 🎯 IMPACT MÉTIER -->
-   <div style="background:rgba(88,166,255,0.05); border:1px solid rgba(88,166,255,0.25); border-radius:12px; padding:2rem; margin-bottom:3rem; text-align:center;">
-     <h3 style="color:#58A6FF; margin-bottom:1rem;">🎯 Impact métier</h3>
-     <p style="max-width:800px; margin:auto; color:#1E293B;">
-       Ces projets m’ont permis de <strong>structurer, automatiser et valoriser la donnée</strong> à travers différents contextes métier 
-       pour <strong>mieux comprendre les clients, anticiper les besoins</strong> et 
-       <strong>accélérer la prise de décision</strong> grâce à l’IA et au cloud.
-     </p>
-   </div>
-
-   <!-- ====== VUE D’ENSEMBLE DES DOMAINES ====== -->
- <div class="domains-grid" id="domains-grid">
-   <div class="domain-card" data-target="marketing">
-     <h4>📊 Marketing & CRM Intelligence</h4>
-     <p>Comprendre, segmenter et engager les clients grâce à la data.</p>
-     <span class="domain-hint">→ Explorer ce domaine</span>
-   </div>
-
-   <div class="domain-card" data-target="finance">
-     <h4>💰 Finance - Comptabilité & Data Performance</h4>
-     <p>Analyser les données financières pour anticiper les risques, fiabiliser les reporting et améliorer la performance opérationnelle.</p>
-     <span class="domain-hint">→ Explorer ce domaine</span>
-   </div>
-
-   <div class="domain-card" data-target="innovation">
-     <h4>⚙️ Innovation & Automatisation IA</h4>
-     <p>Concevoir des architectures data et automatiser les processus grâce à l’IA.</p>
-     <span class="domain-hint">→ Explorer ce domaine</span>
-   </div>
-
-   <div class="domain-card" data-target="sante">
-     <h4>🧬 Santé & Biodiversité</h4>
-     <p>Mettre l’IA au service du vivant et de la durabilité.</p>
-     <span class="domain-hint">→ Explorer ce domaine</span>
-   </div>
- </div>
-
- <!-- STYLE -->
- <style>
-   .domain-hint {
-     display:block;
-     margin-top:1rem;
-     font-size:0.9rem;
-     color:#58A6FF;
-     opacity:0.8;
-     transition:all 0.3s ease;
-     font-weight:500;
-   }
-   .domain-card:hover .domain-hint {
-     opacity:1;
-     transform:translateX(4px);
-     text-decoration:underline;
-   }
- </style>
-
-
-   <!-- ====== BOUTON RETOUR AUX DOMAINES ====== -->
-   <div id="back-btn-container" style="display:none; text-align:center; margin-bottom:2rem;">
-     <button id="backToDomains" style="
-       background:transparent; 
-       color:var(--primary);
-       border:1px solid rgba(88,166,255,.4);
-       border-radius:8px;
-       padding:.8rem 1.5rem;
-       cursor:pointer;
-       font-weight:600;
-       transition:all .3s;">
-       ⬅ Revenir aux domaines
-     </button>
-   </div>
-
-   <!-- ====== CONTENU DES DOMAINES ====== -->
-   <div id="projects-details">
-
-     <!-- 📊 MARKETING -->
- <div class="domain-details" id="marketing" style="display:none;">
-   <h3 style="text-align:center; color:var(--primary); margin-bottom:0.8rem;">
-     📊 Marketing & Gestion de la Relation Client (CRM)
-   </h3>
-   <p class="domain-desc" style="text-align:center; color:#C9D1D9; max-width:700px; margin:0 auto 2rem auto;">
-     Projets dédiés à la segmentation client, au scoring et à la performance pour mieux comprendre les clients 
-     et personnaliser les actions marketing.
-   </p>
-
-       <div class="projects-grid">
-         <div class="project-card">
-           <div class="project-header">
-             <h3>🤖 Détection de signaux d’affaires potentiels grâce à l’IA</h3>
-             <p class="project-meta">Marketing décisionnel • 2025</p>
-           </div>
-           <div class="project-body">
-             <p>Développement d’un moteur IA de détection de signaux faibles pour anticiper les besoins clients et prioriser les prospects à fort potentiel.</p>
-             <div class="project-tags">
-               <span class="project-tag">Microsoft Fabric</span><span class="project-tag">Azure</span><span class="project-tag">Databricks</span><span class="project-tag">Dynamics 365</span>
-             </div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-
-         <div class="project-card">
-           <div class="project-header"><h3>🗄️ Qualité des données CRM & Automatisation</h3><p class="project-meta">Gouvernance • 2025</p></div>
-           <div class="project-body">
-             <p>Automatisation du nettoyage et de la validation des données CRM pour fiabiliser la segmentation et la personnalisation marketing.</p>
-             <div class="project-tags">
-               <span class="project-tag">Fabric</span><span class="project-tag">Python</span><span class="project-tag">Power BI</span><span class="project-tag">Dynamics 365</span>
-             </div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-
-         <div class="project-card">
-           <div class="project-header"><h3>📈 Web Analytics & Optimisation</h3><p class="project-meta">Digital Performance • 2025</p></div>
-           <div class="project-body">
-             <p>Analyse des parcours utilisateurs et visualisation des KPIs digitaux pour optimiser les campagnes et taux de conversion.</p>
-             <div class="project-tags">
-               <span class="project-tag">Matomo</span><span class="project-tag">Power BI</span><span class="project-tag">Google Analytics</span>
-             </div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-
-         <div class="project-card">
-           <div class="project-header"><h3>🧾 Enquêtes de Satisfaction & NPS</h3><p class="project-meta">Customer Service • 2025</p></div>
-           <div class="project-body">
-             <p>Collecte et analyse d’enquêtes (NPS, CSAT, CES) pour améliorer l’expérience client et piloter la fidélisation.</p>
-             <div class="project-tags">
-               <span class="project-tag">Power BI</span><span class="project-tag">Dynamics 365</span><span class="project-tag">Fabric</span>
-             </div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-       </div>
-     </div>
-
-     <!-- 💰 FINANCE -->
- <div class="domain-details" id="finance" style="display:none;">
-   <h3 style="text-align:center; color:var(--primary); margin-bottom:0.8rem;">
-     💰 Finance - Comptabilité & Performance
-   </h3>
-   <p class="domain-desc" style="text-align:center; color:#C9D1D9; max-width:700px; margin:0 auto 2rem auto;">
-    Projets de modélisation du risque, de scoring et d’optimisation de la performance financière 
-     pour anticiper les défauts et renforcer la résilience opérationnelle.
-   </p>
-
-       <div class="projects-grid">
-         <div class="project-card">
-           <div class="project-header"><h3>💹 Scoring du risque financier</h3><p class="project-meta">Finance Analytics • 2025</p></div>
-           <div class="project-body">
-             <p>Analyser la santé financière et les comportements de paiement des clients, afin d’identifier les profils à risque et d’aider les équipes métiers à anticiper les retards, réduire les impayés et mieux orienter les actions de prévention.</p>
-             <div class="project-tags"><span class="project-tag">Dataiku DSS</span><span class="project-tag">Python</span></div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-
-         <div class="project-card">
-           <div class="project-header">
-             <h3>📘 Analyse comptable & reporting automatisé</h3>
-             <p class="project-meta">Finance & Data Automation • 2025</p>
-           </div>
-           <div class="project-body">
-             <p>
-               Conception d’un tableau de bord Power BI pour un cabinet comptable fictif, intégrant les données de ventes, charges, trésorerie et performance RH.
-               Objectif : fiabiliser la consolidation des écritures, automatiser les reportings et offrir une vision financière 360° pour le pilotage et le conseil client.
-             </p>
-             <div class="project-tags">
-               <span class="project-tag">Power BI</span>
-               <span class="project-tag">Python</span>
-               <span class="project-tag">SQL</span>
-               <span class="project-tag">Azure Fabric</span>
-             </div>
-             <div class="project-links">
-               <a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a>
-             </div>
-           </div>
-         </div>
-
-         <div class="project-card">
-           <div class="project-header"><h3>⚙️ Prédiction de défaillance industrielle</h3><p class="project-meta">Machine Learning • 2024</p></div>
-           <div class="project-body">
-             <p>Anticiper les pannes d’équipements industriels grâce au machine learning, améliorant ainsi la fiabilité des opérations et réduisant les coûts liés aux arrêts imprévus.</p>
-             <div class="project-tags"><span class="project-tag">AWS</span><span class="project-tag">Airflow</span><span class="project-tag">Docker</span><span class="project-tag">W&B</span></div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-       </div>
-     </div>
-
-     <!-- ⚙️ INNOVATION & AUTOMATISATION IA -->
-     <div class="domain-details" id="innovation" style="display:none;">
-       <h3 style="text-align:center; color:var(--primary); margin-bottom:0.8rem;">⚙️ Innovation & Automatisation IA</h3>
-       <p class="domain-desc" style="text-align:center; color:#C9D1D9; max-width:700px; margin:0 auto 2rem auto;">
-         Ces projets illustrent ma capacité à concevoir des architectures data fiables, 
-         automatiser les processus analytiques et intégrer des solutions d’intelligence artificielle 
-         pour accélérer la prise de décision et optimiser la performance opérationnelle.
-       </p>
-
-       <div class="projects-grid">
-         <div class="project-card">
-           <div class="project-header">
-             <h3>🏗️ Architecture des données & Automatisation des pipelines</h3>
-             <p class="project-meta">Data Engineering • 2025</p>
-           </div>
-           <div class="project-body">
-             <p>Conception de pipelines automatisés et d’architectures Data Lakehouse (Azure Fabric, Databricks) pour centraliser, transformer et valoriser les données à grande échelle.</p>
-             <div class="project-tags">
-               <span class="project-tag">Microsoft Fabric</span><span class="project-tag">Azure</span><span class="project-tag">Databricks</span><span class="project-tag">Python</span>
-             </div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-
-         <div class="project-card">
-           <div class="project-header">
-             <h3>🧠 TechWatch Agent – Assistant IA de veille technologique</h3>
-             <p class="project-meta">IA & Automatisation • 2025</p>
-           </div>
-           <div class="project-body">
-             <p>Développement d’un agent IA de veille automatisée capable d’extraire, résumer et présenter les actualités Cloud, IA et Data via une interface Streamlit interactive.</p>
-             <div class="project-tags">
-               <span class="project-tag">OpenAI GPT-4o-mini</span><span class="project-tag">Python</span><span class="project-tag">Streamlit</span><span class="project-tag">Automation</span>
-             </div>
-             <div class="project-links"><a href="https://github.com/meneda11/techwatch-agent" class="project-link">→ Voir sur GitHub</a></div>
-           </div>
-         </div>
-
-         <div class="project-card">
-           <div class="project-header">
-             <h3>📡 Monitoring & optimisation des performances réseau</h3>
-             <p class="project-meta">Télécom & Performance • 2023</p>
-           </div>
-           <div class="project-body">
-             <p>Mise en place de pipelines temps réel et tableaux de bord interactifs pour le suivi qualité réseau (RSRP, SINR, RSRQ) et détection automatisée des anomalies.</p>
-             <div class="project-tags">
-               <span class="project-tag">Python</span><span class="project-tag">SQL</span><span class="project-tag">Tableau</span><span class="project-tag">Nemo Analysis</span>
-             </div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-       </div>
-     </div>
-
-     <!-- 🧬 SANTÉ -->
- <div class="domain-details" id="sante" style="display:none;">
-   <h3 style="text-align:center; color:var(--primary); margin-bottom:0.8rem;">
-     🧬 Santé & Biodiversité
-   </h3>
-   <p class="domain-desc" style="text-align:center; color:#C9D1D9; max-width:700px; margin:0 auto 2rem auto;">
-     Projets d’intelligence artificielle appliqués à la santé, la biologie et la surveillance environnementale 
-     pour renforcer la durabilité et la prévention.
-   </p>
-
-       <div class="projects-grid">
-         <div class="project-card">
-           <div class="project-header"><h3>🐝 Surveillance de la santé des abeilles (IA & IoT)</h3><p class="project-meta">Computer Vision • 2024</p></div>
-           <div class="project-body">
-             <p>Système de suivi IA utilisant capteurs IoT et vision par ordinateur pour prévenir les anomalies comportementales dans les ruches.</p>
-             <div class="project-tags"><span class="project-tag">YOLOv5</span><span class="project-tag">PyTorch</span><span class="project-tag">Python</span></div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-
-         <div class="project-card">
-           <div class="project-header"><h3>🔬 Analyse biomédicale PCR automatisée</h3><p class="project-meta">Bioinformatique • 2023</p></div>
-           <div class="project-body">
-             <p>Pipeline IA pour analyser les résultats PCR et visualiser les tendances biologiques en temps réel.</p>
-             <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">Scikit-learn</span><span class="project-tag">Tableau</span></div>
-             <div class="project-links"><a href="https://github.com/meneda11/data-science-portfolio" class="project-link">→ Voir le projet</a></div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
-
- <!-- ====== STYLE ====== -->
- <style>
-   .domains-grid {
-     display:grid;
-     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-     gap:1.5rem;
-     margin-bottom:3rem;
-   }
-   .domain-card {
-     background:linear-gradient(135deg,rgba(88,166,255,.08),rgba(139,92,246,.05));
-     border:1px solid rgba(88,166,255,.25);
-     border-radius:16px;
-     padding:2rem 1.5rem;
-     text-align:center;
-     cursor:pointer;
-     transition:all .3s ease;
-   }
-   .domain-card:hover {
-     transform:translateY(-5px);
-     border-color:var(--primary);
-     box-shadow:0 10px 30px rgba(88,166,255,.3);
-     background:linear-gradient(135deg,rgba(88,166,255,.15),rgba(139,92,246,.08));
-   }
-   .domain-card h4 { color:var(--primary); margin-bottom:.5rem; }
-   .domain-card p { color:#C9D1D9; font-size:.95rem; }
-   #backToDomains:hover { background:rgba(88,166,255,.1); transform:translateY(-2px); }
-   .domain-details { animation:fadeIn .6s ease; }
-   @keyframes fadeIn { from{opacity:0;transform:translateY(20px);} to{opacity:1;transform:translateY(0);} }
-
-   /* Correction Innovation IA */
-   .projects-grid {
-     display:grid;
-     grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-     gap:1.8rem;
-     margin-bottom:3rem;
-   }
- </style>
-
- <!-- ====== SCRIPT ====== -->
- <script>
-   const domainCards = document.querySelectorAll('.domain-card');
-   const detailsSections = document.querySelectorAll('.domain-details');
-   const backBtnContainer = document.getElementById('back-btn-container');
-   const domainsGrid = document.getElementById('domains-grid');
-   const backBtn = document.getElementById('backToDomains');
-
-   domainCards.forEach(card => {
-     card.addEventListener('click', () => {
-       const target = card.dataset.target;
-       domainsGrid.style.display = 'none';
-       backBtnContainer.style.display = 'block';
-       detailsSections.forEach(sec => {
-         sec.style.display = (sec.id === target) ? 'block' : 'none';
-       });
-       document.getElementById(target).scrollIntoView({ behavior: 'smooth', block: 'start' });
-     });
-   });
-
-   backBtn.addEventListener('click', () => {
-     detailsSections.forEach(sec => sec.style.display = 'none');
-     backBtnContainer.style.display = 'none';
-     domainsGrid.style.display = 'grid';
-     domainsGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
-   });
- </script>
-
-
-
-
-
-   <!-- ===================== TESTIMONIALS ===================== -->
-   <section id="testimonials">
-     <h2 class="title">Témoignages</h2>
-     <p class="sub">Quelques retours de managers, collègues et formateurs.</p>
-
-     <div class="testi">
-       <div class="quote">
-         <div class="q-top">
-           <div class="q-name">Benjamin A.</div>
-           <div class="q-role">Manager — Data Analyst Marketing</div>
-         </div>
-         <div class="long-text">
-           <p>
-             « Cédric a contribué de manière déterminante au projet de détection de signaux d’affaires potentiels,
-             en développant un pipeline complet allant de la collecte de données multi-sources jusqu’à la restitution dans Power BI.
-             <span class="dots">...</span>
-             <span class="more-text">
-               Il a su démontrer de solides compétences techniques (Python, Azure, Power BI, Dynamics 365) et une réelle capacité à structurer, documenter et rendre ses travaux exploitables par les équipes métiers.
-               Curieux, rigoureux et impliqué, il a mené ce projet avec sérieux tout en restant ouvert aux échanges et aux retours.
-               Je le recommande sans hésitation pour ses qualités et son grand potentiel.
-             </span>
-           </p>
-         </div>
-         <button class="read-more-btn">Voir plus</button>
-       </div>
-
-
-       <div class="quote">
-         <div class="q-top">
-           <div class="q-name">Anaïs M.</div>
-           <div class="q-role">Consultante Fabric & Power BI — MCT</div>
-         </div>
-         <p>
-           « Cédric est un élément sérieux et compétent que je recommande vivement. J'ai eu l'occasion de l'encadrer sur un projet de data analyse utilisant Power BI. 
-           Cédric a non seulement délivré un projet de grande qualité, avec des analyses pertinentes et approfondies, mais a également mis en place une méthode agile qui a optimisé la gestion du projet. »
-         </p>
-       </div>
-     </div>
-   </section>
-
-   <!-- ===================== CONTACT ===================== -->
-   <section id="contact">
-     <h2>Contact</h2>
-     <div class="contact-content">
-       <div class="contact-info">
-         <div class="contact-item"><span>📧</span><div><strong>Email</strong><br><a href="mailto:cedric.meneda@gmail.com">cedric.meneda@gmail.com</a></div></div>
-         <div class="contact-item"><span>💼</span><div><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/cedric-meneda/" target="_blank">linkedin.com/in/cedric-meneda</a></div></div>
-         <div class="contact-item"><span>🐙</span><div><strong>GitHub</strong><br><a href="https://github.com/meneda11" target="_blank">github.com/meneda11</a></div></div>
-       </div>
-       <form class="contact-form" action="https://formspree.io/f/xayzwrjd" method="POST">
-         <input type="text" name="name" placeholder="Votre nom" required>
-         <input type="email" name="email" placeholder="Votre email" required>
-         <textarea name="message" placeholder="Votre message" required></textarea>
-         <button type="submit" class="btn btn-primary">Envoyer le message</button>
-       </form>
-     </div>
-   </section>
-
-   <!-- ===================== FOOTER ===================== -->
-   <footer>
-     <div class="social-links">
-       <a href="https://www.linkedin.com/in/cedric-meneda/" target="_blank" aria-label="LinkedIn">💼</a>
-       <a href="https://github.com/meneda11" target="_blank" aria-label="GitHub">🐙</a>
-     </div>
-     <p>© 2025 Cédric Meneda. Tous droits réservés.</p>
-   </footer>
-
-   <!-- Script menu mobile + témoignages -->
-   <script>
-     const hamburger = document.getElementById('hamburger');
-     const navLinks = document.getElementById('nav-links');
-
-     hamburger.addEventListener('click', () => {
-       const isOpen = navLinks.classList.toggle('show');
-       hamburger.classList.toggle('active');
-       hamburger.setAttribute('aria-expanded', isOpen);
-     });
-
-     navLinks.querySelectorAll('a').forEach(link => {
-       link.addEventListener('click', () => {
-         navLinks.classList.remove('show');
-         hamburger.classList.remove('active');
-         hamburger.setAttribute('aria-expanded', 'false');
-       });
-     });
-
-     document.querySelectorAll('.read-more-btn').forEach(btn => {
-       btn.addEventListener('click', () => {
-         const moreText = btn.previousElementSibling.querySelector('.more-text');
-         const dots = btn.previousElementSibling.querySelector('.dots');
-         const isHidden = getComputedStyle(moreText).display === 'none';
-         moreText.style.display = isHidden ? 'inline' : 'none';
-         dots.style.display = isHidden ? 'none' : 'inline';
-         btn.textContent = isHidden ? 'Voir moins' : 'Voir plus';
-       });
-     });
-   </script>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="home">
+      <div class="wrap">
+        <h1>Cédric Meneda</h1>
+        <p class="role">Senior Data Engineer &amp; Scientist, Data &amp; AI</p>
+        <p class="pitch"><span lang="fr">Je conçois et industrialise des solutions data de bout en bout, du cloud au Machine Learning, et j’intègre l’IA agentique dans les processus d’ingénierie.</span><span lang="en">I design and industrialize end-to-end data solutions, from cloud to machine learning, and bring agentic AI into engineering workflows.</span></p>
+        <div class="cta">
+          <a href="#projects" class="btn btn-primary"><span lang="fr">Voir mes projets</span><span lang="en">View my work</span></a>
+          <a href="#contact" class="btn btn-ghost"><span lang="fr">Me contacter</span><span lang="en">Get in touch</span></a>
+          <a class="link" lang="fr" href="cv/CV-Cedric-Meneda-FR.pdf" target="_blank" rel="noopener">Télécharger mon CV (PDF)</a>
+          <a class="link" lang="en" href="cv/CV-Cedric-Meneda-EN.pdf" target="_blank" rel="noopener">Download my CV (PDF)</a>
+        </div>
+        <p class="hero-meta"><span lang="fr">Basé à Paris, ouvert à la relocalisation. Français, anglais (B2).</span><span lang="en">Based in Paris, open to relocation. French, English (B2).</span></p>
+
+        <ol class="pipeline" data-aria-fr="Ma chaîne de valeur, de l’infrastructure à l’IA" data-aria-en="My value chain, from infrastructure to AI" aria-label="Ma chaîne de valeur, de l’infrastructure à l’IA">
+          <li class="stage" style="--i:0"><span class="dot"></span><h3>Infrastructure</h3><p>Azure, AWS, GCP</p></li>
+          <li class="stage" style="--i:1"><span class="dot"></span><h3>Data</h3><p>Fabric, Databricks, Snowflake</p></li>
+          <li class="stage" style="--i:2"><span class="dot"></span><h3>Engineering</h3><p>Python, SQL, PySpark, ETL/ELT</p></li>
+          <li class="stage" style="--i:3"><span class="dot"></span><h3>Analytics</h3><p>Power BI, Tableau, Dynamics 365</p></li>
+          <li class="stage" style="--i:4"><span class="dot"></span><h3>Data Science</h3><p>Machine Learning, Dataiku</p></li>
+          <li class="stage stage-ai" style="--i:5"><span class="dot"></span><h3>AI</h3><p>Claude Code, Agent Skills, MCP, Subagents</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== À PROPOS ===================== -->
+    <section id="about" class="section">
+      <div class="wrap split">
+        <h2><span lang="fr">À propos</span><span lang="en">About</span></h2>
+        <div>
+          <div class="lead">
+            <p><span lang="fr">Avec plus de 8 ans d’expérience, je suis un profil hybride, à l’intersection du Data Engineering, de l’Analytics, de la Data Science et de l’AI Engineering. Mon parcours IT me permet de comprendre toute la chaîne, de l’infrastructure jusqu’à l’IA.</span><span lang="en">With over 8 years of experience, I am a hybrid profile at the intersection of Data Engineering, Analytics, Data Science and AI Engineering. My IT background lets me understand the whole chain, from infrastructure to AI.</span></p>
+            <p><span lang="fr">Aujourd’hui, je développe aussi des workflows d’<strong>IA agentique</strong> avec Claude Code, Agent Skills, MCP et subagents pour intégrer l’IA directement dans le cycle d’ingénierie.</span><span lang="en">Today, I also build <strong>agentic AI</strong> workflows with Claude Code, Agent Skills, MCP and subagents to bring AI directly into the engineering lifecycle.</span></p>
+          </div>
+
+          <dl class="facts">
+            <div><dt><span lang="fr">Formation</span><span lang="en">Education</span></dt><dd><span lang="fr">Ingénieur Informatique, 2018</span><span lang="en">Computer Engineering degree (Ingénieur), 2018</span></dd></div>
+            <div><dt>Expertise</dt><dd><span lang="fr">Infrastructure et traitement Big Data</span><span lang="en">Infrastructure and Big Data processing</span></dd></div>
+            <div><dt><span lang="fr">Langues</span><span lang="en">Languages</span></dt><dd><span lang="fr">Français (courant), anglais (B2), allemand (notions)</span><span lang="en">French (fluent), English (B2), German (basic)</span></dd></div>
+            <div><dt><span lang="fr">Localisation</span><span lang="en">Location</span></dt><dd><span lang="fr">Paris, ouvert à la relocalisation à l’international</span><span lang="en">Based in Paris, open to relocation abroad</span></dd></div>
+            <div class="wide">
+              <dt>Certifications</dt>
+              <dd>
+                <ul class="certs">
+                <li class="cert">
+                  <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#logo-anthropic"/></svg></span>
+                  <div>
+                    <strong>Claude Code in action</strong>
+                    <span>Claude Academy, Anthropic</span>
+                    <a class="link" href="https://academy.claude.com/verify/06310e78a8e7c254d2a6dd7ccdd186b9" target="_blank" rel="noopener"><span lang="fr">Vérifier</span><span lang="en">Verify</span><span class="sr"> Claude Code in action</span></a>
+                  </div>
+                </li>
+                <li class="cert">
+                  <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#logo-anthropic"/></svg></span>
+                  <div>
+                    <strong>Claude Code 101</strong>
+                    <span>Claude Academy, Anthropic</span>
+                    <a class="link" href="https://academy.claude.com/verify/5da8f01c8c314dec233490c4028472ba" target="_blank" rel="noopener"><span lang="fr">Vérifier</span><span lang="en">Verify</span><span class="sr"> Claude Code 101</span></a>
+                  </div>
+                </li>
+                <li class="cert">
+                  <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#logo-microsoft"/></svg></span>
+                  <div>
+                    <strong>Power BI Data Analyst Associate</strong>
+                    <span>Microsoft Certified</span>
+                    <a class="link" href="https://learn.microsoft.com/fr-fr/users/cdricmeneda-6020/credentials/f595a3076126d31c" target="_blank" rel="noopener"><span lang="fr">Vérifier</span><span lang="en">Verify</span><span class="sr"> Power BI Data Analyst Associate</span></a>
+                  </div>
+                </li>
+                <li class="cert">
+                  <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#logo-microsoft"/></svg></span>
+                  <div>
+                    <strong>Azure Fundamentals</strong>
+                    <span>Microsoft Certified</span>
+                    <a class="link" href="https://www.credly.com/badges/c88b8fb5-4f8d-4799-ac23-631fd1c382e0/linked_in?t=rqe00j" target="_blank" rel="noopener"><span lang="fr">Vérifier</span><span lang="en">Verify</span><span class="sr"> Azure Fundamentals</span></a>
+                  </div>
+                </li>
+                <li class="cert">
+                  <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#logo-aws"/></svg></span>
+                  <div>
+                    <strong>Cloud Practitioner</strong>
+                    <span>AWS Certified</span>
+                    <a class="link" href="https://www.credly.com/badges/e57e307d-dda9-4b7b-b22c-737d94e1c613/public_url" target="_blank" rel="noopener"><span lang="fr">Vérifier</span><span lang="en">Verify</span><span class="sr"> Cloud Practitioner</span></a>
+                  </div>
+                </li>
+                </ul>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPÉRIENCE ===================== -->
+    <section id="experience" class="section">
+      <div class="wrap split">
+        <h2><span lang="fr">Expérience</span><span lang="en">Experience</span></h2>
+        <div>
+          <p class="lead" style="margin-bottom:1.5rem;"><span lang="fr">Des données réseau aux plateformes cloud et à l’IA agentique.</span><span lang="en">From network data to cloud platforms and agentic AI.</span></p>
+
+          <article class="project job">
+            <div><span class="p-year"><span lang="fr"><span class="d">Janv. 2026 –</span> <span class="d"><span class="now">Aujourd’hui</span></span></span><span lang="en"><span class="d">Jan 2026 –</span> <span class="d"><span class="now">Present</span></span></span></span><span class="p-cat"><span lang="fr">CDI, sur site</span><span lang="en">Permanent, on site</span></span></div>
+            <div>
+              <div class="job-head">
+                <span class="logo lilly" aria-hidden="true"><img src="data:image/png;base64,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" alt="" width="42" height="34"></span>
+                <div><h4>Eli Lilly and Company</h4><p class="job-role">Senior Data Engineer</p></div>
+              </div>
+              <p><span lang="fr">Conception et mise en production de pipelines de données de bout en bout pour les lignes de production, en lien avec les équipes Business et les Process Engineers. Standardisation des pratiques, revues de code et monitoring pour garantir qualité et maintenabilité. Intégration d’agents IA pour automatiser les tâches et accélérer la delivery.</span><span lang="en">End-to-end design and production rollout of data pipelines for manufacturing lines, working with Business teams and Process Engineers. Standardized practices, code reviews and data monitoring to ensure quality and maintainability. Integrated AI agents to automate tasks and speed up delivery.</span></p>
+              <ul class="tags"><li>Seeq</li><li>PostgreSQL</li><li>Oracle</li><li>MySQL</li><li>DBeaver</li><li>Power BI</li><li>Microsoft Fabric</li><li>Jira</li><li>Confluence</li><li><span lang="fr">Agents IA</span><span lang="en">AI agents</span></li></ul>
+            </div>
+          </article>
+
+          <article class="project job">
+            <div><span class="p-year"><span lang="fr"><span class="d">Août 2024 –</span> <span class="d">Sept. 2025</span></span><span lang="en"><span class="d">Aug 2024 –</span> <span class="d">Sep 2025</span></span></span><span class="p-cat">France</span></div>
+            <div>
+              <div class="job-head">
+                <span class="logo" aria-hidden="true"><img src="data:image/png;base64,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" alt="" width="88" height="14"></span>
+                <div><h4>Cetim</h4><p class="job-role">Data Engineer &amp; Data Scientist</p></div>
+              </div>
+              <p><span lang="fr">Conception d’une architecture Lakehouse en médaillon sous Microsoft Fabric, de l’ingestion à Power BI, et d’un moteur de détection de signaux d’affaires potentiels intégrant l’IA générative Azure. Apport : une vision 360° client, des pipelines entièrement automatisés et un meilleur ciblage pour la génération de leads.</span><span lang="en">Designed a medallion Lakehouse architecture on Microsoft Fabric, from ingestion to Power BI, and a business-signal detection engine using Azure generative AI. Delivered a 360° customer view, fully automated pipelines and better targeting for lead generation.</span></p>
+              <ul class="tags"><li>Microsoft Fabric</li><li>Azure OpenAI</li><li>Power BI</li><li>Dynamics 365</li><li>Purview</li></ul>
+            </div>
+          </article>
+
+          <article class="project job">
+            <div><span class="p-year"><span lang="fr"><span class="d">Oct. 2023 –</span> <span class="d">Août 2024</span></span><span lang="en"><span class="d">Oct 2023 –</span> <span class="d">Aug 2024</span></span></span><span class="p-cat">Freelance</span></div>
+            <div>
+              <div class="job-head">
+                <span class="logo round" aria-hidden="true"><img src="data:image/png;base64,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" alt="" width="34" height="32"></span>
+                <div><h4>Chips and Chicken Fast Food</h4><p class="job-role">Data Engineer</p></div>
+              </div>
+              <p><span lang="fr">Conception d’un Fabric Warehouse centralisant ventes et stocks (SQL, Salesforce), avec pipelines ETL automatisés et tableaux de bord de pilotage en temps réel. Apport : meilleure anticipation des stocks, moins de ruptures et ventes optimisées aux heures d’affluence.</span><span lang="en">Designed a Fabric Warehouse centralizing sales and inventory data (SQL, Salesforce), with automated ETL pipelines and real-time dashboards. Delivered better stock forecasting, fewer stock-outs and improved sales at peak hours.</span></p>
+              <ul class="tags"><li>Microsoft Fabric</li><li>SQL</li><li>Salesforce</li><li>ETL</li></ul>
+            </div>
+          </article>
+
+          <article class="project job">
+            <div><span class="p-year"><span lang="fr"><span class="d">Juin 2023 –</span> <span class="d">Oct. 2023</span></span><span lang="en"><span class="d">Jun 2023 –</span> <span class="d">Oct 2023</span></span></span><span class="p-cat"><span lang="fr">Freelance, hybride</span><span lang="en">Freelance, hybrid</span></span></div>
+            <div>
+              <div class="job-head">
+                <span class="logo" aria-hidden="true"><img src="data:image/png;base64,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" alt="" width="67" height="32"></span>
+                <div><h4>Leadcom</h4><p class="job-role">Data Engineer</p></div>
+              </div>
+              <p><span lang="fr">Automatisation des pipelines de collecte des logs et données RF, et création de dashboards Power BI pour suivre les KPI de performance réseau. Apport : des données plus fiables et des recommandations d’optimisation fondées sur l’analyse.</span><span lang="en">Automated log and RF data collection pipelines and built Power BI dashboards to track network performance KPIs. Delivered more reliable data and optimization recommendations based on analysis.</span></p>
+              <ul class="tags"><li>Python</li><li>Power BI</li><li>ETL</li><li><span lang="fr">Analyse de données</span><span lang="en">Data analysis</span></li></ul>
+            </div>
+          </article>
+
+          <article class="project job">
+            <div><span class="p-year"><span lang="fr"><span class="d">Avr. 2020 –</span> <span class="d">Juin 2023</span></span><span lang="en"><span class="d">Apr 2020 –</span> <span class="d">Jun 2023</span></span></span><span class="p-cat"><span lang="fr">CDI, hybride</span><span lang="en">Permanent, hybrid</span></span></div>
+            <div>
+              <div class="job-head">
+                <span class="logo" aria-hidden="true"><span class="mono">VT</span></span>
+                <div><h4>VertInnTech</h4><p class="job-role">Data Engineer &amp; Data Scientist</p></div>
+              </div>
+              <p><span lang="fr">Automatisation des pipelines ETL de collecte continue des données de signal, détection d’anomalies sur séries temporelles et tableaux de bord temps réel. Apport : identification rapide des problèmes réseau.</span><span lang="en">Automated ETL pipelines for continuous signal data collection, time-series anomaly detection and real-time dashboards. Delivered faster identification of network issues.</span></p>
+              <ul class="tags"><li>Python</li><li>SQL</li><li>ETL</li><li><span lang="fr">Séries temporelles</span><span lang="en">Time series</span></li></ul>
+            </div>
+          </article>
+
+          <article class="project job">
+            <div><span class="p-year"><span lang="fr"><span class="d">Janv. 2019 –</span> <span class="d">Mai 2020</span></span><span lang="en"><span class="d">Jan 2019 –</span> <span class="d">May 2020</span></span></span><span class="p-cat"><span lang="fr">CDD, hybride</span><span lang="en">Fixed-term, hybrid</span></span></div>
+            <div>
+              <div class="job-head">
+                <span class="logo" aria-hidden="true"><img src="data:image/png;base64,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" alt="" width="92" height="29"></span>
+                <div><h4>Telinno Consulting</h4><p class="job-role">Data Engineer</p></div>
+              </div>
+              <p><span lang="fr">Campagnes Drive Test et audits radio pour évaluer la performance réseau. Apport : recommandations techniques pour améliorer la couverture et la qualité de service.</span><span lang="en">Ran Drive Test campaigns and radio audits to assess network performance. Delivered technical recommendations to improve coverage and quality of service.</span></p>
+              <ul class="tags"><li>Drive Test</li><li><span lang="fr">Audit radio</span><span lang="en">Radio audits</span></li></ul>
+            </div>
+          </article>
+
+          <article class="project job">
+            <div><span class="p-year"><span lang="fr"><span class="d">Févr. 2018 –</span> <span class="d">Déc. 2018</span></span><span lang="en"><span class="d">Feb 2018 –</span> <span class="d">Dec 2018</span></span></span><span class="p-cat"><span lang="fr">CDD</span><span lang="en">Fixed-term</span></span></div>
+            <div>
+              <div class="job-head">
+                <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#logo-orange"/></svg></span>
+                <div><h4>Orange</h4><p class="job-role">Data Engineer</p></div>
+              </div>
+              <p><span lang="fr">Analyse et optimisation des KPI radio avec Atoll et les outils RF. Contribution à la planification du réseau 3G/4G pour renforcer la couverture et la qualité de service.</span><span lang="en">Analyzed and optimized radio KPIs using Atoll and RF tools. Contributed to 3G/4G network planning to strengthen coverage and quality of service.</span></p>
+              <ul class="tags"><li>Atoll</li><li><span lang="fr">KPI radio</span><span lang="en">Radio KPIs</span></li><li><span lang="fr">Réseau 3G/4G</span><span lang="en">3G/4G network</span></li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== COMPÉTENCES ===================== -->
+    <section id="skills" class="section">
+      <div class="wrap split">
+        <h2><span lang="fr">Compétences</span><span lang="en">Skills</span></h2>
+        <div>
+          <div class="legend">
+            <span><i class="lv" style="--l:4"></i>Expert</span>
+            <span><i class="lv" style="--l:3"></i><span lang="fr">Avancé</span><span lang="en">Advanced</span></span>
+            <span><i class="lv" style="--l:2"></i><span lang="fr">Intermédiaire</span><span lang="en">Intermediate</span></span>
+          </div>
+
+          <div class="skill-group ">
+            <h3>Cloud &amp; Data Engineering</h3>
+            <ul class="tools">
+              <li>Microsoft Fabric <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>Azure <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>AWS <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Databricks <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Snowflake <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Dataiku <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>GCP <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+            </ul>
+          </div>
+          <div class="skill-group ">
+            <h3><span lang="fr">Engineering &amp; Industrialisation</span><span lang="en">Engineering &amp; Industrialization</span></h3>
+            <ul class="tools">
+              <li>ETL/ELT <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>Data modeling <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Lakehouse (medallion) <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Data quality &amp; monitoring <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Git <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Airflow <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+              <li>Docker <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+              <li>CI/CD <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+            </ul>
+          </div>
+          <div class="skill-group ai">
+            <h3><span lang="fr">IA &amp; Agentic AI</span><span lang="en">AI &amp; Agentic AI</span></h3>
+            <ul class="tools">
+              <li>Claude Code <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Agent Skills <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>MCP <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Subagents <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Generative AI <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Machine Learning <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>AI Automation <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+            </ul>
+          </div>
+          <div class="skill-group ">
+            <h3><span lang="fr">Langages &amp; Bases de données</span><span lang="en">Languages &amp; Databases</span></h3>
+            <ul class="tools">
+              <li>Python <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>SQL <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>DAX <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>PostgreSQL <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>DBeaver <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>PySpark <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+              <li>Oracle <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+              <li>MySQL <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+              <li>R <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+              <li>SAS <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+              <li>M (Power Query) <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+            </ul>
+          </div>
+          <div class="skill-group ">
+            <h3>Data Business &amp; Analytics</h3>
+            <ul class="tools">
+              <li>Dynamics 365 <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>Salesforce <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Matomo <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Google Analytics <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Adobe Campaign <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+              <li>Seeq <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+            </ul>
+          </div>
+          <div class="skill-group ">
+            <h3><span lang="fr">Data Visualisation &amp; Gouvernance</span><span lang="en">Data Visualization &amp; Governance</span></h3>
+            <ul class="tools">
+              <li>Power BI <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>Tableau <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>Excel <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Looker Studio <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+              <li>Collibra <span class="lv" style="--l:2" role="img" data-lv="2"></span></li>
+            </ul>
+          </div>
+          <div class="skill-group ">
+            <h3><span lang="fr">Agilité, Delivery &amp; Collaboration</span><span lang="en">Agile, Delivery &amp; Collaboration</span></h3>
+            <ul class="tools">
+              <li>Jira <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>Confluence <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>Teams <span class="lv" style="--l:4" role="img" data-lv="4"></span></li>
+              <li>SharePoint <span class="lv" style="--l:3" role="img" data-lv="3"></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJETS ===================== -->
+    <section id="projects" class="section">
+      <div class="wrap split">
+        <h2><span lang="fr">Projets</span><span lang="en">Projects</span></h2>
+        <div>
+          <p class="lead" style="margin-bottom:2.5rem;"><span lang="fr">Structurer, automatiser et valoriser la donnée dans différents contextes métier, pour mieux comprendre les clients, anticiper les besoins et accélérer la prise de décision grâce au cloud, à l’IA et aux agents.</span><span lang="en">Structuring, automating and unlocking the value of data across business contexts, to better understand customers, anticipate needs and speed up decision-making with cloud, AI and agents.</span></p>
+
+          <h3 class="subhead"><span lang="fr">Études de cas</span><span lang="en">Case studies</span></h3>
+
+          <article class="case">
+            <p class="case-meta">Cetim, <span lang="fr">août 2024 à sept. 2025</span><span lang="en">Aug 2024 to Sep 2025</span></p>
+            <h4><span lang="fr">Plateforme data marketing et moteur de détection de signaux d’affaires</span><span lang="en">Marketing data platform and business-signal detection engine</span></h4>
+            <p class="case-lead"><span lang="fr">Unifier des données marketing dispersées pour fiabiliser le ciblage et la génération de leads, de l’ingestion jusqu’à l’IA.</span><span lang="en">Unifying scattered marketing data to make targeting and lead generation more reliable, from ingestion to AI.</span></p>
+
+            <div class="flow" style="--cols: minmax(0,1.2fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1.3fr)" role="img" data-aria-fr="Schéma simplifié : sources, ingestion, couches Bronze, Silver et Gold, puis Power BI et IA Azure" data-aria-en="Simplified diagram: sources, ingestion, Bronze, Silver and Gold layers, then Power BI and Azure AI">
+              <div class="flow-col "><h6>Sources</h6><ul><li>Dynamics 365</li><li>CRM</li><li>Web tracking</li><li>Emailing</li></ul></div>
+              <div class="flow-col "><h6>Ingestion</h6><ul><li>Data Factory</li><li><span lang="fr">Pipelines ETL/ELT</span><span lang="en">ETL/ELT pipelines</span></li></ul></div>
+              <div class="flow-col "><h6>Bronze</h6><ul><li><span lang="fr">Données brutes</span><span lang="en">Raw data</span></li></ul></div>
+              <div class="flow-col "><h6>Silver</h6><ul><li><span lang="fr">Nettoyage, qualité, RGPD</span><span lang="en">Cleansing, quality, GDPR</span></li></ul></div>
+              <div class="flow-col gold"><h6>Gold</h6><ul><li><span lang="fr">Modèle analytique, KPIs</span><span lang="en">Analytical model, KPIs</span></li></ul></div>
+              <div class="flow-col usage">
+                <div><h6>Power BI</h6><ul><li><span lang="fr">Vision 360° client, KPIs d’engagement</span><span lang="en">360° customer view, engagement KPIs</span></li></ul></div>
+                <div class="ai"><h6><span lang="fr">IA Azure</span><span lang="en">Azure AI</span></h6><ul><li><span lang="fr">Scoring, intentions, recommandation</span><span lang="en">Scoring, intent search, recommendation</span></li></ul></div>
+              </div>
+            </div>
+            <p class="flow-gov"><span lang="fr">Gouvernance et monitoring : Purview, Synapse, orchestration des pipelines.</span><span lang="en">Governance and monitoring: Purview, Synapse, pipeline orchestration.</span></p>
+            <p class="flow-cap"><span lang="fr">Schéma simplifié à titre illustratif.</span><span lang="en">Simplified diagram, for illustration.</span></p>
+
+            <dl class="case-facts">
+              <dt><span lang="fr">Contexte</span><span lang="en">Context</span></dt>
+              <dd><p><span lang="fr">Des données marketing réparties entre plusieurs sources (Dynamics 365, CRM, web, emailing), à unifier et à fiabiliser pour piloter le ciblage.</span><span lang="en">Marketing data spread across several sources (Dynamics 365, CRM, web, emailing), to be unified and made reliable to drive targeting.</span></p></dd>
+              <dt><span lang="fr">Approche</span><span lang="en">Approach</span></dt>
+              <dd><ul>
+                <li><span lang="fr">Recueil des besoins métiers, cahier des charges fonctionnel et technique, définition de l’architecture cible et des KPIs.</span><span lang="en">Gathered business needs, wrote functional and technical specifications, defined the target architecture and KPIs.</span></li>
+                <li><span lang="fr">Architecture Lakehouse en médaillon sous Microsoft Fabric, avec pipelines ETL/ELT automatisés, orchestration et monitoring.</span><span lang="en">Medallion Lakehouse architecture on Microsoft Fabric, with automated ETL/ELT pipelines, orchestration and monitoring.</span></li>
+                <li><span lang="fr">Couche IA Azure (embeddings, AI Search, GPT-4o/5) pour le scoring, la recherche d’intentions et la recommandation automatisée.</span><span lang="en">Azure AI layer (embeddings, AI Search, GPT-4o/5) for scoring, intent search and automated recommendation.</span></li>
+                <li><span lang="fr">Qualité, traçabilité et conformité RGPD des données, avec pilotage du projet dans Teams Planner.</span><span lang="en">Data quality, traceability and GDPR compliance, with project tracking in Teams Planner.</span></li>
+              </ul></dd>
+              <dt><span lang="fr">Résultats</span><span lang="en">Results</span></dt>
+              <dd><ul>
+                <li><span lang="fr">Architecture analytique unifiée et pipelines entièrement automatisés.</span><span lang="en">Unified analytics architecture and fully automated pipelines.</span></li>
+                <li><span lang="fr">Vision 360° client et tableaux de bord de suivi de l’engagement.</span><span lang="en">360° customer view and engagement tracking dashboards.</span></li>
+                <li><span lang="fr">Meilleur ciblage et génération de leads grâce au moteur de détection de signaux.</span><span lang="en">Better targeting and lead generation thanks to the signal detection engine.</span></li>
+                <!-- Ajoute ici un résultat chiffré si tu en as un (temps gagné, volume de données, leads générés) -->
+              </ul></dd>
+            </dl>
+            <ul class="tags"><li>Microsoft Fabric</li><li>Azure OpenAI</li><li>Azure AI Search</li><li>Data Factory</li><li>Purview</li><li>Power BI</li><li>Dynamics 365</li></ul>
+          </article>
+
+          <article class="case">
+            <p class="case-meta">Chips and Chicken Fast Food, <span lang="fr">freelance, oct. 2023 à août 2024</span><span lang="en">freelance, Oct 2023 to Aug 2024</span></p>
+            <h4><span lang="fr">Entrepôt de données ventes et stocks pour une enseigne de restauration rapide</span><span lang="en">Sales and inventory data warehouse for a fast-food chain</span></h4>
+            <p class="case-lead"><span lang="fr">Centraliser et fiabiliser les données de ventes et de stocks pour piloter l’activité en temps réel.</span><span lang="en">Centralizing and securing sales and inventory data to run operations in real time.</span></p>
+
+            <div class="flow" style="--cols: repeat(4, minmax(0,1fr))" role="img" data-aria-fr="Schéma simplifié : sources Salesforce et SQL, pipelines ETL Fabric, Fabric Warehouse, tableaux de bord" data-aria-en="Simplified diagram: Salesforce and SQL sources, Fabric ETL pipelines, Fabric Warehouse, dashboards">
+              <div class="flow-col "><h6>Sources</h6><ul><li>Salesforce</li><li><span lang="fr">Tables SQL : ventes, stocks</span><span lang="en">SQL tables: sales, inventory</span></li></ul></div>
+              <div class="flow-col "><h6><span lang="fr">Pipelines ETL Fabric</span><span lang="en">Fabric ETL pipelines</span></h6><ul><li><span lang="fr">Rafraîchissements automatisés</span><span lang="en">Automated refreshes</span></li></ul></div>
+              <div class="flow-col gold"><h6>Fabric Warehouse</h6><ul><li><span lang="fr">Modèle de données centralisé</span><span lang="en">Centralized data model</span></li></ul></div>
+              <div class="flow-col usage">
+                <div><h6><span lang="fr">Tableaux de bord</span><span lang="en">Dashboards</span></h6><ul><li><span lang="fr">Pilotage en temps réel, KPIs de ventes, affluence, stocks</span><span lang="en">Real-time monitoring, sales KPIs, peak hours, inventory</span></li></ul></div>
+              </div>
+            </div>
+            <p class="flow-cap"><span lang="fr">Schéma simplifié à titre illustratif.</span><span lang="en">Simplified diagram, for illustration.</span></p>
+
+            <dl class="case-facts">
+              <dt><span lang="fr">Contexte</span><span lang="en">Context</span></dt>
+              <dd><p><span lang="fr">Des données de ventes et de stocks à centraliser et à fiabiliser pour anticiper la demande et améliorer la gestion opérationnelle.</span><span lang="en">Sales and inventory data to be centralized and made reliable, in order to anticipate demand and improve day-to-day operations.</span></p></dd>
+              <dt><span lang="fr">Approche</span><span lang="en">Approach</span></dt>
+              <dd><ul>
+                <li><span lang="fr">Conception d’un Fabric Warehouse pour centraliser les données de ventes et de stocks.</span><span lang="en">Designed a Fabric Warehouse to centralize sales and inventory data.</span></li>
+                <li><span lang="fr">Intégration et modélisation des tables SQL et des données structurées issues de Salesforce.</span><span lang="en">Integrated and modeled SQL tables and structured data coming from Salesforce.</span></li>
+                <li><span lang="fr">Pipelines ETL Fabric pour automatiser les rafraîchissements et alimenter le modèle.</span><span lang="en">Fabric ETL pipelines to automate refreshes and feed the data model.</span></li>
+                <li><span lang="fr">Analyse des tendances de consommation et des périodes d’affluence, suivi des KPIs de ventes.</span><span lang="en">Analysis of consumption trends and peak periods, tracking of sales KPIs.</span></li>
+              </ul></dd>
+              <dt><span lang="fr">Résultats</span><span lang="en">Results</span></dt>
+              <dd><ul>
+                <li><span lang="fr">Meilleure anticipation des stocks et réduction des ruptures produits.</span><span lang="en">Better stock forecasting and fewer product stock-outs.</span></li>
+                <li><span lang="fr">Reporting automatisé et tableaux de bord de pilotage en temps réel.</span><span lang="en">Automated reporting and real-time monitoring dashboards.</span></li>
+                <li><span lang="fr">Optimisation des ventes aux heures de forte affluence.</span><span lang="en">Improved sales during peak hours.</span></li>
+                <!-- Ajoute ici un résultat chiffré si tu en as un (% de ruptures en moins, temps de reporting gagné) -->
+              </ul></dd>
+            </dl>
+            <ul class="tags"><li>Microsoft Fabric</li><li>Fabric Warehouse</li><li>SQL</li><li>Salesforce</li><li>ETL</li></ul>
+          </article>
+
+          <h3 class="subhead spaced"><span lang="fr">Autres projets</span><span lang="en">Other projects</span></h3>
+          <div class="tabs" role="tablist" data-aria-fr="Domaines de projets" data-aria-en="Project areas" aria-label="Domaines de projets">
+            <button class="tab" role="tab" id="tab-innovation" aria-selected="true" aria-controls="panel-innovation">Agentic AI &amp; Innovation</button><button class="tab" role="tab" id="tab-marketing" aria-selected="false" aria-controls="panel-marketing" tabindex="-1">Marketing &amp; CRM</button><button class="tab" role="tab" id="tab-finance" aria-selected="false" aria-controls="panel-finance" tabindex="-1">Finance &amp; Performance</button><button class="tab" role="tab" id="tab-sante" aria-selected="false" aria-controls="panel-sante" tabindex="-1"><span lang="fr">Santé &amp; Biodiversité</span><span lang="en">Health &amp; Biodiversity</span></button>
+          </div>
+
+          <div class="panel" role="tabpanel" id="innovation" aria-labelledby="tab-innovation">
+            <p class="panel-desc"><span lang="fr">Architectures data fiables, automatisation des processus analytiques et IA agentique pour accélérer la décision et la production d’ingénierie.</span><span lang="en">Reliable data architectures, automated analytics processes and agentic AI to speed up decision-making and engineering delivery.</span></p>
+
+            <article class="project">
+              <div><span class="p-year">2026</span><span class="p-cat">Agentic AI</span></div>
+              <div>
+                <h4><span lang="fr">Workflows agentiques : Claude Code, Skills &amp; MCP</span><span lang="en">Agentic workflows: Claude Code, Skills &amp; MCP</span></h4>
+                <p><span lang="fr">Conception de workflows où l’IA s’intègre au cycle de développement data : Agent Skills réutilisables, connecteurs MCP vers les outils et sources de données, subagents spécialisés pour automatiser les tâches d’ingénierie.</span><span lang="en">Design of workflows where AI is part of the data development lifecycle: reusable Agent Skills, MCP connectors to tools and data sources, and specialized subagents to automate engineering tasks.</span></p>
+                <ul class="tags"><li>Claude Code</li><li>Agent Skills</li><li>MCP</li><li>Subagents</li></ul>
+              </div>
+            </article>
+
+            <article class="project">
+              <div><span class="p-year">2025</span><span class="p-cat"><span lang="fr">IA &amp; Automatisation</span><span lang="en">AI &amp; Automation</span></span></div>
+              <div>
+                <h4><span lang="fr">TechWatch Agent, assistant IA de veille technologique</span><span lang="en">TechWatch Agent, AI tech-watch assistant</span></h4>
+                <p><span lang="fr">Développement d’un agent IA de veille automatisée capable d’extraire, résumer et présenter les actualités Cloud, IA et Data via une interface Streamlit interactive.</span><span lang="en">Development of an AI agent for automated monitoring that extracts, summarizes and presents Cloud, AI and Data news through an interactive Streamlit interface.</span></p>
+                <ul class="tags"><li>OpenAI GPT-4o-mini</li><li>Python</li><li>Streamlit</li><li>Automation</li></ul>
+              </div>
+            </article>
+
+            <article class="project">
+              <div><span class="p-year">2023</span><span class="p-cat"><span lang="fr">Télécom &amp; Performance</span><span lang="en">Telecom &amp; Performance</span></span></div>
+              <div>
+                <h4><span lang="fr">Monitoring &amp; optimisation des performances réseau</span><span lang="en">Network performance monitoring &amp; optimization</span></h4>
+                <p><span lang="fr">Mise en place de pipelines temps réel et tableaux de bord interactifs pour le suivi qualité réseau (RSRP, SINR, RSRQ) et détection automatisée des anomalies.</span><span lang="en">Real-time pipelines and interactive dashboards to track network quality (RSRP, SINR, RSRQ) with automated anomaly detection.</span></p>
+                <ul class="tags"><li>Python</li><li>SQL</li><li>Tableau</li><li>Nemo Analysis</li></ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="panel" role="tabpanel" id="marketing" aria-labelledby="tab-marketing" hidden>
+            <p class="panel-desc"><span lang="fr">Segmentation client, scoring et performance pour mieux comprendre les clients et personnaliser les actions marketing.</span><span lang="en">Customer segmentation, scoring and performance to better understand customers and personalize marketing actions.</span></p>
+
+            <article class="project">
+              <div><span class="p-year">2025</span><span class="p-cat"><span lang="fr">Gouvernance</span><span lang="en">Governance</span></span></div>
+              <div>
+                <h4><span lang="fr">Qualité des données CRM &amp; automatisation</span><span lang="en">CRM data quality &amp; automation</span></h4>
+                <p><span lang="fr">Automatisation du nettoyage et de la validation des données CRM pour fiabiliser la segmentation et la personnalisation marketing.</span><span lang="en">Automated cleansing and validation of CRM data to make segmentation and marketing personalization more reliable.</span></p>
+                <ul class="tags"><li>Fabric</li><li>Python</li><li>Power BI</li><li>Dynamics 365</li></ul>
+              </div>
+            </article>
+
+            <article class="project">
+              <div><span class="p-year">2025</span><span class="p-cat">Digital Performance</span></div>
+              <div>
+                <h4><span lang="fr">Web Analytics &amp; optimisation</span><span lang="en">Web Analytics &amp; optimization</span></h4>
+                <p><span lang="fr">Analyse des parcours utilisateurs et visualisation des KPIs digitaux pour optimiser les campagnes et les taux de conversion.</span><span lang="en">Analysis of user journeys and visualization of digital KPIs to optimize campaigns and conversion rates.</span></p>
+                <ul class="tags"><li>Matomo</li><li>Power BI</li><li>Google Analytics</li></ul>
+              </div>
+            </article>
+
+            <article class="project">
+              <div><span class="p-year">2025</span><span class="p-cat">Customer Service</span></div>
+              <div>
+                <h4><span lang="fr">Enquêtes de satisfaction &amp; NPS</span><span lang="en">Satisfaction surveys &amp; NPS</span></h4>
+                <p><span lang="fr">Collecte et analyse d’enquêtes (NPS, CSAT, CES) pour améliorer l’expérience client et piloter la fidélisation.</span><span lang="en">Collection and analysis of surveys (NPS, CSAT, CES) to improve customer experience and drive retention.</span></p>
+                <ul class="tags"><li>Power BI</li><li>Dynamics 365</li><li>Fabric</li></ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="panel" role="tabpanel" id="finance" aria-labelledby="tab-finance" hidden>
+            <p class="panel-desc"><span lang="fr">Modélisation du risque, scoring et optimisation de la performance financière pour anticiper les défauts et renforcer la résilience opérationnelle.</span><span lang="en">Risk modeling, scoring and financial performance optimization to anticipate defaults and strengthen operational resilience.</span></p>
+
+            <article class="project">
+              <div><span class="p-year">2025</span><span class="p-cat">Finance Analytics</span></div>
+              <div>
+                <h4><span lang="fr">Scoring du risque financier</span><span lang="en">Financial risk scoring</span></h4>
+                <p><span lang="fr">Analyse de la santé financière et des comportements de paiement des clients pour identifier les profils à risque et aider les équipes métiers à anticiper les retards, réduire les impayés et mieux orienter les actions de prévention.</span><span lang="en">Analysis of customers’ financial health and payment behavior to identify at-risk profiles and help business teams anticipate delays, reduce unpaid invoices and better target prevention actions.</span></p>
+                <ul class="tags"><li>Dataiku DSS</li><li>Python</li></ul>
+              </div>
+            </article>
+
+            <article class="project">
+              <div><span class="p-year">2025</span><span class="p-cat">Finance &amp; Data Automation</span></div>
+              <div>
+                <h4><span lang="fr">Analyse comptable &amp; reporting automatisé</span><span lang="en">Accounting analysis &amp; automated reporting</span></h4>
+                <p><span lang="fr">Conception d’un tableau de bord Power BI pour un cabinet comptable fictif, intégrant ventes, charges, trésorerie et performance RH. Objectif : fiabiliser la consolidation des écritures, automatiser les reportings et offrir une vision financière 360° pour le pilotage et le conseil client.</span><span lang="en">Design of a Power BI dashboard for a fictional accounting firm, covering sales, expenses, cash flow and HR performance. Goal: make entry consolidation reliable, automate reporting and provide a 360° financial view for management and client advisory.</span></p>
+                <ul class="tags"><li>Power BI</li><li>Python</li><li>SQL</li><li>Azure Fabric</li></ul>
+              </div>
+            </article>
+
+            <article class="project">
+              <div><span class="p-year">2024</span><span class="p-cat">Machine Learning</span></div>
+              <div>
+                <h4><span lang="fr">Prédiction de défaillance industrielle</span><span lang="en">Industrial failure prediction</span></h4>
+                <p><span lang="fr">Anticipation des pannes d’équipements industriels grâce au machine learning, pour améliorer la fiabilité des opérations et réduire les coûts liés aux arrêts imprévus.</span><span lang="en">Prediction of industrial equipment failures with machine learning, to improve operational reliability and reduce the cost of unplanned downtime.</span></p>
+                <ul class="tags"><li>AWS</li><li>Airflow</li><li>Docker</li><li>W&amp;B</li></ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="panel" role="tabpanel" id="sante" aria-labelledby="tab-sante" hidden>
+            <p class="panel-desc"><span lang="fr">Intelligence artificielle appliquée à la santé, à la biologie et à la surveillance environnementale, pour renforcer la durabilité et la prévention.</span><span lang="en">Artificial intelligence applied to health, biology and environmental monitoring, to strengthen sustainability and prevention.</span></p>
+
+            <article class="project">
+              <div><span class="p-year">2024</span><span class="p-cat">Computer Vision</span></div>
+              <div>
+                <h4><span lang="fr">Surveillance de la santé des abeilles (IA &amp; IoT)</span><span lang="en">Bee health monitoring (AI &amp; IoT)</span></h4>
+                <p><span lang="fr">Système de suivi utilisant des capteurs IoT et de la vision par ordinateur pour prévenir les anomalies comportementales dans les ruches.</span><span lang="en">Monitoring system using IoT sensors and computer vision to detect behavioral anomalies in beehives early.</span></p>
+                <ul class="tags"><li>YOLOv5</li><li>PyTorch</li><li>Python</li></ul>
+              </div>
+            </article>
+
+            <article class="project">
+              <div><span class="p-year">2023</span><span class="p-cat"><span lang="fr">Bioinformatique</span><span lang="en">Bioinformatics</span></span></div>
+              <div>
+                <h4><span lang="fr">Analyse biomédicale PCR automatisée</span><span lang="en">Automated PCR biomedical analysis</span></h4>
+                <p><span lang="fr">Pipeline IA pour analyser les résultats PCR et visualiser les tendances biologiques en temps réel.</span><span lang="en">AI pipeline to analyze PCR results and visualize biological trends in real time.</span></p>
+                <ul class="tags"><li>Python</li><li>Scikit-learn</li><li>Tableau</li></ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESSOURCES ===================== -->
+    <section id="resources" class="section">
+      <div class="wrap split">
+        <h2><span lang="fr">Ressources</span><span lang="en">Resources</span></h2>
+        <div>
+          <p class="lead"><span lang="fr">Guides et documents pour partager mes connaissances en Data, Cloud et Intelligence Artificielle.</span><span lang="en">Guides and documents to share my knowledge of Data, Cloud and Artificial Intelligence.</span></p>
+          <article class="project" style="margin-top:1.5rem; border-top:1px solid var(--line);">
+            <div><span class="p-year">Guide</span><span class="p-cat">AWS</span></div>
+            <div>
+              <h4><span lang="fr">Guide AWS Certified AI Practitioner (AIF-C01)</span><span lang="en">AWS Certified AI Practitioner (AIF-C01) study guide</span></h4>
+              <p><span lang="fr">Fondamentaux de l’IA, du Machine Learning et de l’IA générative sur AWS, à partir des ressources officielles et de mon retour d’expérience.</span><span lang="en">Fundamentals of AI, machine learning and generative AI on AWS, based on official resources and my own experience.</span></p>
+              <a class="link" href="guides/aws-aif-c01-study-guide.html" target="_blank" rel="noopener"><span lang="fr">Lire le guide</span><span lang="en">Read the guide (in French)</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TÉMOIGNAGES ===================== -->
+    <section id="testimonials" class="section">
+      <div class="wrap split">
+        <h2><span lang="fr">Témoignages</span><span lang="en">Testimonials</span></h2>
+        <div>
+          <div class="quotes">
+            <figure>
+              <blockquote>
+                <p><span lang="fr">« Cédric a contribué de manière déterminante au projet de détection de signaux d’affaires potentiels, en développant un pipeline complet allant de la collecte de données multi-sources jusqu’à la restitution dans Power BI.</span><span lang="en">“Cédric made a decisive contribution to the business-signal detection project, building a complete pipeline from multi-source data collection to delivery in Power BI.</span></p>
+                <p><span lang="fr">Il a su démontrer de solides compétences techniques (Python, Azure, Power BI, Dynamics 365) et une réelle capacité à structurer, documenter et rendre ses travaux exploitables par les équipes métiers. Curieux, rigoureux et impliqué, il a mené ce projet avec sérieux tout en restant ouvert aux échanges et aux retours. Je le recommande sans hésitation pour ses qualités et son grand potentiel. »</span><span lang="en">He demonstrated strong technical skills (Python, Azure, Power BI, Dynamics 365) and a real ability to structure, document and make his work usable by business teams. Curious, rigorous and committed, he led this project seriously while staying open to discussion and feedback. I recommend him without hesitation for his qualities and great potential.”</span></p>
+              </blockquote>
+              <figcaption><strong>Benjamin A.</strong><span><span lang="fr">Manager, Data Analyst Marketing</span><span lang="en">Manager, Marketing Data Analyst</span></span></figcaption>
+            </figure>
+
+            <figure>
+              <blockquote>
+                <p><span lang="fr">« Cédric est un élément sérieux et compétent que je recommande vivement. J’ai eu l’occasion de l’encadrer sur un projet de data analyse utilisant Power BI. Cédric a non seulement délivré un projet de grande qualité, avec des analyses pertinentes et approfondies, mais a également mis en place une méthode agile qui a optimisé la gestion du projet. »</span><span lang="en">“Cédric is a serious and competent professional whom I highly recommend. I had the opportunity to supervise him on a data analysis project using Power BI. Cédric not only delivered a high-quality project, with relevant and in-depth analyses, but also set up an agile method that optimized project management.”</span></p>
+              </blockquote>
+              <figcaption><strong>Anaïs M.</strong><span><span lang="fr">Consultante Fabric &amp; Power BI, MCT</span><span lang="en">Fabric &amp; Power BI Consultant, MCT</span></span></figcaption>
+            </figure>
+            <!-- Pour ajouter un témoignage, copie un bloc <figure> ci-dessus et remplace le texte. -->
+          </div>
+          <p class="note" lang="en">Testimonials translated from French.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section">
+      <div class="wrap split">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div>
+            <p class="contact-lead"><span lang="fr">Un projet data ou IA ? Parlons-en.</span><span lang="en">A data or AI project? Let’s talk.</span></p>
+            <dl class="contact-links">
+              <div><dt>Email</dt><dd><a class="link" href="mailto:csmeneda@outlook.com">csmeneda@outlook.com</a></dd></div>
+              <div><dt>LinkedIn</dt><dd><a class="link" href="https://www.linkedin.com/in/cedricstephanemeneda/" target="_blank" rel="noopener">linkedin.com/in/cedricstephanemeneda</a></dd></div>
+              <div><dt>GitHub</dt><dd><a class="link" href="https://github.com/meneda11" target="_blank" rel="noopener">github.com/meneda11</a></dd></div>
+            </dl>
+          </div>
+
+          <form class="contact-form" action="https://formspree.io/f/xayzwrjd" method="POST">
+            <label><span lang="fr">Nom</span><span lang="en">Name</span> <input type="text" name="name" autocomplete="name" required></label>
+            <label>Email <input type="email" name="email" autocomplete="email" required></label>
+            <label>Message <textarea name="message" required></textarea></label>
+            <button type="submit" class="btn btn-primary"><span lang="fr">Envoyer le message</span><span lang="en">Send message</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span><span lang="fr">© 2026 Cédric Meneda. Tous droits réservés.</span><span lang="en">© 2026 Cédric Meneda. All rights reserved.</span></span>
+      <a href="#home" class="link"><span lang="fr">Retour en haut</span><span lang="en">Back to top</span></a>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      var T = {
+        fr: { dark: 'Passer en mode sombre', light: 'Passer en mode clair', open: 'Ouvrir le menu', close: 'Fermer le menu',
+              langLabel: 'Switch to English', langBtn: 'EN', lv: ['Débutant', 'Intermédiaire', 'Avancé', 'Expert'] },
+        en: { dark: 'Switch to dark mode', light: 'Switch to light mode', open: 'Open menu', close: 'Close menu',
+              langLabel: 'Passer en français', langBtn: 'FR', lv: ['Beginner', 'Intermediate', 'Advanced', 'Expert'] }
+      };
+      function lang() { return root.getAttribute('data-lang') === 'en' ? 'en' : 'fr'; }
+
+      /* ---------- Thème ---------- */
+      var themeBtn = document.getElementById('themeToggle');
+      var menu = document.getElementById('menu');
+      var menuBtn = document.getElementById('menuBtn');
+      var menuIcon = document.getElementById('menuIcon');
+      var langBtn = document.getElementById('langToggle');
+
+      function refreshLabels() {
+        var l = lang(), dark = root.getAttribute('data-theme') === 'dark';
+        themeBtn.setAttribute('aria-pressed', dark);
+        themeBtn.setAttribute('aria-label', dark ? T[l].light : T[l].dark);
+        var open = menu.classList.contains('open');
+        menuBtn.setAttribute('aria-label', open ? T[l].close : T[l].open);
+        langBtn.textContent = T[l].langBtn;
+        langBtn.setAttribute('aria-label', T[l].langLabel);
+        document.querySelectorAll('[data-lv]').forEach(function (e) { e.setAttribute('aria-label', T[l].lv[e.getAttribute('data-lv') - 1]); });
+        document.querySelectorAll('[data-aria-' + l + ']').forEach(function (e) { e.setAttribute('aria-label', e.getAttribute('data-aria-' + l)); });
+      }
+      themeBtn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        refreshLabels();
+      });
+      langBtn.addEventListener('click', function () {
+        var next = lang() === 'fr' ? 'en' : 'fr';
+        root.setAttribute('data-lang', next); root.setAttribute('lang', next);
+        try { localStorage.setItem('lang', next); } catch (e) {}
+        refreshLabels();
+      });
+
+      /* ---------- Menu mobile ---------- */
+      function setMenu(open) {
+        menu.classList.toggle('open', open);
+        menuBtn.setAttribute('aria-expanded', open);
+        menuIcon.setAttribute('d', open ? 'M5 5l14 14M19 5L5 19' : 'M4 7h16M4 12h16M4 17h16');
+        refreshLabels();
+      }
+      menuBtn.addEventListener('click', function () { setMenu(!menu.classList.contains('open')); });
+
+      /* ---------- Ancres : défilement géré en JS (fonctionne aussi dans l’aperçu Claude) ---------- */
+      document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          var id = a.getAttribute('href').slice(1);
+          var target = id ? document.getElementById(id) : null;
+          if (!target) return;
+          e.preventDefault();
+          target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+          setMenu(false);
+        });
+      });
+
+      /* ---------- Lien actif ---------- */
+      var links = Array.prototype.slice.call(document.querySelectorAll('.menu a'));
+      var byId = {};
+      links.forEach(function (l) { byId[l.getAttribute('href').slice(1)] = l; });
+      if ('IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) {
+            if (!en.isIntersecting) return;
+            links.forEach(function (l) { l.removeAttribute('aria-current'); });
+            if (byId[en.target.id]) byId[en.target.id].setAttribute('aria-current', 'true');
+          });
+        }, { rootMargin: '-45% 0px -50% 0px' });
+        document.querySelectorAll('main section[id]').forEach(function (s) { io.observe(s); });
+      }
+
+      /* ---------- Onglets ---------- */
+      var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
+      function selectTab(tab, focus) {
+        tabs.forEach(function (t) {
+          var selected = t === tab;
+          t.setAttribute('aria-selected', selected);
+          t.tabIndex = selected ? 0 : -1;
+          document.getElementById(t.getAttribute('aria-controls')).hidden = !selected;
+        });
+        if (focus) tab.focus();
+      }
+      tabs.forEach(function (tab, i) {
+        tab.addEventListener('click', function () { selectTab(tab); });
+        tab.addEventListener('keydown', function (e) {
+          var next = null;
+          if (e.key === 'ArrowRight') next = tabs[(i + 1) % tabs.length];
+          if (e.key === 'ArrowLeft') next = tabs[(i - 1 + tabs.length) % tabs.length];
+          if (e.key === 'Home') next = tabs[0];
+          if (e.key === 'End') next = tabs[tabs.length - 1];
+          if (next) { e.preventDefault(); selectTab(next, true); }
+        });
+      });
+
+      refreshLabels();
+    })();
+</script>
 </body>
 </html>
